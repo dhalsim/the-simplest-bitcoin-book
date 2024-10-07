@@ -1,0 +1,21 @@
+> I’ve developed a new open source P2P e-cash system called Bitcoin. 
+It’scompletely decentralized, with no central server or trusted parties, 
+because everything is based on crypto proof instead of trust. 
+Give it a try, or take a look at the screenshots and design paper: 
+
+Download Bitcoin v0.1 at http://www.bitcoin.org
+
+~ Satoshi Nakamoto 2009-02-11 22:27:00 UTC Posted on metzdowd.com, 
+an early cryptography mailing list
+-------
+> Bitcoin adında yeni bir açık kaynaklı P2P e-nakit sistemi geliştirdim.
+Tamamen merkezi olmayan bir sistem, merkezi bir sunucu veya güvenilir taraflar yok,
+çünkü her şey güven yerine kriptografik kanıta dayanıyor.
+Bir deneyin veya ekran görüntülerine ve tasarım belgesine göz atın:
+
+Bitcoin v0.1'i http://www.bitcoin.org adresinden indirin
+
+~ Satoshi Nakamoto 2009-02-11 22:27:00 UTC metzdowd.com'da yayınlandı,
+erken dönem bir kriptografi posta listesi
+-------
+
