@@ -14,3 +14,22 @@ Chart showing Consumer Price Index inflation (red line) vs the purchasing power 
 *U.S. Bureau of Labor Statistics, retrieved from FRED, Federal Reserve Bank of St. Louis; https://fred.stlouisfed.org/series/CPIAUCSL, June 9, 2024.*
 
 -> Fun Fact: The World Economic Forum was formed in 1971.
+---
+(OLMAYAN) ALTIN STANDARDI
+
+[B] Birçok insan hala paranın altınla desteklendiğine inanıyor.
+
+[B] Desteklenmiyor.
+
+[B] 1971'den beri, Başkan Nixon'ın tek taraflı olarak dünyayı altın standardından çıkardığı zamandan beri (Nixon Şoku) altınla desteklenmiyor.
+
+[B] Bunun ne kadar zarar verdiğinin net bir resmini görmek için wtfhappenedin1971.com adresine bakın.
+
+[Grafik]
+
+1971'den bu yana Tüketici Fiyat Endeksi enflasyonunu (kırmızı çizgi) ve ABD dolarının satın alma gücünü (siyah çizgi) gösteren grafik.
+*ABD Çalışma İstatistikleri Bürosu, St. Louis Federal Rezerv Bankası FRED'den alınmıştır; https://fred.stlouisfed.org/series/CPIAUCSL, 9 Haziran 2024.*
+
+-> Eğlenceli Bilgi: Dünya Ekonomik Forumu 1971'de kuruldu.
+
+
