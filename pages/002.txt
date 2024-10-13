@@ -30,6 +30,6 @@ Chart showing Consumer Price Index inflation (red line) vs the purchasing power 
 1971'den bu yana Tüketici Fiyat Endeksi enflasyonunu (kırmızı çizgi) ve ABD dolarının satın alma gücünü (siyah çizgi) gösteren grafik.
 *ABD Çalışma İstatistikleri Bürosu, St. Louis Federal Rezerv Bankası FRED'den alınmıştır; https://fred.stlouisfed.org/series/CPIAUCSL, 9 Haziran 2024.*
 
--> Eğlenceli Bilgi: Dünya Ekonomik Forumu 1971'de kuruldu.
+-> İlginç Bilgi: Dünya Ekonomik Forumu 1971'de kuruldu.
 
 
