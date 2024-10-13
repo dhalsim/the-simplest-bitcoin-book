@@ -172,9 +172,22 @@ b {
   display: inline-flex !important;
 }
 
+.w100 {
+  width: 100%;
+}
+
+.no-wrap {
+  text-wrap: nowrap;
+}
+
+.flex-row {
+  display: flex !important;
+  flex-direction: row !important;
+}
+
 .flex-col {
-  display: flex;
-  flex-direction: column;
+  display: flex !important;
+  flex-direction: column !important;
 }
 
 .gap5 {
@@ -213,8 +226,16 @@ b {
   align-items: flex-end;
 }
 
+.jcr {
+  justify-content: flex-end;
+}
+
 .jcc {
   justify-content: center;
+}
+
+.jcl {
+  justify-content: flex-start;
 }
 
 .p {

@@ -1,0 +1,28 @@
+[b] It is *expensive and time-consuming for those receiving remittances*, as they need to pay for transport and go to the money-transfer office, often far from where
+they live, to get the money their family member sent.
+
+[b] Oftentimes it is not safe for them to travel to these
+offices.
+
+[b] Bitcoin, over the Lightning Network, provides an
+instant solution to these problems now!
+
+r: #bitcoin fixes this
+
+r> When has a technology that empowers
+people ever been stopped?
+~ Jeff Booth
+Author: The Price of Tomorrow
+-----
+[b] Uluslararası para transferleri, alanlar için *pahalı ve zaman alıcıdır*, çünkü ulaşım için ödeme yapmaları ve genellikle yaşadıkları yerden uzakta olan para transfer ofisine giderek aile üyelerinin gönderdiği parayı almaları gerekir.
+
+[b] Çoğu zaman bu ofislere seyahat etmek onlar için güvenli değildir.
+
+[b] Bitcoin, Lightning Network üzerinden, bu sorunlara artık anında bir çözüm sunuyor!
+
+r: #bitcoin bunu çözüyor
+
+r> İnsanlara güç veren bir teknoloji hiç durdurulabildi mi?
+~ Jeff Booth
+Yazar: Yarının Bedeli
+
