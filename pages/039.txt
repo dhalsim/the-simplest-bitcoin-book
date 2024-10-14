@@ -1,0 +1,8 @@
+[b] *Bitcoin (upper case ‘B’)* is a monetary network.
+
+[b] *Bitcoin (lower case ‘b’)* is the currency, or monetary asset, that is issued on, and runs on the Bitcoin
+network.
+-----
+[b] *Bitcoin (büyük 'B' ile)* bir para ağıdır.
+
+[b] *bitcoin (küçük 'b' ile)* Bitcoin ağı üzerinde yayınlanan ve çalışan para birimi veya parasal varlıktır.

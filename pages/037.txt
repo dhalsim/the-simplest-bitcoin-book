@@ -1,0 +1,32 @@
+[b] DECENTRALIZED        --  This group of five
+[b] TRULY SCARCE          |  properties distinguish
+[b] CENSORSHIP RESISTANT  |  bitcoin from every
+[b] A DISTRIBUTED LEDGER  |  other cryptocurrency!
+[b] INCORRUPTIBLE        --  
+[b] PERMISSIONLESS           
+[b] AUDITABLE             
+[b] TRANSPARENT
+[b] IMMUTABLE
+[b] BORDERLESS
+[b] HARD TO COUNTERFEIT
+[b] PSUEDONYMOUS
+[b] FRICTIONLESS
+[b] TRUSTLESS
+[b] PEER-TO-PEER
+------
+[b] MERKEZİYETSİZ         --  Bu beş özellik grubu
+[b] GERÇEKTEN KISITLI      |  bitcoin'i diğer tüm
+[b] SANSÜRE DİRENÇLİ       |  kripto paralardan
+[b] DAĞITIK BİR DEFTER     |  ayırır!
+[b] BOZULMAZ              --  
+[b] İZİNSİZ           
+[b] DENETLENEBİLİR             
+[b] ŞEFFAF
+[b] DEĞİŞTİRİLEMEZ
+[b] SINIR TANIMAZ
+[b] TAKLİT EDİLMESİ ZOR
+[b] TAKMA ADLI
+[b] SÜRTÜNMESİZ
+[b] GÜVEN GEREKTİRMEYEN
+[b] EŞLER ARASI
+

@@ -24,6 +24,12 @@
   src: url('fonts/helvetica-light.woff') format('woff');
 }
 
+.orange-paren {
+  font-size: 231px;
+  color: var(--bitcoin-orange);
+  font-weight: 100;
+  line-height: 0.8 !important;
+}
 
 .orange-border-box {
   --orange-border-box-margin-left: 50px;
@@ -324,6 +330,10 @@ b {
   margin-top: 20px;
 }
 
+.m-t-30 {
+  margin-top: 30px;
+}
+
 .m-t-50 {
   margin-top: 50px;
 }
@@ -338,6 +348,10 @@ b {
 
 .m-b-20 {
   margin-bottom: 20px;
+}
+
+.m-b-25 {
+  margin-bottom: 25px;
 }
 
 .m-b-30 {
@@ -374,6 +388,10 @@ b {
 
 .pr {
   position: relative;
+}
+
+.pa {
+  position: absolute;
 }
 
 .arrow {
