@@ -1,0 +1,48 @@
+H: What Is [b]bitcoin?
+
+[b] *Bitcoin is a way to transfer value*
+
+[m-l-20:
+
+  [b2] of any amoun
+  [b2] securely
+  [b2] instantly (on the Lightning Network)
+  [b2] between any two parties
+  [b2] anytime
+  [b2] 24/7
+  [b2] anywhere
+  [b2] yes, anywhere
+  [b2] without any intermediaries
+  [b2] Think about that.
+]
+
+rim> With e-currency based on cryptographic
+proof, without the need to trust a third
+party middleman, money can be secure and
+transactions effortless.
+
+~ Satoshi Nakamoto 2009-02-11
+------
+H: [b]Bitcoin nedir?
+
+[b] *Bitcoin bir değer transfer etme yoludur*
+
+[m-l-20:
+
+  [b2] herhangi bir miktarda
+  [b2] güvenli bir şekilde
+  [b2] anında (Lightning Network üzerinde)
+  [b2] herhangi iki taraf arasında
+  [b2] herhangi bir zamanda
+  [b2] 7/24
+  [b2] herhangi bir yerde
+  [b2] evet, herhangi bir yerde
+  [b2] herhangi bir aracı olmadan
+  [b2] Bunu bir düşünün.
+]
+
+rim> Kriptografik kanıta dayalı e-para ile,
+üçüncü bir aracıya güvenme ihtiyacı olmadan,
+para güvenli ve işlemler zahmetsiz olabilir.
+
+~ Satoshi Nakamoto 2009-02-11

@@ -1,0 +1,29 @@
+H: What Is [b]bitcoin?
+
+[o] Put Simply...
+
+[b] *Bitcoin is digital property that no one can take from
+you.*
+
+[b] > Owning bitcoin means owning the right to send value
+from a specific address that you control with
+your private key to ANY other address you choose.
+
+r: **Bitcoin is a property right that is independent of
+the monopoly on violence.**
+
+~ Robert Breedlove @breedlove22
+------
+H: [b]Bitcoin nedir?
+
+[o:18] Basitçe Anlatmak Gerekirse...
+
+[b] *Bitcoin, kimsenin sizden alamayacağı dijital bir mülktür.*
+
+[b] Bitcoin sahibi olmak, özel anahtarınızla kontrol ettiğiniz
+belirli bir adresten, SEÇTİĞİNİZ herhangi başka bir adrese
+değer gönderme hakkına sahip olmak demektir.
+
+ri> *Bitcoin, şiddet tekelinden bağımsız bir mülkiyet hakkıdır.*
+
+~ Robert Breedlove @breedlove22

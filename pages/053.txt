@@ -1,0 +1,13 @@
+H: What Is [b]bitcoin?
+
+[b] Bitcoin is a *store of value.*
+[b] Bitcoin is a *medium of exchange.*
+[b] Bitcoin *will one day be a unit of account.*
+[b] Bitcoin *will one day be THE unit of account.*
+-------
+H: Bitcoin Nedir?
+
+[b] Bitcoin bir *değer saklama aracıdır.*
+[b] Bitcoin bir *değişim aracıdır.*
+[b] Bitcoin *bir gün hesap birimi olacaktır.*
+[b] Bitcoin *bir gün ASIL hesap birimi olacaktır.*

@@ -1,0 +1,34 @@
+H: The Simplest Bitcoin Book Ever Written
+
+ri> *Bitcoin is (almost) costless to move with certainty.
+I know with 100% certainty what I am receiving.*
+
+~ Michael Saylor CEO of Microstrategy
+
+[b] You can send $1.13, or 46c or 359 sats or 500,000,000
+sats or $1 million to anyone, anywhere, anytime
+via the Bitcoin Network, or the Lightning Network
+built on Bitcoin.
+
+[b] *And no one can stop you.*
+
+[b] Can you do that with gold, silver, USD/GBP/EUR/YEN/
+CYK/ZAR or any other central bank fiat currency?
+------
+H: Şimdiye Kadar Yazılmış En Basit Bitcoin Kitabı
+
+ri> *Bitcoin'i (neredeyse) maliyetsiz bir şekilde transfer edebilirsiniz.
+Ne aldığımı %100 kesinlikte biliyorum.*
+
+~ Michael Saylor, Microstrategy CEO'su
+
+[b] Bitcoin Ağı veya Bitcoin üzerine kurulu Lightning Ağı
+aracılığıyla herhangi birine, herhangi bir yere, herhangi
+bir zamanda 1.13 dolar, 46 sent veya 359 sat veya
+500.000.000 sat veya 1 milyon dolar gönderebilirsiniz.
+
+[b] *Ve kimse sizi durduramaz.*
+
+[b] Bunu altın, gümüş, USD/GBP/EUR/YEN/CYK/ZAR veya
+başka herhangi bir merkez bankası fiat para birimiyle
+yapabilir misiniz?

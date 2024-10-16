@@ -1,0 +1,52 @@
+H: The Simplest Bitcoin Book Ever Written
+
+[b] Bitcoin is a timechain, literally.
+
+[b] Satoshi referred to the timechain many times in
+his emails with the early devs.
+
+[b] You can measure time in blocks, since one block
+is mined every ~10 minutes.
+
+[obb:
+
+[b] *Our time is our most scarce and precious resource.*
+
+[b] *It is our literal life force.*
+
+[b] *True Money allows us to store our time.*
+
+]
+
+[b] It is the way we can acknowledge the time we ‘spent’.
+
+[b] We *trade our time for money, which is simply a record
+of our time and effort.*
+
+[b] *Bitcoin makes it possible to preserve our time such
+that we have ‘access’ to it later in life, when
+we are no longer able to work as we once did.*
+------
+H: Şimdiye Kadar Yazılmış En Basit Bitcoin Kitabı
+
+[b] Bitcoin, kelimenin tam anlamıyla bir zaman zinciridir.
+
+[b] Satoshi, erken dönem geliştiricilerle yaptığı e-posta yazışmalarında zaman zincirinden birçok kez bahsetti.
+
+[b] Zamanı bloklar halinde ölçebilirsiniz, çünkü yaklaşık her 10 dakikada bir, bir blok çıkarılır.
+
+[obb:
+
+[b] *Zamanımız en kıt ve değerli kaynağımızdır.*
+
+[b] *O bizim gerçek yaşam gücümüzdür.*
+
+[b] *Gerçek Para, zamanımızı depolamamıza izin verir.*
+
+]
+
+[b] Bu, 'harcadığımız' zamanı kabul etmenin bir yoludur.
+
+[b] *Zamanımızı, para ile yani zamanımızın ve çabamızın bir kaydıyla takas ederiz.*
+
+[b] *Bitcoin, zamanımızı korumamızı mümkün kılar, böylece hayatımızın ilerleyen dönemlerinde, artık eskisi gibi çalışamadığımızda ona 'erişimimiz' olur.*

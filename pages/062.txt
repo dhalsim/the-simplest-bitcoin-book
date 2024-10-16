@@ -1,0 +1,33 @@
+H: The Simplest Bitcoin Book Ever Written
+
+[b] *Bitcoin is the solution to the Byzantine General’s
+problem.*
+
+[b] This was once thought to be an unsolvable problem in
+computer science.
+
+[b] This problem arises in decentralized systems, where
+it was thought impossible to prove that message sent
+= message received, since the ‘man-in-the-middle’
+could be a bad actor and falsify the message.
+
+[b] In other words, it seemed impossible to form consensus amongst a network of distributed and independent computers.
+
+[b] By using a timestamp along with a cryptographically secured distributed ledger, Satoshi solved this
+problem.
+
+[b] His solution is known as *Nakamoto’s consensus.*
+------
+H: Şimdiye Kadar Yazılmış En Basit Bitcoin Kitabı
+
+[b] *Bitcoin, Bizans Generalleri problemine çözümdür.*
+
+[b] Bu, bir zamanlar bilgisayar biliminde çözülemez olduğu düşünülen bir problemdi.
+
+[b] Bu problem, merkezi olmayan sistemlerde ortaya çıkar. Burada, gönderilen mesaj = alınan mesaj olduğunu kanıtlamanın imkansız olduğu düşünülüyordu, çünkü 'aradaki adam' kötü niyetli bir aktör olabilir ve mesajı tahrif edebilirdi.
+
+[b] Başka bir deyişle, dağıtık ve bağımsız bilgisayarlar ağı arasında fikir birliği oluşturmak imkansız görünüyordu.
+
+[b] Satoshi, bir zaman damgası ve kriptografik olarak güvenli bir dağıtık defter kullanarak bu problemi çözdü.
+
+[b] Onun çözümü *Nakamoto konsensüsü* olarak bilinir.

@@ -1,0 +1,48 @@
+H: The Simplest Bitcoin Book Ever Written
+
+[b] *Bitcoin is anti-fragile.*
+
+[b] And it gets more so with every attempted attack,
+with every government ban, with every piece of mainstream media FUD (fear, uncertainty, doubt).
+
+[obb:c] [b] Bitcoin has never been hacked.*
+
+[b] Though many have tried.
+
+[m-l-25:
+
+* Although you may have heard of hacks, it is
+the exchanges that have been hacked, not
+the bitcoin protocol.
+
+]
+
+[b] *Remember:*
+
+-> Not your keys, not your coins.
+-> Always withdraw your sats to your own wallet.
+-> Best to buy peer-to-peer.
+-------
+H: Şimdiye Kadar Yazılmış En Basit Bitcoin Kitabı
+
+[b] *Bitcoin anti-kırılgandır.*
+
+[b] Ve her saldırı girişimiyle, her hükümet yasağıyla, her ana akım medya FUD'u (KBŞ - Korku, Belirsizlik, Şüphe) ile daha da güçlenir.
+
+[obb:c] [b] Bitcoin hiç hacklenmedi.*
+
+[b] Birçok kişi denemiş olsa da.
+
+[m-l-20:
+
+* Hacklenme haberleri duymuş olabilirsiniz, ancak
+hacklenen bitcoin protokolü değil,
+borsalardır.
+
+]
+
+[b] *Unutmayın:*
+
+-> Anahtarlar sizin değilse, coin'ler de sizin değildir.
+-> Satoshi(Sat)'lerinizi her zaman kendi cüzdanınıza çekin.
+-> En iyisi eşler arası (peer-to-peer) satın almaktır.

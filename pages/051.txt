@@ -1,0 +1,33 @@
+H: What Is [b]bitcoin?
+
+[b] *Bitcoin is a true store of value.*
+
+[b] It stores your most precious resource, your time, in
+such a way that you can access it again later.
+
+ri> *Bitcoin is like a high bandwidth conduit of energy to your
+future self ... you can work today and Bitcoin will deep
+freeze your energy for later use.*
+
+~ Robert Breedlove
+
+ri> *The root of money is time
+And the root of time is value*
+
+~ Guy Swann
+-------
+H: [b]Bitcoin nedir?
+
+[b] *Bitcoin gerçek bir değer saklama aracıdır.*
+
+[b] En değerli kaynağınız olan zamanınızı, daha sonra
+tekrar erişebileceğiniz bir şekilde saklar.
+
+ri> *Bitcoin, gelecekteki benliğinize giden yüksek bant genişliğinde bir enerji kanalı gibidir... Bugün çalışabilirsiniz ve Bitcoin enerjinizi daha sonra kullanmak üzere dondurur.*
+
+~ Robert Breedlove
+
+ri> *Paranın kökü zamandır
+Ve zamanın kökü değerdir*
+
+~ Guy Swann

@@ -103,12 +103,16 @@ body, html {
 
 a {
   color: #000;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 b {
   font-weight: 800;
   text-shadow: 0.5px 0.5px 0 black;
+}
+
+img {
+  border: var(--debug-border-size) solid blue;
 }
 
 .page {
@@ -180,6 +184,10 @@ b {
 
 .w100 {
   width: 100%;
+}
+
+.w80 {
+  width: 80%;
 }
 
 .no-wrap {
@@ -285,7 +293,6 @@ b {
 
 .monospace {
   font-family: 'Courier New', Courier, monospace;
-  font-style: italic;
 }
 
 .b-l {
@@ -304,6 +311,14 @@ b {
 
 .m-r-10 {
   margin-right: 10px;
+}
+
+.m-r-30 {
+  margin-right: 30px; 
+}
+
+.m-r-50 {
+  margin-right: 50px; 
 }
 
 .m-l-10 {
@@ -371,6 +386,11 @@ b {
   height: 45px;
 }
 
+.w-h-30 {
+  width: 30px;
+  height: 30px;
+}
+
 .w-h-25 {
   width: 25px;
   height: 25px;
@@ -402,11 +422,19 @@ b {
   left: -25px;
 }
 
+.b-logo-transparent {
+  background-image: url("images/bitcoin-logo-transparent.png");
+  background-size: contain;
+  position: absolute;
+  top: -7px;
+  left: -30px;
+}
+
 .b-point {
   background-image: url("images/bitcoin-logo.png");
   background-size: contain;
   position: absolute;
-  top: 0;
+  top: -2px;
   left: -25px;
 }
 

@@ -1,0 +1,76 @@
+H: The Simplest Bitcoin Book Ever Written
+
+[b] *Bitcoin is the hardest, soundest money we have ever
+known.*
+
+[b] It is even sounder than gold, since gold is not easily
+divisible or portable, has low velocity (moves slowly)
+and is not easily verifiable
+
+[b] *Bitcoin has the most superior monetary properties
+of any asset ever known.*
+
+SOUND MONEY PROPERTIES COMPARISON CHART
+
+[chart]
+
+PROPERTIES OF SOUND MONEY | BITCOIN | CRYPTO | GOLD (bullion) | GOLD (coin) | FIAT (digital) | FIAT (cash)
+
+Truly scarce/Hard cap supply
+Portable
+Durable
+Divisible
+Fungible - Units interchangeable
+Secure - Can't be counterfeited
+Neutral - Issued by code, not by govt.
+High Velocity Globally
+Easily Verifiable
+Easily Verifiable Supply
+Easy to transact
+Decentralized
+Trustless
+Permissionless
+Censorship resistant
+Immutable/Ircorruptible
+Disinflationary/Deflationary
+Provides Settlement Finality
+Peer-to-peer - P2P
+
+NOTE: This is a general overview, there are nuances not
+addressable in a chart.
+-----
+H: Şimdiye Kadar Yazılmış En Basit Bitcoin Kitabı
+
+[b] *Bitcoin, şimdiye kadar bildiğimiz en sert ve en sağlam paradır.*
+
+[b] Hatta altından bile daha sağlamdır, çünkü altın kolayca bölünebilir veya taşınabilir değildir, düşük hıza sahiptir (yavaş hareket eder) ve kolayca doğrulanamaz.
+
+[b] *Bitcoin, şimdiye kadar bilinen herhangi bir finansal varlıktan daha üstün parasal özelliklere sahiptir.*
+
+SAĞLAM PARA ÖZELLİKLERİ KARŞILAŞTIRMA TABLOSU
+
+[tablo]
+
+SAĞLAM PARANIN ÖZELLİKLERİ | BITCOIN | KRİPTO | ALTIN (külçe) | ALTIN (madeni para) | FİAT (dijital) | FİAT (nakit)
+
+Gerçekten Kıt/Sert Arz Sınırı
+Taşınabilir
+Dayanıklı
+Bölünebilir
+Değiştirilebilir - Birimler birbirinin yerine geçebilir
+Güvenli - Taklit edilemez
+Tarafsız - Hükümet tarafından değil, kod tarafından üretilir
+Küresel olarak yüksek hız
+Kolayca doğrulanabilir
+Arzı kolayca doğrulanabilir
+İşlem yapmak kolay
+Merkeziyetsiz
+Güvene dayalı olmayan
+İzne tabi olmayan
+Sansüre dirençli
+Değiştirilemez/Bozulamaz
+Deflasyonist/Deflasyona yol açan
+Kesin uzlaşma sağlar
+Eşler arası - P2P
+
+NOT: Bu genel bir bakıştır, bir tabloda ele alınamayacak detaylar vardır.

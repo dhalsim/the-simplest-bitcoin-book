@@ -1,0 +1,39 @@
+H: What Is [b]Bitcoin?
+
+[b] *Bitcoin is the solution to the double-spend problem.*
+
+[b] This means that when you send bitcoin, the receiver
+can be sure that you actually owned the bitcoin you
+sent, and, that once you sent it to them you cannot
+spend those coins again by sending them to someone
+else (double-spending).
+
+[b] Just like me giving you an orange. Once it leaves
+my hands and is in your hands, I no longer have
+the orange to give to someone else.
+
+rmi> ..double-spends are never accepted into the
+transaction pool, so every node bears
+witness to which transaction it saw first
+by working to put it into a block.
+
+~ Satoshi Nakamoto 2010-12-09
+------
+H: [b]Bitcoin Nedir?
+
+[b] *Bitcoin, çifte harcama sorununa çözümdür.*
+
+[b] Bu, bitcoin gönderdiğinizde, alıcının gönderdiğiniz
+bitcoine gerçekten sahip olduğunuzdan ve bir kez
+onlara gönderdikten sonra bu coinleri başka birine
+göndererek tekrar harcayamayacağınızdan (çifte harcama)
+emin olabileceği anlamına gelir.
+
+[b] Tıpkı size bir portakal vermem gibi. Bir kez
+elimden çıkıp sizin elinize geçtiğinde, artık
+portakalı başka birine verecek portakalım kalmaz.
+
+rmi> ..çifte harcamalar asla işlem havuzuna kabul
+edilmez. Her düğüm, ilk gördüğü işlemi bir bloğa koymak için çalışarak ona tanıklık eder.
+
+~ Satoshi Nakamoto 2010-12-09

@@ -1,0 +1,15 @@
+H: The Simplest Bitcoin Book Ever Written
+
+[b] *Bitcoin is a bearer asset,* like cash or gold, held by
+the bearer (owner) directly.
+
+[obb] [b] *This means that, once sent (given), it goes directly
+to the new bearer (owner), with no middleman
+(bank) needed to process the transaction.*
+-------
+H: Şimdiye Kadar Yazılmış En Basit Bitcoin Kitabı
+
+[b] Bitcoin, nakit para veya altın gibi, *doğrudan sahibi
+tarafından tutulan bir varlıktır.*
+
+[obb] [b] *Bu, bir kez gönderildiğinde (verildiğinde), işlemi gerçekleştirmek için hiçbir aracıya (banka) ihtiyaç duyulmadan doğrudan yeni sahibine gittiği anlamına gelir.*
