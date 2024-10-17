@@ -1,0 +1,55 @@
+H: The Simplest Bitcoin Book Ever Written
+
+[b] *Bitcoin is the internet of money.*
+
+[b] When one stops to consider that everything else is
+going/has gone digital, including:
+
+[m-l-20:
+
+[b2] music
+[b2] books
+[b2] banking
+[b2] movies
+[b2] education
+[b2] photos
+[b2] phone calls
+[b2] radio
+[b2] maps
+[b2] games
+[b2] meetings
+[b2] and the list goes on (for better or for worse)
+
+… then one sees how it is really a logical step for
+money to follow.
+
+]
+
+[obb]c: *BUT,* we need *BITCOIN, NOT CBDCs!*
+------
+H: Şimdiye Kadar Yazılmış En Basit Bitcoin Kitabı
+
+[b] *Bitcoin, paranın internetidir.*
+
+[b] İnsan durup düşününce, diğer her şeyin dijitalleştiğini/dijitalleşmekte olduğunu görür, bunlar arasında:
+
+[m-l-20:
+
+[b2] müzik
+[b2] kitaplar
+[b2] bankacılık
+[b2] filmler
+[b2] eğitim
+[b2] fotoğraflar
+[b2] telefon görüşmeleri
+[b2] radyo
+[b2] haritalar
+[b2] oyunlar
+[b2] toplantılar
+[b2] ve liste böyle devam eder (iyi ya da kötü)
+
+... o zaman paranın da bu yolu izlemesinin gerçekten mantıklı bir adım olduğunu görürüz.
+
+]
+
+[obb]c: *AMA,* bize *CBDC'ler DEĞİL, BITCOIN gerekiyor!*

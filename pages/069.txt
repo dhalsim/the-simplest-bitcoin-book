@@ -1,0 +1,75 @@
+H: What is [b]Bitcoin?
+
+[o:20]r: SATOSHI’s GENIUS
+
+[obb:
+
+[b] Bitcoin is *ALL* of the following:
+
+  [m-l-20
+    -> A *decentralized, distributed ledger*
+    -> A *payment system*
+    -> *And the value **itself** being transferred.*
+  ]
+
+]
+
+[b] Outside of bitcoin, *money creation* (issuance), and
+*accounting* (keeping track of money received/spent),
+*is centralized*, and includes the following separate
+layers:
+
+[m-l-20:
+  -> Various *Central Banks' issuance* of money
+  -> *The ledgers of account*, whether written or digital
+  -> *The trusted parties* who enter the numbers into
+the ledgers
+  -> *The trusted parties* who keep the physical ledgers
+safe, or who maintain the computer databases
+  -> *The trusted security teams* who work to prevent
+hacking of the databases
+]
+
+[b] With bitcoin, *all these layers are folded into one!*
+
+[b] While this might sound more centralized, Satoshi’s
+genius made it such that the opposite is true.
+
+[b] It is *100% Decentralized!*
+------
+H: [b]bitcoin Nedir?
+
+[o:20]r: SATOSHI'NİN DEHASİ
+
+[obb:
+
+[b] Bitcoin aşağıdakilerin *HEPSİDİR*:
+
+  [m-l-20
+    -> *Merkeziyetsiz, dağıtık bir defter*
+    -> Bir *ödeme sistemi*
+    -> *Ve transfer edilen değerin **kendisi**.*
+  ]
+
+]
+
+[b] Bitcoin dışında, *para yaratma* (ihraç) ve
+*muhasebe* (alınan/harcanan paranın takibi)
+*merkezidir* ve aşağıdaki ayrı katmanları içerir:
+
+[m-l-20:
+  -> Çeşitli *Merkez Bankalarının para ihracı*
+  -> Yazılı veya dijital olsun, *hesap defterleri*
+  -> Rakamlari defterlere giren *güvenilir taraflar*
+  -> Fiziksel defterleri güvende tutan veya bilgisayar
+veritabanlarını yöneten *güvenilir taraflar*
+  -> Veritabanlarının hacklenmesini önlemek için çalışan
+*güvenilir güvenlik ekipleri*
+]
+
+[b] Bitcoin ile *tüm bu katmanlar bir araya getirilmiştir!*
+
+[b] Bu daha merkezi gibi görünse de, Satoshi'nin
+dehası bunu tam tersine çevirdi.
+
+[b] *%100 Merkeziyetsizdir!*

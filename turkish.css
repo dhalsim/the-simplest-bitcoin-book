@@ -2,6 +2,7 @@
   --debug-border-size: 0px;
   --only-display-last-page: flex; /* none | flex */
   --bitcoin-orange: rgb(236, 154, 0);
+  --bitcoin-orange-link: rgb(217, 112, 13);
 }
 
 @font-face {
@@ -32,21 +33,52 @@
 }
 
 .orange-border-box {
-  --orange-border-box-margin-left: 50px;
+  --orange-border-box-expand-right: 0px;
+  --orange-border-box-expand-left: 0px;
+  --orange-border-box-expand-top: 0px;
+  --orange-border-box-expand-bottom: 0px;
   position: relative;
 }
 
-.obb-ml-25 {
-  --orange-border-box-margin-left: 25px;
+.obb-expand-right-10 {
+  --orange-border-box-expand-right: 10px;
+}
+
+.obb-expand-right-25 {
+  --orange-border-box-expand-right: 25px;
+}
+
+.obb-expand-right-50 {
+  --orange-border-box-expand-right: 50px;
+}
+
+.obb-expand-left-25 {
+  --orange-border-box-expand-left: 25px;
+}
+
+.obb-expand-left-40 {
+  --orange-border-box-expand-left: 40px;
+}
+
+.obb-expand-left-50 {
+  --orange-border-box-expand-left: 50px;
+}
+
+.obb-expand-top-5 {
+  --orange-border-box-expand-top: 5px;
+}
+
+.obb-expand-bottom-5 {
+  --orange-border-box-expand-bottom: 5px;
 }
 
 .orange-border-box::before {
   content: '';
   position: absolute;
-  top: -18px;
-  left: calc(var(--orange-border-box-margin-left) * -1);
-  right: -10px;
-  bottom: -18px;
+  top: calc(-18px + var(--orange-border-box-expand-top) * -1);
+  left: calc(var(--orange-border-box-expand-left) * -1);
+  right: calc(var(--orange-border-box-expand-right) * -1);
+  bottom: calc(-18px + var(--orange-border-box-expand-bottom) * -1);
   border: 4px solid var(--bitcoin-orange);
   pointer-events: none;
 }
@@ -88,6 +120,10 @@
 
 .fs-25 {
   font-size: 25px;
+}
+
+.fs-30 {
+  font-size: 30px;
 }
 
 body, html {
@@ -144,6 +180,9 @@ img {
   display: var(--only-display-last-page);
 } 
 
+.flex-grow {
+  flex-grow: 1;
+}
 
 .header {
   display: flex;
@@ -182,12 +221,16 @@ img {
   display: inline-flex !important;
 }
 
-.w100 {
-  width: 100%;
-}
-
 .w80 {
   width: 80%;
+}
+
+.w90 {
+  width: 90%;
+}
+
+.w100 {
+  width: 100%;
 }
 
 .no-wrap {
@@ -225,7 +268,11 @@ img {
 }
 
 .t-a-r {
-  text-align: right;
+  text-align: right !important;
+}
+
+.t-a-j span {
+  text-align: justify;
 }
 
 .ail {
@@ -248,6 +295,10 @@ img {
   justify-content: center;
 }
 
+.jcsb {
+  justify-content: space-between;
+}
+
 .jcl {
   justify-content: flex-start;
 }
@@ -258,20 +309,21 @@ img {
   flex-direction: column;
 }
 
-.fdc {
-  flex-direction: column;
-}
-
-.fdr {
-  flex-direction: row;
-}
-
 .line {
   display: flex;
   width: fit-content;
   border: var(--debug-border-size) solid red;
   line-height: var(--line-height);
   gap: 5px;
+}
+
+.i {
+  font-style: italic;
+}
+
+.b {
+  font-weight: 800;
+  text-shadow: 0.5px 0.5px 0 black;
 }
 
 .block-quote {
@@ -305,12 +357,24 @@ img {
   background-size: contain;
 }
 
+.p-10 {
+  padding: 10px;
+}
+
+.p-r-10 {
+  padding-right: 10px;
+}
+
 .m-r-5 {
   margin-right: 5px;
 }
 
 .m-r-10 {
   margin-right: 10px;
+}
+
+.m-r-20 {
+  margin-right: 20px;
 }
 
 .m-r-30 {
@@ -343,6 +407,10 @@ img {
 
 .m-t-20 {
   margin-top: 20px;
+}
+
+.m-t-25 {
+  margin-top: 25px;
 }
 
 .m-t-30 {
@@ -441,7 +509,6 @@ img {
 .shadow-orange {
   --stroke-width:1px;
   --stroke-color: var(--bitcoin-orange);
-  position: relative;
   z-index: 1;
   text-shadow: 
     calc(var(--stroke-width) * 1) calc(var(--stroke-width) * 0) 0 var(--stroke-color), 
