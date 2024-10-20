@@ -1,0 +1,61 @@
+H: The Simplest Bitcoin Book Ever Written
+
+[o:20] BENEFITS OF ⚡️:
+
+[b] VOLUME - The volume of transactions per second is
+in essence limitless, as countless channels can be
+opened at the same time, each keeping their own
+‘tab’.
+
+[b] MICROPAYMENTS - You can send as little as 1
+satoshi (currently $0.0006).
+
+[b] SPEED - It usually takes between a millisecond and a
+few seconds to receive a payment.
+
+[b] PRIVACY - Transactions are not stored on the open,
+public bitcoin blockchain. In some ways it is even
+more private than cash, because with Lightning,
+even the other party does not necessarily know who
+you are, as your payment often ‘hops’ through
+different channels to reach the receiver.
+
+To be clear, I am not saying it is 100% impossible to
+uncover, just far more so than with payments on the
+bitcoin mainchain.
+It would take an immense amount of time and energy
+to establish with certainty who was making payments
+to whom, and it would not always be possible to
+do so at all.
+
+[obb:
+
+*Enjoy amazing visualizations* of the current state
+of the Lightning Network at:
+-> lnrouter.app/graph
+-> mempool.space/graphs/lightning/nodeschannels-map
+
+]
+------
+H: Şimdiye Kadar Yazılmış En Basit Bitcoin Kitabı
+
+[o:20] ⚡️'NİN FAYDALARI:
+
+[b] HACİM - Saniyedeki işlem hacmi esasen sınırsızdır, çünkü aynı anda sayısız kanal açılabilir ve her biri kendi 'hesabını' tutabilir.
+
+[b] MİKRO ÖDEMELER - 1 satoshi kadar küçük miktarlar gönderebilirsiniz (şu anda $0.0006).
+
+[b] HIZ - Genellikle bir ödemeyi almak bir milisaniye ile birkaç saniye arasında sürer.
+
+[b] GİZLİLİK - İşlemler açık, halka açık bitcoin blok zincirinde saklanmaz. Bazı açılardan nakit paradan bile daha gizlidir, çünkü Lightning ile, diğer taraf bile kim olduğunuzu bilmek zorunda değildir, çünkü ödemeniz genellikle alıcıya ulaşmak için farklı kanallardan 'sıçrar'.
+
+Açıkça belirtmek gerekirse, bunun %100 ortaya çıkarılamaz olduğunu söylemiyorum, sadece bitcoin ana zincirindeki ödemelere göre çok daha fazla gizli olduğunu söylüyorum.
+Kimin kime ödeme yaptığını kesin olarak belirlemek için muazzam miktarda zaman ve enerji gerekir ve bu her zaman mümkün olmayabilir.
+
+[obb:
+
+Lightning Ağı'nın mevcut durumunun *harika görselleştirmelerinin* keyfini çıkarın:
+-> lnrouter.app/graph
+-> mempool.space/graphs/lightning/nodeschannels-map
+
+]

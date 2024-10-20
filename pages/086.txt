@@ -1,0 +1,71 @@
+H: The Simplest Bitcoin Book Ever Written
+
+[o] BITCOIN BLOCK REWARD = Subsidy + Fees
+
+[obb:b:
+
+[b] For their work, miners get:
+
+  [m-l-20:
+
+  -> A subsidy, in the form of freshly minted bitcoins.
+  -> Plus, the fees from the verified transactions
+  included in that block.
+
+  ]
+]
+
+[b] *When you send bitcoin to someone, that transaction
+includes a fee* and needs to be verified by a miner,
+and then included in a block.
+
+[b] The *bitcoin block subsidy* gets cut in half every four
+years.
+
+[b] It is *currently 3.125 bitcoin* per block that is mined.
+
+[b] *The next ‘halving’ will be in 2028,* at which point
+the block reward will drop to 1.5625 bitcoin per
+block mined.
+
+[b] As mentioned before, *this keeps the issuance stable.*
+
+[b] *In the year 2140, the last piece of bitcoin will be
+mined.*
+
+[b] After that, miners will only get the fees from the transactions they verify in each block.
+-------
+H: Şimdiye Kadar Yazılmış En Basit Bitcoin Kitabı
+
+[o] BİTCOİN BLOK ÖDÜLÜ = Sübvansiyon + Ücretler
+
+[obb:b:
+
+[b] Yaptıkları iş için madenciler şunları alır:
+
+  [m-l-20:
+
+  -> Yeni basılan bitcoin şeklinde bir sübvansiyon.
+  -> Artı, o blokta doğrulanan işlemlerden gelen ücretler.
+
+  ]
+]
+
+[b] *Birine bitcoin gönderdiğinizde, o işlem bir ücret içerir*
+ve bir madenci tarafından doğrulanması, ardından bir
+bloğa dahil edilmesi gerekir.
+
+[b] *Bitcoin blok sübvansiyonu* her dört yılda bir yarıya iner.
+
+[b] *Şu anda madenciliği yapılan her blok için 3.125 bitcoin*dir.
+
+[b] *Bir sonraki 'yarılanma' 2028'de olacak,* bu noktada
+blok ödülü madenciliği yapılan her blok için 1.5625
+bitcoin'e düşecek.
+
+[b] Daha önce belirtildiği gibi, *bu, ihracı istikrarlı tutar.*
+
+[b] *2140 yılında, son bitcoin parçası çıkarılacak.*
+
+[b] Bundan sonra, madenciler sadece her blokta doğruladıkları
+işlemlerden gelen ücretleri alacaklar.

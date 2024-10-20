@@ -1,0 +1,71 @@
+H: The Simplest Bitcoin Book Ever Written
+
+[o:20] MINERS
+
+[b] *Specialized nodes* (computers called ASICS) •that
+‘mine’ the blocks* that become part of the bitcoin
+blockchain.
+
+[b] In so doing, they *verify the validated transactions
+made by users, mint new bitcoins and secure
+the entire network.*
+
+[o:20] USERS
+
+[b] *You and me. All of us.* The people.
+
+[b] Acknowledging and appreciating the value of
+goods and services provided, we *transact*: give
+and receive bitcoin, or we *store* it for use later, as
+needed.
+
+[o:20] NODES
+
+[b] *Nodes are computers that run the bitcoin
+software.*
+
+[b] *There are thousands of nodes* making up the
+decentralized, global, voluntary *network that
+validates transactions* (thereby preventing
+double-spending, and helping to secure the
+system).
+
+[o:20] DEVELOPERS (DEVS)
+
+[b] *Coders, programmers & digital authors* who work
+to *maintain and scale the network, improve security,
+privacy and user interface, and translate code* into
+language and visuals that the rest of us can comprehend and utilize.
+-------
+H: Şimdiye Kadar Yazılmış En Basit Bitcoin Kitabı
+
+[o:20] MADENCİLER
+
+[b] *Özelleşmiş düğümler* (ASIC adı verilen bilgisayarlar) •bitcoin
+blok zincirinin bir parçası haline gelen blokları 'kazarlar'.*
+
+[b] Bunu yaparken, *kullanıcılar tarafından yapılan doğrulanmış işlemleri
+onaylar, yeni bitcoinler basar ve tüm ağı güvence altına alırlar.*
+
+[o:20] KULLANICILAR
+
+[b] *Siz ve ben. Hepimiz.* İnsanlar.
+
+[b] Sağlanan mal ve hizmetlerin değerini kabul edip takdir ederek,
+*işlem yaparız*: bitcoin verir ve alırız, ya da ihtiyaç duyulduğunda
+kullanmak üzere *saklarız*.
+
+[o:20] DÜĞÜMLER
+
+[b] *Düğümler, bitcoin yazılımını çalıştıran bilgisayarlardır.*
+
+[b] *Binlerce düğüm vardır* ve bunlar merkezi olmayan, küresel,
+gönüllü bir *ağ oluşturarak işlemleri doğrular* (böylece çifte
+harcamayı önler ve sistemin güvenliğine yardımcı olur).
+
+[o:20] GELİŞTİRİCİLER (DEVS)
+
+[b] *Kodlayıcılar, programcılar ve dijital yazarlar* ağı *korumak ve
+ölçeklendirmek, güvenliği, gizliliği ve kullanıcı arayüzünü
+iyileştirmek ve kodu* bizim anlayabileceğimiz ve kullanabileceğimiz
+dil ve görsellere *çevirmek* için çalışırlar.

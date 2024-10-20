@@ -1,0 +1,58 @@
+H: The Simplest Bitcoin Book Ever Written
+
+[o:20]r: ACQUIRING BITCOIN
+
+[b] *Bitcoin enters the market by miners selling some of
+the bitcoins they receive as rewards,* in order to pay
+for their operating costs.
+
+[b] *You can acquire bitcoin by buying on a peer-to-peer
+trading platform, by accepting it as payment for
+goods or services you offer, as a gift, or by mining
+it.* (A very last resort, not recommended, is to buy it
+from a registered exchange).
+
+[b] When you receive it, you are technically receiving the
+private keys with which to access your bitcoin.
+
+[obb][b] *Remember:* The bitcoin itself never leaves the
+                     timechain.
+
+[b] You can acquire bitcoin either anonymously, or
+with ID verification (KYC - Know Your Customer)
+
+[b] KYC is required by law to fulfill AML (anti-money laundering laws) 
+when buying from exchanges.
+
+[obb][b] Buying non-KYC bitcoin *preserves your right to
+privacy in the future.*
+------
+B: Şimdiye Kadar Yazılmış En Basit Bitcoin Kitabı
+
+[o:20]r: BİTCOİN EDİNME
+
+[b] *Bitcoin, madencilerin işletme maliyetlerini karşılamak için
+aldıkları ödüllerden bazı bitcoinleri satmasıyla piyasaya
+girer.*
+
+[b] *Bitcoin'i eşler arası ticaret platformlarından satın alarak,
+sunduğunuz mal veya hizmetler karşılığında kabul ederek,
+hediye olarak veya madencilik yaparak edinebilirsiniz.*
+(Son çare olarak, tavsiye edilmez, kayıtlı bir borsadan
+satın alabilirsiniz).
+
+[b] Teknik olarak, bitcoin size gönderildiğinde artık bu coinlerin kontrolü
+sadece size ait olan özel anahtarlar sayesinde size aittir.
+
+[obb][b] *Unutmayın:* Bitcoin'in kendisi asla zaman zincirinden
+                     ayrılmaz.
+
+[b] Bitcoin'i anonim olarak veya kimlik doğrulaması ile
+(KYC - Müşterini Tanı) edinebilirsiniz.
+
+[b] Borsalardan alım yaparken KYC, AML (kara para aklamayla
+mücadele yasaları) gerekliliklerini yerine getirmek
+yasal olarak zorunludur.
+
+[obb][b] KYC olmadan bitcoin satın almak *gelecekte gizlilik
+hakkınızı korur.*

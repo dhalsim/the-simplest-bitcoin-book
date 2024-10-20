@@ -1,0 +1,57 @@
+H: How Does [b]bitcoin Work?
+
+[o]r: MORE ON MINING
+
+[b] Bitcoin is ‘mined’ by specially designed, powerful
+computers all over the world, called ASIC miners
+- Application Specific Integrated Circuit miners.
+
+Whatsminer M50S
+
+Antminer S21 Pro
+
+Bitaxe 401 Supra
+
+[b] *Miners devote computing power AKA hashrate,
+via electricity to the network,* to add blocks to the
+Bitcoin blockchain.
+
+[b] These computers run 24 hours a day, usually in sets
+of a few, to a few hundred or thousand.
+
+[b] *They are basically running a lottery. When one of
+them guesses a number* (the nonce) that generates a
+hash that satisfies the current difficulty target, *they
+get to add the next block to the timechain.*
+
+[b] *All the above is the proof-of-work (PoW) needed to
+birth new bitcoins.*
+-------
+H: [b]Bitcoin Nasıl Çalışır?
+
+[o]r: MADENCİLİK HAKKINDA DAHA FAZLA BİLGİ
+
+[b] Bitcoin, dünya genelinde özel olarak tasarlanmış güçlü 
+bilgisayarlar tarafından 'madenciliği' yapılır. Bunlara ASIC 
+madencileri denir - Uygulamaya Özel Entegre Devre madencileri.
+
+Whatsminer M50S
+
+Antminer S21 Pro
+
+Bitaxe 401 Supra
+
+[b] *Madenciler, Bitcoin blok zincirine blok eklemek için*
+hesaplama gücünü, yani hash oranını, elektrik yoluyla 
+ağa *adarlar.*
+
+[b] Bu bilgisayarlar günde 24 saat çalışır, genellikle birkaç 
+taneden birkaç yüz veya bine kadar set halinde.
+
+[b] *Temel olarak bir piyango çekilişi yapıyorlar. İçlerinden 
+biri* mevcut zorluk hedefini karşılayan bir hash üreten bir 
+sayıyı (nonce) *tahmin ettiğinde, zaman zincirine bir sonraki 
+bloğu ekleme hakkını kazanır.*
+
+[b] *Yukarıdakilerin tümü, yeni bitcoinlerin doğması için 
+gereken iş ispatıdır (PoW).*

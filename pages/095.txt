@@ -1,0 +1,69 @@
+H: How to [b]bitcoin?
+
+[o:20]r: Non-KYC >> Anonymously
+
+How to Get non-KYC Bitcoin (No ID):
+
+RECOMMENDED
+
+[obb:
+
+1. Download a bitcoin-only wallet app (see pg 102).
+2. Choose a method (see below).
+3. Buy, receive or mine bitcoin.
+4. Withdraw your bitcoin to your wallet.
+5. HODL, or spend and replace.
+
+]
+
+[b] *Buy it from Robosats, Bisq, HodlHodl, Peach Bitcoin.*
+
+[b] *Buy it from a bitcoin ATM* - Be sure to check, as
+some require ID. Others just ask for a name and
+number (you can use a temporary phone #).
+
+[b] *Buy an Azteco voucher* - Visit azte.co for locations.
+
+[b] *Earn it for work you do* - Ask to be paid in bitcoin.
+Offer to discount your price.
+
+[b] *Buy it in person at a bitcoin meet-up.*
+
+[b] *Mine it* - It is getting easier to mine at home, or
+you can join a mining pool, but then DYOR to stay
+KYC-free. Ocean Pool is a great option
+------
+H: Nasıl [b]bitcoinlenilir?
+
+[o:20]r: KYC Olmadan >> Anonim Olarak
+
+KYC Olmadan Bitcoin Nasıl Alınır (Kimlik Gerekmez):
+
+ÖNERİLEN
+
+[obb:
+
+1. Sadece bitcoin cüzdanı uygulaması indirin (bkz. sf 102).
+2. Bir yöntem seçin (aşağıya bakın).
+3. Bitcoin satın alın, teslim alın veya madencilik yapın.
+4. Bitcoin'inizi cüzdanınıza çekin.
+5. HODL yapın, veya harcayıp yerine koyun.
+
+]
+
+[b] *Robosats, Bisq, HodlHodl, Peach Bitcoin'den satın alın.*
+
+[b] *Bir bitcoin ATM'sinden satın alın* - Kontrol etmeyi unutmayın,
+bazıları kimlik gerektirir. Diğerleri sadece bir isim ve
+numara ister (geçici bir telefon numarası kullanabilirsiniz).
+
+[b] *Bir Azteco kuponu satın alın* - Konumlar için azte.co'yu ziyaret edin.
+
+[b] *Yaptığınız iş karşılığında kazanın* - Bitcoin ile ödeme almayı isteyin.
+Fiyatınızda indirim teklif edin.
+
+[b] *Bir bitcoin buluşmasında yüz yüze satın alın.*
+
+[b] *Madencilik yapın* - Evde madencilik yapmak giderek kolaylaşıyor, veya
+bir madencilik havuzuna katılabilirsiniz, ancak KYC'siz kalmak için
+kendi araştırmanızı (DYOR) yapın. Ocean Pool harika bir seçenektir.

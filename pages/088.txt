@@ -1,0 +1,70 @@
+H: The Simplest Bitcoin Book Ever Written
+
+[o: 25]r: A WORD ON THE
+LIGHTNING NETWORK
+
+[b] *Bitcoin blocks are intentionally small** (1MB each),
+resulting in the bitcoin mainchain being able to process about 7 transactions per second (TPS).
+
+[b] Visa processes about 24,000 TPS.
+
+[b] Also, *it generally takes about 10 minutes for the
+first confirmation to go through on a mainchain
+transaction* (since a block is mined on
+average every ~10 minutes).
+
+[b] This is not practical if you are at a store and want to
+make a quick payment for your goods.
+
+[obb] <b>* Important Detail:</b> The reason the blocks are small,
+is to keep *the timechain small enough for anyone to
+run their own node at home, which helps keep the
+network decentralized.* Satoshi realized the
+importance of this ↓
+
+rmi> Bitcoin users might get increasingly
+tyrannical about limiting the size of
+the chain so it’s easy for lots of users
+and small devices.
+
+~ Satoshi Nakamoto, 2010-12-10
+
+*Recommended Reading:*
+
+[m-l-20] -> The Blocksize War by Jonathan Bier
+------
+H: Şimdiye Kadar Yazılmış En Basit Bitcoin Kitabı
+
+[o: 25]r: YILDIRIM AĞI ⚡️ 
+          HAKKINDA BİR SÖZ
+
+⚡️ Lightning Network
+
+[b] *Bitcoin blokları kasıtlı olarak küçüktür** (her biri 1MB),
+bu da bitcoin ana zincirinin saniyede yaklaşık 7 işlem (TPS) işleyebilmesi anlamına gelir.
+
+[b] Visa saniyede yaklaşık 24.000 işlem gerçekleştirir.
+
+[b] Ayrıca, *ana zincirdeki bir işlemin ilk onayının
+geçmesi genellikle yaklaşık 10 dakika sürer*
+(çünkü ortalama her ~10 dakikada bir blok çıkarılır).
+
+[b] Bu, bir mağazadaysanız ve ürünleriniz için
+hızlı bir ödeme yapmak istiyorsanız pratik değildir.
+
+[obb] <b>* Önemli Detay:</b> Blokların küçük olmasının nedeni,
+*zaman zincirini herkesin evde kendi düğümünü
+çalıştırabilecek kadar küçük tutmaktır, bu da
+ağın merkeziyetsiz kalmasına yardımcı olur.* Satoshi
+bunun önemini fark etti ↓
+
+rmi> Bitcoin kullanıcıları, zincirin boyutunu
+sınırlamak konusunda giderek daha
+baskıcı olabilir, böylece çok sayıda kullanıcı
+ve küçük cihazlar için kolay olur.
+
+~ Satoshi Nakamoto, 2010-12-10
+
+*Önerilen Okuma:*
+
+[m-l-20] -> The Blocksize War by Jonathan Bier

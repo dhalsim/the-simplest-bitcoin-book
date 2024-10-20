@@ -1,0 +1,63 @@
+H: The Simplest Bitcoin Book Ever Written
+
+[o:20] A BITCOIN TRANSACTION UNDER
+THE HOOD:
+
+(Definitions of the terms that are *in bold* follow)
+
+[obb:
+
+1. When Ali sends those sats to Benji, the payment
+*transaction* is *broadcast* to the network.
+
+2. The transaction gets validated by *nodes* that
+make sure Ali really has the bitcoin to send, and
+that it has not previously been spent (to prevent
+double-spending) .
+
+3. Once validated by a node, it waits in the *mempool*
+with other peoples' transactions.
+
+4. The transactions in the mempool get added in a
+block to the *blockchain* when a *miner* finds a *nonce*
+that satisfies the *difficulty algorithm.*
+
+5. Each *block* has a *timestamp.*
+
+6. This creates *immutability*, and helps protect the
+difficulty algorithm adjustment from being
+manipulated.
+
+7. Each block represents one confirmation for the
+transactions included in it.
+
+8. As blocks are added, on average every ten mins,
+the immutability of the blockchain increases.
+
+]
+-------
+H: Şimdiye Kadar Yazılmış En Basit Bitcoin Kitabı
+
+[o:20] PERDE ARKASINDA BİR BİTCOİN İŞLEMİ:
+
+(*Kalın* yazılmış terimlerin tanımları aşağıda verilmiştir)
+
+[obb:
+
+1. Ali o sat'ları Benji'ye gönderdiğinde, ödeme *işlemi* ağa *yayınlanır*.
+
+2. İşlem, Ali'nin gerçekten gönderecek bitcoin'i olduğundan ve daha önce harcanmadığından (çift harcamayı önlemek için) emin olmak için *düğümler* tarafından doğrulanır.
+
+3. Bir düğüm tarafından doğrulandıktan sonra, diğer insanların işlemleriyle birlikte *mempool*'da bekler.
+
+4. Mempool'daki işlemler, bir *madenci* *zorluk algoritmasını* karşılayan bir *nonce* bulduğunda *blok zinciri*ne bir blok olarak eklenir.
+
+5. Her *blok*un bir *zaman damgası* vardır.
+
+6. Bu, *değişmezliği* oluşturur ve zorluk algoritması ayarlamasının manipüle edilmesini önlemeye yardımcı olur.
+
+7. Her blok, içerdiği işlemler için bir onay temsil eder.
+
+8. Bloklar ortalama her on dakikada bir eklendikçe, blok zincirinin değişmezliği artar.
+
+]

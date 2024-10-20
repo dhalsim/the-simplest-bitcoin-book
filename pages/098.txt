@@ -1,0 +1,31 @@
+H: The Simplest Bitcoin Book Ever Written
+
+[o:20]r: EO 6102
+
+[b] In 1933 *President Roosevelt issued Executive Order
+6102, which required every US citizen to turn in
+most of their gold in exchange for bank notes.*
+
+[b] The gold was valued at $20.67/oz. The following
+year, the government increased the price of gold to
+$35/oz with the Gold Reserve Act of 1934,
+effectively devaluing the notes people had
+received by almost half, since the value of their
+notes never went up with the inflated gold price.
+
+[image/098.png]
+------
+H: Şimdiye Kadar Yazılmış En Basit Bitcoin Kitabı
+
+[o:20]r: EO 6102
+
+[b] 1933 yılında *Başkan Roosevelt, her ABD vatandaşının
+altınlarının çoğunu banka notları karşılığında teslim
+etmesini gerektiren 6102 sayılı Başkanlık Kararnamesi'ni
+yayınladı.*
+
+[b] Altın, ons başına 20.67 dolar değerindeydi. Ertesi yıl,
+hükümet 1934 Altın Rezervi Yasası ile altının fiyatını
+ons başına 35 dolara yükselterek esasında banka notlarının değerini altına oranla neredeyse yarı yarıya değersizleştirdi.
+
+[image/098.png]

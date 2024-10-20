@@ -1,0 +1,90 @@
+H: The Simplest Bitcoin Book Ever Written
+
+--o--
+[b] *PUBLIC KEY ~ Like a bank account number for
+receiving bitcoin.*
+--o--
+
+[m-l-20] -> You can give it to people to send you bitcoin,
+just like you would give your account number to
+someone so they can send you fiat.
+
+--o--
+[b] *PRIVATE KEY ~ For securing, accessing and sending bitcoin, like the key to a safety deposit box.*
+--o--
+
+[m-l-20:
+
+-> A bitcoin private key is a secret string of numbers
+and letters that allows you to send/spend your
+bitcoin.
+-> Only you have a copy. **It is very important to
+keep it very safe and secure, as anyone who
+obtains a copy can spend your bitcoin.**
+
+]
+
+--o--
+[b] *DISTRIBUTED LEDGER ~ A ledger maintained by
+everyone who wishes to help maintain it.*
+--o--
+
+[m-l-20:
+
+-> Instead of a centrally-controlled ledger that is
+invisible to the public, like one that a bank maintains, Bitcoin is a transparent, open, decentralized
+ledger visible to anyone, anytime.
+-> The addresses are strings of letters and numbers,
+with no names attached.
+-> While pseudonymous, it is possible to track transactions, especially if the bitcoin was bought from
+a centralized KYC exchange.
+-> The Bitcoin network is trustless and anyone can
+audit it anytime, unlike a bank where one must
+trust that the ledgers are being kept honestly.
+
+]
+------
+H: Şimdiye Kadar Yazılmış En Basit Bitcoin Kitabı
+
+--o--
+[b] *AÇIK ANAHTAR ~ Bitcoin almak için banka hesap numarası gibidir.*
+--o--
+
+[m-l-20] -> İnsanlara size bitcoin göndermeleri için verebilirsiniz,
+tıpkı birisine fiat para göndermesi için hesap
+numaranızı verdiğiniz gibi.
+
+--o--
+[b] *ÖZEL ANAHTAR ~ Bitcoin'i güvence altına almak, erişmek ve göndermek için, bir kasa anahtarı gibidir.*
+--o--
+
+[m-l-20:
+
+-> Bir bitcoin özel anahtarı, bitcoin'inizi göndermenizi/
+harcamanızı sağlayan gizli bir sayı ve harf dizisidir.
+-> Sadece sizde bir kopyası vardır. **Çok güvenli ve
+emniyetli tutmak çok önemlidir, çünkü bir kopyasını
+elde eden herkes bitcoin'inizi harcayabilir.**
+
+]
+
+--o--
+[b] *DAĞITIK DEFTER ~ Sürdürmek isteyen herkes tarafından
+tutulan bir defter.*
+--o--
+
+[m-l-20:
+
+-> Bir bankanın tuttuğu gibi kamuya görünmez, merkezi
+olarak kontrol edilen bir defter yerine, Bitcoin şeffaf,
+açık, merkezi olmayan ve herkesin her zaman görebileceği
+bir defterdir.
+-> Adresler, isim eklenmemiş harf ve rakam dizileridir.
+-> Takma adlı olmasına rağmen, özellikle bitcoin merkezi
+bir KYC borsasından alındıysa, işlemleri takip etmek
+mümkündür.
+-> Bitcoin ağı güvene dayalı değildir ve herkes istediği
+zaman denetleyebilir, bir bankada olduğu gibi defterlerin
+dürüstçe tutulduğuna güvenmek zorunda kalınmaz.
+
+]

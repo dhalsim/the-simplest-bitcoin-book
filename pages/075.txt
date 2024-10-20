@@ -1,0 +1,36 @@
+H: How Does [b]bitcoin Work?
+
+[r:
+
+[o:20] THE BITCOIN ECOSYSTEM..
+
+*consists of Miners, Nodes, Users, Developers*
+all working independently,
+and simultaneously **inter**dependently,
+to enliven that which is
+BITCOIN!
+
+]
+
+c: [images/75.png]
+------
+H: [b]Bitcoin Nasıl Çalışır?
+
+[r:
+
+[o:20] BİTCOİN EKOSİSTEMİ..
+
+*Madenciler, Düğümler, Kullanıcılar, Geliştiricilerden oluşur*
+hepsi bağımsız olarak çalışır,
+ve aynı zamanda **karşılıklı** bağımlı olarak,
+BİTCOİN olan şeyi
+canlandırmak için!
+
+]
+
+c: [images/75.png]
+
+Madenciler
+Kullanıcılar
+Geliştiriciler
+Düğümler

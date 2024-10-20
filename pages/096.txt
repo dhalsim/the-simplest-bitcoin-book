@@ -1,0 +1,77 @@
+H: The Simplest Bitcoin Book Ever Written
+
+[o:20] KYC >> ID Verification Required
+
+How to Buy KYC Bitcoin (with ID):
+
+NOT RECOMMENDED
+
+[obb:
+
+1. Download a bitcoin-only wallet app (see pg 102).
+2. Choose a bitcoin-only exchange.
+3. Create an account & link a payment method.
+4. Fulfill the KYC requirements.
+5. Buy bitcoin.
+6. *Withdraw your bitcoin to your own wallet.*
+7. HODL or spend and replace.
+
+]
+
+[b] *Be aware that your bitcoin will be forever linked to
+your identity* if you buy it this way, thus forfeiting
+future pseudonymity with regard to these purchases.
+
+[b] If you choose this method, I recommend finding a
+reputable *bitcoin-only exchange.*
+
+[b] *Be sure the exchange allows you to withdraw your
+bitcoin to your own wallet!*
+
+[b] *Exchanges are required by law to ‘KYC’ you.*
+
+[b] They will take *your full name, address, social security
+number, email, phone number and often a photo of
+you holding your ID.*
+
+[b] *Confirm that the exchange has both phone and email
+support* for customer service.
+------
+H: Şimdiye Kadar Yazılmış En Basit Bitcoin Kitabı
+
+[o:20] KYC >> Kimlik Doğrulama Gerekli
+
+KYC Bitcoin Nasıl Alınır (Kimlikle):
+
+TAVSİYE EDİLMEZ
+
+[obb:
+
+1. Sadece bitcoin cüzdan uygulaması indirin (bkz. sf 102).
+2. Sadece bitcoin borsası seçin.
+3. Hesap oluşturun ve bir ödeme yöntemi seçin.
+4. KYC gereksinimlerini yerine getirin.
+5. Bitcoin satın alın.
+6. *Bitcoininizi kendi cüzdanınıza çekin.*
+7. HODL yapın veya harcayıp yerine koyun.
+
+]
+
+[b] *Bu şekilde satın alırsanız, bitcoininizin sonsuza kadar
+kimliğinizle bağlantılı olacağının* farkında olun, böylece
+bu alımlarla ilgili gelecekteki takma adlılığınızdan vazgeçmiş olursunuz.
+
+[b] Bu yöntemi seçerseniz, güvenilir bir *sadece bitcoin
+borsası* bulmanızı öneririm.
+
+[b] *Borsanın bitcoininizi kendi cüzdanınıza çekmenize
+izin verdiğinden emin olun!*
+
+[b] *Borsalar yasal olarak sizi 'KYC'lemek zorundadır.*
+
+[b] *Tam adınızı, adresinizi, sosyal güvenlik
+numaranızı, e-postanızı, telefon numaranızı ve genellikle
+kimliğinizi tutarken çekilmiş bir fotoğrafınızı* alacaklar.
+
+[b] *Borsanın müşteri hizmetleri için hem telefon hem de e-posta
+desteği* sunduğunu doğrulayın.

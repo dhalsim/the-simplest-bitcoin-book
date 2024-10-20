@@ -1,0 +1,86 @@
+H: The Simplest Bitcoin Book Ever Written
+
+--o--
+[b] *BROADCAST ~ Letting the network know you are
+sending bitcoin to someone.*
+--o--
+
+[m-l-20] -> When you click ‘Send’, your wallet signs the transaction with your private key and broadcasts it,
+letting all the other nodes know of your intention
+to transfer value so that they can validate the
+transaction.
+
+--o--
+[b] *MEMPOOL ~ A transaction waiting room*
+--o--
+
+[m-l-20] -> This is the ‘waiting room’ where validated transactions are sent to be picked up by a miner and
+added to a block.
+
+--o--
+[b] *BLOCK ~ A ‘page’ in the bitcoin ledger*
+--o--
+
+[m-l-20:
+
+-> The Bitcoin distributed ledger is made up of digital ‘blocks’.
+-> Each block contains verified bitcoin transactions
+that keep the global ledger accurate and current.
+They also contain the nonce, a time-stamp and a
+hash of the previous block, all of which
+contribute to the immutability of the bitcoin
+blockchain.
+
+]
+
+--o--
+[b] *BLOCKCHAIN ~ The whole bitcoin ledger*
+--o--
+
+[m-l-20] -> The bitcoin blockchain, also known as the
+timechain, is the distributed ledger that contains
+every block, and every bitcoin transaction ever
+made since the Genesis block was mined by
+Satoshi in 2009.
+------
+H: Şimdiye Kadar Yazılmış En Basit Bitcoin Kitabı
+
+--o--
+[b] *YAYINLAMA ~ Birine bitcoin gönderdiğinizi ağa bildirmek.*
+--o--
+
+[m-l-20] -> 'Gönder' düğmesine tıkladığınızda, cüzdanınız işlemi özel anahtarınızla imzalar ve yayınlar,
+diğer tüm düğümlere değer transfer etme niyetinizi bildirerek
+işlemi doğrulayabilmelerini sağlar.
+
+--o--
+[b] *MEMPOOL ~ Bir işlem bekleme odası*
+--o--
+
+[m-l-20] -> Bu, doğrulanmış işlemlerin bir madenci tarafından alınıp
+bir bloğa eklenmek üzere gönderildiği 'bekleme odası'dır.
+
+--o--
+[b] *BLOK ~ Bitcoin defterindeki bir 'sayfa'*
+--o--
+
+[m-l-20:
+
+-> Bitcoin dağıtık defteri, dijital 'bloklar'dan oluşur.
+-> Her blok, küresel defteri doğru ve güncel tutan
+doğrulanmış bitcoin işlemlerini içerir.
+Ayrıca nonce, zaman damgası ve önceki bloğun
+hash'ini içerirler, bunların tümü
+bitcoin blok zincirinin değiştirilemezliğine
+katkıda bulunur.
+
+]
+
+--o--
+[b] *BLOCKCHAIN ~ Tüm bitcoin defteri*
+--o--
+
+[m-l-20] -> Bitcoin blok zinciri, aynı zamanda zaman zinciri olarak da bilinen,
+2009'da Satoshi tarafından madenciliği yapılan Genesis bloğundan
+bu yana yapılmış her bloğu ve her bitcoin işlemini
+içeren dağıtık defterdir.

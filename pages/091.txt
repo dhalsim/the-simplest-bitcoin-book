@@ -1,0 +1,88 @@
+H: A Word On The Lightning Network
+
+rmi> Bitcoin itself cannot scale to have every
+single financial transaction in the
+world be broadcast to everyone and
+included in the blockchain.
+There needs to be a secondary level of
+payment systems which is lighter
+weight and more efficient.
+
+~ Hal Finney, 2010-12-30, Early cypherpunk
+& the second person to run Bitcoin
+
+*Think of it like this:*
+
+[obb:
+
+[b] Bitcoin: *Savings Account* ~ Slower transactions for
+                                 larger amounts. 
+
+[b] Lightning: *Checking Account* ~ Faster transactions for
+                                    smaller amounts.
+
+]
+
+rbi> Bitcoin enhanced by Lightning can be viewed as both a
+product (digital property) and a service (open monetary
+network). The ability to transfer monetary energy through
+time and space without government intervention or
+conventional banking is enormously valuable to humanity.
+
+~ Michael Saylor, CEO
+Microstrategy
+
+[r:
+  [m-r-20:
+
+  *Learn more about Lightning here:*
+
+  lopp.net/lightning-information.html
+
+  ]
+]
+------
+H: Yıldırım Ağı Hakkında Bir Söz
+
+rmi> Bitcoin'in kendisi, dünyadaki her finansal
+işlemin herkese yayınlanması ve
+blok zincirine dahil edilmesi için
+ölçeklenemez.
+Daha hafif ve daha verimli olan
+ikincil bir ödeme sistemleri
+seviyesine ihtiyaç var.
+
+~ Hal Finney, 2010-12-30, Erken dönem cypherpunk
+ve Bitcoin'i çalıştıran ikinci kişi
+
+*Bunu şöyle düşünün:*
+
+[obb:
+
+[b] Bitcoin: *Tasarruf Hesabı* ~ Daha büyük miktarlar için
+                                 daha yavaş işlemler. 
+
+[b] Lightning: *Çek Hesabı* ~ Daha küçük miktarlar için
+                              daha hızlı işlemler.
+
+]
+
+rbi> Lightning ile geliştirilmiş Bitcoin, hem bir ürün
+(dijital mülkiyet) hem de bir hizmet (açık para
+ağı) olarak görülebilir. Parasal enerjiyi zaman ve
+mekan içinde hükümet müdahalesi veya geleneksel
+bankacılık olmadan transfer etme yeteneği,
+insanlık için muazzam değerlidir.
+
+~ Michael Saylor, CEO
+Microstrategy
+
+[r:
+  [m-r-20:
+
+  *Lightning hakkında daha fazla bilgi edinin:*
+
+  lopp.net/lightning-information.html
+
+  ]
+]

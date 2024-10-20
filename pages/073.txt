@@ -1,0 +1,89 @@
+[o:25]c: HOW DOES [b]bitcoin WORK?
+Rules not Rulers
+
+[r:
+
+tik-tok/
+/next block
+
+]
+
+[b] Bitcoin uses *proof-of-work*, *public-key cryptography*
+and *peer-to-peer networking*, to process and verify
+payments in a global, distributed, online ledger.
+
+r> *Cryptography* (noun) /krɪpˈtɑːɡrəfi
+**: the enciphering and deciphering of messages
+in secret code or cipher
+: the computerized encoding and
+decoding of information**
+
+~ Merriam Webster Dictionary
+
+r> *Hashing* (verb) /ˈhæʃɪŋ/
+**: a method of encryption
+: the process of using a mathematical algorithm against
+data to produce a numeric value (a hash digest)
+that is representative of that data.**
+
+~ crsc.nist.gov
+
+[obb:
+
+*Remember:*
+The bitcoin ecosystem includes >>
+*bitcoin*: the digital monetary asset
+*Bitcoin*: the *payment network* of miners and nodes
+
+]
+
+[r:
+
+1 bitcoin = 100,000,000 satoshis (sats)
+*(You can buy sats, a fraction of a bitcoin)*
+
+]
+------
+[o:25]c: [b]bitcoin NASIL ÇALIŞIR?
+Hükümler, Hükümdarlar Değil
+
+[r:
+
+tik-tok/
+/sonraki blok
+
+]
+
+[b] Bitcoin, ödemeleri işlemek ve doğrulamak için küresel, dağıtılmış, çevrimiçi bir defterde *iş ispatı*, *açık anahtar kriptografisi* ve *eşler arası ağ* kullanır.
+
+r> *Kriptografi* (isim) /krɪpˈtɑːɡrəfi
+**: mesajları gizli kod veya şifre ile
+şifreleme ve şifre çözme
+: bilginin bilgisayarlı şifrelenmesi ve
+şifresinin çözülmesi**
+
+~ Merriam Webster Sözlüğü
+
+r> *Karma* (fiil) /ˈhæʃɪŋ/
+**: bir şifreleme yöntemi
+: verileri temsil eden sayısal bir değer (karma özeti)
+üretmek için verilere karşı matematiksel bir algoritma
+kullanma süreci.**
+
+~ crsc.nist.gov
+
+[obb:
+
+*Unutmayın:*
+Bitcoin ekosistemi şunları içerir >>
+*bitcoin*: dijital parasal varlık
+*Bitcoin*: madenciler ve düğümlerden oluşan *ödeme ağı*
+
+]
+
+[r:
+
+1 bitcoin = 100,000,000 satoshi (sat)
+*(Bir bitcoin'in kesri olan sat'ları satın alabilirsiniz)*
+
+]

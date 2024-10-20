@@ -1,0 +1,106 @@
+H: How Does [b]Bitcoin Work?
+
+--o--
+[b] *PEER-TO-PEER (P2P) NETWORK ~ A decentralized
+network with no middlemen
+--o--
+
+[m-l-20:
+
+-> Full nodes (peers) collaboratively maintain a peerto-peer network for transaction and block validation and verification.
+-> In this type of network, each node is able to
+both provide/request data to/from its peers.
+-> There are no gatekeepers in a P2P network.
+
+]
+
+--o--
+[b] *LIGHTNING NETWORK ~ A network built on bitcoin that makes it possible to send or receive
+sats very fast and almost for free.*
+--o--
+
+[m-l-20] -> Lightning is a Layer 2 scaling solution. This means
+it provides a way for bitcoin to scale, giving it the
+potential to process millions of transactions per
+second (TPS).
+
+--o--
+[b] *WALLET ~ A ‘wallet’ holds the cryptographic
+keys to access your bitcoin.*
+--o--
+
+[m-l-20:
+
+-> It can be on a phone, computer or on a separate
+small hardware device (the safest).
+-> A bitcoin wallet would more accurately be called a
+signing device. Your bitcoin never actually leaves
+the blockchain, the digital ledger.
+-> When you wish to send or spend your bitcoin, the
+wallet will sign and broadcast the transaction to
+the network, so that it can be validated and
+added into a block on the blockchain.
+
+]
+
+--o--
+[b] *DEVELOPERS ~ Computer programmers*
+--o--
+
+[m-l-20] -> Cypherpunks/programmers that maintain the network, improve security, check for bugs, submit
+pull requests (for new updates or features), review
+pull requests, audit the code.
+------
+H: [b]Bitcoin Nasıl Çalışır?
+
+--o--
+[b] *EŞLER ARASI (P2P) AĞ ~ Aracı olmayan
+merkeziyetsiz bir ağ
+--o--
+
+[m-l-20:
+
+-> Tam düğümler (eşler) işlem ve blok doğrulama ve
+onaylama için işbirliği içinde eşler arası bir ağ
+sürdürür.
+-> Bu tür bir ağda, her düğüm hem veri sağlayabilir
+hem de eşlerinden veri talep edebilir.
+-> P2P ağında kapı bekçileri yoktur.
+
+]
+
+--o--
+[b] *LIGHTNING AĞI ~ Bitcoin üzerine inşa edilmiş,
+sat'ları çok hızlı ve neredeyse ücretsiz göndermeyi
+veya almayı mümkün kılan bir ağ.*
+--o--
+
+[m-l-20] -> Lightning, bir Katman 2 ölçeklendirme çözümüdür.
+Bu, bitcoin'in ölçeklenmesi için bir yol sağladığı
+anlamına gelir ve saniyede milyonlarca işlem (TPS)
+işleme potansiyeli verir.
+
+--o--
+[b] *CÜZDAN ~ Bir 'cüzdan', bitcoin'lerinize erişmek
+için kriptografik anahtarları tutar.*
+--o--
+
+[m-l-20:
+
+-> Bir telefonda, bilgisayarda veya ayrı küçük bir
+donanım cihazında (en güvenlisi) olabilir.
+-> Bir bitcoin cüzdanı daha doğru bir şekilde imzalama
+cihazı olarak adlandırılabilir. Bitcoin'iniz asla
+blok zincirini, dijital defteri asla terk etmez.
+-> Bitcoin'inizi göndermek veya harcamak istediğinizde,
+cüzdan işlemi imzalayacak ve ağa yayınlayacaktır,
+böylece doğrulanabilir ve blok zincirine bir blok
+olarak eklenebilir.
+
+]
+
+--o--
+[b] *GELİŞTİRİCİLER ~ Bilgisayar programcıları*
+--o--
+
+[m-l-20] -> Ağı koruyan, güvenliği artıran, hataları kontrol eden, yeni güncellemeler veya özellikler için pull request gönderen, pull request'leri inceleyen ve kodu denetleyen cypherpunklar/programcılar.

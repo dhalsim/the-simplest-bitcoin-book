@@ -1,0 +1,103 @@
+H: The Simplest Bitcoin Book Ever Written
+
+--o--
+[b] *TIMESTAMP ~ Stamps the time*
+--o--
+
+[m-l-20:
+
+-> Every block mined has a timestamp added to it.
+-> This is for added security, immutability and to help
+establish the difficulty adjustment
+
+]
+
+--o--
+[b] *IMMUTABILITY ~ Cannot be changed.*
+--o--
+
+[m-l-20] -> This means the blockchain is ‘set in digital stone’.
+
+--o--
+[b] *PROOF-OF-WORK (PoW) ~ Cryptographic proof
+that difficult work was done to satisfy an algorithm.*
+--o--
+
+
+[m-l-20] -> Miners use the PoW algorithm to prove they have
+used a lot of computational power via electricity
+(work), in order to achieve consensus in a decentralized manner, and to prevent corrupt actors
+from spamming the network.
+
+--o--
+[b] *PUBLIC KEY CRYPTOGRAPHY ~ A process that
+creates the digital keys to access your bitcoins.*
+--o--
+
+[m-l-20:
+
+-> This is a system whereby two keys are created
+through a cryptographic algorithm.
+-> One key is public - Like your bank account number, that you can give people to send bitcoin to
+you for goods, gifts or services.
+-> The other key is private - Only you have a copy,
+and you use it to unlock access to your bitcoin,
+just as a password unlocks your online bank
+account.
+-> You must secure your private key very well,
+since anyone who has access to it has access to
+your bitcoin.
+
+]
+------
+H: Şimdiye Kadar Yazılmış En Basit Bitcoin Kitabı
+
+--o--
+[b] *ZAMAN DAMGASI ~ Zamanı damgalar*
+--o--
+
+[m-l-20:
+
+-> Madenciliği yapılan her bloğa bir zaman damgası eklenir.
+-> Bu, ek güvenlik, değiştirilemezlik ve zorluk ayarlamasına
+yardımcı olmak içindir.
+
+]
+
+--o--
+[b] *DEĞİŞTİRİLEMEZLİK ~ Değiştirilemez.*
+--o--
+
+[m-l-20] -> Bu, blok zincirinin 'dijital taşa kazınmış' olduğu anlamına gelir.
+
+--o--
+[b] *İŞ KANITI (PoW) ~ Bir algoritmayı tatmin etmek için
+zor bir işin yapıldığının kriptografik kanıtı.*
+--o--
+
+[m-l-20] -> Madenciler, merkezi olmayan bir şekilde konsensüs
+sağlamak ve kötü niyetli aktörlerin ağı spam yapmasını
+önlemek için, elektrik yoluyla (iş) çok fazla hesaplama
+gücü kullandıklarını kanıtlamak için PoW algoritmasını
+kullanırlar.
+
+--o--
+[b] *AÇIK ANAHTAR KRİPTOGRAFİSİ ~ Bitcoin'lerinize
+erişmek için dijital anahtarlar oluşturan bir süreç.*
+--o--
+
+[m-l-20:
+
+-> Bu, kriptografik bir algoritma aracılığıyla iki anahtar
+oluşturan bir sistemdir.
+-> Bir anahtar açıktır - Banka hesap numaranız gibi, insanlara
+size mal, hediye veya hizmet karşılığında bitcoin göndermek
+için verebileceğiniz bir anahtardır.
+-> Diğer anahtar özeldir - Sadece sizde bir kopyası vardır
+ve bitcoin'lerinize erişimi açmak için kullanırsınız,
+tıpkı bir şifrenin çevrimiçi banka hesabınızın kilidini
+açması gibi.
+-> Özel anahtarınızı çok iyi korumanız gerekir, çünkü ona
+erişimi olan herkes bitcoin'lerinize de erişebilir.
+
+]
