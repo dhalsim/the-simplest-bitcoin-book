@@ -1,0 +1,69 @@
+H: How To [b]Bitcoin
+
+[o:20]r: WALLET SETUP
+
+[b] Follow @BTCSessions on YouTube for excellent
+tutorials on wallet set-up, and lots more.
+
+[obb:
+  [b] When setting up your wallet, be sure to *write down
+  the 12- or 24-word Seed Phrase on paper.*
+
+  [b]b: Keep it offline. Never take a screenshot of it.
+
+  [b]b: STORE THE SEED PHRASE VERY SAFELY.
+
+  [b]b: VERY, VERY SAFELY!
+]
+
+[b]b: Many companies make metal seed plates into
+which you can punch your seed phrase for added
+fire/water/damage protection. Highly recommend!
+
+[b] If you were to lose access to your hot or cold wallet,
+you can restore it with the seed phrase and recover
+your funds.
+
+[b] You can do so on any wallet that supports the same
+type of BIP39 seed phrase (12/24 words).
+
+[b] Best practice would be to store the wallet
+descriptor of your wallet in addition to your seed.
+
+[obb][b] REMEMBER: Anyone who has your seed has
+                   access to your bitcoin!
+------
+H: Nasıl [b]Bitcoin'lenilir
+
+[o:20]r: CÜZDAN KURULUMU
+
+[b] Cüzdan kurulumu ve daha fazlası mükemmel
+eğitimler için YouTube'da @BTCSessions'ı takip edin.
+
+[obb:
+  [b] Cüzdanınızı kurarken, *12 veya 24 kelimelik Tohum
+  Cümlesini (seed phrase) kağıda yazdığınızdan emin olun.*
+
+  [b]b: Çevrimdışı tutun. Asla ekran görüntüsünü almayın.
+
+  [b]b: TOHUM CÜMLESİNİ ÇOK GÜVENLİ BİR ŞEKİLDE SAKLAYIN.
+
+  [b]b: ÇOK, ÇOK GÜVENLİ BİR ŞEKİLDE!
+]
+
+[b]b: Birçok şirket, tohum cümlenizi daha fazla yangın/su/hasar
+koruması için basabileceğiniz metal tohum plakaları
+üretmektedir. Şiddetle tavsiye edilir!
+
+[b] Sıcak veya soğuk cüzdanınıza erişiminizi kaybederseniz,
+tohum cümlesi ile onu geri yükleyebilir ve bitcoininizi
+kurtarabilirsiniz.
+
+[b] Bunu, aynı tür BIP39 tohum cümlesini (12/24 kelime)
+destekleyen herhangi bir cüzdanda yapabilirsiniz.
+
+[b] En iyi uygulama, tohum cümlenize ek olarak cüzdanınızın
+tanımlayıcısını da saklamak olacaktır.
+
+[obb][b] UNUTMAYIN: Tohumunuza sahip olan herkes
+                    bitcoininize erişebilir!

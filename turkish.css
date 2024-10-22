@@ -121,6 +121,10 @@
   font-size: 20px;
 }
 
+.fs-22 {
+  font-size: 22px;
+}
+
 .fs-25 {
   font-size: 25px;
 }
@@ -445,6 +449,10 @@ ol {
   margin-top: 10px;
 }
 
+.m-t-15 {
+  margin-top: 15px;
+}
+
 .m-t-20 {
   margin-top: 20px;
 }
@@ -471,6 +479,10 @@ ol {
 
 .m-b-10 {
   margin-bottom: 10px;
+}
+
+.m-b-15 {
+  margin-bottom: 15px;
 }
 
 .m-b-20 {

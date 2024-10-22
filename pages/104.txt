@@ -1,0 +1,55 @@
+H: The Simplest Bitcoin Book Ever Written
+
+[o:20]r: ON PRIVACY
+
+[b] Privacy when *buying (non-KYC), securing, storing
+and spending* bitcoin is becoming more and more
+important, especially in light of recent events with
+bank accounts being seized/frozen.
+
+[obb][b] In addition, *general digital privacy is critical if you
+wish to gain online sovereignty, and protect yourself from undue surveillance and fraud.*
+
+[b] Below are some current privacy-focused services.
+
+[b] It is beyond the scope of this book to go deeply into
+each of the following, so absolutely DYOR, and
+follow the accounts I mention below on Nostr or
+Twitter for updates.
+
+r> Privacy is necessary for an open society in the electronic
+age. Privacy is not secrecy. A private matter is something
+one doesn’t want the whole world to know, but a secret
+matter is something one doesn’t want anybody to know.
+Privacy is the power to selectively reveal
+oneself to the world.
+
+~Eric Hughes, From ‘A Cypherpunk’s Manifesto’
+------
+H: Şimdiye Kadar Yazılmış En Basit Bitcoin Kitabı
+
+[o:20]r: GİZLİLİK HAKKINDA
+
+[b] Bitcoin'i *satın alırken (KYC olmadan), güvence altına alırken, saklarken
+ve harcarken* gizlilik, özellikle banka hesaplarının el konulması/dondurulması
+gibi son zamanlardaki olaylar ışığında giderek daha
+önemli hale geliyor.
+
+[obb][b] Buna ek olarak, *genel dijital gizlilik, çevrimiçi egemenlik kazanmak
+ve kendinizi gereksiz gözetimden ve dolandırıcılıktan korumak istiyorsanız kritik öneme sahiptir.*
+
+[b] Aşağıda bazı güncel gizlilik odaklı hizmetler bulunmaktadır.
+
+[b] Bu kitabın kapsamı, aşağıdakilerin her birine derinlemesine
+girmek için yeterli değildir, bu yüzden kesinlikle kendi araştırmanızı yapın ve
+güncellemeler için aşağıda bahsettiğim hesapları Nostr veya
+Twitter'da takip edin.
+
+r> Gizlilik, elektronik çağda açık bir toplum için gereklidir.
+Gizlilik, sır değildir. Özel bir mesele, kişinin
+tüm dünyanın bilmesini istemediği bir şeydir, ancak gizli
+bir mesele, kişinin kimsenin bilmesini istemediği bir şeydir.
+Gizlilik, kişinin kendisini dünyaya seçici olarak
+açıklama gücüdür.
+
+~Eric Hughes, 'Bir Cypherpunk'ın Manifestosu'ndan

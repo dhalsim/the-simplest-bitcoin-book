@@ -1,0 +1,52 @@
+H: The Simplest Bitcoin Book Ever Written
+
+[obb:b:
+  -> Please DYOR to compare the features and
+     trade-offs between the wallets shown below.
+]
+
+[b] *HOT WALLET APPS* - Non-Custodial
+
+Blue Wallet, Muun Wallet, Mutiny Wallet
+Sparrow Wallet, Green Wallet, Phoenix
+Wallet, Zeus Wallet, Breez Wallet
+
+[logos]
+
+[b] *COLD STORAGE WALLETS* - Non-Custodial
+
+Cold Card, Trezor, Foundation Passport,
+Blockstream Jade, Seed Signer, Bitbox,
+
+[pics]
+
+[obb][b] *ALWAYS* purchase your cold storage wallet *direct
+from the manufacturer*, to be certain it has not been
+tampered with.
+------
+H: Şimdiye Kadar Yazılmış En Basit Bitcoin Kitabı
+
+[obb:b:
+  -> Lütfen aşağıda gösterilen cüzdanların özelliklerini
+     ve avantaj/dezavantajlarını karşılaştırmak için
+     kendi araştırmanızı yapın.
+]
+
+[b] *SICAK CÜZDAN UYGULAMALARI* - Emanet Olmayan
+
+Blue Wallet, Muun Wallet, Mutiny Wallet
+Sparrow Wallet, Green Wallet, Phoenix
+Wallet, Zeus Wallet, Breez Wallet
+
+[logolar]
+
+[b] *SOĞUK DEPOLAMA CÜZDANLARI* - Emanet Olmayan
+
+Cold Card, Trezor, Foundation Passport,
+Blockstream Jade, Seed Signer, Bitbox,
+
+[resimler]
+
+[obb][b] Soğuk depolama cüzdanınızı *HER ZAMAN doğrudan
+üreticiden* satın alın, böylece üzerinde oynanmadığından
+emin olabilirsiniz.

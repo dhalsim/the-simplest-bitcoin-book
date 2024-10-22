@@ -1,3 +1,11 @@
+## About book title
+
+"The Simplest Bitcoin Book Ever Written" is translated as "Şimdiye Kadar Yazılmış En Basit Bitcoin Kitabı" which is very long. Alternatively it can be "Yazılmış En Basit Bitcoin Kitabı"
+
+"The Simplest Bitcoin Book" can be translated as "En Basit Bitcoin Kitabı" which is shorter but sounds a bit awkward.
+
+I'm thinking of complete different title for the book such as "Bitcoin'in Felsefesi" which means "The Philosophy of Bitcoin", which I think is both shorter and can be interesting for the Turkish audience.
+
 ## page 5
 
 ~ Horace Greeley line should be italic too
@@ -81,6 +89,16 @@ Is it better to say "When you receive bitcoin, you are technically receiving the
 
 bitcoin-only wallet app
 bitcoine-özel cüzdan uygulaması
+
+## page 105 - 106
+
+check the links
+
+## page 106
+
+* https://ronindojo.io/ is it samourai wallet? should we still keep it after the arrest?
+* https://paynym.is/ is also related to samourai wallet and the website is closed
+* we can add [start9](https://start9.com/), which has only bitcoin related software and it is open source
 
 ## page 145
 
