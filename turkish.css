@@ -296,6 +296,10 @@ ol {
   text-align: justify;
 }
 
+.t-a-c {
+  text-align: center;
+}
+
 .ail {
   align-items: flex-start;
 }

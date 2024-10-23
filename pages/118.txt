@@ -1,0 +1,57 @@
+H: The Simplest Bitcoin Book Ever Written
+
+[o:18]r: YOU CAN’T TOUCH A BITCOIN
+
+[b] *This is a feature, not a bug.* The very fact that bitcoin
+is not physical is one of the biggest factors contributing to it’s unconfiscatability!
+
+[o:18]r: BITCOIN COULD GET HACKED
+
+[b] In the 15 years since it was launched, it has never
+been hacked.
+
+[b] There have been hacks at exchanges however, so I
+highly recommend moving your bitcoin to your own
+self-custody wallet as soon as possible.
+
+[b] It has been estimated that to break the SHA-256
+encryption (that bitcoin uses) within 24 hours, a
+quantum computer would need 13,000,000 physical
+qubits. At this time, the current qubit record held
+by Atom Computing in California is 1,180 qubits.
+
+[b] It is widely assumed that a quantum-safe encryption
+method will be developed well before it is needed.
+
+rmi> Being open source means anyone can
+independently review the code. If it was
+closed source, nobody could verify the
+security. I think it’s essential for a
+program of this nature to be open source.
+
+~ Satoshi Nakamoto 2009-12-10
+-------
+H: Şimdiye Kadar Yazılmış En Basit Bitcoin Kitabı
+
+[o:18]r: BİR BİTCOİN'E DOKUNAMAZSINIZ
+
+[b] *Bu bir kusur değil, bir özelliktir.* Bitcoin'in fiziksel olmaması gerçeği, onun el konulamazlığına katkıda bulunan en büyük faktörlerden biridir!
+
+[o:18]r: BİTCOİN HACKLENEBİLİR
+
+[b] Piyasaya sürüldüğünden bu yana geçen 15 yıl boyunca hiç hacklenmedi.
+
+[b] Ancak borsalarda hacklemeler olmuştur, bu yüzden bitcoin'lerinizi mümkün olan en kısa sürede kendi öz-gözetim cüzdanınıza taşımanızı şiddetle tavsiye ederim.
+
+[b] Bitcoin'in kullandığı SHA-256 şifrelemesini 24 saat içinde kırmak için bir kuantum bilgisayarın 13.000.000 fiziksel kübit'e ihtiyaç duyacağı tahmin edilmiştir. Şu anda, Kaliforniya'daki Atom Computing tarafından tutulan mevcut kübit rekoru 1.180 kübittir.
+
+[b] İhtiyaç duyulmadan çok önce kuantum-güvenli bir şifreleme yönteminin geliştirileceği yaygın olarak varsayılmaktadır.
+
+rmi> Açık kaynak olması, herkesin kodu bağımsız
+olarak inceleyebileceği anlamına gelir. Eğer
+kapalı kaynak olsaydı, kimse güvenliği
+doğrulayamazdı. Bu nitelikteki bir programın
+açık kaynak olmasının çok önemli olduğunu
+düşünüyorum.
+
+~ Satoshi Nakamoto 2009-12-10

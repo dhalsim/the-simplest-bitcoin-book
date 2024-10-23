@@ -13,6 +13,10 @@ I'm thinking of complete different title for the book such as "Bitcoin'in Felsef
 Actually there are a lot of inconsistencies regarding italic texts
 throughout the book. does quote authors need to be italic?
 
+## page 20
+
+Hard money - Sağlam Para?
+
 ## page 22
 
 > [b] It took just *33 more years for the US National Debt
@@ -103,6 +107,10 @@ check the links
 ## page 111
 
 premining - önceden madencilik?
+
+## page 118
+
+* self-custody - öz-gözetim?
 
 ## page 145
 
