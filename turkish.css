@@ -606,27 +606,31 @@ img.b-logo-transparent-20 {
   overflow-x: auto;
 }
 
-.inflation-table {
+.table-w-header {
   width: 100%;
   border-collapse: collapse;
   font-size: 14px;
 }
 
-.inflation-table th,
-.inflation-table td {
+.table-w-header th,
+.table-w-header td {
   border: 1px solid black;
   padding: 0 4px 0 4px;
   text-align: left;
 }
 
-.inflation-table th {
+.table-w-header th {
   font-weight: 500;
   height: 35px;
   text-align: center;
 }
 
-.inflation-table td:first-child {
+.table-w-header.first-col-bold td:first-child {
   font-weight: 500;
+}
+
+.table-w-header.rest-rows-padding tr:not(:first-child) td {
+  padding: 4px;
 }
 
 .grid-container {

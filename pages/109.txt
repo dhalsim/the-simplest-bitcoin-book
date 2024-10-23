@@ -1,0 +1,56 @@
+H: Dispelling [b]bitcoin FUD
+
+[b]b: ‘Too much’ energy is a value proposition that must
+consider how we value the purpose of the energy
+use.
+
+[b] *When one considers that the Christmas lights in the US use as much electricity as the entire Bitcoin network,* then perhaps one can see that it is all relative!
+
+[b] Using energy, even a whole lot of energy, to secure
+the hardest, most censorship-resistant money
+humanity has ever known, is more than worth it.
+
+[b] In comparing bitcoin energy usage to that used by
+the legacy system, we also need to consider the ‘full
+stack’ on both sides:
+
+| Bitcoin Ecosystem    | Legacy Fiat System 
+| ---------------------| ------------------ 
+| ASIC Miners          | BIS                
+| Nodes                | Central Banks      
+| Hardware Wallets     | National/Regional Banks     
+| Software Wallet Apps | Military Industrial Complex 
+                         Backup Data Centers
+                         Physical Money Printing
+                         Physical Money Distribution
+                         Online Banking Apps
+                         Network of ATMs
+
+[b] By using bitcoin, we will ultimately reduce energy
+usage in a multitude of other areas, most notably
+by no longer needing the Military Industrial
+Complex to protect the petro dollar.
+-------
+H: Bitcoin FUD'unu çürütmek
+
+[b]b: 'Çok fazla' enerji, enerjinin kullanım amacını nasıl değerlendirdiğimizi göz önünde bulundurmamız gereken bir değer önermesidir.
+
+[b] *ABD'deki Noel ışıklarının tüm Bitcoin ağı kadar elektrik kullandığını düşündüğümüzde,* belki de her şeyin göreceli olduğunu görebiliriz!
+
+[b] İnsanlığın şimdiye kadar bildiği en sağlam, sansüre en dayanıklı parayı güvence altına almak için enerji kullanmak, hatta çok fazla enerji kullanmak, fazlasıyla değerlidir.
+
+[b] Bitcoin enerji kullanımını eski sistemin kullandığı enerjiyle karşılaştırırken, her iki tarafın da 'tam yığınını' göz önünde bulundurmalıyız:
+
+| Bitcoin Ekosistemi   | Geleneksel Fiat Sistemi 
+| ---------------------| ------------------ 
+| ASIC Madencileri     | BIS (Uluslararası Ödemeler Bankası)                
+| Düğümler             | Merkez Bankaları      
+| Donanım Cüzdanları   | Ulusal/Bölgesel Bankalar     
+| Yazılım Cüzdan Uygulamaları | Askeri Sanayi Kompleksi 
+                         Yedek Veri Merkezleri
+                         Fiziksel Para Basımı
+                         Fiziksel Para Dağıtımı
+                         Çevrimiçi Bankacılık Uygulamaları
+                         ATM Ağı
+
+[b] Bitcoin kullanarak, sonuç olarak diğer birçok alanda enerji kullanımını azaltacağız, özellikle de petro doları korumak için Askeri Sanayi Kompleksine artık ihtiyaç duymayarak.

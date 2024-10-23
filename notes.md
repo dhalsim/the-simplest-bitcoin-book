@@ -100,6 +100,10 @@ check the links
 * https://paynym.is/ is also related to samourai wallet and the website is closed
 * we can add [start9](https://start9.com/), which has only bitcoin related software and it is open source
 
+## page 111
+
+premining - önceden madencilik?
+
 ## page 145
 
 Bir Şifrepunk'ın Bildirisi - A Cypherpunk's Manifesto.

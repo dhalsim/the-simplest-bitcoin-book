@@ -1,0 +1,56 @@
+H: The Simplest Bitcoin Book Ever Written
+
+[o:18]r: BITCOIN IS USED BY CRIMINALS
+
+[b] *So is the dollar, and every other fiat currency in the
+world.* It is simply incorrect to attribute this
+problem only to bitcoin.
+
+[b]b: Bitcoin is a tool, just like a knife, and it is up to each
+one of us how we use it.
+
+[b] Interestingly, if bitcoin couldn't be used by criminals,
+then it would not be the neutral, censorship-resistant
+money the world so badly needs.
+
+[b] *Note:* Since the Bitcoin blockchain is auditable, it is
+actually a really bad choice for criminal activity!
+
+[o:18]r: QUANTUM COMPUTING COULD
+BREAK BITCOIN
+
+[b] While this may be a possibility one day in the future,
+*developers are already working on solutions for postquantum encryption.*
+
+[b] Bitcoin is only one of a multitude of online applications that rely on SHA-256 hashing for security.
+
+[b] Even the military uses it, so there is massive incentive beyond the bitcoin community to develop new
+encryption protocols.
+
+[b] If SHA-256 is broken, we will have a lot else to
+worry about beyond bitcoin. The entire internet uses
+it for encryption. This includes all banking, supply
+chains, transportation systems, healthcare systems,
+education systems and more.
+--------
+H: Şimdiye Kadar Yazılmış En Basit Bitcoin Kitabı
+
+[o:18]r: BİTCOİN SUÇ İŞLEYENLER TARAFINDAN KULLANILIYOR
+
+[b] *Dolar ve dünyadaki diğer tüm itibari paralar da öyle.* Bu sorunu sadece bitcoin'e atfetmek kesinlikle yanlıştır.
+
+[b]b: Bitcoin, tıpkı bir bıçak gibi bir araçtır ve onu nasıl kullanacağımız her birimize bağlıdır.
+
+[b] İlginçtir ki, eğer bitcoin suçlular tarafından kullanılamasaydı, dünyanın çok ihtiyaç duyduğu tarafsız, sansüre dayanıklı para olamazdı.
+
+[b] *Not:* Bitcoin blok zinciri denetlenebilir olduğundan, aslında suç faaliyetleri için çok kötü bir seçimdir!
+
+[o:18]r: KUANTUM BİLGİSAYARLAR BİTCOİN'İ KIRABİLİR
+
+[b] Bu gelecekte bir gün mümkün olabilse de, *geliştiriciler şimdiden kuantum sonrası şifreleme için çözümler üzerinde çalışıyor.*
+
+[b] Bitcoin, güvenlik için SHA-256 hash'lemeye dayanan çok sayıda çevrimiçi uygulamadan sadece biridir.
+
+[b] Hatta ordu bile bunu kullanıyor, bu yüzden bitcoin topluluğunun ötesinde yeni şifreleme protokolleri geliştirmek için büyük bir teşvik var.
+
+[b] Eğer SHA-256 kırılırsa, bitcoin'in ötesinde endişelenecek çok şeyimiz olacak. Tüm internet bunu şifreleme için kullanıyor. Bu, tüm bankacılık, tedarik zincirleri, ulaşım sistemleri, sağlık sistemleri, eğitim sistemleri ve daha fazlasını içerir.

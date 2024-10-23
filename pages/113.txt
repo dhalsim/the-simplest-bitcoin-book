@@ -1,0 +1,40 @@
+H: Dispelling [b]Bitcoin FUD
+
+[o:18]r: BITCOIN IS OLD TECH
+
+[b] *More like ‘ultimate tech’,* with regards to digital
+scarcity, decentralization and solving both the double-spending problem and the Byzantine General’s
+problem. Once discovered, it cannot be re-discovered.
+
+[b]b: Once the wheel was invented, it could never be
+reinvented.
+
+[b] The TCP/IP protocol that the internet runs on has
+been the standard for all computer networking since
+1983. It is likely to continue being the standard for a
+long time.
+
+[b] Once a prefect-solution, base layer technology is discovered that works optimally, it can last for hundreds,
+or thousands of years.
+
+[middle:
+  [images/page-113.png]
+  Credit: @DecouvreBitcoin
+]
+--------
+H: [b]Bitcoin FUD'unu Dağıtmak
+
+[o:18]r: BITCOIN ESKİ TEKNOLOJİDİR
+
+[b] *Daha çok 'nihai teknoloji'* gibi, dijital kıtlık, merkeziyetsizlik ve hem çifte harcama sorununu hem de Bizans Generalleri problemini çözme açısından. Bir kez keşfedildikten sonra, yeniden keşfedilemez.
+
+[b]b: Tekerlek icat edildikten sonra, asla yeniden icat edilemezdi.
+
+[b] İnternetin çalıştığı TCP/IP protokolü, 1983'ten beri tüm bilgisayar ağları için standart olmuştur. Uzun bir süre daha standart olmaya devam etmesi muhtemeldir.
+
+[b] Optimal çalışan mükemmel bir çözüm, temel katman teknolojisi keşfedildiğinde, yüzlerce veya binlerce yıl sürebilir.
+
+[middle:
+  [images/page-113.png]
+  Kaynak: @DecouvreBitcoin
+]

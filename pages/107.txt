@@ -75,3 +75,41 @@ sadece bir kez kullanmak en iyisidir. Adresleri
 istediğiniz kadar sık değiştirebilirsiniz.
 
 ~Satoshi Nakamoto 2009-11-25
+-------
+H: Gizlilik Üzerine
+
+[o:18] GİZLİ HARCAMA
+[m-l-20:
+  -> Bitcoin Şirketi
+  -> Bitrefill
+  -> Bit.Store
+]
+
+[o:18] GİZLİ ALICI ADRES BOTU
+[m-l-20:
+  -> PayNym
+]
+
+[o:18] MERKEZİYETSİZ SOSYAL MEDYA
+[m-l-20:
+  -> Nostr
+]
+
+rmi> Anonim veya takma adlı olma imkanı, 
+kullandığınız bitcoin adresleriyle bağlantılı 
+olarak kendiniz hakkında herhangi bir tanımlayıcı 
+bilgi açıklamamanıza bağlıdır. Eğer bitcoin 
+adresinizi web'de paylaşırsanız, o zaman bu 
+adresi ve onunla ilgili tüm işlemleri paylaştığınız 
+isimle ilişkilendirmiş olursunuz.
+Eğer gerçek kimliğinizle ilişkilendirmediğiniz 
+bir kullanıcı adı altında paylaşım yaptıysanız, 
+hala takma adlı olarak kalırsınız.
+
+~ Satoshi Nakamoto 2009-11-25
+
+rmi> Daha fazla gizlilik için, bitcoin adreslerini 
+sadece bir kez kullanmak en iyisidir. Adresleri 
+istediğiniz kadar sık değiştirebilirsiniz.
+
+~Satoshi Nakamoto 2009-11-25
