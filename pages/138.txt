@@ -1,0 +1,59 @@
+H: The Simplest Bitcoin Book Ever Written
+
+[o:25]r: [b]bitcoin COMMUNITY
+PROJECTS
+
+Below are some of the grassroots projects around
+the world that are working to educate and create a
+local economy with bitcoin.
+
+Follow them on Nostr or Twitter to learn more or to
+donate:
+
+[b] *Bitcoin Beach El Zonte* - El Salvador - @Bitcoinbeach
+[b] *Bitcoin Ekasi* - South Africa - @BitcoinEkasi
+[b] *Bitcoin Beach Brazil* - Brazil - @BitcoinBeachBR
+[b] *Bitcoin Jungle* - Costa Rica - @BitcoinJungleCR
+[b] *Bitcoin Venezuela* - Venezuela - @btcven
+[b] *Bitcoin Bay* - Florida, USA - @bitcoinbaytpa
+[b] *Bitcoin Lake* - Lake Atitlan - @LakeBitcoin
+[b] *Bitcoin House Bali* - Indonesia - @btchousebali
+[b] *7 Mile Bitcoin* - Cayman Islands - 7milebitcoin.org
+[b] *Bitcoin Kampala* - Uganda - @BitcoinKampala
+[b] *Bitcoin Retreat* - Phillipines - @BtcRetreat
+[b] *Bridge2Bitcoin* - UK - @Bridge2Bitcoin
+[b] *Bitcoin Berlin* - El Salvador - @BitcoinBerlinSV
+[b] *Harlem Bitcoin* - New York, USA - @HarlemBitcoin
+[b] *F.R.E.E Madeira* - Portugal - @FREEMadeiraOrg
+[b] *Bitcoin Valley* - Rovereto, Italy
+------
+H: Şimdiye Kadar Yazılmış En Basit Bitcoin Kitabı
+
+[o:25]r: [b]BİTCOİN TOPLULUK
+PROJELERİ
+
+Aşağıda, dünya çapında bitcoin konusunda eğitim vermeye
+ve yerel bir ekonomi oluşturmaya çalışan bazı tabandan
+gelen projeler yer almaktadır.
+
+Daha fazla bilgi edinmek veya bağış yapmak için onları
+Nostr veya Twitter'da takip edin:
+
+[b] *Bitcoin Beach El Zonte* - El Salvador - @Bitcoinbeach
+[b] *Bitcoin Ekasi* - Güney Afrika - @BitcoinEkasi
+[b] *Bitcoin Beach Brazil* - Brezilya - @BitcoinBeachBR
+[b] *Bitcoin Jungle* - Kosta Rika - @BitcoinJungleCR
+[b] *Bitcoin Venezuela* - Venezuela - @btcven
+[b] *Bitcoin Bay* - Florida, ABD - @bitcoinbaytpa
+[b] *Bitcoin Lake* - Lake Atitlan - @LakeBitcoin
+[b] *Bitcoin House Bali* - Endonezya - @btchousebali
+[b] *7 Mile Bitcoin* - Cayman Adaları - 7milebitcoin.org
+[b] *Bitcoin Kampala* - Uganda - @BitcoinKampala
+[b] *Bitcoin Retreat* - Filipinler - @BtcRetreat
+[b] *Bridge2Bitcoin* - Birleşik Krallık - @Bridge2Bitcoin
+[b] *Bitcoin Berlin* - El Salvador - @BitcoinBerlinSV
+[b] *Harlem Bitcoin* - New York, ABD - @HarlemBitcoin
+[b] *F.R.E.E Madeira* - Portekiz - @FREEMadeiraOrg
+[b] *Bitcoin Valley* - Rovereto, İtalya
+------
+H: Şimdiye Kadar Yazılmış En Basit Bitcoin Kitabı

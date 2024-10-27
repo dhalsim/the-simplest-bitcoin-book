@@ -1,0 +1,46 @@
+H: The Simplest Bitcoin Book Ever Written
+
+[o:18]r: THE P2P NETWORK
+
+rmi> It is a global distributed database, with
+additions to the database by consent of
+the majority...
+
+~ Satoshi Nakamoto 2009-02-18
+
+[c:
+  [images/page-142.png]
+  Global reachable Bitcoin Nodes distribution, June 2024
+]
+
+rmi> The result is a distributed system with
+no single point of failure. Users hold
+the crypto keys to their own money and
+transact directly with each other, with
+the help of the P2P network to check for
+double-spending.
+
+~ Satoshi Nakamoto 2009-02-11
+------
+H: Şimdiye Kadar Yazılmış En Basit Bitcoin Kitabı
+
+[o:18]r: P2P AĞI
+
+rmi> Bu, çoğunluğun onayıyla veritabanına
+eklemeler yapılan küresel bir dağıtık
+veritabanıdır...
+
+~ Satoshi Nakamoto 2009-02-18
+
+[c:
+  [images/page-142.png]
+  Küresel erişilebilir Bitcoin Düğümlerinin dağılımı, Haziran 2024
+]
+
+rmi> Sonuç, tek-arıza-noktası olmayan
+dağıtık bir sistemdir. Kullanıcılar kendi
+paralarının kripto anahtarlarını ellerinde
+tutarlar ve birbirleriyle doğrudan işlem yaparlar, P2P ağı çifte harcamayı
+kontrol etmede yardımcı olur.
+
+~ Satoshi Nakamoto 2009-02-11

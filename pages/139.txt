@@ -1,0 +1,42 @@
+[r:
+  [o:25] [b]bitcoin INDUCED
+  PONDERINGS
+
+  Shout out to
+  Satoshi
+  and all the
+  orange-pilled
+  dreamers
+  seers
+  cypher punk wizards
+  poets for freedom
+  keepers of wisdom
+  sovereign individuals
+  hodlers of last resort
+  fearlessly forging forward
+  alone together
+  for freedom
+  Vires In Numeris!
+]
+
+[r:
+  [o:25] [b]bitcoin KAYNAKLI
+  DÜŞÜNCELER
+
+  Selam olsun
+  Satoshi'ye
+  ve tüm
+  turuncu hap almış
+  hayalperestlere
+  kâhinlere
+  şifrepunk büyücülerine
+  özgürlük şairlerine
+  bilgelik bekçilerine
+  bağımsız bireylere
+  son çare hodl'cularına
+  korkusuzca ilerleyenlere
+  yalnız birlikte
+  özgürlük için
+  Vires In Numeris!
+  Birlikten Kuvvet Doğar!
+]

@@ -6,6 +6,12 @@
 
 I'm thinking of complete different title for the book such as "Bitcoin'in Felsefesi" which means "The Philosophy of Bitcoin", which I think is both shorter and can be interesting for the Turkish audience.
 
+## page i
+
+to orange pill someone - turuncu hapı vermek
+
+to orange pill oneself - turuncu hapı almak
+
 ## page 5
 
 ~ Horace Greeley line should be italic too
@@ -94,6 +100,10 @@ Is it better to say "When you receive bitcoin, you are technically receiving the
 bitcoin-only wallet app
 bitcoine-özel cüzdan uygulaması
 
+## page 96
+
+* KYC - Kimlik Doğrulama Gerekli?
+
 ## page 105 - 106
 
 check the links
@@ -111,6 +121,38 @@ premining - önceden madencilik?
 ## page 118
 
 * self-custody - öz-gözetim?
+
+## page 122
+
+* Adapt to the Turkish law? or keep it as US tax information?
+
+## page 125
+
+* "Bag Holders" - "Elinde kalanlar", "Elinde tutanlar"?
+
+## page 127
+
+* @level39's tweet reference should be below all the bullet points?
+
+## page 128
+
+~ Nikola Tesla line should be outside of the block quote?
+
+## page 129
+
+* bitcoin logos are slightly off
+
+## page 131
+
+* Update?: 10000 BTC makes ~$673,500,000 in today's prices
+
+## page 132
+
+* *First Annual Bitcoin Infinity Day* -> First annual *Bitcoin Infinity Day*
+
+## page 134
+
+* Any Turkish translations of the books on the list?
 
 ## page 145
 

@@ -1,0 +1,77 @@
+H: The Simplest Bitcoin Book Ever Written
+
+[o:18]r: BITCOIN CALENDAR OF NOTABLE DAYS
+
+[b] *2008-08-18* ~ The domain name *bitcoin.org was registered.*
+
+[b] *2008-10-31* ~ *Bitcoin White Paper Day:* The White Paper,
+titled “Bitcoin: A Peer-to-Peer Electronic Cash System” was
+published by an anonymous cryptographer named Satoshi
+Nakamoto on metzdowd.com, the cryptography mailing list.
+
+[b] *2009-01-03* ~ *Bitcoin’s Birthday:* The Bitcoin network was
+launched, when Satoshi mined the Genesis block.
+
+[b] *2009-01-12* ~ *The first bitcoin transaction* took place, when Hal
+Finney received ten bitcoins from Satoshi as a test send.
+
+[b] *2009-10-05* ~ *Birth of the first bitcoin exchange,* The New
+Liberty Standard (NLS), with a listed market price of $0.00764
+per coin.
+
+[b] *2009-10-12* ~ "Found the *first known bitcoin to USD
+transaction* from my email backups. I sold 5,050 BTC for $5.02
+on 2009-10-12." - Martti Malmi, bitcointalk.org founder, sold
+bitcoin to NewLibertyStandard who started the first exchange.
+
+[b] *2010-05-22* ~ *Bitcoin Pizza Day:* The first known occurrence of
+bitcoin being used to buy a good or service, when Lazslo
+Hanyecz paid 10,000 bitcoin for two Papa John’s pizzas!
+
+[b] *2010-12-12* ~ The last time that Satoshi posted on the
+bitcointalk.org forum.
+
+[b] *2011-02-11* ~ Bitcoin reaches parity with the US Dollar for the
+first time.
+
+[b] *2011-06-14* ~ Wikileaks begins accepting donations in bitcoin.
+
+[b] *2017-03-03* ~ Bitcoin reaches parity with an ounce of gold.
+
+[b] *2021-08-21* ~ First annual *Bitcoin Infinity Day* suggested by
+Knut Svanholm’s meme:
+Everything divided by 21 million. [images/page-132.png]
+
+[b] *2021-09-07* ~ El Salvador becomes the first country to make
+bitcoin legal tender.
+-------
+H: Şimdiye Kadar Yazılmış En Basit Bitcoin Kitabı
+
+[o:18]r: BİTCOİN ÖNEMLİ GÜNLER TAKVİMİ
+
+[b] *18 Ağustos 2008* ~ *bitcoin.org alan adı kaydedildi.*
+
+[b] *31 Ekim 2008* ~ *Bitcoin Teknik Dökümanı Günü:* "Bitcoin: Eşler Arası Elektronik Nakit Sistemi" başlıklı Teknik Rapor, Satoshi Nakamoto adında anonim bir kriptograf tarafından metzdowd.com kriptografi posta listesinde yayınlandı.
+
+[b] *3 Ocak 2009* ~ *Bitcoin'in Doğum Günü:* Satoshi'nin Genesis bloğunu madenciliği ile Bitcoin ağı başlatıldı.
+
+[b] *12 Ocak 2009* ~ Hal Finney'in test gönderimi olarak Satoshi'den on bitcoin almasıyla *ilk bitcoin işlemi* gerçekleşti.
+
+[b] *5 Ekim 2009* ~ Coin başına $0,00764'lık liste fiyatıyla *ilk bitcoin borsası olan* The New Liberty Standard (NLS) doğdu.
+
+[b] *12 Ekim 2009* ~ "E-posta yedeklerimden *bilinen ilk bitcoin-USD işlemini* buldum. 12 Ekim 2009'da 5.050 BTC'yi $5,02'ye sattım." - Martti Malmi, bitcointalk.org kurucusu, ilk borsayı başlatan NewLibertyStandard'a bitcoin sattı.
+
+[b] *22 Mayıs 2010* ~ *Bitcoin Pizza Günü:* Bitcoin'in bir mal veya hizmet satın almak için kullanıldığı bilinen ilk olay, Lazslo Hanyecz'in iki Papa John's pizzası için 10.000 bitcoin ödemesiyle oldu!
+
+[b] *12 Aralık 2010* ~ Satoshi'nin bitcointalk.org forumunda son kez paylaşım yaptığı tarih.
+
+[b] *11 Şubat 2011* ~ Bitcoin ilk kez ABD Doları ile parite sağladı.
+
+[b] *14 Haziran 2011* ~ Wikileaks bitcoin ile bağış kabul etmeye başladı.
+
+[b] *3 Mart 2017* ~ Bitcoin bir ons altın ile parite sağladı.
+
+[b] *21 Ağustos 2021* ~ Knut Svanholm'un memiyle önerilen İlk Yıllık Bitcoin Sonsuzluk Günü:
+Her şey 21 milyona bölünür. [images/page-132.png]
+
+[b] *7 Eylül 2021* ~ El Salvador, bitcoin'i yasal para birimi yapan ilk ülke oldu.

@@ -1,0 +1,83 @@
+H: The Simplest Bitcoin Book Ever Written
+
+[r:
+  [o:18] BT ~ BITCOIN TWITTER
+
+  Some cypherpunks, geniuses, goats & wild ones to follow!
+  Through these accounts, you will find 1000's of plebs
+  and other deep thinkers,
+  all on the journey.
+  BT, along with bitcointalk.org and Reddit, has largely been
+  where this experiment has grown,
+  and now joined by Nostr,
+  the decentralized communication protocol,
+  all unfurling in real time, across time and space,
+  in the ethers of cyberspace, connected to the physical,
+  through all of us,
+  humans,
+  sharing a vision of a decentralized world.
+  Then there are the quieter ones, developers working
+  behind the scenes
+  without whom
+  none of this would be possible.
+  All of us
+  together,
+  unleashed,
+  as bitcoin was unleashed upon us,
+  a blessing beyond measure.
+]
+
+*TOPICS INCLUDE:* Bitcoin, Proof-of-Work, Privacy, Philosophy,
+Monetary History, Code, Bitcoin Mining, Sociology, Game
+Theory, Austrian Economics, Bitcoin Education, Lightning
+Network, Regulatory Environment, Bitcoin’s Energy Use,
+Core Devs, Bitcoin Communities, Bitcoin’s Future and more.
+
+*Be warned:* It helps to have a somewhat thick skin on twitter,
+and know this, there is a lot of passion in defense of
+bitcoin. Keeping a clear line between it and all the
+altcoins takes work. Maintaining the clarity, security and
+purity of the only truly sound money the world has ever
+known is critical, if we are to have a chance in these times
+a’coming.
+--------
+H: Şimdiye Kadar Yazılmış En Basit Bitcoin Kitabı
+
+[r:
+  [o:18] BT ~ BITCOIN TWITTER
+
+  Takip edilecek bazı cypherpunk'lar, dahiler, keçiler ve vahşi kişiler!
+  Bu hesaplar aracılığıyla, yolculukta olan binlerce 'ayak takımı'
+  ve diğer derin düşünürleri bulacaksınız.
+  BT, bitcointalk.org ve Reddit ile birlikte, büyük ölçüde
+  bu deneyin büyüdüğü yer olmuştur,
+  ve şimdi merkeziyetsiz iletişim protokolü olan Nostr'un da katılımıyla,
+  hepsi gerçek zamanlı olarak, zaman ve mekan boyunca açılıyor,
+  siber uzayın eterinde, fiziksel dünyaya bağlı,
+  hepimiz aracılığıyla,
+  insanlar,
+  merkeziyetsiz bir dünya vizyonunu paylaşıyor.
+  Sonra daha sessiz olanlar var, geliştiriciler
+  perde arkasında çalışıyor,
+  onlar olmadan
+  bunların hiçbiri mümkün olmazdı.
+  Hepimiz
+  birlikte,
+  serbest bırakıldık,
+  tıpkı bitcoin'in bize salıverilmesi gibi,
+  ölçülemez bir nimet.
+]
+
+*KONULAR ŞUNLARI İÇERİR:* Bitcoin, İş İspatı, Gizlilik, Felsefe,
+Para Tarihi, Kod, Bitcoin Madenciliği, Sosyoloji, Oyun
+Teorisi, Avusturya Ekonomisi, Bitcoin Eğitimi, Yıldırım
+Ağı, Düzenleyici Ortam, Bitcoin'in Enerji Kullanımı,
+Çekirdek Geliştiriciler, Bitcoin Toplulukları, Bitcoin'in Geleceği ve daha fazlası.
+
+*Uyarı:* Twitter'da biraz kalın derili olmak yardımcı olur,
+ve şunu bilin ki, bitcoin'i savunmada çok tutku var.
+Onunla tüm altcoin'ler arasında net bir çizgi çizmek
+emek ister. Dünyanın şimdiye kadar gördüğü tek gerçek
+sağlam paranın netliğini, güvenliğini ve saflığını korumak
+kritik önem taşır, eğer gelecek zamanlarda bir şansımız
+olacaksa.

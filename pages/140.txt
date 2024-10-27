@@ -1,0 +1,66 @@
+H: The Simplest Bitcoin Book Ever Written
+
+[r:
+  [o:18] A RABBIT HOLE PONDERING
+
+  Bitcoin is really a rather fascinating ‘thing’
+  Except it is not a ‘thing’
+  In the sense that you cannot touch it
+  Yet it is touching millions of us
+  Around the world
+  Soon to be billions..
+  It is true that
+  It is digital bits and bytes
+  Algorithms and code
+  0’s and 1’s
+  And that if every single node
+  Archival node, pruned node and light node
+  Were somehow
+  Destroyed
+  It would no longer exist
+  In the way we know it
+  Are able to perceive it..
+  It would, however, still ‘exist’
+  In the sense that quantum physics
+  Or gravity
+  Exists
+  Regardless of human perception..
+  In the sense that mathematics existed
+  Before humans codified it
+  Chose symbols to represent it..
+  Truth
+  Does not need us
+]
+------
+H: Şimdiye Kadar Yazılmış En Basit Bitcoin Kitabı
+
+[r:
+  [o:18] BİR TAVŞAN DELİĞİ DÜŞÜNCESİ
+
+  Bitcoin gerçekten oldukça büyüleyici bir 'şey'
+  Ama aslında bir 'şey' değil
+  Dokunabilmek bağlamında
+  Yine de milyonlarcamıza dokunuyor
+  Dünya etrafında
+  Yakında milyarlarca olacak..
+  Doğrudur ki
+  O dijital bitler ve baytlar
+  Algoritmalar ve kod
+  0'lar ve 1'ler
+  Ve eğer her bir düğüm
+  Arşiv düğümü, budanmış düğüm ve hafif düğüm
+  Bir şekilde
+  Yok edilseydi
+  Artık bildiğimiz şekliyle var olamazdı
+  Onu algılayabildiğimiz şekliyle..
+  Yine de, 'var olmaya' devam ederdi
+  Kuantum fiziğinin
+  Ya da yerçekiminin
+  Var olması gibi
+  İnsan algısından bağımsız olarak..
+  Matematiğin var olması gibi
+  İnsanlar onu kodlamadan önce
+  Onu temsil etmek için semboller seçmeden önce..
+  Hakikat
+  Bize ihtiyaç duymaz
+]

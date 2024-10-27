@@ -1,0 +1,103 @@
+H: Resources for the [b]bitcoin Rabbit Hole
+
+[m-l-25:
+  -> The Bitcoin Matrix with Cedric Youngelman
+  -> Bitcoin Fixes This with Jimmy Song
+  -> Orange Pill Podcast with Max Keiser and Stacy Herbert
+  -> What Bitcoin Did with Peter McCormack
+  -> Bitcoin Audible Guy Swann reads books/articles
+]
+
+[o:18] FREE COURSES
+
+[m-l-25:
+  -> My First Bitcoin - Bitcoin Curriculum
+  -> Saylor Academy - Bitcoin for Everybody
+  -> Looking Glass Education - Money & Bitcoin Courses
+]
+
+[o:18] WEBSITES
+
+[m-l-25:
+  -> Nakamotoinstitute.org
+  -> Bitcoin-only.com
+  -> Bitcoin Wiki - En.bitcoin.it
+  -> WhyBitcoinOnly.com
+  -> Wtfhappenedinfeb2023.com
+  -> Lopp.net
+  -> Casebitcoin.com
+  -> Bitcoiner.guide
+  -> Bitcoin.tv
+  -> Learnmeabitcoin.com - Great simple btc tech explainer!
+  -> Hope.com
+  -> Bitcoin-resources.com
+  -> Myfirstbitcoin.io (Available in Spanish too)
+  -> Whatisbitcoin.com
+  -> SatoshisJournal.com
+  -> github.com/bitcoin
+]
+
+[o:18] FOR KIDS
+
+[m-l-25:
+  -> PlayShamory.com - Toys, games & books incl.
+  -> Satoshi Nakamoto & His Bitcoin Invention
+  -> Bitcoin Money By Michael Caras
+  -> Bitcoin Trading Cards - btc-tc.com
+  -> Bitcoin Kids Comic Book by Nzonda Fotsing Sr
+  -> Hodl Up - Bitcoin Mining Board Game
+  -> 21 Bitcoin Lessons - freemarketkids.com
+  -> What is Bitcoin? - @TuttleTwins on YouTube
+]
+-------
+H: [b]Bitcoin Tavşan Deliği için Kaynaklar
+
+[m-l-25:
+  -> Cedric Youngelman ile The Bitcoin Matrix
+  -> Jimmy Song ile Bitcoin Fixes This
+  -> Max Keiser ve Stacy Herbert ile Orange Pill Podcast
+  -> Peter McCormack ile What Bitcoin Did
+  -> Bitcoin Audible - Guy Swann kitapları/makaleleri okuyor
+]
+
+[o:18] ÜCRETSİZ KURSLAR
+
+[m-l-25:
+  -> My First Bitcoin - Bitcoin Curriculum
+  -> Saylor Academy - Bitcoin for Everybody
+  -> Looking Glass Education - Money & Bitcoin Courses
+]
+
+[o:18] WEB SİTELERİ
+
+[m-l-25:
+  -> Nakamotoinstitute.org
+  -> Bitcoin-only.com
+  -> Bitcoin Wiki - En.bitcoin.it
+  -> WhyBitcoinOnly.com
+  -> Wtfhappenedinfeb2023.com
+  -> Lopp.net
+  -> Casebitcoin.com
+  -> Bitcoiner.guide
+  -> Bitcoin.tv
+  -> Learnmeabitcoin.com - Basit harika bir btc teknoloji anlatıcısı!
+  -> Hope.com
+  -> Bitcoin-resources.com
+  -> Myfirstbitcoin.io (İspanyolca da mevcut)
+  -> Whatisbitcoin.com
+  -> SatoshisJournal.com
+  -> github.com/bitcoin
+]
+
+[o:18] ÇOCUKLAR İÇİN
+
+[m-l-25:
+  -> PlayShamory.com - Oyuncaklar, oyunlar ve kitaplar
+  -> Satoshi Nakamoto & His Bitcoin Invention
+  -> Michael Caras'tan Bitcoin Money
+  -> Bitcoin Takas Kartları - btc-tc.com
+  -> Nzonda Fotsing Sr'dan Bitcoin Çocuk Çizgi Romanı
+  -> Hodl Up - Bitcoin Madenciliği Masa Oyunu
+  -> 21 Bitcoin Dersi - freemarketkids.com
+  -> Bitcoin Nedir? - YouTube'da @TuttleTwins
+]

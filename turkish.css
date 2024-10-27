@@ -113,6 +113,10 @@
   font-size: 14px;
 }
 
+.fs-16 {
+  font-size: 16px;
+}
+
 .fs-18 {
   font-size: 18px;
 }
@@ -264,6 +268,10 @@ ol {
   gap: 0px;
 }
 
+.gap2 {
+  gap: 2px;
+}
+
 .gap5 {
   gap: 5px;
 }
@@ -385,6 +393,10 @@ ol {
   padding: 10px;
 }
 
+.p-20 {
+  padding: 20px;
+}
+
 .p-t-10 {
   padding-top: 10px;
 }
@@ -441,12 +453,20 @@ ol {
   margin-left: 25px;
 }
 
+.m-l-35 {
+  margin-left: 35px;
+}
+
 .m-l-50 {
   margin-left: 50px;
 }
 
 .m-l-70 {
   margin-left: 70px;
+}
+
+.m-t-5 {
+  margin-top: 5px;
 }
 
 .m-t-10 {

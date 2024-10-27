@@ -1,0 +1,49 @@
+H: The Simplest Bitcoin Book Ever Written
+
+[o:18]r: IN THE MEANTIME, ON TAXES
+
+r: -> *Disclaimer:* This is *not* financial or tax advice
+
+[b] In the US tax code, bitcoin is currently seen as a commodity, so there are potential tax implications if you
+sell it back into fiat, or even if you buy something with
+your bitcoin.
+
+[b] If the price went down before you sold/spent it, you
+can claim a loss.
+
+[b] If the price went up, you are supposed to claim a
+capital gain, and pay between 10-30% CGT (Capital
+Gains Tax).
+
+[b] The amount depends upon several factors, such as
+how long you held it before selling or spending, and
+in which tax bracket you land.
+
+[b] If you plan to sell or spend bitcoin, especially larger
+amounts, you may want to consider consulting with
+a tax professional.
+
+[b] If you simply buy and hold, you currently do not have
+any taxable events regarding bitcoin.
+
+[b] And if you buy non-KYC…
+------
+H: Şimdiye Kadar Yazılmış En Basit Bitcoin Kitabı
+
+[o:18]r: BU ARADA, VERGİLER HAKKINDA
+
+r: -> *Uyarı:* Finansal veya vergi tavsiyesi *değildir*
+
+[b] ABD vergi kanunlarında, bitcoin şu anda bir emtia olarak görülmektedir, bu nedenle onu tekrar fiat paraya çevirirseniz veya bitcoininizle bir şey satın alırsanız potansiyel vergi sonuçları olabilir.
+
+[b] Eğer sattığınızda/harcadığınızda fiyat düşmüşse, zarar beyan edebilirsiniz.
+
+[b] Eğer fiyat yükselmişse, sermaye kazancı beyan etmeniz ve %10-30 arasında Değer Artış Kazancı Vergisi ödemeniz gerekir.
+
+[b] Miktar, bitcoini satmadan veya harcamadan önce ne kadar süre elinizde tuttuğunuz ve hangi vergi dilimine girdiğiniz gibi çeşitli faktörlere bağlıdır.
+
+[b] Bitcoin satmayı veya harcamayı planlıyorsanız, özellikle de büyük miktarlarda, bir vergi uzmanına danışmayı düşünebilirsiniz.
+
+[b] Eğer sadece alıp tutuyorsanız, şu anda bitcoin ile ilgili herhangi bir vergilendirilebilir olayınız yoktur.
+
+[b] Ve eğer KYC olmadan alırsanız...

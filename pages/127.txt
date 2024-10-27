@@ -1,0 +1,75 @@
+[o:25]r: SATOSHI’S NUMBERS
+[o:20]r: 369 CLOCK
+
+b: Bitcoin is designed to mine 6 blocks per hour >> one block
+on average every ~10 minutes.
+
+[m-l-25:
+  [b] 24 hours in a day
+      2+4=*6*
+
+  [b] That works out to 144 blocks per day
+      1+4+4=*9*
+
+  [b] 52560 blocks per year
+      5+2+5+6+0=18
+      1+8=*9*
+
+  [b] 52704 blocks per leap year
+      5+2+7+0+4=18
+      1+8=*9*
+
+  [b] 21 Million coins:
+      2 + 1 + 0 + 0 + 0 + 0 + 0 + 0 = *3*
+
+  [b] 33 Halvings:
+      3 + 3 = *6*
+
+  [b] Difficulty adjusts every 2016 blocks:
+      2 + 0 + 1 + 6 = *9*
+
+      r: ~ Based on a tweet by @level39 
+
+  [b] The block reward halving happens every
+      210,000th block (approximately every four years)
+      2 + 1 + 0 + 0 + 0 + 0 = *3*
+]
+-------
+[o:25]r: SATOSHI'NİN SAYILARI
+[o:20]r: 369 SAATİ
+
+b: Bitcoin, saatte 6 blok çıkaracak şekilde tasarlanmıştır >> ortalama
+olarak her ~10 dakikada bir blok.
+
+[m-l-25:
+  [b] Bir günde 24 saat var
+      2+4=*6*
+
+  [b] Bu, günde 144 blok eder
+      1+4+4=*9*
+
+  [b] Yılda 52560 blok
+      5+2+5+6+0=18
+      1+8=*9*
+
+  [b] Artık yılda 52704 blok
+      5+2+7+0+4=18
+      1+8=*9*
+
+  [b] 21 Milyon coin:
+      2 + 1 + 0 + 0 + 0 + 0 + 0 + 0 = *3*
+
+  [b] 33 Yarılanma:
+      3 + 3 = *6*
+
+  [b] Zorluk her 2016 blokta bir ayarlanır:
+      2 + 0 + 1 + 6 = *9*
+
+
+  [b] Blok ödülü yarılanması her
+      210.000'inci blokta gerçekleşir (yaklaşık olarak her dört yılda bir)
+      2 + 1 + 0 + 0 + 0 + 0 = *3*
+]
+      
+r: ~ @level39'un bir tweet'ine dayanmaktadır
+(https://x.com/level39/status/1686425968812969998)

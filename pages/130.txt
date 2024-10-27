@@ -1,0 +1,58 @@
+H: The Simplest Bitcoin Book Ever Written
+
+[o:18]r: SATOSHI’S BIRTHDAY
+
+[b] *<i>April 5, 1975</i>* is the date Satoshi claimed as his
+birthday.
+
+[b] While we cannot know if this was indeed his true birth
+date, it is very interesting.
+
+[b] *April 5th* (1933) was the day that Executive Order 6102
+was signed by US President Franklin D. Roosevelt
+“forbidding the hoarding of gold coin, gold bullion,
+and gold certificates within the continental United
+States.”
+
+[b] *1975* was the year the repeal of EO 6102 went into
+effect, and US citizens were once again allowed to
+hold more than 5oz of gold.
+
+[o:18]r: A NUMERIC PALINDROME 6102-2016
+
+[b] *6102* was the number of the above-mentioned
+Executive Order.
+
+[b] *2016* is the number of blocks mined during each difficulty adjustment (approximately 2 weeks).
+
+[obb:
+  -> In both of the above examples, one could
+  postulate that Satoshi was using numbers
+  to indicate a reversal, *an unwinding of the
+  damage inflicted by government overreach.*
+]
+-------
+H: Şimdiye Kadar Yazılmış En Basit Bitcoin Kitabı
+
+[o:18]r: SATOSHI'NİN DOĞUM GÜNÜ
+
+[b] *<i>5 Nisan 1975</i>* Satoshi'nin doğum günü olarak iddia ettiği tarihtir.
+
+[b] Bu gerçekten onun doğum tarihi olup olmadığını bilemesek de, bu çok ilginçtir.
+
+[b] *5 Nisan* (1933), ABD Başkanı Franklin D. Roosevelt tarafından "Kıta Amerika Birleşik Devletleri içinde altın para, altın külçe ve altın sertifikalarının biriktirmesini yasaklayan" 6102 sayılı Yürütme Emri'nin imzalandığı gündür.
+
+[b] *1975*, 6102 sayılı Yürütme Emri'nin yürürlükten kaldırıldığı ve ABD vatandaşlarının yeniden 5 ons'tan fazla altın tutmasına izin verildiği yıldır.
+
+[o:18]r: NÜMERİK BİR PALİNDROM 6102-2016
+
+[b] *6102*, yukarıda bahsedilen Yürütme Emri'nin numarasıydı.
+
+[b] *2016*, her zorluk ayarlaması sırasında çıkarılan blok sayısıdır (yaklaşık 2 hafta).
+
+[obb:
+  -> Yukarıdaki her iki örnekte de, Satoshi'nin
+  sayıları bir tersine çevirmeyi, *hükümet aşırılıklarının
+  verdiği zararın geri alınmasını* göstermek için
+  kullandığı varsayılabilir.
+]

@@ -1,0 +1,87 @@
+H: The Simplest Bitcoin Book Ever Written
+
+[o:18] BOOKS:
+*On Bitcoin:*
+[m-l-25:
+  -> *Layered Money* by Nik Batia
+  -> *21 Lessons* by DerGigi
+  -> *The Bullish Case for Bitcoin* by Vijay Boyapati
+  -> *The Bitcoin Standard* by Saifedean Ammous
+  -> *Inventing Bitcoin* by Yan Pritzker
+  -> *Check Your Financial Privilege* by Alex Gladstein
+  -> *Why Buy Bitcoin* by Andy Edstrom
+  -> Bitcoin Audible: Guy Swann reads Bitcoin books
+  -> *The Bitcoin Dictionary* by Ansel Lindner
+  -> *The Genesis Book* by Aaron van Wirdum
+  -> *Gradually, then Suddenly* by Parker Lewis
+  -> *Cryptosovereignty* by Eric Cason
+]
+
+*On Fiat, Monetary History and more:*
+[m-l-25:
+  -> *The Price of Tomorrow* by Jeff Booth
+  -> *Broken Money* by Lyn Alden
+  -> *The Fiat Standard* by Saifedean Ammous
+  -> *The Hidden Cost of Money* by Seb Bunney
+  -> *Shells to Satoshi* by D Heikkinen and J Marquez
+  -> *The Sovereign Individual* by Davidson & Rees-Mogg
+]
+
+[o:18] PODCASTS:
+*Listen on Fountain app to stream sats to hosts!
+If not yet on Fountain, find these on Spotify and iTunes.*
+[m-l-25:
+  -> *Citadel Dispatch* with Matt Odell
+  -> *Bitcoin Rapid Fire* with John Vallis
+  -> *Stephan Livera Podcast* with Stephan Livera
+  -> *Coin Stories* with Natalie Brunell
+  -> *Access Tribe's Bitcoin Podcast* with Krista Edmunds
+  -> *The Bitcoin Standard Podcast* with Dr S. Ammous
+  -> *Once Bitten* with Daniel Prince
+  -> Matt Odell ve Marty Bent ile *Rabbit Hole Recap*
+  -> DJ Valerie B Love ile *Bitcoin for Peace*
+]
+--------
+H: Şimdiye Kadar Yazılmış En Basit Bitcoin Kitabı
+
+[o:18] KİTAPLAR:
+*Bitcoin Hakkında:*
+[m-l-25:
+  -> Nik Batia tarafından *Layered Money*
+  -> DerGigi tarafından *21 Lessons*
+  -> Vijay Boyapati tarafından *The Bullish Case for Bitcoin*
+  -> Saifedean Ammous tarafından *The Bitcoin Standard*
+  -> Yan Pritzker tarafından *Inventing Bitcoin*
+  -> Alex Gladstein tarafından *Check Your Financial Privilege*
+  -> Andy Edstrom tarafından *Why Buy Bitcoin*
+  -> Bitcoin Audible: Guy Swann, Bitcoin kitapları okuyor
+  -> Ansel Lindner tarafından *The Bitcoin Dictionary*
+  -> Aaron van Wirdum tarafından *The Genesis Book*
+  -> Parker Lewis tarafından *Gradually, then Suddenly*
+  -> Eric Cason tarafından *Cryptosovereignty*
+]
+
+*Fiat Para, Para Tarihi ve Daha Fazlası Hakkında:*
+[m-l-25:
+  -> Jeff Booth tarafından *The Price of Tomorrow*
+  -> Lyn Alden tarafından *Broken Money*
+  -> Saifedean Ammous tarafından *The Fiat Standard*
+  -> Seb Bunney tarafından *The Hidden Cost of Money*
+  -> D Heikkinen ve J Marquez tarafından *Shells to Satoshi*
+  -> Davidson & Rees-Mogg tarafından *The Sovereign Individual*
+]
+
+[o:18] PODCASTLER:
+*Sunuculara sat gönderilebilmek için Fountain uygulamasından dinleyin!*
+*Henüz Fountain'da değilse, bunları Spotify ve iTunes'da bulun.*
+[m-l-25:
+  -> Matt Odell ile *Citadel Dispatch*
+  -> John Vallis ile *Bitcoin Rapid Fire*
+  -> Stephan Livera ile *Stephan Livera Podcast*
+  -> Natalie Brunell ile *Coin Stories*
+  -> Krista Edmunds ile *Access Tribe's Bitcoin Podcast*
+  -> Dr S. Ammous ile *The Bitcoin Standard Podcast*
+  -> Daniel Prince ile *Once Bitten*
+  -> Matt Odell ve Marty Bent ile *Rabbit Hole Recap*
+  -> DJ Valerie B Love ile *Bitcoin for Peace*
+]

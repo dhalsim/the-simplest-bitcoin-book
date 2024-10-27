@@ -54,7 +54,7 @@ tik-tok/
 
 ]
 
-[b] Bitcoin, ödemeleri işlemek ve doğrulamak için küresel, dağıtılmış, çevrimiçi bir defterde *iş ispatı*, *açık anahtar kriptografisi* ve *eşler arası ağ* kullanır.
+[b] Bitcoin, ödemeleri işlemek ve doğrulamak için küresel, dağıtık, çevrimiçi bir defterde *iş ispatı*, *açık anahtar kriptografisi* ve *eşler arası ağ* kullanır.
 
 r> *Kriptografi* (isim) /krɪpˈtɑːɡrəfi
 **: mesajları gizli kod veya şifre ile

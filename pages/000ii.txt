@@ -1,0 +1,79 @@
+The Simplest Bitcoin Book Ever Written
+
+(CC) Second Edition, July 2024, Keysa Luna
+(CC) First Edition, March 2022, Keysa Luna
+
+
+
+
+[images/cc.png]
+
+This work is licensed under the *Creative Commons
+Attribution-­NonCommercial-ShareAlike 4.0
+International License.*
+
+*This means you are free to:*
+
+[m-l-20:
+  *Share:* Copy and redistribute the material in any medium or format
+  *Adapt:* Remix, transform, and build upon the material
+]
+
+*Under the following terms:*
+
+[m-l-20:
+  Attribution: You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+
+  NonCommercial: You may not use the material for commercial purposes. 
+
+  ShareAlike: If you remix, transform, or build upon the material,
+  you must distribute your contributions under the same license as
+  the original. 
+]
+
+Cover and interior design by Keysa Luna
+Cover photo by Vallota from Pixabay.com
+Title graphics by @Asanoha_gold :: sovereignremnant.com
+Nostr logo by sovrynmatt@nostrplebs.com
+Independently Published
+Printed in the USA
+-------
+Şimdiye Kadar Yazılmış En Basit Bitcoin Kitabı
+
+(CC) İkinci Baskı, Temmuz 2024, Keysa Luna
+(CC) Birinci Baskı, Mart 2022, Keysa Luna
+
+
+[images/cc.png]
+
+Bu eser, *Creative Commons
+Atıf-GayriTicari-AynıLisanslaPaylaş (Attribution-NonCommercial-ShareAlike): 4.0
+Uluslararası Lisansı* altında lisanslanmıştır.
+
+*Bu, aşağıdakileri yapmanız için özgür olduğunuz anlamına gelir:*
+
+[m-l-20:
+  *Paylaşmak:* Materyali herhangi bir ortamda veya formatta kopyalamak ve yeniden dağıtmak
+  *Uyarlamak:* Materyali remiks yapmak, dönüştürmek ve üzerine inşa etmek
+]
+
+*Aşağıdaki şartlar altında:*
+
+[m-l-20:
+  Atıf: Uygun şekilde atıfta bulunmalı, lisansa bir bağlantı vermeli ve değişiklik yapılıp yapılmadığını belirtmelisiniz. Bunu makul bir şekilde yapabilirsiniz, ancak lisans verenin sizi veya kullanımınızı onayladığını ima eden hiçbir şekilde yapamazsınız.
+
+  GayriTicari: Materyali ticari amaçlarla kullanamazsınız.
+
+  AynıLisanslaPaylaş: Eğer materyali yeniden düzenler, dönüştürür veya üzerine inşa ederseniz, katkılarınızı orijinalle aynı lisans altında dağıtmalısınız.
+]
+
+Kapak ve iç tasarım Keysa Luna tarafından
+Kapak fotoğrafı Pixabay.com'dan Vallota tarafından
+Başlık grafikleri @Asanoha_gold :: sovereignremnant.com tarafından
+Nostr logosu sovrynmatt@nostrplebs.com tarafından
+Bağımsız Olarak Yayınlanmıştır
+ABD'de Basılmıştır
+
+Çeviri: @dhalsim,
+Katkılar: Kitap web formatına çevrildi.
+https://github.com/dhalsim/the-simplest-bitcoin-book
