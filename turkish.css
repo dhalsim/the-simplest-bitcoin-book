@@ -3,6 +3,7 @@
   --only-display-last-page: flex; /* none | flex */
   --bitcoin-orange: rgb(245, 148, 50);
   --bitcoin-orange-link: rgb(217, 112, 13);
+  --nostr-purple: #8D45DD;
 }
 
 @import "avenir-next/stylesheet.css";
@@ -10,6 +11,21 @@
 @font-face {
   font-family: 'ff1';
   src: url('fonts/ff1.woff') format('woff');
+}
+
+.dotdot {
+  display: flex;
+  flex: 1;
+  height: 15px;
+  margin: 0 8px;
+  background-image: radial-gradient(circle, black 1px, transparent 1px);
+  background-size: 4px 4px;
+  background-position: bottom;
+  background-repeat: repeat-x;
+}
+
+.nostr-purple {
+  color: var(--nostr-purple);
 }
 
 .orange-paren {
@@ -86,6 +102,31 @@
   left: 20px;
 }
 
+.white-paper {
+  font-family: serif, 'Times New Roman';
+  font-size: 12px;
+}
+
+.white-paper b {
+  font-weight: 600;
+}
+
+.white-paper .b {
+  font-weight: 600;
+}
+
+.white-paper span.indent {
+  text-indent: 20px;
+}
+
+.white-paper .header {
+  flex-grow: 0;
+}
+
+.white-paper .footer {
+  flex-grow: 0;
+}
+
 .font-an {
   font-family: 'Avenir Next Cyr';
   font-size: 14px;
@@ -103,6 +144,10 @@
 
 .fw-800 {
   font-weight: 800;
+}
+
+.fs-10 {
+  font-size: 10px;
 }
 
 .fs-12 {
@@ -137,6 +182,18 @@
   font-size: 30px;
 }
 
+.fs-35 {
+  font-size: 35px;
+}
+
+.fs-40 {
+  font-size: 40px;
+}
+
+.fs-45 {
+  font-size: 45px;
+}
+
 body, html {
   font-family: 'ml';
   font-size: 16px;
@@ -153,6 +210,10 @@ a {
   text-decoration: underline;
 }
 
+.tdn {
+  text-decoration: none;
+}
+
 b {
   font-weight: 500;
 }
@@ -161,11 +222,16 @@ img {
   border: var(--debug-border-size) solid blue;
 }
 
-ol {
+ol.default {
   display: flex;
   flex-direction: column;
   padding: 0 5px 0 30px;
   margin: 0;
+}
+
+ol.white-paper {
+  list-style-type: none;
+  padding-inline-start: 20px;
 }
 
 .page {
@@ -180,26 +246,38 @@ ol {
   margin: 0 auto;
   padding: 20px;
   box-sizing: border-box;
+  border: var(--debug-border-size) solid slateblue;
 }
 
-.page:nth-child(odd) { /* #1 on right */
+/* .page:nth-child(odd) {
   margin-left: 175px;
   margin-right: 30px;
 }
 
-.page:nth-child(even) { /* #2 on left */
+.page:nth-child(even) {
   margin-right: 175px;
   margin-left: 30px;
-}
-
+} */
 
 .page:not(:last-child) {
   display: var(--only-display-last-page);
-} 
+}
 
 .flex-grow {
+  display: flex !important;
   flex-grow: 1;
 }
+
+.flex-row {
+  display: flex !important;
+  flex-direction: row !important;
+}
+
+.flex-col {
+  display: flex !important;
+  flex-direction: column !important;
+}
+
 
 .header {
   display: flex;
@@ -207,6 +285,10 @@ ol {
   align-items: center;
   font-size: 14px;
   border: var(--debug-border-size) solid green;
+}
+
+.body {
+  flex-grow: 1;
 }
 
 .footer {
@@ -252,16 +334,6 @@ ol {
 
 .no-wrap {
   text-wrap: nowrap;
-}
-
-.flex-row {
-  display: flex !important;
-  flex-direction: row !important;
-}
-
-.flex-col {
-  display: flex !important;
-  flex-direction: column !important;
 }
 
 .gap0 {
@@ -598,10 +670,10 @@ img.b-logo-transparent-20 {
   left: -25px;
 }
 
-.shadow-orange {
-  --stroke-width:1px;
-  --stroke-color: var(--bitcoin-orange);
+.shadow {
+  --stroke-width: 1px;
   z-index: 1;
+  font-weight: 500;
   text-shadow: 
     calc(var(--stroke-width) * 1) calc(var(--stroke-width) * 0) 0 var(--stroke-color), 
     calc(var(--stroke-width) * 0.9239) calc(var(--stroke-width) * 0.3827) 0 var(--stroke-color),
@@ -619,6 +691,14 @@ img.b-logo-transparent-20 {
     calc(var(--stroke-width) * 0.3827) calc(var(--stroke-width) * -0.9239) 0 var(--stroke-color),
     calc(var(--stroke-width) * 0.7071) calc(var(--stroke-width) * -0.7071) 0 var(--stroke-color),
     calc(var(--stroke-width) * 0.9239) calc(var(--stroke-width) * -0.3827) 0 var(--stroke-color);
+}
+
+.shadow.orange {
+  --stroke-color: var(--bitcoin-orange);
+}
+
+.shadow.purple {
+  --stroke-color: var(--nostr-purple);
 }
 
 .hidden {

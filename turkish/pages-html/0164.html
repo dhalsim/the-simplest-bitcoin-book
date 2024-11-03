@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="../../avenir-next/stylesheet.css" />
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body class="font-an">
+    <div class="page aic" data-page="156" id="page-156">
+      <div class="content white-paper">
+        <div class="header jcc"></div>
+
+        <div class="body">
+          <div class="p t-a-j">
+            <span class="line inline indent">
+              Dürüst zincir ile bir saldırgan zinciri arasındaki yarış Binom
+              Rastgele Yürüyüşü olarak nitelendirilebilir. Başarılı olma durumu
+              dürüst zincirin bir blok uzatılarak öncülüğünü 1 arttırması,
+              başarısızlık durumu ise saldırganın zincirinin bir blok uzatılarak
+              aralığın 1 azalmasıdır.
+            </span>
+          </div>
+
+          <div class="p t-a-j">
+            <span class="line inline indent">
+              Bir saldırganın belirli bir açığı yakalama olasılığı Kumarbazın
+              İflası problemine benzemektedir. Sınırsız krediye sahip bir
+              kumarbazın oyuna borçla başladığını ve başabaş noktasına
+              gelebilmek için sonsuz sayıda deneme oyunu oynadığını varsayın.
+              Başabaş noktasına ulaşabilme olasılığını veya saldırganın dürüst
+              zinciri yakalayabilme olasılığını şu şekilde hesaplayabiliriz [8]:
+            </span>
+          </div>
+
+          <div class="p m-l-20 m-t-10">
+            <span class="line inline">
+              p = dürüst bir düğümün sonraki bloğu bulma olasılığı
+              <br />
+              q = saldırganın bir sonraki bloğu bulma olasılığı
+              <br />
+              q
+              <sub>z</sub>
+              = saldırganın z blok geriden gelip yakalama ihtimali
+            </span>
+
+            <img src="../../images/page-156-1.png" class="m-t-10" width="28%" />
+          </div>
+
+          <div class="p t-a-j m-t-20">
+            <span class="line inline">
+              P &gt; q varsayımımıza göre, saldırganın yakalaması gereken blok
+              sayısı arttıkça, olasılık katlanarak düşmektedir. Bütün
+              olanaksızlıklarla beraber, saldırgan başlarda eğer bir dizi şanslı
+              hamle yapmazsa, kazanma ihtimali zincirin gerisinde kaldıkça hızla
+              azalmaktadır.
+            </span>
+          </div>
+
+          <div class="p t-a-j">
+            <span class="line inline indent">
+              Şimdi yeni bir işlemdeki alıcının, gönderenin işlemi
+              değiştiremeyeceğinden yeterince emin olmadan önce ne kadar
+              beklemesi gerektiğini ele almaktayız. Gönderenin, alıcıyı belli
+              bir süre için kendisine ödeme yaptığına inandırmak isteyen, belli
+              bir zaman geçtikten sonra ise ödemeyi kendisine geri döndürmek
+              isteyen bir saldırgan olduğunu varsaymaktayız. Bu olduğunda alıcı
+              uyarılacaktır ancak gönderen bunun için artık çok geç olacağını
+              ümit etmektedir.
+            </span>
+          </div>
+
+          <div class="p t-a-j">
+            <span class="line inline indent">
+              Alıcı yeni bir anahtar çifti oluşturur ve imzalamadan kısa bir
+              süre önce gönderene açık anahtarı verir. Bu, gönderenin önceden
+              sürekli olarak üstünde çalışarak, bloklardan oluşan bir zinciri
+              hazırlamasını ve bu zincirin öne geçtiği şanslı bir anda işlemi
+              çalıştırmasını önlemektedir. İşlem gönderildikten sonra dürüst
+              olmayan gönderici, işleminin alternatif bir versiyonunu içeren
+              paralel bir zincir üzerinde gizlice çalışmaya başlar.
+            </span>
+          </div>
+
+          <div class="p t-a-j">
+            <span class="line inline indent">
+              Alıcı, işlem bir bloğa eklenene ve bunun arkasına z kadar blok
+              bağlanana kadar bekler. Saldırganın ne kadar ilerleme kaydettiğini
+              tam olarak bilmez ancak dürüst blokların blok başına beklenen
+              ortalama bir süre aldığını varsayarsak, saldırganın yaptığı
+              potansiyel ilerleme beklenen değerli bir Poisson dağılımı
+              olacaktır:
+            </span>
+          </div>
+
+          <div class="p m-l-20 m-t-10">
+            <img src="../../images/page-156-2.png" width="12%" />
+          </div>
+
+          <div class="p t-a-j">
+            <span class="line inline">
+              Saldırganın herşeye rağmen yetişebilme ihtimalini elde etmek için,
+              o noktadan zinciri yakalayabilme olasılığı ile elde edebileceği
+              her ilerleme için Poisson yoğunluğunu çarparız:
+            </span>
+          </div>
+
+          <div class="p m-l-20 m-t-10">
+            <img src="../../images/page-156-3.png" width="38%" />
+          </div>
+
+          <div class="p t-a-j">
+            <span class="line inline">
+              Sonsuz dağılım kuyruk toplamını almaktan kaçınmak için yeniden
+              düzenliyoruz...
+            </span>
+          </div>
+
+          <div class="p m-l-20 m-t-10">
+            <img src="../../images/page-156-4.png" width="35%" />
+          </div>
+        </div>
+
+        <div class="footer">
+          <div class="p aic m-t-20 w100">
+            <span class="line inline b">7</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="page-number">156</div>
+    </div>
+  </body>
+</html>

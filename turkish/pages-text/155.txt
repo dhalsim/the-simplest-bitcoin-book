@@ -1,0 +1,23 @@
+işletmeler muhtemelen daha bağımsız güvenlik ve daha hızlı doğrulama için yine de kendi düğümlerini çalıştırmak isteyeceklerdir.
+
+*9. Değer Birleşimi ve İşlem Ayrımı*
+
+Paraları tek tek idare etmek mümkün olsa da, bir transferdeki her kuruş için ayrı birer işlem yapmak kullanışsız olmaktadır. Değerin bölünmesine ve birleştirilmesine olanak sağlamak için, işlemler birden çok girdi ve çıktı içerir. Normalde, ya önceki büyük işlemden gelen tek bir girdi ya da daha küçük miktarları birleştiren birden fazla girdi ve en fazla iki çıktı olacaktır: biri ödeme tutarı, diğeri -eğer varsa- gönderene geri dönen para üstüdür.
+
+[c] [images/page-155-1.png]
+
+[indent] Unutulmamalıdır ki yayılma, yani bir işlemin bir kaç işleme bağlı olması ve onların da başka işlemlere bağlı olma durumu bir sorun yaratmaz. Bir işlemin geçmişinin tek başına kopyasını çıkarma hiçbir zaman gerekmemektedir.
+
+*10. Gizlilik*
+
+Geleneksel bankacılık modeli bilgiye erişimi ilgili taraflar ve güvenilir bir üçüncü tarafla sınırlayarak, belli bir seviyeye kadar gizliliği sağlamaktadır. Tüm işlemleri herkese açık bir şekilde duyurma zorunluluğu bu yöntemi engeller ancak gizlilik, yine de bilgi akışını başka bir yerde kırarak, açık anahtarları anonim tutarak sürdürülebilir. Herkes birisinin başka birine bir miktar gönderdiğini görebilir ancak işlemin kimle bağlantılı olduğu bilgisine ulaşamaz. Bu borsaların yayınladığı bilgi seviyesine benzer; bireysel işlemlerin zamanı ve büyüklüğü herkese açıkken, tarafların kimlik bilgileri gizlenmektedir.
+
+[c] [images/page-155-2.png]
+
+[indent] Ek bir güvenlik duvarı olarak, işlemlerin ortak bir sahiple ilişkilendirilmesini önlemek için her işlemde yeni bir anahtar çifti kullanılmalıdır; girdilerin aynı kişiye ait olması gereken çoklu girdili işlemlerde, bazı ilişkilendirmeler kaçınılmazdır; buradaki risk, anahtar sahibi ortaya çıktığında, ilişkilendirme yapılarak başka işlemlerin aynı sahibe ait olduğunun ortaya çıkabilmesidir.
+
+*11. Hesaplamalar*
+
+Dürüst zincirden daha hızlı bir şekilde alternatif bir zincir oluşturmaya çalışan bir saldırganın senaryosunu ele almaktayız. Bu başarılsa bile, hiç yoktan değer yaratılan ya da saldırgana hiç ait olmamış paranın alınabileceği şekilde, sistemi keyfi değişikliklere açık bir hale getirmez. Düğümler geçersiz bir işlemi ödeme olarak kabul etmeyecek ve dürüst düğümler asla bu işlemleri içeren bir bloğu kabul etmeyecektir. Bir saldırgan yalnızca yakın zamanda harcadığı parayı geri almak için kendi işlemlerinden birini değiştirmeye çalışabilir.
+
+[c] *6*

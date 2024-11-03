@@ -1,0 +1,59 @@
+<svg width="600" height="120" xmlns="http://www.w3.org/2000/svg">
+  <g transform="scale(0.8)">
+    <!-- Title for Traditional Privacy Model -->
+    <text x="20" y="20" font-family="Arial" font-size="14">Geleneksel Gizlilik Modeli</text>
+    
+    <!-- Traditional Privacy Model -->
+    <!-- Kimlikler box -->
+    <rect x="20" y="30" width="80" height="30" fill="none" stroke="black" />
+    <text x="60" y="50" font-family="Arial" font-size="12" text-anchor="middle">Kimlikler</text>
+    
+    <!-- İşlemler box and arrow -->
+    <line x1="100" y1="45" x2="110" y2="45" stroke="black" />
+    <rect x="110" y="30" width="80" height="30" fill="none" stroke="black" />
+    <text x="150" y="50" font-family="Arial" font-size="12" text-anchor="middle">İşlemler</text>
+  
+    <!-- Güvenilir 3. Parti box and arrow -->
+    <line x1="190" y1="45" x2="200" y2="45" stroke="black" />
+    <polygon points="200,40 210,45 200,50" fill="black" />         
+    <rect x="210" y="25" width="110" height="40" fill="none" stroke="black" />
+    <text x="265" y="40" font-family="Arial" font-size="12" text-anchor="middle">
+      <tspan x="265" dy="0">Güvenilir</tspan>
+      <tspan x="265" dy="16">3. Parti</tspan>
+    </text>
+  
+    <!-- Karşı Taraf box and arrow -->
+    <line x1="320" y1="45" x2="330" y2="45" stroke="black" />
+    <polygon points="330,40 340,45 330,50" fill="black" />
+    <rect x="340" y="30" width="80" height="30" fill="none" stroke="black" />
+    <text x="380" y="50" font-family="Arial" font-size="12" text-anchor="middle">Karşı Taraf</text>
+  
+    <!-- Divider line -->
+    <line x1="430" y1="25" x2="430" y2="65" stroke="black" />
+  
+    <!-- Herkese Açık box -->
+    <rect x="440" y="30" width="80" height="30" fill="none" stroke="black" />
+    <text x="480" y="50" font-family="Arial" font-size="12" text-anchor="middle">Herkese Açık</text>
+  
+    <!-- Title for New Privacy Model -->
+    <text x="20" y="100" font-family="Arial" font-size="14">Yeni Gizlilik Modeli</text>
+    
+    <!-- New Privacy Model -->
+    <!-- Kimlikler box -->
+    <rect x="20" y="110" width="80" height="30" fill="none" stroke="black" />
+    <text x="60" y="130" font-family="Arial" font-size="12" text-anchor="middle">Kimlikler</text>
+  
+    <!-- Divider line -->
+    <line x1="110" y1="110" x2="110" y2="140" stroke="black" />
+  
+    <!-- İşlemler box and arrow -->
+    <rect x="120" y="110" width="80" height="30" fill="none" stroke="black" />
+    <text x="160" y="130" font-family="Arial" font-size="12" text-anchor="middle">İşlemler</text>
+    <line x1="200" y1="125" x2="210" y2="125" stroke="black" />
+    <polygon points="210,120 220,125 210,130" fill="black" />
+  
+    <!-- Herkese Açık box -->
+    <rect x="220" y="110" width="80" height="30" fill="none" stroke="black" />
+    <text x="260" y="130" font-family="Arial" font-size="12" text-anchor="middle">Herkese Açık</text>
+  </g>
+</svg>   

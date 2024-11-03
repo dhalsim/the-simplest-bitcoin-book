@@ -1,0 +1,22 @@
+4) Bir düğüm iş kanıtını bulduğunda, bu bloğu tüm düğümlere yayınlar.
+5) Düğümler bloğu yalnızca içindeki tüm işlemler geçerliyse ve halihazırda harcanmamışsa
+kabul ederler.
+6) Düğümler bloğu kabul ettiklerini, zincirdeki bir sonraki bloğu oluşturmak için çalışırken önceki özet olarak bu bloğun özetini kullanarak gösterirler. 
+
+[indent] Düğümler her zaman en uzun zincirin doğru zincir olduğunu düşünmekte ve onu uzatmak için çalışmaya devam edeceklerdir. İki düğüm, bir sonraki bloğun farklı versiyonlarını aynı anda yayınlıyorsa, bazı düğümler birini, bazı düğümler diğerini alabilir. Bu durumda ilk aldıkları üzerinde çalışırlar ancak diğer dalı da daha uzun olma ihtimaline karşılık saklarlar. Beraberlik bir sonraki iş kanıtı bulunduğunda ve bir dal daha uzun hale geldiğinde kırılacak, diğer dalda çalışmış olan düğümler uzun olana geçecektir.
+
+[indent] Yeni işlem yayınlarının tüm düğümlere ulaşması gerekmez, bu yayınlar birçok düğüme eriştiği sürece, çok geçmeden bir bloğa gireceklerdir; blok yayınları aynı zamanda bırakılmış mesajlara karşı da dayanıklıdır, eğer bir düğüm bir bloğu almazsa, bir sonraki bloğu teslim aldığında eksik bloğu fark edecek ve bu bloğu talep edecektir.
+
+*6. Teşvik*
+
+Kural gereği bloktaki ilk işlem, bloğun yaratıcısına ait olan paranın yaratıldığı özel bir işlemdir. Bu, düğümlerin ağı desteklemesini teşvik etmekte ve paranın ilk kez dolaşıma girmesini sağlamaktadır. Zira, para basacak başka bir merkezi otorite bulunmamaktadır. Sabit miktardaki yeni basılan paranın düzenli olarak dolaşıma girmesi, altın madencilerinin kaynaklarını harcayarak dolaşıma altın sürmesine benzer. Bizim durumumuzda bu, harcanan işlemci zamanı ve elektriktir.
+
+[indent] Teşvik, işlem ücretleri ile de finanse edilebilir. Bir işlemin çıktı değeri girdisinden düşük ise, aradaki fark işlemi içeren bloğun teşviğine eklenen işlem ücretidir. Önceden belirlenmiş miktardaki para dolaşıma girdiğinde, teşvik tamamiyle işlem ücretlerine dönüşebilir ve tamamen enflasyondan arınmış olabilir.
+
+[indent] Teşvik, düğümlerin dürüst kalmasının özendirilmesine yardımcı olabilir. Eğer açgözlü bir saldırgan dürüst düğümlerin tümünden daha fazla işlemci gücünü toplayabilirse, bunu ödemelerini geri alarak insanları dolandırmak için mi, yoksa yeni para üretmek için mi kullanacağına karar vermesi gerekecektir. Saldırgan oyunu kuralına göre oynamayı daha kârlı bulmalıdır. Böylece sistemi ve kendi servetinin geçerliliğini baltalamaktansa, diğer herkesin toplamından daha fazla yeni para elde edecektir.
+
+*7. Disk Alanı Geri Kazanımı*
+
+Bir paranın kullanıldığı son işlem yeterince blok altında kaldıktan sonra, o paranın önceki işlemleri disk alanından tasarruf etmek için atılabilir. Blok özetini bozmadan bunu yapabilmek için, işlemler bir Merkle ağacında[7][2][5] sadece kök dahil olacak şekilde özetlenmiştir. Eski bloklar daha sonra ağacın dalları budanarak sıkıştırılabilir. İç özetlerin depolanmasına gerek yoktur.
+
+[c] *4*

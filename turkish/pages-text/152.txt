@@ -1,0 +1,25 @@
+[c] [images/page-152-1.png]
+
+*4. İş Kanıtı*
+
+Eşler arası temelde dağıtılmış bir zaman damgası sunucusunu uygulamak için, gazete veya Usenet yayınlarından ziyade, Adam Back'in geliştirdiği Hashcash [6] benzeri bir iş kanıtı sistemi kullanmamız gerekecektir. İş kanıtı, -örneğin SHA-256 ile- özetleme işlemi sonucunda çıkan özetin başında belirli sayıda 0 bit olan bir değerin taranmasını içermektedir. Yapılması gereken ortalama iş, bulunması gerekli 0 bitlerin sayısı ile üssel olarak orantılıdır ve tek bir özet hesabı ile doğrulanabilmektedir.
+
+[indent] Zaman damgası ağımızdaki iş kanıtı modelini, blok özetindeki gerekli sıfır değerli bitleri veren bir değer bulunana kadar, bloğun tek seferlik anahtarını arttırarak uygulamaktayız. İşlemci gücü bir kez iş kanıtını yerine getirmek için harcandığında, blok aynı iş tekrarlanmadan değiştirilememektedir. Sonraki bloklar zincire eklendikçe, bloğu değiştirmek için gereken iş kendisinden sonra zincire eklenen bütün blokları değiştirmeyi de kapsayacaktır.
+
+[c] [images/page-152-2.png]
+
+[indent] İş kanıtı aynı zamanda çoğunluğun karar alma sürecindeki temsilin belirlenme sorununu da çözmektedir. Eğer çoğunluk IP adresine dayalı olarak belirlenseydi, kendine çok sayıda IP adresi tahsis edebilen herkes bu çoğunluğu bozabilirdi. İş kanıtında esas, bir işlemcinin bir oyu temsil etmesidir. Çoğunluk kararı, kendisine yatırılan en büyük iş kanıtı çabasına sahip olan en uzun zincir tarafından temsil edilmektedir. İşlemci gücünün büyük bir kısmı dürüst düğümler tarafından kontrol edilirse, dürüst zincir en hızlı şekilde büyüyecek ve rakip zincirlerin önüne geçecektir. Bir saldırganın geçmişteki bir bloğu değiştirmesi için, bloğun ve ondan sonra gelen tüm blokların iş kanıtını yeniden yapması ve ardından dürüst düğümlerin yaptığı işi yakalayarak, onları geçmesi gerekmektedir. İleride, daha yavaş bir saldırganın ağı yakalama olasılığının bloklar eklendikçe üssel olarak azaldığını göstereceğiz.
+
+[indent] Artan donanım hızını ve zaman ile değişen düğüm çalıştırma ilgisine ayak uydurmak için iş kanıtı zorluğu, saatte ortalama blok sayısını hedefleyen bir hareketli ortalama ile belirlenir; bloklar çok hızlı üretilirlerse, zorluk seviyesi artmaktadır.
+
+*5. Ağ*
+
+Ağı çalıştırmak için gerekli adımlar şöyledir:
+
+[m-l-20:
+  1) Yeni işlemler tüm düğümlere yayınlanır.
+  2) Her düğüm yeni işlemleri bir blok içinde toplar.
+  3) Her düğüm kendi bloğu için zor bir iş kanıtı üzerinde çalışır.
+]
+
+[c] *3*

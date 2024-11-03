@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="../../avenir-next/stylesheet.css" />
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body class="font-an">
+    <div class="page aic" data-page="150" id="page-150">
+      <div class="content white-paper">
+        <div class="header jcc"></div>
+
+        <div class="p aic">
+          <span class="line inline no-wrap fs-22">
+            <b>Bitcoin: Eşler Arası Elektronik Bir Ödeme Sistemi</b>
+          </span>
+
+          <span class="line inline m-t-20">Satoshi Nakamoto</span>
+          <span class="line inline">satoshin@gmx.com</span>
+          <span class="line inline">www.bitcoin.org</span>
+
+          <span class="line inline m-t-20">
+            Translated in Turkish from bitcoin.org/bitcoin.pdf by Efe Cini
+          </span>
+          <span class="line inline">
+            (
+            <a href="https://www.linkedin.com/in/efecini/">
+              https://www.linkedin.com/in/efecini/
+            </a>
+            )
+          </span>
+        </div>
+
+        <div class="p t-a-j m-t-20 m-l-20 m-r-20">
+          <span class="line inline">
+            <b>Özet.</b>
+            Tamamen eşler arası çalışan bir elektronik ödeme sistemi, çevrimiçi
+            ödemelerin bir finans kurumundan geçmeden, doğrudan bir taraftan
+            diğerine gönderilmesine olanak sağlamaktadır. Dijital imzalar
+            çözümün bir parçasıdır ancak çift harcamayı önlemek için yine de
+            üçüncü bir tarafa güvenmek lazım ise, asıl fayda kaybolmuş demektir.
+            Çift harcama problemine eşler arası ağ kullanarak bir çözüm
+            önermekteyiz. Ağ, işlemleri süregelen özet tabanlı bir iş kanıtı
+            zincirine ekleyerek zaman damgasıyla işaretlemekte ve iş kanıtı
+            tekrarlanmadan değiştirilemeyen bir kayıt oluşturmaktadır. En uzun
+            zincir, sadece şahit olunan olayların sırasının kanıtı olarak hizmet
+            etmemekte, ayrıca kendisinin en büyük işlemci gücüne sahip havuzdan
+            geldiğinin de kanıtı olmaktadır. İşlemci gücünün çoğunluğu, ağa
+            saldırmak için işbirliği yapmayan düğümler tarafından kontrol
+            edildiği sürece, en uzun zinciri oluşturacak ve saldırganları geride
+            bırakacaktır. Ağın kendisi minimal bir yapıya gereksinim
+            duymaktadır. Mesajlar elden gelenin en iyisi temeline göre
+            yayınlanmakta ve düğümler istedikleri zaman ağdan ayrılıp, ağ
+            dışında kaldıkları süre içerisinde olanların kanıtı olarak en uzun
+            iş kanıtı zincirini kabul etmek şartıyla ağa tekrar
+            katılabilmektedirler.
+          </span>
+        </div>
+
+        <div class="p t-a-j m-t-20">
+          <span class="line inline b">1. Giriş</span>
+
+          <span class="line inline m-t-10">
+            İnternet'te ticaret neredeyse tamamen elektronik ödemeleri işleyerek
+            güvenilen bir üçüncü taraf olarak hizmet veren finansal kurumlara
+            bağımlı hale gelmiştir. Sistem çoğu işlem için yeteri kadar iyi
+            çalışıyor olsa da, güvene dayalı bir model olmanın doğasında var
+            olan zaaflardan hala muzdariptir. Finansal kurumlar anlaşmazlık
+            durumlarında arabuluculuktan kaçınamadıkları için geri döndürülemez
+            işlemler aslında mümkün değildir. Arabuluculuk maliyeti işlem
+            maliyetlerini yükseltmekte, mümkün olan minimum işlem büyüklüğünü
+            sınırlamakta, sıradan küçük işlemleri engellemekte, dahası geri
+            döndürülemez hizmetler için geri döndürülemez ödeme yapma imkanı
+            olmaması masrafları arttırmaktadır. İşlemin geri döndürülme ihtimali
+            ile birlikte güven ihtiyacı artmaktadır. Satıcılar normalde ihtiyaç
+            duymadıkları ekstra bilgiyi müşteriden isterken dikkatli olmalıdır
+            çünkü bu müşterileri rahatsız edecektir. Belli bir orandaki
+            dolandırıcılık kaçınılmaz olarak kabul edilir. Bu maliyetler ve
+            ödeme belirsizlikleri yüzyüze alışverişte fiziksel para birimi
+            kullanımıyla giderilebilir ancak bir iletişim kanalı üzerinden,
+            güvenilir bir taraf olmaksızın ödeme yapılabilen bir mekanizma
+            bulunmamaktadır.
+          </span>
+
+          <span class="line inline indent">
+            Asıl gereken, güven yerine kriptografik kanıta dayalı, iki istekli
+            tarafın, üçüncü bir güvenilir tarafa gerek duymadan doğrudan
+            birbiriyle işlem yapabilmelerini mümkün kılan bir elektronik ödeme
+            sistemidir. Geri döndürülmesi hesaba dayalı olarak mümkün olmayan
+            işlemler satıcıları dolandırıcılığa karşı koruyacak ve alıcıları
+            koruyacak rutin emanetçi mekanizmalar kolayca uygulanabilecektir. Bu
+            makalede, eşler arası dağıtık bir zaman damgası sunucusu ile
+            işlemlerin kronolojik sırasının hesaba dayalı kanıtını oluşturarak,
+            çift harcama problemine bir çözüm önermekteyiz. Sistem, dürüst
+            düğümler işbirliği halindeki herhangi bir saldırgan düğüm
+          </span>
+        </div>
+
+        <div class="p aic m-t-20 w100">
+          <span class="line inline b">1</span>
+        </div>
+
+        <div class="footer"></div>
+      </div>
+
+      <div class="page-number">150</div>
+    </div>
+  </body>
+</html>

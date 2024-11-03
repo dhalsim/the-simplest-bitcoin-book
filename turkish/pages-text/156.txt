@@ -1,0 +1,37 @@
+[indent] Dürüst zincir ile bir saldırgan zinciri arasındaki yarış Binom Rastgele Yürüyüşü olarak nitelendirilebilir. Başarılı olma durumu dürüst zincirin bir blok uzatılarak öncülüğünü 1 arttırması, başarısızlık durumu ise saldırganın zincirinin bir blok uzatılarak aralığın 1 azalmasıdır. 
+
+[indent] Bir saldırganın belirli bir açığı yakalama olasılığı Kumarbazın İflası problemine benzemektedir. Sınırsız krediye sahip bir kumarbazın oyuna borçla başladığını ve başabaş noktasına gelebilmek için sonsuz sayıda deneme oyunu oynadığını varsayın. Başabaş noktasına ulaşabilme olasılığını veya saldırganın dürüst zinciri yakalayabilme olasılığını şu şekilde hesaplayabiliriz [8]: 
+
+[m-l-20:
+  p = dürüst bir düğümün sonraki bloğu bulma olasılığı
+  q = saldırganın bir sonraki bloğu bulma olasılığı
+  qz = saldırganın z blok geriden gelip yakalama ihtimali
+
+  [images/page-156-1.png]
+]
+
+P > q varsayımımıza göre, saldırganın yakalaması gereken blok sayısı arttıkça, olasılık katlanarak düşmektedir. Bütün olanaksızlıklarla beraber, saldırgan başlarda eğer bir dizi şanslı hamle yapmazsa, kazanma ihtimali zincirin gerisinde kaldıkça hızla azalmaktadır.
+
+[indent] Şimdi yeni bir işlemdeki alıcının, gönderenin işlemi değiştiremeyeceğinden yeterince emin olmadan önce ne kadar beklemesi gerektiğini ele almaktayız. Gönderenin, alıcıyı belli bir süre için kendisine ödeme yaptığına inandırmak isteyen, belli bir zaman geçtikten sonra ise ödemeyi kendisine geri döndürmek isteyen bir saldırgan olduğunu varsaymaktayız. Bu olduğunda alıcı uyarılacaktır ancak gönderen bunun için artık çok geç olacağını ümit etmektedir.
+
+[indent] Alıcı yeni bir anahtar çifti oluşturur ve imzalamadan kısa bir süre önce gönderene açık anahtarı verir. Bu, gönderenin önceden sürekli olarak üstünde çalışarak, bloklardan oluşan bir zinciri hazırlamasını ve bu zincirin öne geçtiği şanslı bir anda işlemi çalıştırmasını önlemektedir. İşlem gönderildikten sonra dürüst olmayan gönderici, işleminin alternatif bir versiyonunu içeren paralel bir zincir üzerinde gizlice çalışmaya başlar.
+
+[indent] Alıcı, işlem bir bloğa eklenene ve bunun arkasına z kadar blok bağlanana kadar bekler. Saldırganın ne kadar ilerleme kaydettiğini tam olarak bilmez ancak dürüst blokların blok başına beklenen ortalama bir süre aldığını varsayarsak, saldırganın yaptığı potansiyel ilerleme beklenen değerli bir Poisson dağılımı olacaktır:
+
+[m-l-20:
+  [images/page-156-2.png]
+]
+
+Saldırganın herşeye rağmen yetişebilme ihtimalini elde etmek için, o noktadan zinciri yakalayabilme olasılığı ile elde edebileceği her ilerleme için Poisson yoğunluğunu çarparız:
+
+[m-l-20:
+  [images/page-156-3.png]
+]
+
+Sonsuz dağılım kuyruk toplamını almaktan kaçınmak için yeniden düzenliyoruz...
+
+[m-l-20:
+  [images/page-156-4.png]
+]
+
+c:7

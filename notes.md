@@ -161,8 +161,17 @@ Bir Şifrepunk'ın Bildirisi - A Cypherpunk's Manifesto.
 https://www.academia.edu/42706017/Bir_%C5%9Eifrepunk%C4%B1n_Bildirisi_A_Cypherpunks_Manifesto
 Melih Gümüş
 
+## page 148
+
+* Bitcoin White Paper - Bitcoin Teknik Raporu?
+* put svg's in markup not as images
+
 ## page 149
 
 Bitcoin: Eşler Arası Elektronik Bir Ödeme Sistem
 Translated in Turkish from bitcoin.org/bitcoin.pdf by Efe Cini
 (https://www.linkedin.com/in/efecini/)
+
+## page 151
+
+* take care of reference links
