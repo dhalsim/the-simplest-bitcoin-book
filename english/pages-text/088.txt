@@ -1,0 +1,34 @@
+H: The Simplest Bitcoin Book Ever Written
+
+[o: 25]r: A WORD ON THE
+LIGHTNING NETWORK
+
+[b] *Bitcoin blocks are intentionally small** (1MB each),
+resulting in the bitcoin mainchain being able to process about 7 transactions per second (TPS).
+
+[b] Visa processes about 24,000 TPS.
+
+[b] Also, *it generally takes about 10 minutes for the
+first confirmation to go through on a mainchain
+transaction* (since a block is mined on
+average every ~10 minutes).
+
+[b] This is not practical if you are at a store and want to
+make a quick payment for your goods.
+
+[obb] <b>* Important Detail:</b> The reason the blocks are small,
+is to keep *the timechain small enough for anyone to
+run their own node at home, which helps keep the
+network decentralized.* Satoshi realized the
+importance of this ↓
+
+rmi> Bitcoin users might get increasingly
+tyrannical about limiting the size of
+the chain so it’s easy for lots of users
+and small devices.
+
+~ Satoshi Nakamoto, 2010-12-10
+
+*Recommended Reading:*
+
+[m-l-20] -> The Blocksize War by Jonathan Bier

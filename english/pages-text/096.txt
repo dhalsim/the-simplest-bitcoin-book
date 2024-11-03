@@ -1,0 +1,38 @@
+H: The Simplest Bitcoin Book Ever Written
+
+[o:20] KYC >> ID Verification Required
+
+How to Buy KYC Bitcoin (with ID):
+
+NOT RECOMMENDED
+
+[obb:
+
+1. Download a bitcoin-only wallet app (see pg 102).
+2. Choose a bitcoin-only exchange.
+3. Create an account & link a payment method.
+4. Fulfill the KYC requirements.
+5. Buy bitcoin.
+6. *Withdraw your bitcoin to your own wallet.*
+7. HODL or spend and replace.
+
+]
+
+[b] *Be aware that your bitcoin will be forever linked to
+your identity* if you buy it this way, thus forfeiting
+future pseudonymity with regard to these purchases.
+
+[b] If you choose this method, I recommend finding a
+reputable *bitcoin-only exchange.*
+
+[b] *Be sure the exchange allows you to withdraw your
+bitcoin to your own wallet!*
+
+[b] *Exchanges are required by law to ‘KYC’ you.*
+
+[b] They will take *your full name, address, social security
+number, email, phone number and often a photo of
+you holding your ID.*
+
+[b] *Confirm that the exchange has both phone and email
+support* for customer service.

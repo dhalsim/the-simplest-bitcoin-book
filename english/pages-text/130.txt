@@ -1,0 +1,33 @@
+H: The Simplest Bitcoin Book Ever Written
+
+[o:18]r: SATOSHI’S BIRTHDAY
+
+[b] *<i>April 5, 1975</i>* is the date Satoshi claimed as his
+birthday.
+
+[b] While we cannot know if this was indeed his true birth
+date, it is very interesting.
+
+[b] *April 5th* (1933) was the day that Executive Order 6102
+was signed by US President Franklin D. Roosevelt
+“forbidding the hoarding of gold coin, gold bullion,
+and gold certificates within the continental United
+States.”
+
+[b] *1975* was the year the repeal of EO 6102 went into
+effect, and US citizens were once again allowed to
+hold more than 5oz of gold.
+
+[o:18]r: A NUMERIC PALINDROME 6102-2016
+
+[b] *6102* was the number of the above-mentioned
+Executive Order.
+
+[b] *2016* is the number of blocks mined during each difficulty adjustment (approximately 2 weeks).
+
+[obb:
+  -> In both of the above examples, one could
+  postulate that Satoshi was using numbers
+  to indicate a reversal, *an unwinding of the
+  damage inflicted by government overreach.*
+]

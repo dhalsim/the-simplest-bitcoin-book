@@ -1,28 +1,3 @@
-H: The Simplest Bitcoin Book Ever Written
-
-ri> “If you only knew the magnificence of the 3, 6 and 9, then
-you would have the key to the universe.”
-
-~ Nikola Tesla
-
-[o:18]r: BLOCK REWARD = % OF SUPPLY
-
-[b] The block subsidy (number of bitcoins rewarded
-for each newly mined block) represents *the
-percentage of the total supply* that will be mined
-during that epoch.
-
-[b] For example, the current block reward between
-2024-2028 is *3.125* bitcoin.
-
-[b] In these same four years, *3.125*% of the 21
-million bitcoins will be mined.
-
-[c:
-  [images/page-128.png]
-  Credit: @bitcoinfool
-]
--------
 H: Şimdiye Kadar Yazılmış En Basit Bitcoin Kitabı
 
 ri> "Eğer 3, 6 ve 9'un muhteşemliğini bilseydiniz,

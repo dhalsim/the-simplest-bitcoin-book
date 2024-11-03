@@ -1,30 +1,3 @@
-H: The Simplest Bitcoin Book Ever Written
-
-[b] *Bitcoin is a record keeper that uses mathematics and
-computer science, instead of bankers, bookkeepers
-and accountants.*
-
-[b] It eliminates the middlemen, banks, govts, overdraft
-fees, checking account fees, limited hours of service,
-potential for censorship, frozen accounts, manipulation of the money supply, interest rates, the IMF,
-the WEF, the BIS, brick-and-mortar buildings, ATMs,
-checks, chargebacks, the petro dollar, the euro
-dollar, bank seigniorage, the cantillon effect,
-fractional reserve banking, visa, mastercard, amex,
-western union, days of waiting for your wire transfer
-to go through ...
-
-[obb:
-
-[b] *Instead of having someone between you and the
-person whose hand you want to shake, you can just
-shake their hand directly.*
-
-[b] *No need to ask permission to send your own
-money!*
-
-]
-------
 H: Şimdiye Kadar Yazılmış En Basit Bitcoin Kitabı
 
 [b] *Bitcoin, bankacılar, muhasebeciler ve

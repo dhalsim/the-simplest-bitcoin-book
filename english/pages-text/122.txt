@@ -1,0 +1,29 @@
+H: The Simplest Bitcoin Book Ever Written
+
+[o:18]r: IN THE MEANTIME, ON TAXES
+
+r: -> *Disclaimer:* This is *not* financial or tax advice
+
+[b] In the US tax code, bitcoin is currently seen as a commodity, so there are potential tax implications if you
+sell it back into fiat, or even if you buy something with
+your bitcoin.
+
+[b] If the price went down before you sold/spent it, you
+can claim a loss.
+
+[b] If the price went up, you are supposed to claim a
+capital gain, and pay between 10-30% CGT (Capital
+Gains Tax).
+
+[b] The amount depends upon several factors, such as
+how long you held it before selling or spending, and
+in which tax bracket you land.
+
+[b] If you plan to sell or spend bitcoin, especially larger
+amounts, you may want to consider consulting with
+a tax professional.
+
+[b] If you simply buy and hold, you currently do not have
+any taxable events regarding bitcoin.
+
+[b] And if you buy non-KYC…

@@ -1,0 +1,24 @@
+H: What Is [b]bitcoin?
+
+[b] *Bitcoin is historical.* This is the first time in history that
+a truly decentralized, censorship-resistant, immutable,
+borderless, permissionless, and incorruptible monetary system with an absolute hard cap (21 million
+coins) has ever been created.
+
+[obb][b] Bitcoin is *as significant to decentralizing power
+and increasing financial inclusion,* as the invention
+of the printing press, and later the World Wide
+Web, *was to decentralizing control of, and
+increasing access to, information.*
+
+rim> A lot of people automatically
+dismiss e-currency as a lost cause
+because of all the companies that failed
+since the 1990’s.
+I hope it’s obvious it was only the
+centrally controlled nature of those
+systems that doomed them.
+I think this is the first time we’re trying
+a decentralized, non-trust-based system.
+
+~ Satoshi Nakamoto 2009-02-15

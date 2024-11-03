@@ -1,0 +1,20 @@
+H: What Is [b]Bitcoin?
+
+[b] *Bitcoin is the solution to the double-spend problem.*
+
+[b] This means that when you send bitcoin, the receiver
+can be sure that you actually owned the bitcoin you
+sent, and, that once you sent it to them you cannot
+spend those coins again by sending them to someone
+else (double-spending).
+
+[b] Just like me giving you an orange. Once it leaves
+my hands and is in your hands, I no longer have
+the orange to give to someone else.
+
+rmi> ..double-spends are never accepted into the
+transaction pool, so every node bears
+witness to which transaction it saw first
+by working to put it into a block.
+
+~ Satoshi Nakamoto 2010-12-09

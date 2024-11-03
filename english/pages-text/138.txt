@@ -1,0 +1,28 @@
+H: The Simplest Bitcoin Book Ever Written
+
+[o:25]r: [b]bitcoin COMMUNITY
+PROJECTS
+
+Below are some of the grassroots projects around
+the world that are working to educate and create a
+local economy with bitcoin.
+
+Follow them on Nostr or Twitter to learn more or to
+donate:
+
+[b] *Bitcoin Beach El Zonte* - El Salvador - @Bitcoinbeach
+[b] *Bitcoin Ekasi* - South Africa - @BitcoinEkasi
+[b] *Bitcoin Beach Brazil* - Brazil - @BitcoinBeachBR
+[b] *Bitcoin Jungle* - Costa Rica - @BitcoinJungleCR
+[b] *Bitcoin Venezuela* - Venezuela - @btcven
+[b] *Bitcoin Bay* - Florida, USA - @bitcoinbaytpa
+[b] *Bitcoin Lake* - Lake Atitlan - @LakeBitcoin
+[b] *Bitcoin House Bali* - Indonesia - @btchousebali
+[b] *7 Mile Bitcoin* - Cayman Islands - 7milebitcoin.org
+[b] *Bitcoin Kampala* - Uganda - @BitcoinKampala
+[b] *Bitcoin Retreat* - Phillipines - @BtcRetreat
+[b] *Bridge2Bitcoin* - UK - @Bridge2Bitcoin
+[b] *Bitcoin Berlin* - El Salvador - @BitcoinBerlinSV
+[b] *Harlem Bitcoin* - New York, USA - @HarlemBitcoin
+[b] *F.R.E.E Madeira* - Portugal - @FREEMadeiraOrg
+[b] *Bitcoin Valley* - Rovereto, Italy

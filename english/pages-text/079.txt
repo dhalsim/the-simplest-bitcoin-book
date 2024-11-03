@@ -1,0 +1,48 @@
+H: How Does [b]Bitcoin Work?
+
+[o18]r: GLOSSARY OF TERMS
+
+--o--
+[b] *TRANSACTION ~ Sending/receiving bitcoin*
+--o--
+
+[m-l-20] -> A transfer of value in the form of satoshis, from
+one bitcoin holder to another.
+
+--o--
+[b] *NODE ~ A ‘branch’ of the decentralized bitcoin
+ ‘bank’. Anyone can run a node.*
+--o--
+
+[m-l-20] -> A computer that connects to the Bitcoin network.
+
+--o--
+[b] *MINING ~ The process of verifying transactions and adding them to the blockchain*
+--o--
+
+[m-l-20:
+
+-> Nodes are computers that run the bitcoin
+software.
+-> Nodes, along with miners, users and
+developers, form the peer-to-peer Bitcoin
+network.
+-> Imagine *each full node as a ledger containing the
+balances of every private key.*
+-> They interact, and reach consensus (agree) with
+one another by accepting and validating
+transactions from other nodes, along with blocks
+from miners, and then relaying these onward to
+other nodes.
+-> Nodes are run by an ad-hoc group of thousands
+of volunteers around the world.
+-> A full node is one that has independently
+validated the entire Bitcoin blockchain, since the
+Genesis Block mined by Satoshi in 2009.
+-> The more active nodes there are, the more distributed, and therefore resilient, the whole network
+becomes.
+-> There are *currently over 19,000 reachable full
+nodes worldwide, & far more unreachable ones.*
+-> All participating nodes are equal.
+
+]

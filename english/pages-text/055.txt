@@ -1,0 +1,16 @@
+H: What Is [b]bitcoin?
+
+[b] *Bitcoin is infinitely divisible, without debasing the
+supply.*
+
+[b] *One pizza is one pizza, regardless of how small the
+slices are.*
+
+[b] It is currently divisible to the eighth
+decimal: 1.00000000
+
+[b] There are 100,000,000 satoshis in 1 bitcoin.
+
+[b] 1 satoshi = 0.00000001
+
+[b] You can buy sats (satoshis) in any amount.

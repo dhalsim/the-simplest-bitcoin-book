@@ -1,34 +1,3 @@
-As I submit this 2nd Edition for print, 
-I reflect on the process of writing, editing, updating, 
-fact-checking and, most importantly, 
-adding the new section on Nostr, 
-and I am in awe.
-
-In awe of all of you, orange-pilled, purple-pilled 
-and yet-to-be, 
-all on this journey with me, 
-as we march forward, 
-resolute in our mission to continue the work 
-of the cypherpunks, 
-the freedom lovers, the visionaries, 
-those who looked ahead, 
-who understood both the power and the danger 
-of the digital world left unchecked, 
-
-and who sought, and still seek, to 
-write the code we all need,
-to live into a future of freedom.
-
-It is up to us to use it.
-
-Let us proceed together apace.
-
-Onward.
-
-851522
-
-[B][N]
-----
 Bu 2. baskıyı basıma sunarken,
 yazarken, düzenlerken, güncellerken,
 teyit ederken ve en önemlisi,

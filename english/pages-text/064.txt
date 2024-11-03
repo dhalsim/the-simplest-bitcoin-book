@@ -1,0 +1,8 @@
+H: The Simplest Bitcoin Book Ever Written
+
+[b] *Bitcoin is a bearer asset,* like cash or gold, held by
+the bearer (owner) directly.
+
+[obb] [b] *This means that, once sent (given), it goes directly
+to the new bearer (owner), with no middleman
+(bank) needed to process the transaction.*

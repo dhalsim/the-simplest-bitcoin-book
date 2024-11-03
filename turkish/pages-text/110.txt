@@ -1,27 +1,3 @@
-H: The Simplest Bitcoin Book Ever Written
-
-[b] Also, the rampant consumerism that is required to
-keep the debt-based system afloat, will over time
-be curtailed, as *hard money naturally incentivizes
-prudent spending and saving* (since your savings
-will actually hold their value, a concept we have not
-experienced since being off the gold standard).
-
-[b] *Lastly, and importantly, bitcoin mining is already
-reducing pollution by capturing flared natural gas
-and using it to power the miners.* Since miners seek
-low electricity costs, it is also likely to be the biggest
-driver toward renewable low cost energy, since the
-incentives match up.
-
-[b] *Informed deep dives on Bitcoin and Energy* have
-been written by Daniel Batten on batcoinz.com, Troy
-Cross, Jyn Urso, the video ‘This Machine Greens’
-by Swan Bitcoin on YouTube, 'Dirty Coin', A
-bitcoin mining documentary, and an
-excellent episode of the ‘What is Money’ show
-(WiM161) with B.Quittem, among many others.
---------
 H: Şimdiye Kadar Yazılmış En Basit Bitcoin Kitabı
 
 [b] Ayrıca, borç temelli sistemi ayakta tutmak için gereken aşırı tüketicilik, zamanla kısıtlanacaktır, çünkü *sağlam para doğal olarak ihtiyatlı harcama ve tasarrufu teşvik eder* (tasarruflarınız gerçekten değerini koruyacağı için, altın standardından çıktığımızdan beri deneyimlemediğimiz bir kavram).

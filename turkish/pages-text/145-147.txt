@@ -1,13 +1,3 @@
-[r:
-  A Cypherpunk’s Manifesto 
-  by Eric Hughes
-]
-
-145-147
-
-(Emphasis in bold is mine)
-------
-
 *Elektronik çağda açık bir toplum için mahremiyet şarttır. Mahremiyet, sır değildir. Bütün dünyanın bilmesini istemediğimiz bir şey mahremdir; ancak sırları hiç kimsenin bilmesini istemeyiz. Mahremiyet, birinin kendi iradesiyle kendisini dünyaya ifşa etme hakkıdır.*
 
 Eğer iki taraf bir şekilde etkileşimde bulunmuşsa, her birinin bu etkileşime dair bir anısı var demektir. Her bir taraf bu etkileşime dair anılarından bahsedebilir; bunu kim engelleyebilir? Birileri buna karşı yasalar çıkarabilir, ancak *ifade özgürlüğü, mahremiyetten de önce, açık bir toplumun temelidir;* biz ne olursa olsun bir ifadeyi engelleme peşinde değiliz. Eğer pek çok taraf aynı ortamda beraber konuşursa, her biri diğerleriyle konuşabilir, ve birlikte, bireyler ve diğer taraflar hakkında bilgi toplayabilirler. Elektronik iletişimin gücü bu tür takım konuşmalarını olanaklı kılmıştır ve birileri istiyor diye öylece kaybolacak değildir.

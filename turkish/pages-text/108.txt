@@ -1,37 +1,3 @@
-H: The Simplest Bitcoin Book Ever Written
-
-[o:25]r: DISPELLING [b]bitcoin FUD
-          (Fear Uncertainty Doubt)
-
-[b] Below are some common arguments against, or fears
-about, bitcoin.
-
-[b] These are largely unfounded, resulting from ignorance, or perhaps incomplete understanding.
-
-[b] I provide brief rebuttals to each here, and at the end
-you will find pointers to more in-depth resources
-rebutting all the FUD.
-
-[o:20]r: BITCOIN USES TOO MUCH ENERGY
-
-rmi> The heat from your computer is not wasted
-if you need to heat your home… It’s
-equal cost if you generate the heat
-with your computer.
-
-~ Satoshi Nakamoto 2010-08-09
-
-ri> At first, the production of a commodity simply because it
-is costly seems quite wasteful. However, the unforgeably
-costly commodity repeatedly adds value by enabling
-beneficial wealth transfers. More of the cost is recouped
-every time a transaction is made possible or made
-less expensive. The cost, initially a complete waste, is
-amortized over many transactions.
-
-~ Nick Szabo
-Cypherpunk
--------
 H: Şimdiye Kadar Yazılmış En Basit Bitcoin Kitabı
 
 [o:25]r: BİTCOİN FUD'UNU (Korku, Belirsizlik, Şüphe) ORTADAN KALDIRMAK

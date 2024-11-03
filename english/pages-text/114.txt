@@ -1,0 +1,34 @@
+H: The Simplest Bitcoin Book Ever Written
+
+[o:18]r: BITCOIN IS USED BY CRIMINALS
+
+[b] *So is the dollar, and every other fiat currency in the
+world.* It is simply incorrect to attribute this
+problem only to bitcoin.
+
+[b]b: Bitcoin is a tool, just like a knife, and it is up to each
+one of us how we use it.
+
+[b] Interestingly, if bitcoin couldn't be used by criminals,
+then it would not be the neutral, censorship-resistant
+money the world so badly needs.
+
+[b] *Note:* Since the Bitcoin blockchain is auditable, it is
+actually a really bad choice for criminal activity!
+
+[o:18]r: QUANTUM COMPUTING COULD
+BREAK BITCOIN
+
+[b] While this may be a possibility one day in the future,
+*developers are already working on solutions for postquantum encryption.*
+
+[b] Bitcoin is only one of a multitude of online applications that rely on SHA-256 hashing for security.
+
+[b] Even the military uses it, so there is massive incentive beyond the bitcoin community to develop new
+encryption protocols.
+
+[b] If SHA-256 is broken, we will have a lot else to
+worry about beyond bitcoin. The entire internet uses
+it for encryption. This includes all banking, supply
+chains, transportation systems, healthcare systems,
+education systems and more.

@@ -161,10 +161,13 @@ Bir Şifrepunk'ın Bildirisi - A Cypherpunk's Manifesto.
 https://www.academia.edu/42706017/Bir_%C5%9Eifrepunk%C4%B1n_Bildirisi_A_Cypherpunks_Manifesto
 Melih Gümüş
 
+put the text in the manifesto in the text files
+
 ## page 148
 
 * Bitcoin White Paper - Bitcoin Teknik Raporu?
 * put svg's in markup not as images
+* add the english version to the text files
 
 ## page 149
 

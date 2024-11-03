@@ -1,0 +1,36 @@
+H: How To [b]bitcoin
+
+[b] Have them walk you through sending your bitcoin
+from your account with them to your own wallet, so
+that you are self-custodying your bitcoin
+*= Holding your own keys.*
+
+[obb:
+
+-> *Note:* This does NOT erase the fact you
+bought bitcoin from them.
+-> b: Transactions are traceable on-chain, and in
+many countries you are liable for taxation when
+spending your bitcoin.
+
+]
+
+[b] If you want to buy through Venmo or Paypal, be
+sure to *first confirm that you can still withdraw
+your sats to your own self-hosted wallet.* In the
+past you could not do so.
+
+[b] As they say:
+
+r> *“No keys, No cheese”* or
+r> *“Not your keys, Not your bitcoin”*
+
+[b] What this means is, so long as a centralized service is
+holding the private keys to your bitcoin, there remains
+the possibility that their platform gets hacked, or that
+they undergo regulatory capture and you lose your
+bitcoin.
+
+[obb][b]b: Always withdraw your bitcoin to your own
+self-hosted wallet as soon as you have
+bought it.

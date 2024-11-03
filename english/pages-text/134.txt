@@ -1,0 +1,43 @@
+H: The Simplest Bitcoin Book Ever Written
+
+[o:18] BOOKS:
+*On Bitcoin:*
+[m-l-25:
+  -> *Layered Money* by Nik Batia
+  -> *21 Lessons* by DerGigi
+  -> *The Bullish Case for Bitcoin* by Vijay Boyapati
+  -> *The Bitcoin Standard* by Saifedean Ammous
+  -> *Inventing Bitcoin* by Yan Pritzker
+  -> *Check Your Financial Privilege* by Alex Gladstein
+  -> *Why Buy Bitcoin* by Andy Edstrom
+  -> Bitcoin Audible: Guy Swann reads Bitcoin books
+  -> *The Bitcoin Dictionary* by Ansel Lindner
+  -> *The Genesis Book* by Aaron van Wirdum
+  -> *Gradually, then Suddenly* by Parker Lewis
+  -> *Cryptosovereignty* by Eric Cason
+]
+
+*On Fiat, Monetary History and more:*
+[m-l-25:
+  -> *The Price of Tomorrow* by Jeff Booth
+  -> *Broken Money* by Lyn Alden
+  -> *The Fiat Standard* by Saifedean Ammous
+  -> *The Hidden Cost of Money* by Seb Bunney
+  -> *Shells to Satoshi* by D Heikkinen and J Marquez
+  -> *The Sovereign Individual* by Davidson & Rees-Mogg
+]
+
+[o:18] PODCASTS:
+*Listen on Fountain app to stream sats to hosts!
+If not yet on Fountain, find these on Spotify and iTunes.*
+[m-l-25:
+  -> *Citadel Dispatch* with Matt Odell
+  -> *Bitcoin Rapid Fire* with John Vallis
+  -> *Stephan Livera Podcast* with Stephan Livera
+  -> *Coin Stories* with Natalie Brunell
+  -> *Access Tribe's Bitcoin Podcast* with Krista Edmunds
+  -> *The Bitcoin Standard Podcast* with Dr S. Ammous
+  -> *Once Bitten* with Daniel Prince
+  -> Matt Odell ve Marty Bent ile *Rabbit Hole Recap*
+  -> DJ Valerie B Love ile *Bitcoin for Peace*
+]

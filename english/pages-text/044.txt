@@ -1,0 +1,16 @@
+H: The Simplest Bitcoin Book Ever Written
+
+ri> *Bitcoin is (almost) costless to move with certainty.
+I know with 100% certainty what I am receiving.*
+
+~ Michael Saylor CEO of Microstrategy
+
+[b] You can send $1.13, or 46c or 359 sats or 500,000,000
+sats or $1 million to anyone, anywhere, anytime
+via the Bitcoin Network, or the Lightning Network
+built on Bitcoin.
+
+[b] *And no one can stop you.*
+
+[b] Can you do that with gold, silver, USD/GBP/EUR/YEN/
+CYK/ZAR or any other central bank fiat currency?

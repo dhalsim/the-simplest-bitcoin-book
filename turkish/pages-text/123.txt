@@ -1,31 +1,3 @@
-[o:25]r: WHY [b]bitcoin ONLY?
-
-Of the over 2.5 million* (!) cryptocurrencies ever created,
-and 13,000 currently trading, bitcoin is the *only one* that is:
-
-[b]b: TRULY decentralized
-[b] With a *TRULY distributed ledger*
-[b] A *TRULY hard capped supply*
-[b] A *TRULY immutable ledger*
-[b] A *network effect* built over 15 years
-[b] And a *monetary policy that cannot be manipulated!*
-[b] Every other cryptocurrency has a *small, centralized
-group who controls the supply, and/or has the
-power to change the base layer protocol (monetary
-policy).*
-[b]b: This is just like the central fiat banking system we
-see today.
-[b] Centralized power like this begs for manipulation and
-corruption.
-[b] See the altcoin pump/dump scam described on the
-following page.
-[b] Listen to:
-Stephan Livera Pod (SLP306) with Guy Swann
-[b] A partial list of altcoin/defi rug-pulls since 2020:
-*rekt.news/leaderboard/*
-
-* coingecko.com/research/publications/how-manycryptocurrencies-are-there
-------
 [o:25]r: NEDEN SADECE [b]bitcoin?
 
 Şimdiye kadar oluşturulan 2.5 milyondan fazla* (!) kripto para biriminden

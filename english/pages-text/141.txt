@@ -1,0 +1,35 @@
+H: [b]bitcoin Induced Ponderings
+
+[o:18]r:
+  WHY WILL ALL VALUE ACCRUE
+  TO BITCOIN
+
+There are some interesting game theories that appear
+to converge when it comes to bitcoin, making the
+likelihood of it’s growth and increased value over time
+more and more certain.
+
+[o:18]r: SCHELLING POINT
+
+[b] Introduced in the 1960s by the American economist,
+Thomas Schelling, the Schelling point basically asserts
+that *people who cannot necessarily communicate
+with one another, can still converge on a decision
+or course of action, especially when a compelling
+solution to a problem presents itself* (-> bitcoin)
+
+[b] In addition, as more people are drawn to the Schelling
+point, it attracts ever more people (-> bitcoin)
+
+[o:18]r: LINDY EFFECT
+
+[b] In essence, the Lindy Effect states that the longer an
+idea, a technology or a business has been around,
+the longer it is likely to endure.
+
+[o:18]r: METCALFE’S LAW
+
+[b] Popularized by Robert Metcalfe, who invented
+Ethernet, among other things. Metcalfe’s law states
+that *a network becomes proportionally more valuable the more users it has.* Utility increases exponentially as more and more users join, strengthening
+the network.

@@ -1,0 +1,42 @@
+H: The Simplest Bitcoin Book Ever Written
+
+[r:
+  [o:18] BT ~ BITCOIN TWITTER
+
+  Some cypherpunks, geniuses, goats & wild ones to follow!
+  Through these accounts, you will find 1000's of plebs
+  and other deep thinkers,
+  all on the journey.
+  BT, along with bitcointalk.org and Reddit, has largely been
+  where this experiment has grown,
+  and now joined by Nostr,
+  the decentralized communication protocol,
+  all unfurling in real time, across time and space,
+  in the ethers of cyberspace, connected to the physical,
+  through all of us,
+  humans,
+  sharing a vision of a decentralized world.
+  Then there are the quieter ones, developers working
+  behind the scenes
+  without whom
+  none of this would be possible.
+  All of us
+  together,
+  unleashed,
+  as bitcoin was unleashed upon us,
+  a blessing beyond measure.
+]
+
+*TOPICS INCLUDE:* Bitcoin, Proof-of-Work, Privacy, Philosophy,
+Monetary History, Code, Bitcoin Mining, Sociology, Game
+Theory, Austrian Economics, Bitcoin Education, Lightning
+Network, Regulatory Environment, Bitcoin’s Energy Use,
+Core Devs, Bitcoin Communities, Bitcoin’s Future and more.
+
+*Be warned:* It helps to have a somewhat thick skin on twitter,
+and know this, there is a lot of passion in defense of
+bitcoin. Keeping a clear line between it and all the
+altcoins takes work. Maintaining the clarity, security and
+purity of the only truly sound money the world has ever
+known is critical, if we are to have a chance in these times
+a’coming.

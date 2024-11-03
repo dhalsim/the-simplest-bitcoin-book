@@ -1,38 +1,3 @@
-H: How To [b]bitcoin
-
-[o:18]r: BITCOIN-ONLY WALLETS
-
-[b] Bitcoin is best stored in your own
-
-[m-l-20:
-  -> self-hosted
-  -> non-custodial
-  -> bitcoin-only ‘wallet’
-]
-
-[b] A ‘wallet’ is actually a piece of software which is a
-signing device. It contains your private keys which it
-uses to sign a transaction you send (broadcast).
-
-[o:18]r: HOT WALLET
-
-[b]b: This is an online bitcoin wallet app that you download to your phone or computer.
-
-[b] It is best used for smaller amounts, for day-to-day
-spending.
-
-[o:18]r: COLD STORAGE WALLET
-
-[b] *This is an offline wallet.* Also known as a hardware
-wallet.
-
-[b] It is a separate hardware device on which to store
-your keys.
-
-[obb][b] While both work well, it is generally recommended
-to make use of a cold wallet once you have over
-$500-1000 worth of bitcoin, as it is *more secure.*
-------
 H: Nasıl [b]Bitcoin'lenilir
 
 [o:18]r: SADECE-BİTCOİN CÜZDANLARI

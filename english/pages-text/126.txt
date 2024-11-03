@@ -1,0 +1,34 @@
+H: The Simplest Bitcoin Book Ever Written
+
+[o:18]r: SECURITY & AVOIDING SCAMS
+
+[b]b: Stick with bitcoin only.
+
+[b] *Be super vigilant* about your cyber security!
+
+[b] *Do your own research and secure your bitcoin* with
+utmost care.
+
+[obb][b]b: NEVER give your seed words to anyone you
+wouldn’t give the key to for your stash of gold!
+
+[b] *NEVER click on any links* in your email that ask you
+to confirm account details of any kind. *Instead, go
+to the official website directly* and check if you have
+any notices requiring any actions.
+
+[b] *BE AWARE* that there are endless imitations of
+accounts with large followings on social media. If an
+influencer randomly DMs you, it is probably a scam.
+
+[b] *AVOID all the scams popping up on social media*
+accounts, promising to double your bitcoin if you
+send some to them! You will lose your bitcoin!
+
+[b] *AVOID those same ‘double your crypto’ scams* on
+You Tube.
+
+[b] *BE CERTAIN* about the address you are sending your
+bitcoin to, as transactions are irreversible. Ideally
+check the whole address, especially if it is a large
+amount.

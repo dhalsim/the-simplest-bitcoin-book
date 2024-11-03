@@ -1,28 +1,3 @@
-r:[o:20][b]bitcoin FIXES THIS
-
-[o:18]FINANCIAL INCLUSIVITY
-
-[b] *With bitcoin, everyone has access to the same
-financial system, with the same rules for everyone.*
-
-[b] No loopholes or back doors or special deals
-for anyone.
-
-[b] Everyone has the potential to be compensated for the
-value they provide with the same real money,
-created and maintained with the same rules.
-
-[b] *Bitcoin is accessible to anyone, anywhere with
-an internet connection.*
-
-r:[o] ADDING VALUE TO THE WORLD
-
-[b] *Bitcoin incentivizes people to add real value to the
-community and the marketplace,* as this is the only
-way to make more money.
-
-[b] If one is satisfied with less, one still benefits by working for a fair wage, and *when one saves, those savings maintain their value over time.*
-------
 r:[o:25][b]bitcoin BUNU DÜZELTIR
 
 [o:20]FİNANSAL KAPSAYICILIK

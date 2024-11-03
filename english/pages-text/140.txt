@@ -1,0 +1,33 @@
+H: The Simplest Bitcoin Book Ever Written
+
+[r:
+  [o:18] A RABBIT HOLE PONDERING
+
+  Bitcoin is really a rather fascinating ‘thing’
+  Except it is not a ‘thing’
+  In the sense that you cannot touch it
+  Yet it is touching millions of us
+  Around the world
+  Soon to be billions..
+  It is true that
+  It is digital bits and bytes
+  Algorithms and code
+  0’s and 1’s
+  And that if every single node
+  Archival node, pruned node and light node
+  Were somehow
+  Destroyed
+  It would no longer exist
+  In the way we know it
+  Are able to perceive it..
+  It would, however, still ‘exist’
+  In the sense that quantum physics
+  Or gravity
+  Exists
+  Regardless of human perception..
+  In the sense that mathematics existed
+  Before humans codified it
+  Chose symbols to represent it..
+  Truth
+  Does not need us
+]

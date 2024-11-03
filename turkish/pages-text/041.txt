@@ -1,24 +1,3 @@
-[b] *Bitcoin is the first digitally native money, un*like
-your online checking account, which is just a
-digital form of central bank fiat.
-
-[b] Bitcoin is *decentralized* digital currency.
-
-[b] Bitcoin has *no central authority.*
-
-[b] Bitcoin is *stateless.*
-
-[b] Consider the implications ...
-
-ri> *Bitcoin is a decentralized digital currency that enables
-instant payments to anyone, anywhere in the world.
-Bitcoin uses peer-to-peer technology to operate with no
-central authority: transaction management and money
-issuance are carried out collectively by the network.*
-
-~ Bitcoin Wiki
-en.bitcoin.it
-------
 [b] *Bitcoin, çevrimiçi banka hesabınızın, sadece merkez bankası fiat parasının dijital bir formu olmasının aksine, ilk dijitale özgü paradır.*
 
 [b] Bitcoin *merkezi olmayan* dijital para birimidir.

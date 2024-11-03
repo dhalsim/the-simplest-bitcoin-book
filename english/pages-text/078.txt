@@ -1,0 +1,37 @@
+H: The Simplest Bitcoin Book Ever Written
+
+[o:20] A BITCOIN TRANSACTION UNDER
+THE HOOD:
+
+(Definitions of the terms that are *in bold* follow)
+
+[obb:
+
+1. When Ali sends those sats to Benji, the payment
+*transaction* is *broadcast* to the network.
+
+2. The transaction gets validated by *nodes* that
+make sure Ali really has the bitcoin to send, and
+that it has not previously been spent (to prevent
+double-spending) .
+
+3. Once validated by a node, it waits in the *mempool*
+with other peoples' transactions.
+
+4. The transactions in the mempool get added in a
+block to the *blockchain* when a *miner* finds a *nonce*
+that satisfies the *difficulty algorithm.*
+
+5. Each *block* has a *timestamp.*
+
+6. This creates *immutability*, and helps protect the
+difficulty algorithm adjustment from being
+manipulated.
+
+7. Each block represents one confirmation for the
+transactions included in it.
+
+8. As blocks are added, on average every ten mins,
+the immutability of the blockchain increases.
+
+]

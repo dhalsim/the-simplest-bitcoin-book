@@ -1,36 +1,3 @@
-H: The Simplest Bitcoin Book Ever Written
-
-[o:20]r: SECURELY STORING BITCOIN
-
-[b] Once you have taken the life-changing step of buying
-your first B, you need to *decide how to securely
-store it.*
-
-[obb
-  [b]b: Being your own bank is a powerful form of
-  self-sovereignty.
-
-  [b] It needs to be taken *seriously!*
-]
-
-[b]b: * Please DYOR - Do Your Own Research * beyond
-my basic recommendations here.
-
-[b] The *bitcoin ecosystem is evolving every minute.*
-
-[b] Nostr, Twitter and bitcointalk.org are good
-places to stay on top of the latest developments.
-
-[o:20] CHECK OUT THESE SITES FOR TUTORIALS:
-
-[obb
-  -> BTCSessions.ca by @BTCSessions
-  -> Bitcoiner.guide by @QnA
-  -> Armantheparman.com by @ArmanTheParman
-  -> @SouthernBitcoiner on YouTube
-  -> @wickedsmartbitcoin on YouTube
-]
-------
 B: Şimdiye Kadar Yazılmış En Basit Bitcoin Kitabı
 
 [o:20]r: BİTCOİN'İ GÜVENLİ BİR ŞEKİLDE SAKLAMAK

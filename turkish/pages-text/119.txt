@@ -1,26 +1,3 @@
-H: Dispelling [b]Bitcoin FUD
-
-[o:18]r: MORE ON DEBUNKING FUD HERE:
-
-[m-l-50:
-  -> Endthefud.org
-  -> Bitcoinmythbusters.org
-  -> Casebitcoin.com - Common Critiques
-  -> Safehodl.github.io/failure/
-  -> Lopp.net - Bitcoin Info: Misconceptions
-]
-
-ri> Bitcoin is fundamentally different from any other digital
-asset. No other digital asset is likely to improve upon
-bitcoin as a monetary good because bitcoin is the most
-(relative to other digital assets) secure, decentralized,
-sound digital money and any “improvement”
-will necessarily face tradeoffs.
-
-~ Fidelity Digital Assets Report, ‘Bitcoin First’, Jan 2022
-Chris Kuiper, CFA, Director of Research
-Jack Neureuter, Research Analyst
---------
 H: Bitcoin KBŞ'sini çürütmek
 
 [o:18]r: KBŞ'Yİ ÇÜRÜTME HAKKINDA DAHA FAZLA

@@ -1,0 +1,43 @@
+H: A Word On The Lightning Network
+
+rmi> Bitcoin itself cannot scale to have every
+single financial transaction in the
+world be broadcast to everyone and
+included in the blockchain.
+There needs to be a secondary level of
+payment systems which is lighter
+weight and more efficient.
+
+~ Hal Finney, 2010-12-30, Early cypherpunk
+& the second person to run Bitcoin
+
+*Think of it like this:*
+
+[obb:
+
+[b] Bitcoin: *Savings Account* ~ Slower transactions for
+                                 larger amounts. 
+
+[b] Lightning: *Checking Account* ~ Faster transactions for
+                                    smaller amounts.
+
+]
+
+rbi> Bitcoin enhanced by Lightning can be viewed as both a
+product (digital property) and a service (open monetary
+network). The ability to transfer monetary energy through
+time and space without government intervention or
+conventional banking is enormously valuable to humanity.
+
+~ Michael Saylor, CEO
+Microstrategy
+
+[r:
+  [m-r-20:
+
+  *Learn more about Lightning here:*
+
+  lopp.net/lightning-information.html
+
+  ]
+]

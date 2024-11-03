@@ -1,0 +1,34 @@
+H: How to [b]bitcoin?
+
+[o:20]r: Non-KYC >> Anonymously
+
+How to Get non-KYC Bitcoin (No ID):
+
+RECOMMENDED
+
+[obb:
+
+1. Download a bitcoin-only wallet app (see pg 102).
+2. Choose a method (see below).
+3. Buy, receive or mine bitcoin.
+4. Withdraw your bitcoin to your wallet.
+5. HODL, or spend and replace.
+
+]
+
+[b] *Buy it from Robosats, Bisq, HodlHodl, Peach Bitcoin.*
+
+[b] *Buy it from a bitcoin ATM* - Be sure to check, as
+some require ID. Others just ask for a name and
+number (you can use a temporary phone #).
+
+[b] *Buy an Azteco voucher* - Visit azte.co for locations.
+
+[b] *Earn it for work you do* - Ask to be paid in bitcoin.
+Offer to discount your price.
+
+[b] *Buy it in person at a bitcoin meet-up.*
+
+[b] *Mine it* - It is getting easier to mine at home, or
+you can join a mining pool, but then DYOR to stay
+KYC-free. Ocean Pool is a great option

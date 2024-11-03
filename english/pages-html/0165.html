@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="english">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="../../avenir-next/stylesheet.css" />
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body class="font-an">
+    <div class="page" data-page="157" id="page-157">
+      <div class="content white-paper">
+        <div class="header jcc"></div>
+
+        <div class="body">
+          <div class="p">
+            <span class="line inline">C koduna dönüştürüyoruz...</span>
+          </div>
+
+          <div class="p m-l-20">
+            <pre class="monospace fs-10">
+#include &lt;math.h&gt;
+double AttackerSuccessProbability(double q, int z)
+{
+  double p = 1.0 - q;
+  double lambda = z * (q / p);
+  double sum = 1.0;
+  int i, k;
+  for (k = 0; k &lt;= z; k++)
+  {
+    double poisson = exp(-lambda);
+    for (i = 1; i &lt;= k; i++)
+      poisson *= lambda / i;
+    sum -= poisson * (1 - pow(q / p, z - k));
+  }
+  return sum;
+}
+            </pre>
+          </div>
+
+          <div class="p t-a-j">
+            <span class="line inline">
+              Bazı değerler vererek, olasılığın z ile katlanarak azaldığını
+              görebiliriz.
+            </span>
+          </div>
+
+          <div class="p m-l-20">
+            <pre class="monospace fs-10">
+q=0.1
+z=0 P=1.0000000
+z=1 P=0.2045873
+z=2 P=0.0509779
+z=3 P=0.0131722
+z=4 P=0.0034552
+z=5 P=0.0009137
+z=6 P=0.0002428
+z=7 P=0.0000647
+z=8 P=0.0000173
+z=9 P=0.0000046
+z=10 P=0.0000012
+
+q=0.3
+z=0 P=1.0000000
+z=5 P=0.1773523
+z=10 P=0.0416605
+z=15 P=0.0101008
+z=20 P=0.0024804
+z=25 P=0.0006132
+z=30 P=0.0001522
+z=35 P=0.0000379
+z=40 P=0.0000095
+z=45 P=0.0000024
+z=50 P=0.0000006
+            </pre>
+          </div>
+
+          <div class="p t-a-j">
+            <span class="line inline">
+              P’yi %0,1'den daha düşük değerler için çözüyoruz...
+            </span>
+          </div>
+
+          <div class="p m-l-20">
+            <pre class="monospace fs-10">
+P &lt; 0.001
+q=0.10 z=5
+q=0.15 z=8
+q=0.20 z=11
+q=0.25 z=15
+q=0.30 z=24
+q=0.35 z=41
+q=0.40 z=89
+q=0.45 z=340
+            </pre>
+          </div>
+        </div>
+
+        <div class="footer">
+          <div class="p aic w100">
+            <span class="line inline b">8</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="page-number">157</div>
+    </div>
+  </body>
+</html>

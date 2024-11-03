@@ -1,0 +1,39 @@
+H: On Privacy
+
+[o:18] PRIVATE SPENDING
+[m-l-20:
+  -> The Bitcoin Company
+  -> Bitrefill
+  -> Bit.Store
+]
+
+[o:18] PRIVATE RECEIVING ADDRESS BOT
+[m-l-20:
+  -> PayNym
+]
+
+[o:18] DECENTRALIZED SOCIAL MEDIA
+[m-l-20:
+  -> Nostr
+]
+
+rmi> The possibility to be anonymous or
+pseudonymous relies on you not revealing
+any identifying information about
+yourself in connection with the bitcoin
+addresses you use. If you post your
+bitcoin address on the web, then you’re
+associating that address and any
+transactions with it with the name you
+posted under.
+If you posted under a handle that
+you haven’t associated with your real
+identity, then you’re still pseudonymous.
+
+~ Satoshi Nakamoto 2009-11-25
+
+rmi> For greater privacy, it’s best to use
+bitcoin addresses only once. You can
+change addresses as often as you want.
+
+~Satoshi Nakamoto 2009-11-25

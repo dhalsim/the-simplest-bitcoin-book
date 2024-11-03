@@ -1,38 +1,3 @@
-H: How Does [b]Bitcoin Work?
-
-[o:20] A BITCOIN TRANSACTION:
-
-Ali wants to send Benji some bitcoin:
-
-[obb:
-
-1. Ali *opens the bitcoin wallet* app on her phone and
-*clicks ‘Send’.*
-
-2. Benji *opens his wallet app* and *clicks ‘Receive’.*
-
-3. *If they are together:* Ali scans the QR code on the
-wallet app on Benji’s phone.
-
-4. *If they are not together:* Ali copies and pastes the
-address Benji texts her, into the address field in her
-wallet.
-
-5. Ali *enters the amount to send,* and hits *‘Send’.*
-
-6. *A few seconds later,* Benji will see the amount
-pending in his wallet.
-
-7. *If it was sent through Lightning* it will be confirmed
-almost instantly, and is almost free.
-
-8. *If it was sent ‘onchain’* (on the Bitcoin mainchain),
-it includes a small fee, and usually takes around 10
-minutes to be confirmed. It can take longer,
-depending on network traffic.
-
-]
--------
 H: Bitcoin Nasıl Çalışır?
 
 [o:20] BİR BİTCOİN İŞLEMİ:

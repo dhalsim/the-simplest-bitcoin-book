@@ -1,0 +1,28 @@
+H: How Does [b]bitcoin Work?
+
+[o]r: MORE ON MINING
+
+[b] Bitcoin is ‘mined’ by specially designed, powerful
+computers all over the world, called ASIC miners
+- Application Specific Integrated Circuit miners.
+
+Whatsminer M50S
+
+Antminer S21 Pro
+
+Bitaxe 401 Supra
+
+[b] *Miners devote computing power AKA hashrate,
+via electricity to the network,* to add blocks to the
+Bitcoin blockchain.
+
+[b] These computers run 24 hours a day, usually in sets
+of a few, to a few hundred or thousand.
+
+[b] *They are basically running a lottery. When one of
+them guesses a number* (the nonce) that generates a
+hash that satisfies the current difficulty target, *they
+get to add the next block to the timechain.*
+
+[b] *All the above is the proof-of-work (PoW) needed to
+birth new bitcoins.*

@@ -1,38 +1,3 @@
-H: The Simplest Bitcoin Book Ever Written
-
-[o:18]r: ALTCOIN PUMP AND DUMPS
-
-[m-l-50:
-  -> Sadly, these are real, and happen daily with ‘cryptos/tokens’ other than bitcoin.
-  -> There are various iterations, but one of the most
-  common types is the following:
-]
-
-[b] *Token Created:* A new crypto token gets made. Far
-easier than it sounds, anyone can do it in minutes.
-
-[b] *Website:* Often, a shiny, fancy website is created to
-make the token look legit.
-
-[b] *Paid Influencers:* Paid to promote it on social media,
-Telegram etc.
-
-[b] *Paid Insider Groups:* The info is sent to leaders of
-some of the hundreds of ‘Trading’ or ‘Investment’
-Groups, where people pay monthly or annual fees to
-get ‘insider intel’.
-
-[b] *Pre-Launch:* The paid influencers and paid group leaders buy first, at the bottom price.
-
-[b] *Launch:* The token is ‘launched’ by these influencers
-and group leaders, who tell their followers: ”Quick,
-buy now!”
-
-[b] *Pump:* The price pumps fast as their followers scramble to get in early.
-
-[b] The rapidly rising price entices regular people to buy
-in, in the hopes of making their fortune.
--------
 H: Şimdiye Kadar Yazılmış En Basit Bitcoin Kitabı
 
 [o:18]r: ALTCOİN POMPALAMA VE BOŞALTMALARI

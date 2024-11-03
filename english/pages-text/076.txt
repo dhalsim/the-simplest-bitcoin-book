@@ -1,0 +1,38 @@
+H: The Simplest Bitcoin Book Ever Written
+
+[o:20] MINERS
+
+[b] *Specialized nodes* (computers called ASICS) •that
+‘mine’ the blocks* that become part of the bitcoin
+blockchain.
+
+[b] In so doing, they *verify the validated transactions
+made by users, mint new bitcoins and secure
+the entire network.*
+
+[o:20] USERS
+
+[b] *You and me. All of us.* The people.
+
+[b] Acknowledging and appreciating the value of
+goods and services provided, we *transact*: give
+and receive bitcoin, or we *store* it for use later, as
+needed.
+
+[o:20] NODES
+
+[b] *Nodes are computers that run the bitcoin
+software.*
+
+[b] *There are thousands of nodes* making up the
+decentralized, global, voluntary *network that
+validates transactions* (thereby preventing
+double-spending, and helping to secure the
+system).
+
+[o:20] DEVELOPERS (DEVS)
+
+[b] *Coders, programmers & digital authors* who work
+to *maintain and scale the network, improve security,
+privacy and user interface, and translate code* into
+language and visuals that the rest of us can comprehend and utilize.

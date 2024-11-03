@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="english">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="../../avenir-next/stylesheet.css" />
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body class="font-an">
+    <div class="page aic" data-page="154" id="page-154">
+      <div class="content white-paper">
+        <div class="header jcc"></div>
+
+        <div class="body">
+          <div class="p aic w100">
+            <img src="../../images/page-154-1.png" width="80%" />
+          </div>
+
+          <div class="p t-a-j m-t-20">
+            <span class="line inline indent">
+              Bir blok başlığı işlem olmadan yaklaşık 80 bayttır. 10 dakikada
+              bir blok üretildiğini varsayarsak, 80 bayt * 6 * 24 * 365 = yılda
+              4.2MB yapar. 2008 itibariyle tipik bilgisayar sistemlerinin 2GB
+              RAM ile satıldığını ve yıllık 1.2GB büyümeyi öngören Moore
+              yasasını göz önünde bulundurursak, blok başlıkları bellekte
+              tutulsa bile depolama bir sorun teşkil etmeyecektir.
+            </span>
+          </div>
+
+          <div class="p t-a-j m-t-20">
+            <span class="line inline b">
+              8. Basitleştirilmiş Ödeme Doğrulaması
+            </span>
+
+            <span class="line inline">
+              Ödemeleri tam bir ağ düğümü çalıştırmadan doğrulamak mümkündür.
+              Bunun için bir kullanıcının yalnızca en uzun iş kanıtı
+              zincirindeki blok başlıklarının bir kopyasını saklaması ve işlemi,
+              içinde zaman damgalandığı bloğa bağlayan Merkle dalını bulması
+              gerekmektedir. Bu kopyayı en uzun zincirin kendisinde olduğuna
+              ikna olana dek ağ düğümlerine sorgu yaparak elde edebilir. İşlemi
+              kendisi kontrol edemez ancak zincirdeki bir yere bağlayarak bir ağ
+              düğümünün bu işlemi kabul ettiğini görebilir ve kendisinden
+              sonraki bloklar, ağın işlemi kabul ettiğini onaylayabilir.
+            </span>
+          </div>
+
+          <div class="p aic m-t-10 w100">
+            <img src="../../images/page-154-2.png" width="80%" />
+          </div>
+
+          <div class="p t-a-j m-t-20">
+            <span class="line inline indent">
+              Bu sebeple, doğrulama işlemi dürüst düğümler ağı kontrol ettiği
+              sürece güvenilirken, ağ bir saldırgan tarafından güçlendirilmişse
+              savunmasız hale gelir. Ağ düğümleri, işlemleri kendileri
+              doğrulayabilse de, saldırgan uydurma işlemler ile ağı
+              güçlendirmeye devam edebildiği sürece basitleştirilmiş yöntem
+              kandırılabilir. Bundan korunmak için bir strateji, geçersiz bir
+              blok fark ettiğinde ağ düğümlerinden gelen uyarıları alarak,
+              tutarsızlığı onaylamak için kullanıcının yazılımını tüm bloğu ve
+              uyarı alan işlemleri indirmeye yönlendirmektir. Sık ödeme alan
+            </span>
+          </div>
+        </div>
+
+        <div class="footer">
+          <div class="p aic m-t-20 w100">
+            <span class="line inline b">5</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="page-number">154</div>
+    </div>
+  </body>
+</html>

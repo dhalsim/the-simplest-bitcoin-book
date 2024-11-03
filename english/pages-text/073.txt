@@ -1,0 +1,45 @@
+[o:25]c: HOW DOES [b]bitcoin WORK?
+Rules not Rulers
+
+[r:
+
+tik-tok/
+/next block
+
+]
+
+[b] Bitcoin uses *proof-of-work*, *public-key cryptography*
+and *peer-to-peer networking*, to process and verify
+payments in a global, distributed, online ledger.
+
+r> *Cryptography* (noun) /krɪpˈtɑːɡrəfi
+**: the enciphering and deciphering of messages
+in secret code or cipher
+: the computerized encoding and
+decoding of information**
+
+~ Merriam Webster Dictionary
+
+r> *Hashing* (verb) /ˈhæʃɪŋ/
+**: a method of encryption
+: the process of using a mathematical algorithm against
+data to produce a numeric value (a hash digest)
+that is representative of that data.**
+
+~ crsc.nist.gov
+
+[obb:
+
+*Remember:*
+The bitcoin ecosystem includes >>
+*bitcoin*: the digital monetary asset
+*Bitcoin*: the *payment network* of miners and nodes
+
+]
+
+[r:
+
+1 bitcoin = 100,000,000 satoshis (sats)
+*(You can buy sats, a fraction of a bitcoin)*
+
+]

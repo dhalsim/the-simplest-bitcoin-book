@@ -1,35 +1,3 @@
-H: The Simplest Bitcoin Book Ever Written
-
-[o:18]r: SOME PEOPLE HAVE TOO MUCH
-
-[b] It is true that some people have far more than others.
-*In releasing the protocol openly, Satoshi allowed it to
-roam freely, and those that understood the potential
-it held either mined, or bought in early. It was the
-fairest and most organic way possible to present it
-to the world.*
-
-[b] Over time, when the world is hyperbitcoinized, meaning we are living on a bitcoin standard, those that
-have more will naturally spend it into the economy.
-
-[b] Even though at a certain point one will no longer be
-able to buy it with fiat, people will get paid for their
-work in bitcoin. Being paid in truly sound money will
-allow us to have real savings that will not be debased
-over time by inflation
-
-[b] While there will always be those with more wealth
-and those with less, due to a vast number of factors,
-*a bitcoin standard will make the membrane between
-wealth classes permeable,* as Aleks Svetsi says. This
-will allow both upward and downward mobility to be
-far, far more fluid than it is today.
-
-[b]b: Having been born into, and swimming our whole lives
-in a fiat world, it is almost impossible to imagine, and
-fully grok the implications of having a money that
-cannot be debased or manipulated!
---------
 H: Şimdiye Kadar Yazılmış En Basit Bitcoin Kitabı
 
 [o:18]r: BAZI İNSANLARIN ÇOK FAZLASI VAR

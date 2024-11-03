@@ -1,0 +1,23 @@
+H: The Simplest Bitcoin Book Ever Written
+
+[o:18]r: THE P2P NETWORK
+
+rmi> It is a global distributed database, with
+additions to the database by consent of
+the majority...
+
+~ Satoshi Nakamoto 2009-02-18
+
+[c:
+  [images/page-142.png]
+  Global reachable Bitcoin Nodes distribution, June 2024
+]
+
+rmi> The result is a distributed system with
+no single point of failure. Users hold
+the crypto keys to their own money and
+transact directly with each other, with
+the help of the P2P network to check for
+double-spending.
+
+~ Satoshi Nakamoto 2009-02-11

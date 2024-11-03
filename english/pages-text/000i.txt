@@ -1,0 +1,20 @@
+[o:25
+  THE
+  SIMPLEST
+  [b]bitcoin
+  BOOK
+  EVER
+  WRITTEN
+]
+
+Keysa Luna
+
+2nd Edition
+
+* to orange-pill: (verb) / tu’ ȯr-inj-‘pil/
+: the act of explaining bitcoin in such a way that a
+pre-coiner gets it, and becomes a bitcoiner!
+
+1 bitcoin = 100,000,000 satoshis
+
+Includes a section on [ostrich]Nostr

@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="english">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="../../avenir-next/stylesheet.css" />
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body class="font-an">
+    <div class="page aic" data-page="152" id="page-152">
+      <div class="content white-paper">
+        <div class="header jcc"></div>
+
+        <div class="p aic w100">
+          <img src="../../images/page-152-1.png" width="80%" />
+        </div>
+
+        <div class="p t-a-j m-t-20">
+          <span class="line inline b">4. İş Kanıtı</span>
+
+          <span class="line inline m-t-10">
+            Eşler arası temelde dağıtılmış bir zaman damgası sunucusunu
+            uygulamak için, gazete veya Usenet yayınlarından ziyade, Adam
+            Back'in geliştirdiği Hashcash [6] benzeri bir iş kanıtı sistemi
+            kullanmamız gerekecektir. İş kanıtı, -örneğin SHA-256 ile- özetleme
+            işlemi sonucunda çıkan özetin başında belirli sayıda 0 bit olan bir
+            değerin taranmasını içermektedir. Yapılması gereken ortalama iş,
+            bulunması gerekli 0 bitlerin sayısı ile üssel olarak orantılıdır ve
+            tek bir özet hesabı ile doğrulanabilmektedir.
+          </span>
+
+          <span class="line inline indent">
+            Zaman damgası ağımızdaki iş kanıtı modelini, blok özetindeki gerekli
+            sıfır değerli bitleri veren bir değer bulunana kadar, bloğun tek
+            seferlik anahtarını arttırarak uygulamaktayız. İşlemci gücü bir kez
+            iş kanıtını yerine getirmek için harcandığında, blok aynı iş
+            tekrarlanmadan değiştirilememektedir. Sonraki bloklar zincire
+            eklendikçe, bloğu değiştirmek için gereken iş kendisinden sonra
+            zincire eklenen bütün blokları değiştirmeyi de kapsayacaktır.
+          </span>
+        </div>
+
+        <div class="p aic w100">
+          <img src="../../images/page-152-2.png" width="80%" />
+        </div>
+
+        <div class="p t-a-j m-t-20">
+          <span class="line inline b">5. Ağ</span>
+
+          <span class="line inline m-t-10">
+            Ağı çalıştırmak için gerekli adımlar şöyledir:
+          </span>
+
+          <div class="p">
+            <ol class="white-paper" style="list-style-type: none">
+              <li>1) Yeni işlemler tüm düğümlere yayınlanır.</li>
+              <li>2) Her düğüm yeni işlemleri bir blok içinde toplar.</li>
+              <li>
+                3) Her düğüm kendi bloğu için zor bir iş kanıtı üzerinde
+                çalışır.
+              </li>
+            </ol>
+          </div>
+        </div>
+
+        <div class="p aic m-t-20 w100">
+          <span class="line inline b">3</span>
+        </div>
+
+        <div class="footer"></div>
+      </div>
+
+      <div class="page-number">152</div>
+    </div>
+  </body>
+</html>

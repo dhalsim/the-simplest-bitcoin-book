@@ -1,13 +1,26 @@
+const { program } = require('commander');
 const { JSDOM } = require("jsdom");
 const fs = require("fs").promises;
 const path = require("path");
 const prettier = require("prettier");
 
+program
+    .option('-l, --language <lang>', 'Language code (e.g., turkish)')
+    .parse(process.argv);
+
+const options = program.opts();
+
+if (!options.language) {
+    console.error('Please specify a language using -l or --language');
+    process.exit(1);
+}
+
 // Path to the HTML file
-const htmlFilePath = path.join(__dirname, 'turkish.html');
+const htmlFilePath = path.join(__dirname, `${options.language}.html`);
 
 // Output directory
-const outputDirPath = path.join(__dirname, 'turkish', 'pages-html');
+const outputDirPath = path.join(__dirname, options.language);
+const htmlDirPath = path.join(outputDirPath, 'pages-html');
 
 (async () => {
     try {
@@ -17,7 +30,7 @@ const outputDirPath = path.join(__dirname, 'turkish', 'pages-html');
         const document = dom.window.document;
 
         // Create the output directory
-        await fs.mkdir(outputDirPath, { recursive: true });
+        await fs.mkdir(htmlDirPath, { recursive: true });
 
         // Select all page divs
         const pages = document.querySelectorAll('div.page');
@@ -26,7 +39,7 @@ const outputDirPath = path.join(__dirname, 'turkish', 'pages-html');
         for (let page of pages) {
             count++;
             const fileName = `${String(count).padStart(4, '0')}.html`;
-            const filePath = path.join(outputDirPath, fileName);
+            const filePath = path.join(htmlDirPath, fileName);
 
             // Update image paths
             const images = page.querySelectorAll('img');
@@ -39,7 +52,7 @@ const outputDirPath = path.join(__dirname, 'turkish', 'pages-html');
 
             // Create a new HTML document for each page
             const pageHtml = `<!DOCTYPE html>
-<html lang="tr">
+<html lang="${options.language}">
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="../../avenir-next/stylesheet.css">
@@ -62,12 +75,23 @@ const outputDirPath = path.join(__dirname, 'turkish', 'pages-html');
             console.log(`${fileName} created successfully.`);
         }
 
-        // copy turkish.css into /turkish/styles.css
-        const cssFilePath = path.join(__dirname, 'turkish', 'styles.css');
+        // copy {language}.css into /{language}/styles.css
+        const cssFilePath = path.join(__dirname, `${options.language}.css`);
+        const cssOutputPath = path.join(outputDirPath, 'styles.css');
+
+        await fs.copyFile(cssFilePath, cssOutputPath);
         
-        await fs.copyFile(cssFilePath, path.join(outputDirPath, 'styles.css'));
-        
-        console.log('copied turkish.css into turkish/styles.css');
+        console.log(`copied ${options.language}.css into ${cssOutputPath}`);
+
+        // Read the CSS file
+        let cssContent = await fs.readFile(cssOutputPath, 'utf8');
+
+        // Update the image paths in the CSS file
+        cssContent = cssContent.replace(/url\("images\//g, 'url("../images/');
+
+        // Save the updated CSS file
+        await fs.writeFile(cssOutputPath, cssContent, 'utf8');
+        console.log(`Updated image paths in ${cssOutputPath}`);
     } catch (err) {
         console.error("An error occurred:", err);
     }

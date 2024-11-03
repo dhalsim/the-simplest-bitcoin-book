@@ -1,0 +1,17 @@
+[o:25]r: TABLE OF CONTENTS
+
+1. Why We Need [b]bitcoin 1
+2. [b]bitcoin Fixes This 32
+3. What Is [b]bitcoin? 36
+4. How Does [b]bitcoin Work? 73
+5. A Word On The Lightning Network 88
+6. How To [b]bitcoin 92
+7. On Privacy 104
+8. Dispelling [b]bitcoin Fud 108
+9. Why [b]bitcoin Only? 123
+10. Satoshi’s Numbers 127
+11. Resources for the [b]bitcoin Rabbit Hole 133
+12. [b]bitcoin Community Projects 138
+13. [b]bitcoin Induced Ponderings 139
+14. A Cypherpunk’s Manifesto 145
+15. The [b]bitcoin White Paper 149

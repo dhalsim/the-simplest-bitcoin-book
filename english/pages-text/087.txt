@@ -1,0 +1,29 @@
+H: How Does [b]Bitcoin Work?
+
+rmi> In a few decades when the reward gets too
+small, the transaction fee will become the
+main compensation for nodes (miners).
+
+~ Satoshi Nakamoto
+Bitcointalk.org, 2010-02-14
+
+[obb] [b] *Miners will always be needed to verify transactions,
+thereby keeping the network updated and secure.*
+
+[b] While one needs to be aware that there are costs
+involved, and profitability is negligible for home
+miners, it is a powerful way to help secure and keep
+the network decentralized.
+
+[b] Miners last quite a few years. There are currently many
+Antminer S9’s for example, that have been running
+for over 6 years.
+
+[b] When miners are retired *they can easily be taken
+apart and recycled.*
+
+[b] *Tons of fascinating innovation is happening,* with
+people using the excess heat from miners to
+heat their homes, saunas, greenhouses, hot tubs,
+dry jerky and vegetables, heat decks, dry wood and
+more!

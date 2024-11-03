@@ -1,0 +1,13 @@
+H: The Simplest Bitcoin Book Ever Written
+
+[obb]c: [b] *Bitcoin has NO central point of failure.*
+
+[b] The only way it could all be rolled into one, and be
+decentralized, is that *the distributed ledger is
+main-tained by a voluntary, world-wide, ad hoc
+group of people voluntarily mining and/or running
+full nodes.*
+
+[b] And, the incentives of the network *encourage everyone to play by the rules.*
+
+[b] You can join us!

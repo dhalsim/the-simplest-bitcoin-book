@@ -1,35 +1,3 @@
-H: Dispelling [b]bitcoin FUD
-
-[o:18]r: BITCOIN IS A PONZI
-
-[b]b: Bitcoin is not a Ponzi:
-
-[m-l-20:
-  -> Old investors are not paid any money by new investors.
-  -> When buying bitcoin, no one is promising a return
-  on your investment.
-  -> There is no leadership or promotions team.
-  -> There was no pre-mine.
-  -> *Read:* ‘Why Bitcoin is Not a Ponzi’ by Lyn Alden
-  for more.
-]
-
-[o:18]r: BITCOIN IS TOO SLOW
-
-[b] While the Bitcoin base layer is slow, the 2nd layer
-*Lightning Network built on the base layer is …
-lightning fast!*
-
-[b] Bitcoin’s network can process about 7
-transactions per second (TPS).
-
-[b] The Visa network claims it can process up to 24,000
-TPS, although 4,000 TPS is closer to actual usage.
-
-[b]b: The Lightning Network, a second layer solution
-built on Bitcoin, has the potential capacity to
-process millions of transactions per second!
---------
 H: Bitcoin [b]FUD'unu çürütmek
 
 [o:18]r: BİTCOİN BİR PONZİ ŞEMASIDIR

@@ -1,0 +1,24 @@
+H: What Is [b]bitcoin?
+
+[b] *Bitcoin is a way to transfer value*
+
+[m-l-20:
+
+  [b2] of any amoun
+  [b2] securely
+  [b2] instantly (on the Lightning Network)
+  [b2] between any two parties
+  [b2] anytime
+  [b2] 24/7
+  [b2] anywhere
+  [b2] yes, anywhere
+  [b2] without any intermediaries
+  [b2] Think about that.
+]
+
+rim> With e-currency based on cryptographic
+proof, without the need to trust a third
+party middleman, money can be secure and
+transactions effortless.
+
+~ Satoshi Nakamoto 2009-02-11

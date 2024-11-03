@@ -1,0 +1,18 @@
+H: The Simplest Bitcoin Book Ever Written
+
+[b] *Bitcoin is scarce.*
+[b] It has a hard cap of 21,000,000.
+[b] There will never be more.
+[b] Code is law here.*
+
+* While it is ‘technically’ possible to change the
+code, Satoshi’s genius prevents that, since increasing
+(inflating) the supply would only serve to decrease the
+value of all bitcoin in circulation. This therefore
+incentivizes everyone to implicitly agree to maintain
+the 21,000,000 hard cap supply.
+
+[b] Check out *timechaincalendar.com* by @TC to check
+the current block height, the available supply, and
+numerous other metrics with regard to the bitcoin
+timechain.

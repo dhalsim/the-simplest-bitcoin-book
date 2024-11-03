@@ -1,0 +1,32 @@
+H: The Simplest Bitcoin Book Ever Written
+
+[o:18]r: YOU CAN’T TOUCH A BITCOIN
+
+[b] *This is a feature, not a bug.* The very fact that bitcoin
+is not physical is one of the biggest factors contributing to it’s unconfiscatability!
+
+[o:18]r: BITCOIN COULD GET HACKED
+
+[b] In the 15 years since it was launched, it has never
+been hacked.
+
+[b] There have been hacks at exchanges however, so I
+highly recommend moving your bitcoin to your own
+self-custody wallet as soon as possible.
+
+[b] It has been estimated that to break the SHA-256
+encryption (that bitcoin uses) within 24 hours, a
+quantum computer would need 13,000,000 physical
+qubits. At this time, the current qubit record held
+by Atom Computing in California is 1,180 qubits.
+
+[b] It is widely assumed that a quantum-safe encryption
+method will be developed well before it is needed.
+
+rmi> Being open source means anyone can
+independently review the code. If it was
+closed source, nobody could verify the
+security. I think it’s essential for a
+program of this nature to be open source.
+
+~ Satoshi Nakamoto 2009-12-10

@@ -1,15 +1,3 @@
-A NOTE ON THE FED CHAIR
-
-[b] *The Chair of the Federal Reserve is also:*
-
--> Chairs the Federal Open Market Committee (FOMC), which decides on the direction of US monetary policy (for eg: QE, interest rate hikes)
--> A member of the International Monetary Fund, the IMF
--> A member of the Bank for International Settlements, the BIS (the bank of central banks).
--> The US finance minister of the G-7
--> The US finance minister of the G-20
-
-A *whole* lot of power for one person.
------
 FED BAŞKANI HAKKINDA BİR NOT
 
 [b] *Federal Rezerv Başkanı aynı zamanda:*
@@ -21,4 +9,3 @@ FED BAŞKANI HAKKINDA BİR NOT
 -> G-20'nin ABD maliye bakanıdır
 
 [b] Tek bir kişi için *çok büyük* bir güç.
-

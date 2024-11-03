@@ -1,0 +1,34 @@
+H: The Simplest Bitcoin Book Ever Written
+
+[r:
+  [o:18]r: SOME OF THE EARLY CYPHERPUNKS
+
+  we can thank for contributing to the
+  development of digital peer-to-peer cash
+]
+
+-> *Satoshi Nakamoto* - Anonymous cypherpunk who
+introduced bitcoin to the world in 2009.
+
+-> *Nick Szabo* - Bit Gold 2005
+
+-> *Hal Finney* - 2004 Reusable Proof of Work (RPoW),
+Author of PGP 2.0. Second person to run the bitcoin client. Received the first bitcoin transaction
+of 10 bitcoins from Satoshi Nakamoto
+
+-> *Wei Dai* - B-money 1998
+
+-> *Dr Adam Back* - HashCash 1997 - CEO Blockstream
+
+-> *Douglas Jackson and Barry Downey* - E Gold
+1996
+
+
+-> *John Gilmore*     |  
+-> *Timothy C.May*    |  [box: Founders of the Cypherpunk
+-> *Eric Hughes*      |   movement and mailing list in 1992]
+
+-> *Philip Zimmermann:* - 1991 PGP 1.0, the most
+widely used email encryption in use.
+
+-> *David Chaum* - Ecash 1983 and DigiCash 1989

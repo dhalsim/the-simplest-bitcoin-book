@@ -1,0 +1,19 @@
+H: The Simplest Bitcoin Book Ever Written
+
+[b] *Bitcoin is a distributed, decentralized, transparent
+and immutable LEDGER OF ACCOUNT.*
+
+[b] Anyone in the world can see who owns what, at any
+given moment, and it cannot be changed.
+
+[b] Except the ‘who’ isn’t a name, *it is an address
+made up of numbers and letters.*
+
+[obb:
+
+  [b] An example of a bitcoin address:
+
+      *bc1qar0srrr7xfkvy5l643lydnw9re59gtzzwf5mdq*
+]
+
+[b] Bitcoin is therefore *pseudonymous.*

@@ -1,36 +1,3 @@
-H: A Word On The Lightning Network
-
-[obb:
-
-[b] Enter, *the Lightning Network (LN)*, a *Layer 2 bitcoin
-scaling solution.*
-
-[b] ‘Layer 2’ means *it is built on top of bitcoin.*
-
-[b] *‘Scaling Solution’* means it allows the network to:
-
-  [m-l-20:b:
-
-  -> Vastly increase the speed of processing.
-  -> Vastly increase the number of transactions it
-  can process per second.
-  -> Make micropayments possible.
-
-  ]
-]
-
-[b] The Lightning Network can be (sort of) thought of like
-a tab you might keep with some friends at the bar.
-
-[b] You keep track between all of you who owes what
-(like a Lightning Network channel), and at the end
-of the night your group settles with the barman
-(‘the mainchain’).
-
-[b]b: Lightning channels, however, can stay open for
-days, weeks, months or years before being
-‘settled’ on the mainchain.
-------
 H: Yıldırım Ağı Hakkında Bir Söz
 
 [obb:

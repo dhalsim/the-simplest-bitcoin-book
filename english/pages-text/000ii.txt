@@ -1,0 +1,39 @@
+The Simplest Bitcoin Book Ever Written
+
+(CC) Second Edition, July 2024, Keysa Luna
+(CC) First Edition, March 2022, Keysa Luna
+
+
+
+
+[images/cc.png]
+
+This work is licensed under the *Creative Commons
+Attribution-­NonCommercial-ShareAlike 4.0
+International License.*
+
+*This means you are free to:*
+
+[m-l-20:
+  *Share:* Copy and redistribute the material in any medium or format
+  *Adapt:* Remix, transform, and build upon the material
+]
+
+*Under the following terms:*
+
+[m-l-20:
+  Attribution: You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+
+  NonCommercial: You may not use the material for commercial purposes. 
+
+  ShareAlike: If you remix, transform, or build upon the material,
+  you must distribute your contributions under the same license as
+  the original. 
+]
+
+Cover and interior design by Keysa Luna
+Cover photo by Vallota from Pixabay.com
+Title graphics by @Asanoha_gold :: sovereignremnant.com
+Nostr logo by sovrynmatt@nostrplebs.com
+Independently Published
+Printed in the USA

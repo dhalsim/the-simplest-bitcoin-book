@@ -1,14 +1,3 @@
-[b] *Bitcoin is decentralized.*
-
-[b] *It is run on thousands of nodes worldwide, by thousands of people who don’t know each other.*
-
-[b] No one person, government or company can ever control it.*
-You can run a node too, it’s easy ;)
-
-[b] By running your own node, you increase your privacy and help to secure the network when you verify your own transactions.
-
-[obb] *Don’t trust. Verify.*
------
 [b] *Bitcoin merkeziyetsizdir.*
 
 [b] *Dünya çapında binlerce düğüm (node) üzerinde, birbirini tanımayan binlerce kişi tarafından çalıştırılır.*
