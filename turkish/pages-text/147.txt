@@ -1,0 +1,21 @@
+*Şifrepunklar kod yazar. Biliyoruz ki, birisi mahremiyetini korumak için yazılım yazmalıdır, ve hepimiz yapmadıkça mahremiyeti elde edemeyeceğimizden, bunu biz yazacağız.* Kodumuzu yayınlarız ki Şifrepunk arkadaşlarımız onunla pratik yapıp, oynayabilir.
+
+*Kodumuz, dünya çapında, herkesin kullanımına açıktır.* Yazdığımız yazılımları onaylayıp onaylamadığınızı çok da umursamıyoruz. Biliyoruz ki yazılım yok edilemez ve yaygın olarak dağıtık bir sistem kapatılamaz.
+
+Şifrepunklar kriptografi üzerindeki yasalara esefle bakar; zira şifreleme temel olarak
+mahrem bir davranıştır. Şifreleme işi, aslında, bilgiyi kamusal alandan uzaklaştırır. Kriptografi karşıtı kanunlar dahi yalnızca devletin sınırlarına ve şiddetinin uzanabildiği yere kadar etkilidir. 
+
+Kriptografi, ve onun mümkün kıldığı anonim işlem sistemlerinin, yerküreye yayılması kaçınılmazdır.
+
+*Mahremiyetin yaygın olabilmesi için, sosyal sözleşmenin bir parçası olması gerekir. İnsanlar toplanarak, ortak yarar adına bu sistemleri hep beraber devreye almalıdır.* Mahremiyet ancak birinin arkadaşlarının toplumdaki iş birliği kadar yayılır. Biz Şifrepunklar sorularınız ve endişelerinize talibiz ve umuyoruz ki sizin ilginizi çekebiliriz, böylece kendimizi kandırmış olmayız. Ancak bazıları bizim
+hedeflerimize karşı çıkıyor diye yolumuzdan dönecek değiliz.
+
+Şİfrepunklar, ağları mahremiyet açısından daha güvenli kılmaya söz vermişlerdir. Hadi hep birlikte hızlıca harekete geçelim.
+
+İleri.
+Eric Hughes <hughes@soda.berkeley.edu>
+9 March 1993
+
+r: (*Kalın* vurgular bana aittir)
+r: (Çeviri, bir kaç düzenleme dışında: https://www.academia.edu/42706017/Bir_%C5%9Eifrepunk%C4%B1n_Bildirisi_A_Cypherpunks_Manifesto
+Melih Gümüş)

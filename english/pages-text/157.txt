@@ -1,27 +1,4 @@
-C koduna dönüştürüyoruz...
-
-[m-l-20:
-  [monospace:
-    #include <math.h>
-    double AttackerSuccessProbability(double q, int z)
-    {
-      double p = 1.0 - q;
-      double lambda = z * (q / p);
-      double sum = 1.0;
-      int i, k;
-      for (k = 0; k <= z; k++)
-      {
-        double poisson = exp(-lambda);
-        for (i = 1; i <= k; i++)
-          poisson *= lambda / i;
-        sum -= poisson * (1 - pow(q / p, z - k));
-      }
-      return sum;
-    }
-  ] 
-]
-
-Bazı değerler vererek, olasılığın z ile katlanarak azaldığını görebiliriz.
+Running some results, we can see the probability drop off exponentially with z.
 
 [m-l-20:
   q=0.1
@@ -36,6 +13,7 @@ Bazı değerler vererek, olasılığın z ile katlanarak azaldığını görebil
   z=8 P=0.0000173
   z=9 P=0.0000046
   z=10 P=0.0000012
+  
   q=0.3
   z=0 P=1.0000000
   z=5 P=0.1773523
@@ -50,7 +28,7 @@ Bazı değerler vererek, olasılığın z ile katlanarak azaldığını görebil
   z=50 P=0.0000006
 ]
 
-P’yi %0,1'den daha düşük değerler için çözüyoruz...
+Solving for P less than 0.1%...
 
 [m-l-20:
   P < 0.001
@@ -63,5 +41,9 @@ P’yi %0,1'den daha düşük değerler için çözüyoruz...
   q=0.40 z=89
   q=0.45 z=340
 ]
+
+*12. Conclusion*
+
+We have proposed a system for electronic transactions without relying on trust. We started with the usual framework of coins made from digital signatures, which provides strong control of ownership, but is incomplete without a way to prevent double-spending. To solve this, we proposed a peer-to-peer network using proof-of-work to record a public history of transactions that quickly becomes computationally impractical for an attacker to change if honest nodes control a majority of CPU power. The network is robust in its unstructured simplicity. Nodes work all at once with little coordination. They do not need to be identified, since messages are not routed to any particular place and only need to be delivered on a best effort basis. Nodes can leave and rejoin the network at will, accepting the proof-of-work chain as proof of what happened while they were gone. They vote with their CPU power, expressing their acceptance of valid blocks by working on extending them and rejecting invalid blocks by refusing to work on them. Any needed rules and incentives can be enforced with this consensus mechanism.
 
 c:8

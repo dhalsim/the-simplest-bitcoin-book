@@ -1,3 +1,5 @@
+H: The Simplest Bitcoin Book Ever Written
+
 [o:20] WHAT IS [b]bitcoin?
 
 ri> “Writing a description for this thing

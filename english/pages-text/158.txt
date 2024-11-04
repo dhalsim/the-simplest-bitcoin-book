@@ -1,8 +1,4 @@
-*12. Sonuç*
-
-Güvene dayalı olmayan elektronik işlemler için bir sistem önermiş bulunmaktayız. Dijital imzalardan oluşan alışılmış bir para sistemi ile başladık. Bu sistem mülkiyet üzerinde güçlü bir kontrol sağlasa da, çift harcamayı engellemenin bir yolunu bulmadıkça eksik kalmaktadır. Bunu çözmek için, işlem geçmişini açık bir şekilde kaydetmek için iş kanıtı kullanan, dürüst düğümler işlemci gücünün çoğunluğunu kontrol ettiği takdirde bir saldırganın değiştirmesinin hesaplanabilir olarak mantıksız olduğu, eşler arası bir ağ sunduk. Bu ağın sağlamlığı yapılandırılmamış basitliğinden kaynaklanmaktadır. Düğümler çok az koordinasyon ile aynı anda çalışmaktadır. Mesajlar belirli bir yere yönlendirilmediği ve yalnızca elden gelenin en iyisi temelinde iletilmesi gerektiği için, düğümlerin tanımlanmasına gerek kalmamaktadır. Düğümler ağdan ayrıldıkları süreçte olanların kanıtı olarak iş kanıtı zincirini kabul etme şartıyla istedikleri zaman ağdan ayrılabilir ve yeniden ağa katılabilirler. İşlemci güçleriyle oy kullanırlar. Geçerli blokları kabul ettiklerini, onları yaymaya çalışarak ve geçersiz blokları reddettiklerini ise onların üzerinde çalışmayı geri çevirerek gösterirler. Gerekli tüm kural ve teşvikler bu fikir birliği mekanizmasıyla uygulanabilmektedir.
-
-*Referanslar*
+*References*
 
 [m-l-20:
   [1] W. Dai, "b-money," http://www.weidai.com/bmoney.txt, 1998.

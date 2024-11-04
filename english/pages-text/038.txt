@@ -1,3 +1,5 @@
+H: The Simplest Bitcoin Book Ever Written
+
 [b] *Bitcoin is decentralized.*
 
 [b] *It is run on thousands of nodes worldwide, by thousands of people who don’t know each other.*

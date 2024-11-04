@@ -1,25 +1,28 @@
+*4. Proof-of-Work*
+
+To implement a distributed timestamp server on a peer-to-peer basis, we will need to use a proof-of-work system similar to Adam Back's Hashcash [6], rather than newspaper or Usenet posts. The proof-of-work involves scanning for a value that when hashed, such as with SHA-256, the hash begins with a number of zero bits. The average work required is exponential in the number of zero bits required and can be verified by executing a single hash.
+
+[indent] For our timestamp network, we implement the proof-of-work by incrementing a nonce in the block until a value is found that gives the block's hash the required zero bits. Once the CPU effort has been expended to make it satisfy the proof-of-work, the block cannot be changed without redoing the work. As later blocks are chained after it, the work to change the block would include redoing all the blocks after it.
+
 [c] [images/page-152-1.png]
 
-*4. İş Kanıtı*
+[indent] The proof-of-work also solves the problem of determining representation in majority decision making. If the majority were based on one-IP-address-one-vote, it could be subverted by anyone able to allocate many IPs. Proof-of-work is essentially one-CPU-one-vote. The majority decision is represented by the longest chain, which has the greatest proof-of-work effort invested in it. If a majority of CPU power is controlled by honest nodes, the honest chain will grow the fastest and outpace any competing chains. To modify a past block, an attacker would have to redo the proof-of-work of the block and all blocks after it and then catch up with and surpass the work of the honest nodes. We will show later that the probability of a slower attacker catching up diminishes exponentially as subsequent blocks are added.
 
-Eşler arası temelde dağıtılmış bir zaman damgası sunucusunu uygulamak için, gazete veya Usenet yayınlarından ziyade, Adam Back'in geliştirdiği Hashcash [6] benzeri bir iş kanıtı sistemi kullanmamız gerekecektir. İş kanıtı, -örneğin SHA-256 ile- özetleme işlemi sonucunda çıkan özetin başında belirli sayıda 0 bit olan bir değerin taranmasını içermektedir. Yapılması gereken ortalama iş, bulunması gerekli 0 bitlerin sayısı ile üssel olarak orantılıdır ve tek bir özet hesabı ile doğrulanabilmektedir.
+[indent] To compensate for increasing hardware speed and varying interest in running nodes over time, the proof-of-work difficulty is determined by a moving average targeting an average number of blocks per hour. If they're generated too fast, the difficulty increases.
 
-[indent] Zaman damgası ağımızdaki iş kanıtı modelini, blok özetindeki gerekli sıfır değerli bitleri veren bir değer bulunana kadar, bloğun tek seferlik anahtarını arttırarak uygulamaktayız. İşlemci gücü bir kez iş kanıtını yerine getirmek için harcandığında, blok aynı iş tekrarlanmadan değiştirilememektedir. Sonraki bloklar zincire eklendikçe, bloğu değiştirmek için gereken iş kendisinden sonra zincire eklenen bütün blokları değiştirmeyi de kapsayacaktır.
+*5. Network*
 
-[c] [images/page-152-2.png]
-
-[indent] İş kanıtı aynı zamanda çoğunluğun karar alma sürecindeki temsilin belirlenme sorununu da çözmektedir. Eğer çoğunluk IP adresine dayalı olarak belirlenseydi, kendine çok sayıda IP adresi tahsis edebilen herkes bu çoğunluğu bozabilirdi. İş kanıtında esas, bir işlemcinin bir oyu temsil etmesidir. Çoğunluk kararı, kendisine yatırılan en büyük iş kanıtı çabasına sahip olan en uzun zincir tarafından temsil edilmektedir. İşlemci gücünün büyük bir kısmı dürüst düğümler tarafından kontrol edilirse, dürüst zincir en hızlı şekilde büyüyecek ve rakip zincirlerin önüne geçecektir. Bir saldırganın geçmişteki bir bloğu değiştirmesi için, bloğun ve ondan sonra gelen tüm blokların iş kanıtını yeniden yapması ve ardından dürüst düğümlerin yaptığı işi yakalayarak, onları geçmesi gerekmektedir. İleride, daha yavaş bir saldırganın ağı yakalama olasılığının bloklar eklendikçe üssel olarak azaldığını göstereceğiz.
-
-[indent] Artan donanım hızını ve zaman ile değişen düğüm çalıştırma ilgisine ayak uydurmak için iş kanıtı zorluğu, saatte ortalama blok sayısını hedefleyen bir hareketli ortalama ile belirlenir; bloklar çok hızlı üretilirlerse, zorluk seviyesi artmaktadır.
-
-*5. Ağ*
-
-Ağı çalıştırmak için gerekli adımlar şöyledir:
+The steps to run the network are as follows:
 
 [m-l-20:
-  1) Yeni işlemler tüm düğümlere yayınlanır.
-  2) Her düğüm yeni işlemleri bir blok içinde toplar.
-  3) Her düğüm kendi bloğu için zor bir iş kanıtı üzerinde çalışır.
+  1) New transactions are broadcast to all nodes.
+  2) Each node collects new transactions into a block.
+  3) Each node works on finding a difficult proof-of-work for its block.
+  4) When a node finds a proof-of-work, it broadcasts the block to all nodes.
+  5) Nodes accept the block only if all transactions in it are valid and not already spent.
+  6) Nodes express their acceptance of the block by working on creating the next block in the chain, using the hash of the accepted block as the previous hash.
 ]
+
+[indent] Nodes always consider the longest chain to be the correct one and will keep working on extending it. If two nodes broadcast different versions of the next block simultaneously, some nodes may receive one or the other first. In that case, they work on the first one they received, but save the other branch in case it becomes longer. The tie will be broken when the next proof-of-work is found and one branch becomes longer; the nodes that were working on the other branch will then switch to the longer one.
 
 [c] *3*

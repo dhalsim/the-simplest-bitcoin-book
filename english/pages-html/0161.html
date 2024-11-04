@@ -11,92 +11,43 @@
         <div class="header jcc"></div>
 
         <div class="body">
-          <div class="p">
-            <ol class="white-paper" style="list-style-type: none">
-              <li>
-                4) Bir düğüm iş kanıtını bulduğunda, bu bloğu tüm düğümlere
-                yayınlar.
-              </li>
-              <li>
-                5) Düğümler bloğu yalnızca içindeki tüm işlemler geçerliyse ve
-                halihazırda harcanmamışsa kabul ederler.
-              </li>
-              <li>
-                6) Düğümler bloğu kabul ettiklerini, zincirdeki bir sonraki
-                bloğu oluşturmak için çalışırken önceki özet olarak bu bloğun
-                özetini kullanarak gösterirler.
-              </li>
-            </ol>
-          </div>
-
           <div class="p t-a-j m-t-20">
             <span class="line inline indent">
-              Düğümler her zaman en uzun zincirin doğru zincir olduğunu
-              düşünmekte ve onu uzatmak için çalışmaya devam edeceklerdir. İki
-              düğüm, bir sonraki bloğun farklı versiyonlarını aynı anda
-              yayınlıyorsa, bazı düğümler birini, bazı düğümler diğerini
-              alabilir. Bu durumda ilk aldıkları üzerinde çalışırlar ancak diğer
-              dalı da daha uzun olma ihtimaline karşılık saklarlar. Beraberlik
-              bir sonraki iş kanıtı bulunduğunda ve bir dal daha uzun hale
-              geldiğinde kırılacak, diğer dalda çalışmış olan düğümler uzun
-              olana geçecektir.
-            </span>
-
-            <span class="line inline indent">
-              Yeni işlem yayınlarının tüm düğümlere ulaşması gerekmez, bu
-              yayınlar birçok düğüme eriştiği sürece, çok geçmeden bir bloğa
-              gireceklerdir; blok yayınları aynı zamanda bırakılmış mesajlara
-              karşı da dayanıklıdır, eğer bir düğüm bir bloğu almazsa, bir
-              sonraki bloğu teslim aldığında eksik bloğu fark edecek ve bu bloğu
-              talep edecektir.
+              New transaction broadcasts do not necessarily need to reach all nodes. As long as they reach many nodes, they will get into a block before long. Block broadcasts are also tolerant of dropped messages. If a node does not receive a block, it will request it when it receives the next block and realizes it missed one.
             </span>
           </div>
 
           <div class="p t-a-j m-t-20">
-            <span class="line inline b">6. Teşvik</span>
+            <span class="line inline b">6. Incentive</span>
 
             <span class="line inline m-t-10">
-              Kural gereği bloktaki ilk işlem, bloğun yaratıcısına ait olan
-              paranın yaratıldığı özel bir işlemdir. Bu, düğümlerin ağı
-              desteklemesini teşvik etmekte ve paranın ilk kez dolaşıma
-              girmesini sağlamaktadır. Zira, para basacak başka bir merkezi
-              otorite bulunmamaktadır. Sabit miktardaki yeni basılan paranın
-              düzenli olarak dolaşıma girmesi, altın madencilerinin kaynaklarını
-              harcayarak dolaşıma altın sürmesine benzer. Bizim durumumuzda bu,
-              harcanan işlemci zamanı ve elektriktir.
+              By convention, the first transaction in a block is a special transaction that starts a new coin owned by the creator of the block. This adds an incentive for nodes to support the network, and provides a way to initially distribute coins into circulation, since there is no central authority to issue them. The steady addition of a constant of amount of new coins is analogous to gold miners expending resources to add gold to circulation. In our case, it is CPU time and electricity that is expended.
             </span>
 
             <span class="line inline indent">
-              Teşvik, işlem ücretleri ile de finanse edilebilir. Bir işlemin
-              çıktı değeri girdisinden düşük ise, aradaki fark işlemi içeren
-              bloğun teşviğine eklenen işlem ücretidir. Önceden belirlenmiş
-              miktardaki para dolaşıma girdiğinde, teşvik tamamiyle işlem
-              ücretlerine dönüşebilir ve tamamen enflasyondan arınmış olabilir.
+              The incentive can also be funded with transaction fees. If the output value of a transaction is less than its input value, the difference is a transaction fee that is added to the incentive value of the block containing the transaction. Once a predetermined number of coins have entered circulation, the incentive can transition entirely to transaction fees and be completely inflation free.
             </span>
 
             <span class="line inline indent">
-              Teşvik, düğümlerin dürüst kalmasının özendirilmesine yardımcı
-              olabilir. Eğer açgözlü bir saldırgan dürüst düğümlerin tümünden
-              daha fazla işlemci gücünü toplayabilirse, bunu ödemelerini geri
-              alarak insanları dolandırmak için mi, yoksa yeni para üretmek için
-              mi kullanacağına karar vermesi gerekecektir. Saldırgan oyunu
-              kuralına göre oynamayı daha kârlı bulmalıdır. Böylece sistemi ve
-              kendi servetinin geçerliliğini baltalamaktansa, diğer herkesin
-              toplamından daha fazla yeni para elde edecektir.
+              The incentive may help encourage nodes to stay honest. If a greedy attacker is able to assemble more CPU power than all the honest nodes, he would have to choose between using it to defraud people by stealing back his payments, or using it to generate new coins. He ought to find it more profitable to play by the rules, such rules that favour him with more new coins than everyone else combined, than to undermine the system and the validity of his own wealth.
             </span>
           </div>
 
           <div class="p t-a-j m-t-20">
-            <span class="line inline b">7. Disk Alanı Geri Kazanımı</span>
+            <span class="line inline b">7. Reclaiming Disk Space</span>
 
             <span class="line inline m-t-10">
-              Bir paranın kullanıldığı son işlem yeterince blok altında
-              kaldıktan sonra, o paranın önceki işlemleri disk alanından
-              tasarruf etmek için atılabilir. Blok özetini bozmadan bunu
-              yapabilmek için, işlemler bir Merkle ağacında[7][2][5] sadece kök
-              dahil olacak şekilde özetlenmiştir. Eski bloklar daha sonra ağacın
-              dalları budanarak sıkıştırılabilir. İç özetlerin depolanmasına
-              gerek yoktur.
+              Once the latest transaction in a coin is buried under enough blocks, the spent transactions before it can be discarded to save disk space. To facilitate this without breaking the block's hash, transactions are hashed in a Merkle Tree [7][2][5], with only the root included in the block's hash. Old blocks can then be compacted by stubbing off branches of the tree. The interior hashes do not need to be stored.
+            </span>
+          </div>
+
+          <div class="p aic m-t-20 w100">
+            <img src="images/page-153-1.png" width="80%" />
+          </div>
+
+          <div class="p t-a-j m-t-20">
+            <span class="line inline indent">
+              A block header with no transactions would be about 80 bytes. If we suppose blocks are generated every 10 minutes, 80 bytes * 6 * 24 * 365 = 4.2MB per year. With computer systems typically selling with 2GB of RAM as of 2008, and Moore's Law predicting current growth of 1.2GB per year, storage should not be a problem even if the block headers must be kept in memory
             </span>
           </div>
         </div>

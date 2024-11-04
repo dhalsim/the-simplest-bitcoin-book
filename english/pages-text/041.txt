@@ -1,3 +1,5 @@
+H: What Is [b]bitcoin?
+
 [b] *Bitcoin is the first digitally native money, un*like
 your online checking account, which is just a
 digital form of central bank fiat.

@@ -12,74 +12,35 @@
 
         <div class="body">
           <div class="p t-a-j m-t-20">
-            <span class="line inline">
-              grubundan daha fazla işlemci gücünü toplu olarak kontrol ettiği
-              sürece güvenlidir.
-            </span>
-          </div>
-
-          <div class="p t-a-j m-t-20">
-            <span class="line inline b">2. İşlemler</span>
+            <span class="line inline b">2. Transactions</span>
 
             <span class="line inline m-t-10">
-              Elektronik parayı dijital bir imza zinciri olarak tanımlamaktayız.
-              Her para sahibi, paranın bir önceki işlemiyle birlikte, parayı
-              alacak kişinin açık anahtar özetini dijital olarak imzalayıp
-              paranın sonuna ekleyerek, bir sonraki sahibe o parayı
-              yollamaktadır. Ödemeyi alan kişi mülkiyet zincirini doğrulamak
-              için imzaları doğrulayabilir.
+              We define an electronic coin as a chain of digital signatures. Each owner transfers the coin to the
+              next by digitally signing a hash of the previous transaction and the public key of the next owner
+              and adding these to the end of the coin. A payee can verify the signatures to verify the chain of
+              ownership.
             </span>
           </div>
 
           <div class="p aic w100">
-            <img src="../../images/page-151-1.png" width="80%" />
+            <img src="images/page-151-1.png" width="80%" />
           </div>
 
           <div class="p t-a-j m-t-10">
             <span class="line inline indent">
-              Elbette buradaki sorun, ödeme alan kişinin paranın önceki
-              sahiplerinden birinin parayı iki kez harcamadığını
-              doğrulayamamasıdır. Yaygın bir çözüm, her işlemde çift harcamayı
-              denetleyen güvenilir, merkezi bir otorite veya darphane sunmaktır.
-              Her işlemden sonra para, yeni para basımı için darphaneye iade
-              edilmelidir ve sadece doğrudan darphanede basılmış paraların iki
-              kez harcanmadığına güvenilmektedir. Bu çözüm ile ilgili problem,
-              bütün işlemlerin bir bankaymış gibi darphaneyi işleten şirketten
-              geçme zorunluluğu ve tüm para sisteminin kaderinin bu şirketin
-              elinde olmasıdır.
+              The problem of course is the payee can't verify that one of the owners did not double-spend the coin. A common solution is to introduce a trusted central authority, or mint, that checks every transaction for double spending. After each transaction, the coin must be returned to the mint to issue a new coin, and only coins issued directly from the mint are trusted not to be double-spent. The problem with this solution is that the fate of the entire money system depends on the company running the mint, with every transaction having to go through them, just like a bank.
             </span>
 
             <span class="line inline indent">
-              Ödemeyi alan kişinin, paranın önceki sahiplerinin daha önce hiçbir
-              işlemi imzalamadığını bildiği bir yol bulmamız gerekmektedir.
-              Amaçlarımız doğrultusunda en önemli işlem, en eski işlemdir ve
-              böylece sonraki çift harcama girişimleri bizi
-              ilgilendirmemektedir. Bir işlemin gerçekleşmediğini onaylamanın
-              tek yolu, tüm işlemlerden haberdar olmaktır. Darphaneye dayalı
-              modelde, darphane tüm işlemlerden haberdardı ve hangisinin önce
-              geldiğine o karar veriyordu. Güvenilir bir üçüncü taraf olmadan
-              bunu başarabilmek için, işlemlerin alenen ilan edilmesi
-              gerekmektedir [1] ve katılımcıların aldıkları siparişin tek bir
-              geçmişi olduğu konusunda hemfikir olacakları bir sisteme ihtiyaç
-              duyulmaktadır. Ödeme yapılan kişi her işlem sırasında, düğüm
-              çoğunluğunun aldıkları ilk işlemin o işlem olduğu konusunda
-              hemfikir olduğu bir kanıta ihtiyaç duymaktadır.
+              We need a way for the payee to know that the previous owners did not sign any earlier transactions. For our purposes, the earliest transaction is the one that counts, so we don't care about later attempts to double-spend. The only way to confirm the absence of a transaction is to be aware of all transactions. In the mint based model, the mint was aware of all transactions and decided which arrived first. To accomplish this without a trusted party, transactions must be publicly announced [1], and we need a system for participants to agree on a single history of the order in which they were received. The payee needs proof that at the time of each transaction, the majority of nodes agreed it was the first received. 
             </span>
           </div>
 
           <div class="p t-a-j m-t-20">
-            <span class="line inline b">3. Zaman Damgası Sunucusu</span>
+            <span class="line inline b">3. Timestamp Server</span>
 
             <span class="line inline">
-              Önerdiğimiz çözüm bir zaman damgası sunucusuyla başlamaktadır. Bir
-              zaman damgası sunucusu, damgalanmayı bekleyen öğelerden oluşan
-              bloğun özetini alarak ve bu karışımı bir gazete veya Usenet
-              gönderisi[2-5] gibi her tarafa yayımlayarak çalışmaktadır. Zaman
-              damgası, özete girmek amacıyla verinin o anda var olması
-              gerektiğinin kanıtıdır. Özetinde bir önceki zaman damgasını
-              bulunduran da dahil olmak üzere her zaman damgası, eklenen her
-              zaman damgası ile kendisinden öncekileri sağlamlaştırarak bir
-              zincir oluşturmaktadır.
+              The solution we propose begins with a timestamp server. A timestamp server works by taking a hash of a block of items to be timestamped and widely publishing the hash, such as in a newspaper or Usenet post [2-5]. The timestamp proves that the data must have existed at the time, obviously, in order to get into the hash. Each timestamp includes the previous timestamp in its hash, forming a chain, with each additional timestamp reinforcing the ones before it.
             </span>
           </div>
 

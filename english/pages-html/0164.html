@@ -11,112 +11,77 @@
         <div class="header jcc"></div>
 
         <div class="body">
-          <div class="p t-a-j">
-            <span class="line inline indent">
-              Dürüst zincir ile bir saldırgan zinciri arasındaki yarış Binom
-              Rastgele Yürüyüşü olarak nitelendirilebilir. Başarılı olma durumu
-              dürüst zincirin bir blok uzatılarak öncülüğünü 1 arttırması,
-              başarısızlık durumu ise saldırganın zincirinin bir blok uzatılarak
-              aralığın 1 azalmasıdır.
-            </span>
-          </div>
-
-          <div class="p t-a-j">
-            <span class="line inline indent">
-              Bir saldırganın belirli bir açığı yakalama olasılığı Kumarbazın
-              İflası problemine benzemektedir. Sınırsız krediye sahip bir
-              kumarbazın oyuna borçla başladığını ve başabaş noktasına
-              gelebilmek için sonsuz sayıda deneme oyunu oynadığını varsayın.
-              Başabaş noktasına ulaşabilme olasılığını veya saldırganın dürüst
-              zinciri yakalayabilme olasılığını şu şekilde hesaplayabiliriz [8]:
-            </span>
-          </div>
-
-          <div class="p m-l-20 m-t-10">
-            <span class="line inline">
-              p = dürüst bir düğümün sonraki bloğu bulma olasılığı
-              <br />
-              q = saldırganın bir sonraki bloğu bulma olasılığı
-              <br />
-              q
-              <sub>z</sub>
-              = saldırganın z blok geriden gelip yakalama ihtimali
-            </span>
-
-            <img src="../../images/page-156-1.png" class="m-t-10" width="28%" />
-          </div>
-
           <div class="p t-a-j m-t-20">
             <span class="line inline">
-              P &gt; q varsayımımıza göre, saldırganın yakalaması gereken blok
-              sayısı arttıkça, olasılık katlanarak düşmektedir. Bütün
-              olanaksızlıklarla beraber, saldırgan başlarda eğer bir dizi şanslı
-              hamle yapmazsa, kazanma ihtimali zincirin gerisinde kaldıkça hızla
-              azalmaktadır.
+              Given our assumption that p &gt; q, the probability drops exponentially as the number of blocks the attacker has to catch up with increases. With the odds against him, if he doesn't make a lucky lunge forward early on, his chances become vanishingly small as he falls further behind.
             </span>
           </div>
 
           <div class="p t-a-j">
             <span class="line inline indent">
-              Şimdi yeni bir işlemdeki alıcının, gönderenin işlemi
-              değiştiremeyeceğinden yeterince emin olmadan önce ne kadar
-              beklemesi gerektiğini ele almaktayız. Gönderenin, alıcıyı belli
-              bir süre için kendisine ödeme yaptığına inandırmak isteyen, belli
-              bir zaman geçtikten sonra ise ödemeyi kendisine geri döndürmek
-              isteyen bir saldırgan olduğunu varsaymaktayız. Bu olduğunda alıcı
-              uyarılacaktır ancak gönderen bunun için artık çok geç olacağını
-              ümit etmektedir.
+              We now consider how long the recipient of a new transaction needs to wait before being sufficiently certain the sender can't change the transaction. We assume the sender is an attacker who wants to make the recipient believe he paid him for a while, then switch it to pay back to himself after some time has passed. The receiver will be alerted when that happens, but the sender hopes it will be too late.
             </span>
           </div>
 
           <div class="p t-a-j">
             <span class="line inline indent">
-              Alıcı yeni bir anahtar çifti oluşturur ve imzalamadan kısa bir
-              süre önce gönderene açık anahtarı verir. Bu, gönderenin önceden
-              sürekli olarak üstünde çalışarak, bloklardan oluşan bir zinciri
-              hazırlamasını ve bu zincirin öne geçtiği şanslı bir anda işlemi
-              çalıştırmasını önlemektedir. İşlem gönderildikten sonra dürüst
-              olmayan gönderici, işleminin alternatif bir versiyonunu içeren
-              paralel bir zincir üzerinde gizlice çalışmaya başlar.
+              The receiver generates a new key pair and gives the public key to the sender shortly before signing. This prevents the sender from preparing a chain of blocks ahead of time by working on it continuously until he is lucky enough to get far enough ahead, then executing the transaction at that moment. Once the transaction is sent, the dishonest sender starts working in secret on a parallel chain containing an alternate version of his transaction.
             </span>
           </div>
 
           <div class="p t-a-j">
             <span class="line inline indent">
-              Alıcı, işlem bir bloğa eklenene ve bunun arkasına z kadar blok
-              bağlanana kadar bekler. Saldırganın ne kadar ilerleme kaydettiğini
-              tam olarak bilmez ancak dürüst blokların blok başına beklenen
-              ortalama bir süre aldığını varsayarsak, saldırganın yaptığı
-              potansiyel ilerleme beklenen değerli bir Poisson dağılımı
-              olacaktır:
+              The recipient waits until the transaction has been added to a block and z blocks have been linked after it. He doesn't know the exact amount of progress the attacker has made, but assuming the honest blocks took the average expected time per block, the attacker's potential progress will be a Poisson distribution with expected value:
             </span>
           </div>
 
           <div class="p m-l-20 m-t-10">
-            <img src="../../images/page-156-2.png" width="12%" />
+            <img src="images/page-156-1.png" width="12%" />
           </div>
 
           <div class="p t-a-j">
             <span class="line inline">
-              Saldırganın herşeye rağmen yetişebilme ihtimalini elde etmek için,
-              o noktadan zinciri yakalayabilme olasılığı ile elde edebileceği
-              her ilerleme için Poisson yoğunluğunu çarparız:
+              To get the probability the attacker could still catch up now, we multiply the Poisson density for each amount of progress he could have made by the probability he could catch up from that point:
             </span>
           </div>
 
           <div class="p m-l-20 m-t-10">
-            <img src="../../images/page-156-3.png" width="38%" />
+            <img src="images/page-156-2.png" width="38%" />
           </div>
 
           <div class="p t-a-j">
             <span class="line inline">
-              Sonsuz dağılım kuyruk toplamını almaktan kaçınmak için yeniden
-              düzenliyoruz...
+              Rearranging to avoid summing the infinite tail of the distribution...
             </span>
           </div>
 
           <div class="p m-l-20 m-t-10">
-            <img src="../../images/page-156-4.png" width="35%" />
+            <img src="images/page-156-3.png" width="35%" />
+          </div>
+
+          <div class="p">
+            <span class="line inline">Converting to C code...</span>
+          </div>
+
+          <div class="p m-l-20">
+            <pre class="monospace fs-10">
+#include &lt;math.h&gt;
+double AttackerSuccessProbability(double q, int z)
+{
+  double p = 1.0 - q;
+  double lambda = z * (q / p);
+  double sum = 1.0;
+  int i, k;
+  for (k = 0; k &lt;= z; k++)
+  {
+    double poisson = exp(-lambda);
+    for (i = 1; i &lt;= k; i++)
+      poisson *= lambda / i;
+    sum -= poisson * (1 - pow(q / p, z - k));
+  }
+  return sum;
+}
+            </pre>
           </div>
         </div>
 

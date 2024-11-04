@@ -11,54 +11,39 @@
         <div class="header jcc"></div>
 
         <div class="body">
-          <div class="p aic w100">
-            <img src="../../images/page-154-1.png" width="80%" />
-          </div>
-
-          <div class="p t-a-j m-t-20">
-            <span class="line inline indent">
-              Bir blok başlığı işlem olmadan yaklaşık 80 bayttır. 10 dakikada
-              bir blok üretildiğini varsayarsak, 80 bayt * 6 * 24 * 365 = yılda
-              4.2MB yapar. 2008 itibariyle tipik bilgisayar sistemlerinin 2GB
-              RAM ile satıldığını ve yıllık 1.2GB büyümeyi öngören Moore
-              yasasını göz önünde bulundurursak, blok başlıkları bellekte
-              tutulsa bile depolama bir sorun teşkil etmeyecektir.
-            </span>
-          </div>
-
           <div class="p t-a-j m-t-20">
             <span class="line inline b">
-              8. Basitleştirilmiş Ödeme Doğrulaması
+              8. Simplified Payment Verification
             </span>
 
             <span class="line inline">
-              Ödemeleri tam bir ağ düğümü çalıştırmadan doğrulamak mümkündür.
-              Bunun için bir kullanıcının yalnızca en uzun iş kanıtı
-              zincirindeki blok başlıklarının bir kopyasını saklaması ve işlemi,
-              içinde zaman damgalandığı bloğa bağlayan Merkle dalını bulması
-              gerekmektedir. Bu kopyayı en uzun zincirin kendisinde olduğuna
-              ikna olana dek ağ düğümlerine sorgu yaparak elde edebilir. İşlemi
-              kendisi kontrol edemez ancak zincirdeki bir yere bağlayarak bir ağ
-              düğümünün bu işlemi kabul ettiğini görebilir ve kendisinden
-              sonraki bloklar, ağın işlemi kabul ettiğini onaylayabilir.
+              It is possible to verify payments without running a full network node. A user only needs to keep a copy of the block headers of the longest proof-of-work chain, which he can get by querying network nodes until he's convinced he has the longest chain, and obtain the Merkle branch linking the transaction to the block it's timestamped in. He can't check the transaction for himself, but by linking it to a place in the chain, he can see that a network node has accepted it, and blocks added after it further confirm the network has accepted it.
             </span>
           </div>
 
           <div class="p aic m-t-10 w100">
-            <img src="../../images/page-154-2.png" width="80%" />
+            <img src="images/page-154-1.png" width="80%" />
           </div>
 
           <div class="p t-a-j m-t-20">
             <span class="line inline indent">
-              Bu sebeple, doğrulama işlemi dürüst düğümler ağı kontrol ettiği
-              sürece güvenilirken, ağ bir saldırgan tarafından güçlendirilmişse
-              savunmasız hale gelir. Ağ düğümleri, işlemleri kendileri
-              doğrulayabilse de, saldırgan uydurma işlemler ile ağı
-              güçlendirmeye devam edebildiği sürece basitleştirilmiş yöntem
-              kandırılabilir. Bundan korunmak için bir strateji, geçersiz bir
-              blok fark ettiğinde ağ düğümlerinden gelen uyarıları alarak,
-              tutarsızlığı onaylamak için kullanıcının yazılımını tüm bloğu ve
-              uyarı alan işlemleri indirmeye yönlendirmektir. Sık ödeme alan
+              As such, the verification is reliable as long as honest nodes control the network, but is more vulnerable if the network is overpowered by an attacker. While network nodes can verify transactions for themselves, the simplified method can be fooled by an attacker's fabricated transactions for as long as the attacker can continue to overpower the network. One strategy to protect against this would be to accept alerts from network nodes when they detect an invalid block, prompting the user's software to download the full block and alerted transactions to confirm the inconsistency. Businesses that receive frequent payments will probably still want to run their own nodes for more independent security and quicker verification.
+            </span>
+          </div>
+
+          <div class="p t-a-j m-t-20">
+            <span class="line inline b">9. Combining and Splitting Value</span>
+
+            <span class="line inline">
+              Although it would be possible to handle coins individually, it would be unwieldy to make a separate transaction for every cent in a transfer. To allow value to be split and combined, transactions contain multiple inputs and outputs. Normally there will be either a single input from a larger previous transaction or multiple inputs combining smaller amounts, and at most two outputs: one for the payment, and one returning the change, if any, back to the sender. 
+            </span>
+
+            <div class="p aic m-t-10 w100">
+              <img src="images/page-154-2.png" width="80%" />
+            </div>
+
+            <span class="line inline indent">
+              It should be noted that fan-out, where a transaction depends on several transactions, and those transactions depend on many more, is not a problem here. There is never the need to extract a complete standalone copy of a transaction's history.
             </span>
           </div>
         </div>

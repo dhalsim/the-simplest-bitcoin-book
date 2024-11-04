@@ -1,3 +1,5 @@
+H: The Simplest Bitcoin Book Ever Written
+
 [b] *Bitcoin is the great incentivizer.*
 
 [obb] [b] *The genius of Satoshi was such that in bitcoin, for

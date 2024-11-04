@@ -1,0 +1,11 @@
+Bu yüzden, *açık bir toplumda mahremiyet, anonim işlem sistemlerine gerek duyar. Şimdiye kadar (ç.n.: Bu yazının aslı 9 Mart 1993’te yazılmıştır), öncelikli olarak bu görevi nakit para üstlenmiştir. Anonim işlem sistemi, gizli bir işlem sistemi değildir. Anonim bir sistem, bireylere, kendi kimliklerini yalnızca ve yalnızca kendi istekleri zamanda açığa çıkarma gücünü verir; mahremiyetin özü budur.*
+
+Açık bir toplumda mahremiyet için kriptografi de gereklidir. Eğer bir şey söylemişsem, onun
+yalnızca istediğim kişiler tarafından duyulmasını isterim. Eğer konuşmamın içeriği bütün dünyaya açıksa, mahremiyetim yoktur. Şifrelemek, mahremiyete olan isteği gösterir; ve zayıf kriptografi ile şifrelemek, mahremiyeti çok fazla istemediğiniz anlamına gelir. Dahası, *varsayılan anonimlik ise, birinin kimliğini ifşa etmek, kriptografik imza gerektirir.* Hükümetlerin, şirketlerin ya da büyük, kim olduğu belirsiz oluşumların, kendi cömertliklerinden ötürü bize mahremiyet sağlamasını bekleyemeyiz. 
+
+Bizim hakkımızda konuşmak onların yararınadır ve bunu yapmalarını beklemeliyiz. Konuşmalarını engellemeye çalışmak, bilginin gerçekliğine karşı savaşmaktır. Bilgi özgür olmayı yalnızca istemiyor, özlüyor. Bilgi var olan depolama alanını doldurmak için genişler. Bilgi, Söylenti’nin daha genç, daha güçlü kuzenidir; bilgi çok hızlı yayılır,
+daha fazla gözü vardır, daha fazla bilir ve Söylenti’den daha az anlar.
+
+*Eğer mahremiyet bekliyorsak, mahremiyetimizi savunmalıyız.* Bir araya gelmeli ve anonim işlemlerin yapılabileceği sistemler yaratmalıyız. İnsanlar fısıltılar, karanlık, zarflar, kapalı kapılar, gizli el sıkışmalar, ve ulakları kullanarak, mahremiyetlerini yüzyıllardır savunuyorlar. Geçmişin teknolojileri güçlü mahremiyete izin vermiyordu, ancak elektronik teknolojiler veriyor.
+
+*Biz Şifrepunklar, kendimizi anonim sistemler oluşturmaya adamış bulunuyoruz. Mahremiyetimizi, kriptografi ile,* anonim e-posta iletme sistemleri ile, dijital imzalar ile, ve elektronik para ile koruyoruz.

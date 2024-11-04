@@ -1,3 +1,5 @@
+H: The Simplest Bitcoin Book Ever Written
+
 [b] Bitcoin is magic internet money.
 
 [b] No seriously, *Bitcoin is the way we are going to fix

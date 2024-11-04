@@ -9,6 +9,7 @@
     <div class="page aic" data-page="081" id="page-081">
       <div class="content">
         <div class="header jcc">
+          How Does
           <img
             class="bitcoin"
             src="../../images/[b]bitcoin.png"
@@ -16,14 +17,13 @@
             height="14px"
             style="margin-right: 4px; margin-bottom: 1px"
           />
-          Nasıl Çalışır?
+          Work?
         </div>
 
         <div class="orange-lines pr m-b-10">
           <div class="b-point w-h-18"></div>
           <span class="line inline b">
-            MADENCİ ~ Hem işlemleri onaylayan hem de yeni bitcoin çıkaran
-            özelleşmiş bir düğüm.
+            MINER ~ A specialized node that both confirms transactions and issues new bitcoins.
           </span>
         </div>
 
@@ -31,18 +31,16 @@
           <div class="p pr m-l-70">
             <div class="arrow w-h-18"></div>
             <span class="line inline">
-              Bitcoin madencileri özelleşmiş bilgisayarlardır. Çok fazla işlem
-              gücünü dijital bir piyangoya yönlendirerek, mevcut zorluk
-              algoritmasını karşılayacak bir sayıyı tahmin etmeye çalışırlar,
-              böylece bir 'blok' (defterin bir parçası) 'kazarlar'.
+              Bitcoin miners are specialized computers. They direct lots of computing power (hashrate) in a 
+              digital lottery to guess a number that will satisfy the current difficulty algorithm, thereby 'mining' 
+              a 'block' (a piece of the ledger).
             </span>
           </div>
 
           <div class="p pr m-l-70">
             <div class="arrow w-h-18"></div>
             <span class="line inline">
-              Kazılan blok zaman damgası ile işaretlenir ve blok zincirine
-              (diğer adıyla zaman zincirine) eklenir.
+              The mined block is timestamped and added to the blockchain (also known as the time chain).
             </span>
           </div>
         </div>
@@ -50,8 +48,7 @@
         <div class="orange-lines pr m-t-10 m-b-10">
           <div class="b-point w-h-18"></div>
           <span class="line inline b">
-            ZORLUK ALGORİTMASI ~ Yeni bitcoin çıkarılmasını öngörülebilir
-            tutmaya yardımcı olan özel, uyarlanabilir bir tasarım.
+            DIFFICULTY ALGORITHM ~ A special, adaptive design that helps keep new bitcoin issuance predictable.
           </span>
         </div>
 
@@ -59,58 +56,49 @@
           <div class="p pr m-l-70">
             <div class="arrow w-h-18"></div>
             <span class="line inline">
-              Bu, daha gelişmiş bilgisayarlar geliştirildikçe bitcoin
-              çıkarılmasının kontrolden çıkmasını önlemeye yardımcı olmak için
-              Satoshi'nin dahi çözümlerinden biriydi.
+              This was one of Satoshi's innovations to prevent the issuance of new bitcoins from becoming uncontrollable as more powerful computers were developed.
             </span>
           </div>
 
           <div class="p pr m-l-70">
             <div class="arrow w-h-18"></div>
             <span class="line inline">
-              Daha fazla madenci çevrimiçi olduğunda, 'piyango'daki hedef sayı
-              (nonce) küçülür ve dolayısıyla bulunması zorlaşır.
+              As more miners join the network, the target number (nonce) in the lottery decreases, making it harder to find a winning number.
             </span>
           </div>
 
           <div class="p pr m-l-70">
             <div class="arrow w-h-18"></div>
             <span class="line inline">
-              Daha az madenci çevrimiçi olduğunda, kolaylaşır.
+              If fewer miners join the network, the lottery becomes easier.
             </span>
           </div>
 
           <div class="p pr m-l-70">
             <div class="arrow w-h-18"></div>
             <span class="line inline b">
-              Algoritma, ortalama her on dakikada bir blok kazılmasını sağlamak
-              için öngörülebilir bir arz hızı sağlamak üzere her 2016 blokta bir
-              otomatik olarak ayarlanır (yaklaşık iki haftada bir).
+              The algorithm adjusts the difficulty every 2016 blocks (approximately every two weeks) to ensure that new bitcoins are issued at a steady rate.
             </span>
           </div>
         </div>
 
         <div class="orange-lines pr m-t-10 m-b-10">
           <div class="b-point w-h-18"></div>
-          <span class="line inline b">NONCE ~ 32 bitlik rastgele bir sayı</span>
+          <span class="line inline b">NONCE ~ A 32-bit random number</span>
         </div>
 
         <div class="flex-col gap5 m-l-70">
           <div class="p pr">
             <div class="arrow w-h-18"></div>
             <span class="line inline">
-              Madencilerin bir blok kazmak için zorluk hedefini karşılamaya
-              çalışırken, işlemlerin hash'lenmiş listesinin sonuna ekledikleri
-              32 bitlik rastgele bir sayı.
+              Miners try to find a nonce that, when combined with the block's header, produces a hash below the target difficulty.
             </span>
           </div>
 
           <div class="p pr">
             <div class="arrow w-h-18"></div>
             <span class="line inline">
-              Bir madenci, mevcut hedef sayının altında bir hash üretmeye yol
-              açan bir nonce bulduğunda, bir blok kazımış olur ve bu bloğu blok
-              zincirine ekleme ve bitcoin blok ödülünü alma hakkını kazanır.
+              If a miner finds a nonce that produces a hash below the target difficulty, they have successfully mined a block and are rewarded with bitcoins.
             </span>
           </div>
         </div>

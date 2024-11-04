@@ -12,185 +12,10 @@
 
         <div class="body">
           <div class="p t-a-j">
-            <span class="line inline">
-              işletmeler muhtemelen daha bağımsız güvenlik ve daha hızlı
-              doğrulama için yine de kendi düğümlerini çalıştırmak
-              isteyeceklerdir.
-            </span>
-          </div>
-
-          <div class="p t-a-j m-t-10">
-            <span class="line inline b">
-              9. Değer Birleşimi ve İşlem Ayrımı
-            </span>
+            <span class="line inline b m-t-10">10. Privacy</span>
 
             <span class="line inline">
-              Paraları tek tek idare etmek mümkün olsa da, bir transferdeki her
-              kuruş için ayrı birer işlem yapmak kullanışsız olmaktadır. Değerin
-              bölünmesine ve birleştirilmesine olanak sağlamak için, işlemler
-              birden çok girdi ve çıktı içerir. Normalde, ya önceki büyük
-              işlemden gelen tek bir girdi ya da daha küçük miktarları
-              birleştiren birden fazla girdi ve en fazla iki çıktı olacaktır:
-              biri ödeme tutarı, diğeri -eğer varsa- gönderene geri dönen para
-              üstüdür.
-            </span>
-          </div>
-
-          <div class="p aic">
-            <svg width="160" height="120" xmlns="http://www.w3.org/2000/svg">
-              <g transform="scale(0.8)">
-                <!-- Outer rectangle for the process -->
-                <rect
-                  x="20"
-                  y="20"
-                  width="160"
-                  height="110"
-                  fill="none"
-                  stroke="black"
-                ></rect>
-
-                <!-- Process label -->
-                <text
-                  x="100"
-                  y="35"
-                  font-family="Arial"
-                  font-size="14"
-                  text-anchor="middle"
-                >
-                  İşlem
-                </text>
-
-                <!-- Input arrows and boxes - moved down by 10 units -->
-                <!-- First input arrow and box -->
-                <line x1="5" y1="55" x2="40" y2="55" stroke="black"></line>
-                <polygon points="40,50 50,55 40,60" fill="black"></polygon>
-                <rect
-                  x="55"
-                  y="45"
-                  width="40"
-                  height="20"
-                  fill="none"
-                  stroke="black"
-                ></rect>
-                <text
-                  x="75"
-                  y="60"
-                  font-family="Arial"
-                  font-size="12"
-                  text-anchor="middle"
-                >
-                  Girdi
-                </text>
-
-                <!-- Second input arrow and box -->
-                <line x1="5" y1="85" x2="40" y2="85" stroke="black"></line>
-                <polygon points="40,80 50,85 40,90" fill="black"></polygon>
-                <rect
-                  x="55"
-                  y="75"
-                  width="40"
-                  height="20"
-                  fill="none"
-                  stroke="black"
-                ></rect>
-                <text
-                  x="75"
-                  y="90"
-                  font-family="Arial"
-                  font-size="12"
-                  text-anchor="middle"
-                >
-                  Girdi
-                </text>
-
-                <!-- Third input arrow and box -->
-                <line x1="5" y1="115" x2="40" y2="115" stroke="black"></line>
-                <polygon points="40,110 50,115 40,120" fill="black"></polygon>
-                <rect
-                  x="55"
-                  y="105"
-                  width="40"
-                  height="20"
-                  fill="none"
-                  stroke="black"
-                ></rect>
-                <text
-                  x="75"
-                  y="120"
-                  font-family="Arial"
-                  font-size="12"
-                  text-anchor="middle"
-                >
-                  ...
-                </text>
-
-                <!-- Output arrows and boxes - moved down by 10 units -->
-                <!-- First output box and arrow -->
-                <rect
-                  x="105"
-                  y="45"
-                  width="40"
-                  height="20"
-                  fill="none"
-                  stroke="black"
-                ></rect>
-                <text
-                  x="125"
-                  y="60"
-                  font-family="Arial"
-                  font-size="12"
-                  text-anchor="middle"
-                >
-                  Çıktı
-                </text>
-                <line x1="145" y1="55" x2="195" y2="55" stroke="black"></line>
-                <polygon points="185,50 195,55 185,60" fill="black"></polygon>
-
-                <!-- Second output box and arrow -->
-                <rect
-                  x="105"
-                  y="75"
-                  width="40"
-                  height="20"
-                  fill="none"
-                  stroke="black"
-                ></rect>
-                <text
-                  x="125"
-                  y="90"
-                  font-family="Arial"
-                  font-size="12"
-                  text-anchor="middle"
-                >
-                  ...
-                </text>
-                <line x1="145" y1="85" x2="195" y2="85" stroke="black"></line>
-                <polygon points="185,80 195,85 185,90" fill="black"></polygon>
-              </g>
-            </svg>
-          </div>
-
-          <div class="p t-a-j">
-            <span class="line inline indent">
-              Unutulmamalıdır ki yayılma, yani bir işlemin bir kaç işleme bağlı
-              olması ve onların da başka işlemlere bağlı olma durumu bir sorun
-              yaratmaz. Bir işlemin geçmişinin tek başına kopyasını çıkarma
-              hiçbir zaman gerekmemektedir.
-            </span>
-
-            <span class="line inline b m-t-10">10. Gizlilik</span>
-
-            <span class="line inline">
-              Geleneksel bankacılık modeli bilgiye erişimi ilgili taraflar ve
-              güvenilir bir üçüncü tarafla sınırlayarak, belli bir seviyeye
-              kadar gizliliği sağlamaktadır. Tüm işlemleri herkese açık bir
-              şekilde duyurma zorunluluğu bu yöntemi engeller ancak gizlilik,
-              yine de bilgi akışını başka bir yerde kırarak, açık anahtarları
-              anonim tutarak sürdürülebilir. Herkes birisinin başka birine bir
-              miktar gönderdiğini görebilir ancak işlemin kimle bağlantılı
-              olduğu bilgisine ulaşamaz. Bu borsaların yayınladığı bilgi
-              seviyesine benzer; bireysel işlemlerin zamanı ve büyüklüğü herkese
-              açıkken, tarafların kimlik bilgileri gizlenmektedir.
+              The traditional banking model achieves a level of privacy by limiting access to information to the parties involved and the trusted third party. The necessity to announce all transactions publicly precludes this method, but privacy can still be maintained by breaking the flow of information in another place: by keeping public keys anonymous. The public can see that someone is sending an amount to someone else, but without information linking the transaction to anyone. This is similar to the level of information released by stock exchanges, where the time and size of individual trades, the "tape", is made public, but without telling who the parties were.
             </span>
           </div>
 
@@ -199,7 +24,7 @@
               <g transform="scale(0.8)">
                 <!-- Title for Traditional Privacy Model -->
                 <text x="20" y="20" font-family="Arial" font-size="14">
-                  Geleneksel Gizlilik Modeli
+                  Traditional Privacy Model
                 </text>
 
                 <!-- Traditional Privacy Model -->
@@ -219,7 +44,7 @@
                   font-size="12"
                   text-anchor="middle"
                 >
-                  Kimlikler
+                  Identities
                 </text>
 
                 <!-- İşlemler box and arrow -->
@@ -239,7 +64,7 @@
                   font-size="12"
                   text-anchor="middle"
                 >
-                  İşlemler
+                  Transactions
                 </text>
 
                 <!-- Güvenilir 3. Parti box and arrow -->
@@ -260,8 +85,8 @@
                   font-size="12"
                   text-anchor="middle"
                 >
-                  <tspan x="265" dy="0">Güvenilir</tspan>
-                  <tspan x="265" dy="16">3. Parti</tspan>
+                  <tspan x="265" dy="0">Trusted</tspan>
+                  <tspan x="265" dy="16">Third Party</tspan>
                 </text>
 
                 <!-- Karşı Taraf box and arrow -->
@@ -282,7 +107,7 @@
                   font-size="12"
                   text-anchor="middle"
                 >
-                  Karşı Taraf
+                  Counterparty
                 </text>
 
                 <!-- Divider line -->
@@ -304,12 +129,12 @@
                   font-size="12"
                   text-anchor="middle"
                 >
-                  Herkese Açık
+                  Public
                 </text>
 
                 <!-- Title for New Privacy Model -->
                 <text x="20" y="100" font-family="Arial" font-size="14">
-                  Yeni Gizlilik Modeli
+                  New Privacy Model
                 </text>
 
                 <!-- New Privacy Model -->
@@ -329,7 +154,7 @@
                   font-size="12"
                   text-anchor="middle"
                 >
-                  Kimlikler
+                  Identities
                 </text>
 
                 <!-- Divider line -->
@@ -351,7 +176,7 @@
                   font-size="12"
                   text-anchor="middle"
                 >
-                  İşlemler
+                  Transactions
                 </text>
                 <line x1="200" y1="125" x2="210" y2="125" stroke="black"></line>
                 <polygon
@@ -375,7 +200,7 @@
                   font-size="12"
                   text-anchor="middle"
                 >
-                  Herkese Açık
+                  Public
                 </text>
               </g>
             </svg>
@@ -383,28 +208,36 @@
 
           <div class="p t-a-j m-t-10">
             <span class="line inline indent">
-              Ek bir güvenlik duvarı olarak, işlemlerin ortak bir sahiple
-              ilişkilendirilmesini önlemek için her işlemde yeni bir anahtar
-              çifti kullanılmalıdır; girdilerin aynı kişiye ait olması gereken
-              çoklu girdili işlemlerde, bazı ilişkilendirmeler kaçınılmazdır;
-              buradaki risk, anahtar sahibi ortaya çıktığında, ilişkilendirme
-              yapılarak başka işlemlerin aynı sahibe ait olduğunun ortaya
-              çıkabilmesidir.
+              As an additional firewall, a new key pair should be used for each transaction to keep them from being linked to a common owner. Some linking is still unavoidable with multi-input transactions, which necessarily reveal that their inputs were owned by the same owner. The risk is that if the owner of a key is revealed, linking could reveal other transactions that belonged to the same owner.
             </span>
 
-            <span class="line inline b m-t-10">11. Hesaplamalar</span>
+            <span class="line inline b m-t-10">11. Calculations</span>
 
             <span class="line inline">
-              Dürüst zincirden daha hızlı bir şekilde alternatif bir zincir
-              oluşturmaya çalışan bir saldırganın senaryosunu ele almaktayız. Bu
-              başarılsa bile, hiç yoktan değer yaratılan ya da saldırgana hiç
-              ait olmamış paranın alınabileceği şekilde, sistemi keyfi
-              değişikliklere açık bir hale getirmez. Düğümler geçersiz bir
-              işlemi ödeme olarak kabul etmeyecek ve dürüst düğümler asla bu
-              işlemleri içeren bir bloğu kabul etmeyecektir. Bir saldırgan
-              yalnızca yakın zamanda harcadığı parayı geri almak için kendi
-              işlemlerinden birini değiştirmeye çalışabilir.
+              We consider the scenario of an attacker trying to generate an alternate chain faster than the honest chain. Even if this is accomplished, it does not throw the system open to arbitrary changes, such as creating value out of thin air or taking money that never belonged to the attacker. Nodes are not going to accept an invalid transaction as payment, and honest nodes will never accept a block containing them. An attacker can only try to change one of his own transactions to take back money he recently spent.
             </span>
+
+            <span class="line inline indent">
+              The race between the honest chain and an attacker chain can be characterized as a Binomial Random Walk. The success event is the honest chain being extended by one block, increasing its lead by +1, and the failure event is the attacker's chain being extended by one block, reducing the gap by -1.
+            </span>
+
+            <span class="line inline indent">
+              The probability of an attacker catching up from a given deficit is analogous to a Gambler's Ruin problem. Suppose a gambler with unlimited credit starts at a deficit and plays potentially an infinite number of trials to try to reach breakeven. We can calculate the probability he ever reaches breakeven, or that an attacker ever catches up with the honest chain, as follows [8]:
+            </span>
+          </div>
+
+          <div class="p m-l-20 m-t-10">
+            <span class="line inline">
+              p = probability an honest node finds the next block 
+              <br />
+              q = probability the attacker finds the next block 
+              <br />
+              q
+              <sub>z</sub>
+              = probability the attacker will ever catch up from z blocks behind
+            </span>
+
+            <img src="images/page-155-1.png" class="m-t-10" width="28%" />
           </div>
         </div>
 
