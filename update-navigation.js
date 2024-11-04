@@ -13,7 +13,7 @@ function numberToRoman(number) {
     return romanMap[number];
   }
 
-  return number;
+  return number - 8;
 }
 
 // Function to convert Roman numeral to number
