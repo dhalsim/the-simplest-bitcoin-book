@@ -45,6 +45,14 @@ async function joinPages(language) {
       document.head.appendChild(styleElement);
     }
 
+    const pageNumberStyle = document.createElement("style");
+    pageNumberStyle.textContent = `
+        .page-navigation {
+            display: none;
+        }
+    `;
+    document.head.appendChild(pageNumberStyle);
+
     // Read all page files
     const pagesDir = path.join(__dirname, language, "pages-html");
     const files = await fs.readdir(pagesDir);

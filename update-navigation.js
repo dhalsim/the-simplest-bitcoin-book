@@ -63,7 +63,6 @@ async function updateNavigation() {
       const document = dom.window.document;
 
       const pageDiv = document.querySelector('div.page');
-      const currentPage = pageDiv.getAttribute('data-page');
       const currentPageNumber = Number(pageDiv.getAttribute('data-page-number'));
       const pageNumberDiv = document.querySelector('div.page-number');
       
@@ -72,16 +71,18 @@ async function updateNavigation() {
       
       // Add previous link if not first page
       if (i > 0) {
-        navHtml += `<a class="page-navigation" href="${(currentPageNumber - 1).toString().padStart(3, '0')}.html">← 
+        navHtml += `<a class="page-navigation" href="${(currentPageNumber - 1).toString().padStart(4, '0')}.html">← 
         ${numberToRoman(currentPageNumber - 1)}</a>`;
       }
       
-      // Add page number
-      navHtml += numberToRoman(currentPageNumber);
+      // Add page number if not first two pages
+      if(currentPageNumber > 2) {
+        navHtml += numberToRoman(currentPageNumber);
+      }
       
       // Add next link if not last page
       if (i < htmlFiles.length - 1) {
-        navHtml += `<a class="page-navigation" href="${(currentPageNumber + 1).toString().padStart(3, '0')}.html">${numberToRoman(currentPageNumber + 1)} →</a>`;
+        navHtml += `<a class="page-navigation" href="${(currentPageNumber + 1).toString().padStart(4, '0')}.html">${numberToRoman(currentPageNumber + 1)} →</a>`;
       }
       
       // Update the page-number div
