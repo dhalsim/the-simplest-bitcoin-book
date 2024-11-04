@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="../styles.css" />
   </head>
   <body class="font-an">
-    <div class="page aic" data-page="154" id="page-154">
+    <div class="page aic" data-page="154" id="page-154" data-page-number="162">
       <div class="content white-paper">
         <div class="header jcc"></div>
 
@@ -17,7 +17,15 @@
             </span>
 
             <span class="line inline">
-              It is possible to verify payments without running a full network node. A user only needs to keep a copy of the block headers of the longest proof-of-work chain, which he can get by querying network nodes until he's convinced he has the longest chain, and obtain the Merkle branch linking the transaction to the block it's timestamped in. He can't check the transaction for himself, but by linking it to a place in the chain, he can see that a network node has accepted it, and blocks added after it further confirm the network has accepted it.
+              It is possible to verify payments without running a full network
+              node. A user only needs to keep a copy of the block headers of the
+              longest proof-of-work chain, which he can get by querying network
+              nodes until he's convinced he has the longest chain, and obtain
+              the Merkle branch linking the transaction to the block it's
+              timestamped in. He can't check the transaction for himself, but by
+              linking it to a place in the chain, he can see that a network node
+              has accepted it, and blocks added after it further confirm the
+              network has accepted it.
             </span>
           </div>
 
@@ -27,7 +35,18 @@
 
           <div class="p t-a-j m-t-20">
             <span class="line inline indent">
-              As such, the verification is reliable as long as honest nodes control the network, but is more vulnerable if the network is overpowered by an attacker. While network nodes can verify transactions for themselves, the simplified method can be fooled by an attacker's fabricated transactions for as long as the attacker can continue to overpower the network. One strategy to protect against this would be to accept alerts from network nodes when they detect an invalid block, prompting the user's software to download the full block and alerted transactions to confirm the inconsistency. Businesses that receive frequent payments will probably still want to run their own nodes for more independent security and quicker verification.
+              As such, the verification is reliable as long as honest nodes
+              control the network, but is more vulnerable if the network is
+              overpowered by an attacker. While network nodes can verify
+              transactions for themselves, the simplified method can be fooled
+              by an attacker's fabricated transactions for as long as the
+              attacker can continue to overpower the network. One strategy to
+              protect against this would be to accept alerts from network nodes
+              when they detect an invalid block, prompting the user's software
+              to download the full block and alerted transactions to confirm the
+              inconsistency. Businesses that receive frequent payments will
+              probably still want to run their own nodes for more independent
+              security and quicker verification.
             </span>
           </div>
 
@@ -35,7 +54,14 @@
             <span class="line inline b">9. Combining and Splitting Value</span>
 
             <span class="line inline">
-              Although it would be possible to handle coins individually, it would be unwieldy to make a separate transaction for every cent in a transfer. To allow value to be split and combined, transactions contain multiple inputs and outputs. Normally there will be either a single input from a larger previous transaction or multiple inputs combining smaller amounts, and at most two outputs: one for the payment, and one returning the change, if any, back to the sender. 
+              Although it would be possible to handle coins individually, it
+              would be unwieldy to make a separate transaction for every cent in
+              a transfer. To allow value to be split and combined, transactions
+              contain multiple inputs and outputs. Normally there will be either
+              a single input from a larger previous transaction or multiple
+              inputs combining smaller amounts, and at most two outputs: one for
+              the payment, and one returning the change, if any, back to the
+              sender.
             </span>
 
             <div class="p aic m-t-10 w100">
@@ -43,7 +69,10 @@
             </div>
 
             <span class="line inline indent">
-              It should be noted that fan-out, where a transaction depends on several transactions, and those transactions depend on many more, is not a problem here. There is never the need to extract a complete standalone copy of a transaction's history.
+              It should be noted that fan-out, where a transaction depends on
+              several transactions, and those transactions depend on many more,
+              is not a problem here. There is never the need to extract a
+              complete standalone copy of a transaction's history.
             </span>
           </div>
         </div>
