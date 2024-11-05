@@ -131,7 +131,7 @@
 
 .font-an {
   font-family: 'Avenir Next Cyr';
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 400;
   word-spacing: 3px;
   letter-spacing: 0.3px;
@@ -139,7 +139,10 @@
 }
 
 .font-ff1 {
-  font-family: 'ff1';
+  /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  letter-spacing: 1.2px;
+  word-spacing: 0.5px;
   font-size: 16px;
   --line-height: 1.15;
 }
@@ -152,8 +155,16 @@
   font-size: 10px;
 }
 
+.fs-11 {
+  font-size: 11px;
+}
+
 .fs-12 {
   font-size: 12px;
+}
+
+.fs-13 {
+  font-size: 13px;
 }
 
 .fs-14 {
@@ -273,18 +284,19 @@ ol.white-paper {
 
 .header {
   display: flex;
-  flex-grow: 1;
   align-items: center;
   font-size: 14px;
   border: var(--debug-border-size) solid green;
 }
 
 .body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
   flex-grow: 1;
 }
 
 .footer {
-  flex-grow: 1;
   border: var(--debug-border-size) solid green;
 }
 
