@@ -16,9 +16,6 @@ to orange pill oneself - turuncu hapı almak
 
 ~ Horace Greeley line should be italic too
 
-Actually there are a lot of inconsistencies regarding italic texts
-throughout the book. does quote authors need to be italic?
-
 ## page 20
 
 Hard money - Sağlam Para?
