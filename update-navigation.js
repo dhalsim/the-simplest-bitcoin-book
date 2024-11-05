@@ -19,12 +19,18 @@ function numberToRoman(number) {
 async function updateNavigation() {
   program
     .option("-l, --language <lang>", "Language code (e.g., english)")
+    .option("-i, --index <index>", "Index text for your language (e.g., İçindekiler in Turkish)")
     .parse(process.argv);
 
   const options = program.opts();
 
   if (!options.language) {
     console.error("Please specify a language using -l or --language");
+    process.exit(1);
+  }
+
+  if (!options.index) {
+    console.error("Please specify index text using -i or --index");
     process.exit(1);
   }
 
@@ -44,10 +50,34 @@ async function updateNavigation() {
       const pageDiv = document.querySelector('div.page');
       const currentPageNumber = Number(pageDiv.getAttribute('data-page-number'));
       const navContainer = document.querySelector('div.nav-container');
+
+      const nextPageNumber = (currentPageNumber + 1).toString().padStart(4, '0');
+      const previousPageNumber = (currentPageNumber - 1).toString().padStart(4, '0');
       
       // Build navigation HTML
       let navHtml = `
       <div class="flex-row nav-container aic">
+        <script>`
+        
+        if (i > 0) {
+          navHtml += `
+          document.addEventListener('keydown', (event) => {
+            if (event.key === 'ArrowLeft') {
+              window.location.href = '${previousPageNumber}.html';
+            }
+          });`;
+        }
+
+        if (i < htmlFiles.length - 1) {
+          navHtml += `
+          document.addEventListener('keydown', (event) => {
+            if (event.key === 'ArrowRight') {
+              window.location.href = '${nextPageNumber}.html';
+            }
+          });`;
+        }
+
+        navHtml += `</script>
         <style>
           .nav-container {
             display: flex;
@@ -90,9 +120,7 @@ async function updateNavigation() {
       
       // Add previous link if not first page
       if (i > 0) {
-        navHtml += `<a href="${(currentPageNumber - 1).toString().padStart(4, '0')}.html" class="nav-arrow">←</a>`;
-      } else {
-        navHtml += `<a href="#" class="nav-arrow">←</a>`;
+        navHtml += `<a href="${previousPageNumber}.html" class="nav-arrow">←</a>`;
       }
       
       // Add page number
@@ -100,14 +128,12 @@ async function updateNavigation() {
       
       // Add next link if not last page
       if (i < htmlFiles.length - 1) {
-        navHtml += `<a href="${(currentPageNumber + 1).toString().padStart(4, '0')}.html" class="nav-arrow">→</a>`;
-      } else {
-        navHtml += `<a href="#" class="nav-arrow">→</a>`;
+        navHtml += `<a href="${nextPageNumber}.html" class="nav-arrow">→</a>`;
       }
 
       // Add index button
       navHtml += `
-        <a href="0003.html" class="index-button">
+        <a href="0003.html" class="index-button" title="${options.index}">
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
             <path fill-rule="evenodd" d="M2.5 12.5a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1h-10a.5.5 0 0 1-.5-.5zm0-5a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1h-10a.5.5 0 0 1-.5-.5zm0-5a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1h-10a.5.5 0 0 1-.5-.5z"/>
           </svg>

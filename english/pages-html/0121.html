@@ -81,6 +81,18 @@
 
       <div class="flex-row nav-container aic">
         <div class="flex-row nav-container aic">
+          <script>
+            document.addEventListener("keydown", (event) => {
+              if (event.key === "ArrowLeft") {
+                window.location.href = "0120.html";
+              }
+            });
+            document.addEventListener("keydown", (event) => {
+              if (event.key === "ArrowRight") {
+                window.location.href = "0122.html";
+              }
+            });
+          </script>
           <style>
             .nav-container {
               display: flex;
@@ -123,7 +135,7 @@
           <a href="0120.html" class="nav-arrow">←</a>
           <span class="page-number">113</span>
           <a href="0122.html" class="nav-arrow">→</a>
-          <a href="0003.html" class="index-button">
+          <a href="0003.html" class="index-button" title="Table of Contents">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"

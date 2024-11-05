@@ -175,3 +175,16 @@ Translated in Turkish from bitcoin.org/bitcoin.pdf by Efe Cini
 ## page 151
 
 * take care of reference links
+
+# Navigation
+
+- [x] I should be able to navigate through the pages with the keyboard. Arrow keys (right, left) should navigate to the next/previous page.
+
+# Nostr features
+
+- [ ] A highlighter and comments feature for the multi-page version of the book
+- [ ] I should able to enable/disable it in the settings
+- [ ] I should able to see my own highlights or all the highlights
+- [ ] I should able to create, edit, delete my highlights
+- [ ] I should able to publish my highlights to Nostr
+- [ ] I should able to comment on the pages, see others' comments
