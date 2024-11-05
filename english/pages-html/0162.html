@@ -16,7 +16,7 @@
               8. Simplified Payment Verification
             </span>
 
-            <span class="line inline">
+            <span class="line inline m-t-10">
               It is possible to verify payments without running a full network
               node. A user only needs to keep a copy of the block headers of the
               longest proof-of-work chain, which he can get by querying network
@@ -33,7 +33,7 @@
             <img src="images/page-154-1.png" width="80%" />
           </div>
 
-          <div class="p t-a-j m-t-20">
+          <div class="p t-a-j m-t-10">
             <span class="line inline indent">
               As such, the verification is reliable as long as honest nodes
               control the network, but is more vulnerable if the network is
@@ -53,7 +53,7 @@
           <div class="p t-a-j m-t-20">
             <span class="line inline b">9. Combining and Splitting Value</span>
 
-            <span class="line inline">
+            <span class="line inline m-t-10">
               Although it would be possible to handle coins individually, it
               would be unwieldy to make a separate transaction for every cent in
               a transfer. To allow value to be split and combined, transactions
@@ -65,10 +65,10 @@
             </span>
 
             <div class="p aic m-t-10 w100">
-              <img src="images/page-154-2.png" width="80%" />
+              <img src="images/page-154-2.png" width="30%" />
             </div>
 
-            <span class="line inline indent">
+            <span class="line inline indent m-t-10">
               It should be noted that fan-out, where a transaction depends on
               several transactions, and those transactions depend on many more,
               is not a problem here. There is never the need to extract a
@@ -84,10 +84,64 @@
         </div>
       </div>
 
-      <div class="page-number">
-        <a class="page-navigation" href="0161.html">← 153</a>
-        154
-        <a class="page-navigation" href="0163.html">155 →</a>
+      <div class="flex-row nav-container aic">
+        <style>
+          .nav-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: Arial, sans-serif;
+            font-size: 0.9em;
+            font-weight: bold;
+            color: #ccc;
+            padding: 5px;
+          }
+
+          .nav-container .nav-arrow {
+            color: #ccc;
+            text-decoration: none;
+            margin: 0 8px;
+            font-size: 1.2em;
+          }
+
+          .nav-container .nav-arrow:hover {
+            color: #000; /* Slightly darker on hover */
+          }
+
+          .nav-container .index-button {
+            border: 0;
+            font-size: 0.9em;
+            color: #ccc;
+            background-color: transparent;
+            margin-top: 5px;
+            cursor: pointer;
+          }
+
+          .nav-container .index-button:hover {
+            color: #000;
+          }
+
+          .nav-container .page-number {
+            color: #000;
+          }
+        </style>
+        <a href="0161.html" class="nav-arrow">←</a>
+        <span class="page-number">154</span>
+        <a href="0163.html" class="nav-arrow">→</a>
+        <a href="0003.html" class="index-button">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M2.5 12.5a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1h-10a.5.5 0 0 1-.5-.5zm0-5a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1h-10a.5.5 0 0 1-.5-.5zm0-5a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1h-10a.5.5 0 0 1-.5-.5z"
+            ></path>
+          </svg>
+        </a>
       </div>
     </div>
   </body>

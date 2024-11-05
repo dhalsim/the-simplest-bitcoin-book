@@ -45,9 +45,14 @@ async function joinPages(language) {
       document.head.appendChild(styleElement);
     }
 
+    // Hide page navigation
     const pageNumberStyle = document.createElement("style");
     pageNumberStyle.textContent = `
-        .page-navigation {
+        .nav-container .nav-arrow {
+            display: none;
+        }
+
+        .nav-container .index-button {
             display: none;
         }
     `;
@@ -59,10 +64,40 @@ async function joinPages(language) {
     const htmlFiles = files.filter(file => file.endsWith(".html")).sort();
 
     // Add each page to the document
-    for (const file of htmlFiles) {
+    for (let i = 0; i < htmlFiles.length; i++) {
+      const file = htmlFiles[i];
       const content = await fs.readFile(path.join(pagesDir, file), "utf8");
       const pageDom = new JSDOM(content);
       const pageElement = pageDom.window.document.querySelector(".page");
+
+      // remove div with class "nav-container" if first and second page
+      if (i === 0 || i === 1) {
+        pageElement.querySelector(".nav-container")?.remove();
+      }
+
+      if (i === 2 || i === 3) {
+        const romanNumerals = ["i", "ii", "iii", "iv", "v", "vi", "vii", "viii"];
+        
+        // fix the index href="#page-009" to href="0001.html"
+        const indexLinks = pageElement.querySelectorAll("a");
+        
+        indexLinks.forEach(link => {
+          const href = link.getAttribute("href");
+
+          if (href.startsWith("0")) {
+            // parse 0001.html to 1
+            const pageNumber = parseInt(href.replace(".html", ""), 10);
+
+            // the first 8 numbers should be roman numerals
+            if (pageNumber <= 8) {
+              const romanNumeral = romanNumerals[pageNumber - 1];
+              link.setAttribute("href", `#page-000${romanNumeral}`);
+            } else {
+              link.setAttribute("href", `#page-${(pageNumber - 8).toString().padStart(3, "0")}`);
+            }
+          }
+        });
+      }
 
       // Fix image paths before adding to main document
       const images = pageElement.querySelectorAll("img");

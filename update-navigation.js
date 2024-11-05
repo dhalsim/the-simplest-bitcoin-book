@@ -16,27 +16,6 @@ function numberToRoman(number) {
   return number - 8;
 }
 
-// Function to convert Roman numeral to number
-function romanToNumber(roman) {
-  const romanMap = {
-    i: 1, ii: 2, iii: 3, iv: 4, v: 5, vi: 6, vii: 7, viii: 8
-  };
-  
-  if(romanMap[roman]) {
-    return romanMap[roman];
-  }
-
-  return roman;
-}
-
-// Function to get display number (handles both roman and regular numbers)
-function getDisplayNumber(pageAttr) {
-  // Remove leading zeros
-  const cleanPageNumber = pageAttr.replace('000', '');
-  
-  return romanToNumber(cleanPageNumber);
-}
-
 async function updateNavigation() {
   program
     .option("-l, --language <lang>", "Language code (e.g., english)")
@@ -64,29 +43,79 @@ async function updateNavigation() {
 
       const pageDiv = document.querySelector('div.page');
       const currentPageNumber = Number(pageDiv.getAttribute('data-page-number'));
-      const pageNumberDiv = document.querySelector('div.page-number');
+      const navContainer = document.querySelector('div.nav-container');
       
       // Build navigation HTML
-      let navHtml = '';
+      let navHtml = `
+      <div class="flex-row nav-container aic">
+        <style>
+          .nav-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Avenir Next Cyr';
+            font-size: 1em;
+            color: #ccc;
+            padding: 5px;
+          }
+
+          .nav-container .nav-arrow {
+            color: #ccc;
+            text-decoration: none;
+            margin: 0 8px;
+            font-size: 1.2em;
+          }
+
+          .nav-container .nav-arrow:hover {
+            color: #000; /* Slightly darker on hover */
+          }
+
+          .nav-container .index-button {
+            border: 0;
+            font-size: 0.9em;
+            color: #ccc;
+            background-color: transparent;
+            margin-top: 5px;
+            cursor: pointer;
+          }
+
+          .nav-container .index-button:hover {
+            color: #000;
+          }
+
+          .nav-container .page-number {
+            color: #000;
+          }
+        </style>`;
       
       // Add previous link if not first page
       if (i > 0) {
-        navHtml += `<a class="page-navigation" href="${(currentPageNumber - 1).toString().padStart(4, '0')}.html">← 
-        ${numberToRoman(currentPageNumber - 1)}</a>`;
+        navHtml += `<a href="${(currentPageNumber - 1).toString().padStart(4, '0')}.html" class="nav-arrow">←</a>`;
+      } else {
+        navHtml += `<a href="#" class="nav-arrow">←</a>`;
       }
       
-      // Add page number if not first two pages
-      if(currentPageNumber > 2) {
-        navHtml += numberToRoman(currentPageNumber);
-      }
+      // Add page number
+      navHtml += `<span class="page-number">${numberToRoman(currentPageNumber)}</span>`;
       
       // Add next link if not last page
       if (i < htmlFiles.length - 1) {
-        navHtml += `<a class="page-navigation" href="${(currentPageNumber + 1).toString().padStart(4, '0')}.html">${numberToRoman(currentPageNumber + 1)} →</a>`;
+        navHtml += `<a href="${(currentPageNumber + 1).toString().padStart(4, '0')}.html" class="nav-arrow">→</a>`;
+      } else {
+        navHtml += `<a href="#" class="nav-arrow">→</a>`;
       }
+
+      // Add index button
+      navHtml += `
+        <a href="0003.html" class="index-button">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M2.5 12.5a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1h-10a.5.5 0 0 1-.5-.5zm0-5a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1h-10a.5.5 0 0 1-.5-.5zm0-5a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1h-10a.5.5 0 0 1-.5-.5z"/>
+          </svg>
+        </a>
+      </div>`;
       
       // Update the page-number div
-      pageNumberDiv.innerHTML = navHtml;
+      navContainer.innerHTML = navHtml;
 
       // Format with Prettier
       const updatedHtml = await prettier.format(dom.serialize(), {

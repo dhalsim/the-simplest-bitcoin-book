@@ -10,7 +10,7 @@
 
 @font-face {
   font-family: 'ff1';
-  src: url('../fonts/ff1.woff') format('woff');
+  src: url('fonts/ff1.woff') format('woff');
 }
 
 .dotdot {
@@ -104,7 +104,9 @@
 
 .white-paper {
   font-family: serif, 'Times New Roman';
-  font-size: 12px;
+  font-size: 11px;
+  letter-spacing: unset !important;
+  word-spacing: unset !important;
 }
 
 .white-paper b {
@@ -117,6 +119,14 @@
 
 .white-paper span.indent {
   text-indent: 20px;
+}
+
+.white-paper .header {
+  flex-grow: 0;
+}
+
+.white-paper .footer {
+  flex-grow: 0;
 }
 
 .font-an {
@@ -187,6 +197,7 @@
 }
 
 body, html {
+  font-family: 'ml';
   font-size: 16px;
   font-weight: 800;
   color: #000;
@@ -266,14 +277,6 @@ ol.white-paper {
   align-items: center;
   font-size: 14px;
   border: var(--debug-border-size) solid green;
-}
-
-.white-paper .header {
-  flex-grow: 0;
-}
-
-.white-paper .footer {
-  flex-grow: 0;
 }
 
 .body {

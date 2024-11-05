@@ -34,11 +34,21 @@
           </span>
         </div>
 
-        <div class="p aic w100">
-          <img src="images/page-152-1.png" width="80%" />
+        <div class="flex-col aic w100 m-t-10">
+          <img src="images/page-152-1.png" width="60%" />
         </div>
 
-        <div class="p t-a-j m-t-20">
+        <div class="p t-a-j m-t-10">
+          <span class="line inline indent">
+            The proof-of-work also solves the problem of determining representation in majority decision making. If the majority were based on one-IP-address-one-vote, it could be subverted by anyone able to allocate many IPs. Proof-of-work is essentially one-CPU-one-vote. The majority decision is represented by the longest chain, which has the greatest proof-of-work effort invested in it. If a majority of CPU power is controlled by honest nodes, the honest chain will grow the fastest and outpace any competing chains. To modify a past block, an attacker would have to redo the proof-of-work of the block and all blocks after it and then catch up with and surpass the work of the honest nodes. We will show later that the probability of a slower attacker catching up diminishes exponentially as subsequent blocks are added.
+          </span>
+
+          <span class="line inline indent">
+            To compensate for increasing hardware speed and varying interest in running nodes over time, the proof-of-work difficulty is determined by a moving average targeting an average number of blocks per hour. If they're generated too fast, the difficulty increases.
+          </span>
+        </div>
+
+        <div class="p t-a-j m-t-10">
           <span class="line inline b">5. Network</span>
 
           <span class="line inline m-t-10">
@@ -77,17 +87,71 @@
           </span>
         </div>
 
-        <div class="p aic m-t-20 w100">
-          <span class="line inline b">3</span>
+        <div class="footer">
+          <div class="p aic m-t-10 w100">
+            <span class="line inline b">3</span>
+          </div>
         </div>
-
-        <div class="footer"></div>
       </div>
 
-      <div class="page-number">
-        <a class="page-navigation" href="0159.html">← 151</a>
-        152
-        <a class="page-navigation" href="0161.html">153 →</a>
+      <div class="flex-row nav-container aic">
+        <style>
+          .nav-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: Arial, sans-serif;
+            font-size: 0.9em;
+            font-weight: bold;
+            color: #ccc;
+            padding: 5px;
+          }
+
+          .nav-container .nav-arrow {
+            color: #ccc;
+            text-decoration: none;
+            margin: 0 8px;
+            font-size: 1.2em;
+          }
+
+          .nav-container .nav-arrow:hover {
+            color: #000; /* Slightly darker on hover */
+          }
+
+          .nav-container .index-button {
+            border: 0;
+            font-size: 0.9em;
+            color: #ccc;
+            background-color: transparent;
+            margin-top: 5px;
+            cursor: pointer;
+          }
+
+          .nav-container .index-button:hover {
+            color: #000;
+          }
+
+          .nav-container .page-number {
+            color: #000;
+          }
+        </style>
+        <a href="0159.html" class="nav-arrow">←</a>
+        <span class="page-number">152</span>
+        <a href="0161.html" class="nav-arrow">→</a>
+        <a href="0003.html" class="index-button">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M2.5 12.5a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1h-10a.5.5 0 0 1-.5-.5zm0-5a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1h-10a.5.5 0 0 1-.5-.5zm0-5a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1h-10a.5.5 0 0 1-.5-.5z"
+            ></path>
+          </svg>
+        </a>
       </div>
     </div>
   </body>

@@ -104,7 +104,9 @@
 
 .white-paper {
   font-family: serif, 'Times New Roman';
-  font-size: 12px;
+  font-size: 11px;
+  letter-spacing: unset !important;
+  word-spacing: unset !important;
 }
 
 .white-paper b {
@@ -248,16 +250,6 @@ ol.white-paper {
   box-sizing: border-box;
   border: var(--debug-border-size) solid slateblue;
 }
-
-/* .page:nth-child(odd) {
-  margin-left: 175px;
-  margin-right: 30px;
-}
-
-.page:nth-child(even) {
-  margin-right: 175px;
-  margin-left: 30px;
-} */
 
 .page:not(:last-child) {
   display: var(--only-display-last-page);
