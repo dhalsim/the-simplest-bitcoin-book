@@ -11,84 +11,82 @@
         <div class="header jcc m-b-30">
           The Simplest Bitcoin Book Ever Written
         </div>
-
-        <div class="p shadow orange font-ff1 fs-18">
-          A BITCOIN TRANSACTION UNDER THE HOOD:
+        <div class="body">
+          <div class="p shadow orange font-ff1 fs-18">
+            A BITCOIN TRANSACTION UNDER THE HOOD:
+          </div>
+          <div class="p m-t-10 m-b-10 m-l-10">
+            (Definitions of the terms that are *in bold* follow)
+          </div>
+          <div class="orange-border-box m-t-20">
+            <ol class="default gap10">
+              <li>
+                <span class="line inline">
+                  When Ali sends those sats to Benji, the payment
+                  <b>transaction</b>
+                  is
+                  <b>broadcast</b>
+                  to the network.
+                </span>
+              </li>
+              <li>
+                <span class="line inline">
+                  The transaction gets validated by
+                  <b>nodes</b>
+                  that make sure Ali really has the bitcoin to send, and that it
+                  has not previously been spent (to prevent double-spending).
+                </span>
+              </li>
+              <li>
+                <span class="line inline">
+                  Once validated by a node, it waits in the
+                  <b>mempool</b>
+                  with other peoples' transactions.
+                </span>
+              </li>
+              <li>
+                <span class="line inline">
+                  The transactions in the mempool get added in a block to the
+                  <b>blockchain</b>
+                  when a
+                  <b>miner</b>
+                  finds a
+                  <b>nonce</b>
+                  that satisfies the
+                  <b>difficulty algorithm.</b>
+                </span>
+              </li>
+              <li>
+                <span class="line inline">
+                  Each
+                  <b>block</b>
+                  has a
+                  <b>timestamp.</b>
+                </span>
+              </li>
+              <li>
+                <span class="line inline">
+                  This creates
+                  <b>immutability</b>
+                  , and helps protect the difficulty algorithm adjustment from
+                  being manipulated.
+                </span>
+              </li>
+              <li>
+                <span class="line inline">
+                  Each block represents one confirmation for the transactions
+                  included in it.
+                </span>
+              </li>
+              <li>
+                <span class="line inline">
+                  As blocks are added, on average every ten mins, the
+                  immutability of the blockchain increases.
+                </span>
+              </li>
+            </ol>
+          </div>
         </div>
-
-        <div class="p m-t-10 m-b-10 m-l-10">
-          (Definitions of the terms that are *in bold* follow)
-        </div>
-
-        <div class="orange-border-box m-t-20">
-          <ol class="default gap10">
-            <li>
-              <span class="line inline">
-                When Ali sends those sats to Benji, the payment
-                <b>transaction</b>
-                is
-                <b>broadcast</b>
-                to the network.
-              </span>
-            </li>
-            <li>
-              <span class="line inline">
-                The transaction gets validated by
-                <b>nodes</b>
-                that make sure Ali really has the bitcoin to send, and that it
-                has not previously been spent (to prevent double-spending).
-              </span>
-            </li>
-            <li>
-              <span class="line inline">
-                Once validated by a node, it waits in the
-                <b>mempool</b>
-                with other peoples' transactions.
-              </span>
-            </li>
-            <li>
-              <span class="line inline">
-                The transactions in the mempool get added in a block to the
-                <b>blockchain</b>
-                when a
-                <b>miner</b>
-                finds a
-                <b>nonce</b>
-                that satisfies the
-                <b>difficulty algorithm.</b>
-              </span>
-            </li>
-            <li>
-              <span class="line inline">
-                Each
-                <b>block</b>
-                has a
-                <b>timestamp.</b>
-              </span>
-            </li>
-            <li>
-              <span class="line inline">
-                This creates
-                <b>immutability</b>
-                , and helps protect the difficulty algorithm adjustment from
-                being manipulated.
-              </span>
-            </li>
-            <li>
-              <span class="line inline">
-                Each block represents one confirmation for the transactions
-                included in it.
-              </span>
-            </li>
-            <li>
-              <span class="line inline">
-                As blocks are added, on average every ten mins, the immutability
-                of the blockchain increases.
-              </span>
-            </li>
-          </ol>
-        </div>
-
         <div class="footer"></div>
       </div>
 

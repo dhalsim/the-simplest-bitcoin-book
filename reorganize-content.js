@@ -34,11 +34,13 @@ async function reorganizeContent() {
 
       let bodyDiv = contentDiv.querySelector('div.body');
       
-      // If no body div exists, create one
-      if (!bodyDiv) {
-        bodyDiv = document.createElement('div');
-        bodyDiv.className = 'body';
+      // If body div exists, continue
+      if (bodyDiv) {
+        continue;
       }
+
+      bodyDiv = document.createElement('div');
+      bodyDiv.className = 'body';
 
       // Get header and footer divs
       const headerDiv = contentDiv.querySelector('div.header');
@@ -48,17 +50,23 @@ async function reorganizeContent() {
       const children = Array.from(contentDiv.children);
       children.forEach(child => {
         if (!child.classList.contains('header') && 
-            !child.classList.contains('footer') && 
-            !child.classList.contains('body')) {
+            !child.classList.contains('footer')) {
           bodyDiv.appendChild(child);
         }
       });
 
       // Clear content div and rebuild structure
       contentDiv.innerHTML = '';
-      if (headerDiv) contentDiv.appendChild(headerDiv);
+      
+      if (headerDiv) {
+        contentDiv.appendChild(headerDiv);
+      }
+      
       contentDiv.appendChild(bodyDiv);
-      if (footerDiv) contentDiv.appendChild(footerDiv);
+      
+      if (footerDiv) {
+        contentDiv.appendChild(footerDiv);
+      }
 
       // Format with Prettier
       const updatedHtml = await prettier.format(dom.serialize(), {
