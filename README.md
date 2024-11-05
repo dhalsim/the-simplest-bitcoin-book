@@ -66,3 +66,7 @@ node join-pages.js --l dutch
 It should have created a file called `dutch-generated.html` in the root folder.
 
 You can use other tools (like chrome print dialog) to create a PDF file for your language.
+
+# Licence
+
+Check the https://github.com/dhalsim/the-simplest-bitcoin-book/blob/main/LICENCE file to check the original licence and my attributions.
