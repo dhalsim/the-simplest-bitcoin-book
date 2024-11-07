@@ -138,10 +138,6 @@
   --line-height: 1.15;
 }
 
-.nav-container {
-  font-size: 12px !important;
-}
-
 .font-ff1 {
   /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -727,8 +723,12 @@ img.b-logo-transparent-20 {
 .table-w-header th,
 .table-w-header td {
   border: 1px solid black;
-  padding: 0 4px 0 4px;
+  padding: 2px 4px 2px 4px;
   text-align: left;
+}
+
+.table-w-header td.text-center {
+  text-align: center;
 }
 
 .table-w-header th {

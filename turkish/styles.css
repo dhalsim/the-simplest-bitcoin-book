@@ -723,8 +723,12 @@ img.b-logo-transparent-20 {
 .table-w-header th,
 .table-w-header td {
   border: 1px solid black;
-  padding: 0 4px 0 4px;
+  padding: 2px 4px 2px 4px;
   text-align: left;
+}
+
+.table-w-header td.text-center {
+  text-align: center;
 }
 
 .table-w-header th {
