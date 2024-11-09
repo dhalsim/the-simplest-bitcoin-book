@@ -131,7 +131,7 @@
 
 .font-an {
   font-family: 'Avenir Next Cyr';
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 400;
   word-spacing: 3px;
   letter-spacing: 0.3px;
@@ -324,12 +324,16 @@ ol.white-paper {
   display: inline-flex !important;
 }
 
+.w70 {
+  width: 70%;
+}
+
 .w80 {
   width: 80%;
 }
 
 .w90 {
-  width: 90%;
+  width: 85%;
 }
 
 .w100 {
@@ -577,6 +581,10 @@ ol.white-paper {
   margin-top: 100px;
 }
 
+.m-b-5 {
+  margin-bottom: 5px;
+}
+
 .m-b-10 {
   margin-bottom: 10px;
 }
@@ -725,6 +733,7 @@ img.b-logo-transparent-20 {
   border: 1px solid black;
   padding: 2px 4px 2px 4px;
   text-align: left;
+  text-wrap: nowrap;
 }
 
 .table-w-header td.text-center {

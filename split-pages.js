@@ -16,7 +16,7 @@ if (!options.language) {
 }
 
 // Path to the HTML file
-const htmlFilePath = path.join(__dirname, `${options.language}.html`);
+const htmlFilePath = path.join(__dirname, `${options.language}-generated.html`);
 
 // Output directory
 const outputDirPath = path.join(__dirname, options.language);
@@ -55,7 +55,9 @@ const htmlDirPath = path.join(outputDirPath, "pages-html");
 <html lang="${options.language}">
     <head>
         <meta charset="UTF-8">
+        
         <link rel="stylesheet" href="../../avenir-next/stylesheet.css">
+        
         <link rel="stylesheet" href="../styles.css">
     </head>
     <body class="font-an">
