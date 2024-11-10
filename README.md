@@ -67,6 +67,15 @@ It should have created a file called `dutch-generated.html` in the root folder.
 
 You can use other tools (like chrome print dialog) to create a PDF file for your language.
 
+Another way to work is copy and rename english-generated.html to your language and start translating from there. Later you can use these commands to create a multi page version.
+
+Assuming you have renamed the file to `dutch-generated.html`:
+
+```bash
+node split-pages.js -l dutch
+node update-navigation.js -l dutch -i "Inhoudsopgave"
+```
+
 # Licence
 
 Check the https://github.com/dhalsim/the-simplest-bitcoin-book/blob/main/LICENCE file to check the original licence and my attributions.

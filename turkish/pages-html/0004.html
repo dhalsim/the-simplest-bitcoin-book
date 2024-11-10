@@ -224,10 +224,61 @@
       </div>
 
       <div class="flex-row nav-container aic">
-        <a href="#page-000iii" class="nav-arrow">←</a>
+        <script>
+          document.addEventListener("keydown", (event) => {
+            if (event.key === "ArrowLeft") {
+              window.location.href = "0003.html";
+            }
+          });
+          document.addEventListener("keydown", (event) => {
+            if (event.key === "ArrowRight") {
+              window.location.href = "0005.html";
+            }
+          });
+        </script>
+        <style>
+          .nav-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: Arial, sans-serif;
+            font-size: 0.9em;
+            color: #ccc;
+            padding: 5px;
+          }
+
+          .nav-container .nav-arrow {
+            color: #ccc;
+            text-decoration: none;
+            margin: 0 8px;
+            font-size: 1.2em;
+          }
+
+          .nav-container .nav-arrow:hover {
+            color: #000; /* Slightly darker on hover */
+          }
+
+          .nav-container .index-button {
+            border: 0;
+            font-size: 0.9em;
+            color: #ccc;
+            background-color: transparent;
+            margin-top: 5px;
+            cursor: pointer;
+          }
+
+          .nav-container .index-button:hover {
+            color: #000;
+          }
+
+          .nav-container .page-number {
+            color: #000;
+          }
+        </style>
+        <a href="0003.html" class="nav-arrow">←</a>
         <span class="page-number">iv</span>
-        <a href="#page-000v" class="nav-arrow">→</a>
-        <a href="#page-000iii" class="index-button" title="İçindekiler">
+        <a href="0005.html" class="nav-arrow">→</a>
+        <a href="0003.html" class="index-button" title="İçindekiler">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="16"
