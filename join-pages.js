@@ -58,6 +58,14 @@ async function joinPages(language) {
     `;
     document.head.appendChild(pageNumberStyle);
 
+    // add navigation script to the head
+    const navigationScriptContent = await fs.readFile("scripts/one-page-navigation.js", "utf8");
+
+    const navigationScript = document.createElement("script");
+    navigationScript.textContent = navigationScriptContent;
+
+    document.head.appendChild(navigationScript);
+
     // Read all page files
     const pagesDir = path.join(__dirname, language, "pages-html");
     const files = await fs.readdir(pagesDir);
@@ -69,10 +77,11 @@ async function joinPages(language) {
       const content = await fs.readFile(path.join(pagesDir, file), "utf8");
       const pageDom = new JSDOM(content);
       const pageElement = pageDom.window.document.querySelector(".page");
+      const navContainer = pageElement.querySelector(".nav-container");
 
       // remove div with class "nav-container" if first and second page
       if (i === 0 || i === 1) {
-        pageElement.querySelector(".nav-container")?.remove();
+        navContainer.remove();
       }
 
       if (i === 2 || i === 3) {
@@ -99,6 +108,9 @@ async function joinPages(language) {
         });
       }
 
+      navContainer.querySelector("style")?.remove();
+      navContainer.querySelector("script")?.remove();
+
       // Fix image paths before adding to main document
       const images = pageElement.querySelectorAll("img");
 
@@ -119,6 +131,7 @@ async function joinPages(language) {
         }
       });
 
+      body.appendChild(document.createTextNode("\n"));
       body.appendChild(document.importNode(pageElement, true));
     }
 

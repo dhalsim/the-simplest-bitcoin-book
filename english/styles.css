@@ -90,15 +90,15 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
-  border-top: 4px solid var(--bitcoin-orange);
-  border-bottom: 4px solid var(--bitcoin-orange);
+  border-top: 3px solid var(--bitcoin-orange);
+  border-bottom: 3px solid var(--bitcoin-orange);
   padding-top: 4px;
   padding-bottom: 4px;
   padding-left: 50px;
 }
 
 .orange-lines div.b-point {
-  top: 4px;
+  top: 2px;
   left: 20px;
 }
 
@@ -541,6 +541,10 @@ ol.white-paper {
   margin-left: 50px;
 }
 
+.m-l-60 {
+  margin-left: 60px;
+}
+
 .m-l-70 {
   margin-left: 70px;
 }
@@ -654,7 +658,7 @@ ol.white-paper {
   background-image: url("../images/arrow.png");
   background-size: contain;
   position: absolute;
-  top: 0;
+  top: -1px;
   left: -25px;
 }
 
@@ -725,7 +729,7 @@ img.b-logo-transparent-20 {
 .table-w-header {
   width: 100%;
   border-collapse: collapse;
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .table-w-header th,

@@ -76,24 +76,6 @@ const htmlDirPath = path.join(outputDirPath, "pages-html");
       await fs.writeFile(filePath, formattedHtml, "utf8");
       console.log(`${fileName} created successfully.`);
     }
-
-    // copy {language}.css into /{language}/styles.css
-    const cssFilePath = path.join(__dirname, `${options.language}.css`);
-    const cssOutputPath = path.join(outputDirPath, "styles.css");
-
-    await fs.copyFile(cssFilePath, cssOutputPath);
-
-    console.log(`copied ${options.language}.css into ${cssOutputPath}`);
-
-    // Read the CSS file
-    let cssContent = await fs.readFile(cssOutputPath, "utf8");
-
-    // Update the image paths in the CSS file
-    cssContent = cssContent.replace(/url\("images\//g, 'url("../images/');
-
-    // Save the updated CSS file
-    await fs.writeFile(cssOutputPath, cssContent, "utf8");
-    console.log(`Updated image paths in ${cssOutputPath}`);
   } catch (err) {
     console.error("An error occurred:", err);
   }

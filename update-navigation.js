@@ -49,16 +49,17 @@ async function updateNavigation() {
 
       const pageDiv = document.querySelector('div.page');
       const currentPageNumber = Number(pageDiv.getAttribute('data-page-number'));
-      const navContainer = document.querySelector('div.nav-container');
+      const navContainer = pageDiv.querySelector('div.nav-container');
 
       const nextPageNumber = (currentPageNumber + 1).toString().padStart(4, '0');
       const previousPageNumber = (currentPageNumber - 1).toString().padStart(4, '0');
       
       // Build navigation HTML
-      let navHtml = `
-      <div class="flex-row nav-container aic">
-        <script>`
-        
+      if (navContainer) {
+        let navHtml = `
+        <div class="flex-row nav-container aic">
+          <script>`
+          
         if (i > 0) {
           navHtml += `
           document.addEventListener('keydown', (event) => {
@@ -67,7 +68,7 @@ async function updateNavigation() {
             }
           });`;
         }
-
+  
         if (i < htmlFiles.length - 1) {
           navHtml += `
           document.addEventListener('keydown', (event) => {
@@ -76,7 +77,7 @@ async function updateNavigation() {
             }
           });`;
         }
-
+  
         navHtml += `</script>
         <style>
           .nav-container {
@@ -88,18 +89,18 @@ async function updateNavigation() {
             color: #ccc;
             padding: 5px;
           }
-
+  
           .nav-container .nav-arrow {
             color: #ccc;
             text-decoration: none;
             margin: 0 8px;
             font-size: 1.2em;
           }
-
+  
           .nav-container .nav-arrow:hover {
             color: #000; /* Slightly darker on hover */
           }
-
+  
           .nav-container .index-button {
             border: 0;
             font-size: 0.9em;
@@ -108,41 +109,42 @@ async function updateNavigation() {
             margin-top: 5px;
             cursor: pointer;
           }
-
+  
           .nav-container .index-button:hover {
             color: #000;
           }
-
+  
           .nav-container .page-number {
             color: #000;
           }
         </style>`;
-      
-      // Add previous link if not first page
-      if (i > 0) {
-        navHtml += `<a href="${previousPageNumber}.html" class="nav-arrow">←</a>`;
+        
+        // Add previous link if not first page
+        if (i > 0) {
+          navHtml += `<a href="${previousPageNumber}.html" class="nav-arrow">←</a>`;
+        }
+        
+        // Add page number
+        navHtml += `<span class="page-number">${numberToRoman(currentPageNumber)}</span>`;
+        
+        // Add next link if not last page
+        if (i < htmlFiles.length - 1) {
+          navHtml += `<a href="${nextPageNumber}.html" class="nav-arrow">→</a>`;
+        }
+  
+        // Add index button
+        navHtml += `
+          <a href="0003.html" class="index-button" title="${options.index}">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M2.5 12.5a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1h-10a.5.5 0 0 1-.5-.5zm0-5a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1h-10a.5.5 0 0 1-.5-.5zm0-5a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1h-10a.5.5 0 0 1-.5-.5z"/>
+            </svg>
+          </a>
+        </div>`;
+        
+        // Update the page-number div
+        navContainer.outerHTML = navHtml;
       }
       
-      // Add page number
-      navHtml += `<span class="page-number">${numberToRoman(currentPageNumber)}</span>`;
-      
-      // Add next link if not last page
-      if (i < htmlFiles.length - 1) {
-        navHtml += `<a href="${nextPageNumber}.html" class="nav-arrow">→</a>`;
-      }
-
-      // Add index button
-      navHtml += `
-        <a href="0003.html" class="index-button" title="${options.index}">
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-            <path fill-rule="evenodd" d="M2.5 12.5a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1h-10a.5.5 0 0 1-.5-.5zm0-5a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1h-10a.5.5 0 0 1-.5-.5zm0-5a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1h-10a.5.5 0 0 1-.5-.5z"/>
-          </svg>
-        </a>
-      </div>`;
-      
-      // Update the page-number div
-      navContainer.innerHTML = navHtml;
-
       // Format with Prettier
       const updatedHtml = await prettier.format(dom.serialize(), {
         parser: "html",

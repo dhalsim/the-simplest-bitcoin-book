@@ -67,6 +67,20 @@ is it
 
 single point of failure?
 
+## page 81
+
+As more miners join the network, the target number (nonce) in
+the lottery decreases, making it harder to find a winning
+number.
+
+As far as I understand, the nonce is the number that miners need to find to solve the puzzle. The target number is the difficulty of the puzzle. Nonce is completely random and has nothing to do with the difficulty.
+
+So I fixed it like this:
+
+As more miners join the network, the target number in
+the lottery decreases (difficulty increases), making it harder to find a winning
+number.
+
 ## page 83
 
 E: There are no gatekeepers in a P2P network.
