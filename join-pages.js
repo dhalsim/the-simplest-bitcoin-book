@@ -14,7 +14,7 @@ const options = program.opts();
 async function joinPages(language) {
   try {
     // Read template
-    const templatePath = path.join(__dirname, "template.html");
+    const templatePath = path.join(__dirname, "joined-template.html");
     let templateContent = await fs.readFile(templatePath, "utf8");
 
     // Update CSS path

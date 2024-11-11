@@ -380,7 +380,7 @@ ol.white-paper {
   text-align: right !important;
 }
 
-.t-a-j span {
+.t-a-j {
   text-align: justify;
 }
 
@@ -441,7 +441,7 @@ ol.white-paper {
 .block-quote {
   display: flex;
   flex-direction: column;
-  border-right: 4px solid var(--bitcoin-orange);
+  border-right: 3px solid var(--bitcoin-orange);
   padding-right: 5px;
   line-height: var(--line-height);
 }
@@ -450,7 +450,7 @@ ol.white-paper {
   display: flex;
   flex-direction: column;
   border-right: none;
-  border-left: 4px solid var(--bitcoin-orange);
+  border-left: 3px solid var(--bitcoin-orange);
   padding-left: 5px;
   line-height: var(--line-height);
 }

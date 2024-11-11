@@ -76,6 +76,15 @@ node split-pages.js -l dutch
 node update-navigation.js -l dutch -i "Inhoudsopgave"
 ```
 
+This is the commands I use to work on both English and Turkish versions, starting from the generated single page version.
+
+```bash
+node split-pages.js -l turkish 
+node update-navigation.js -l turkish -i "İçindekiler"
+node split-pages.js -l english
+node update-navigation.js -l english -i "Table of Contents"
+```
+
 # Licence
 
 Check the https://github.com/dhalsim/the-simplest-bitcoin-book/blob/main/LICENCE file to check the original licence and my attributions.

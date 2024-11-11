@@ -59,6 +59,8 @@ const htmlDirPath = path.join(outputDirPath, "pages-html");
         <link rel="stylesheet" href="../../avenir-next/stylesheet.css">
         
         <link rel="stylesheet" href="../styles.css">
+
+        <script src='https://www.unpkg.com/nostr-login@latest/dist/unpkg.js' data-bunkers="nsec.app,highlighter.com"></script>
     </head>
     <body class="font-an">
         ${page.outerHTML}

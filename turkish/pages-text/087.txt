@@ -15,7 +15,7 @@ kârlılığın ihmal edilebilir olduğunun farkında olmak
 gerekse de, bu ağı güvence altına almak ve merkeziyetsiz
 tutmak için güçlü bir yoldur.
 
-[b] Madenciler oldukça uzun yıllar dayanır. Şu anda,
+[b] Madencilik makineleri oldukça uzun yıllar dayanır. Şu anda,
 örneğin 6 yıldan fazla süredir çalışan birçok
 Antminer S9 bulunmaktadır.
 
