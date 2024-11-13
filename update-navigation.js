@@ -19,7 +19,6 @@ function numberToRoman(number) {
 async function updateNavigation() {
   program
     .option("-l, --language <lang>", "Language code (e.g., english)")
-    .option("-i, --index <index>", "Index text for your language (e.g., İçindekiler in Turkish)")
     .parse(process.argv);
 
   const options = program.opts();
@@ -29,14 +28,13 @@ async function updateNavigation() {
     process.exit(1);
   }
 
-  if (!options.index) {
-    console.error("Please specify index text using -i or --index");
-    process.exit(1);
-  }
-
   const pagesDir = path.join(__dirname, options.language, "pages-html");
+  const l18nFilePath = path.join(__dirname, options.language, "l18n.json");
   
   try {
+    // Read the l18n file
+    const l18n = await fs.readFile(l18nFilePath, "utf8");
+
     // Get all HTML files and sort them
     const files = await fs.readdir(pagesDir);
     const htmlFiles = files.filter(f => f.endsWith('.html')).sort();
@@ -134,7 +132,7 @@ async function updateNavigation() {
   
         // Add index button
         navHtml += `
-          <a href="0003.html" class="index-button" title="${options.index}">
+          <a href="0003.html" class="index-button" title="${l18n.toc}">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
               <path fill-rule="evenodd" d="M2.5 12.5a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1h-10a.5.5 0 0 1-.5-.5zm0-5a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1h-10a.5.5 0 0 1-.5-.5zm0-5a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1h-10a.5.5 0 0 1-.5-.5z"/>
             </svg>

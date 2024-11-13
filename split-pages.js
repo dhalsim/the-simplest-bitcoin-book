@@ -21,9 +21,13 @@ const htmlFilePath = path.join(__dirname, `${options.language}-generated.html`);
 // Output directory
 const outputDirPath = path.join(__dirname, options.language);
 const htmlDirPath = path.join(outputDirPath, "pages-html");
+const l18nFilePath = path.join(__dirname, `${options.language}/l18n.json`);
 
 (async () => {
   try {
+    // Read the l18n file
+    const l18n = await fs.readFile(l18nFilePath, "utf8");
+
     // Read the HTML file
     const htmlContent = await fs.readFile(htmlFilePath, "utf8");
     const dom = new JSDOM(htmlContent);
@@ -61,6 +65,12 @@ const htmlDirPath = path.join(outputDirPath, "pages-html");
         <link rel="stylesheet" href="../styles.css">
 
         <script src='https://www.unpkg.com/nostr-login@latest/dist/unpkg.js' data-bunkers="nsec.app,highlighter.com"></script>
+
+        <link rel="stylesheet" href="../../scripts/highlighter.css">
+
+        <script>window.l18n = ${l18n};</script>
+
+        <script src='../../dist/highlighter.js'></script>
     </head>
     <body class="font-an">
         ${page.outerHTML}

@@ -4,16 +4,27 @@
   "description": "Convert base64 images in HTML to files",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "build-turkish": "webpack && node split-pages.js -l turkish && node update-navigation -l turkish",
+    "build-english": "webpack && node split-pages.js -l english && node update-navigation -l english",
+    "relay": "bun run relay/index.ts",
+    "migrate": "bun run relay/migrations.ts"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@html-eslint/eslint-plugin": "^0.27.0",
     "@html-eslint/parser": "^0.27.0",
+    "bolt11": "^1.4.1",
     "commander": "^12.1.0",
     "eslint": "^8.5.0",
     "jsdom": "^19.0.0",
-    "prettier": "^3.3.3"
+    "nostr-tools": "^2.10.1",
+    "prettier": "^3.3.3",
+    "bun": "^1.1.29"
+  },
+  "devDependencies": {
+    "webpack": "5.96.1",
+    "webpack-cli": "5.1.4"
   }
 }

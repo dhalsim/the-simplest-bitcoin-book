@@ -56,6 +56,7 @@ npm install
 ```
 
 Copy the `english` folder and rename it with the language (e.g. `dutch`).
+Check out the l18n.json file in the new language folder. Translate the text in the file.
 
 Then
 
@@ -73,16 +74,22 @@ Assuming you have renamed the file to `dutch-generated.html`:
 
 ```bash
 node split-pages.js -l dutch
-node update-navigation.js -l dutch -i "Inhoudsopgave"
+node update-navigation.js -l dutch
 ```
 
 This is the commands I use to work on both English and Turkish versions, starting from the generated single page version.
 
 ```bash
-node split-pages.js -l turkish 
-node update-navigation.js -l turkish -i "İçindekiler"
-node split-pages.js -l english
-node update-navigation.js -l english -i "Table of Contents"
+npm run build-english
+npm run build-turkish
+```
+
+To create a command for your language, edit the `package.json` file. Add a new script with the language name, change the parameters in the script to match your language.
+
+# Run a local Nostr relay for testing hightlights, zaps, and comments.
+
+```bash
+npm run relay
 ```
 
 # Licence

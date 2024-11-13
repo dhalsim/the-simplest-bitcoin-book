@@ -1,0 +1,42 @@
+.settings-panel {
+  position: fixed;
+  right: 3px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1000;
+}
+
+.settings-icon {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 8px;
+}
+
+.settings-popup {
+  position: absolute;
+  right: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.settings-popup.hidden {
+  display: none;
+}
+
+.settings-popup button {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+}
