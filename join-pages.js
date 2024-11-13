@@ -79,34 +79,27 @@ async function joinPages(language) {
       const pageElement = pageDom.window.document.querySelector(".page");
       const navContainer = pageElement.querySelector(".nav-container");
 
-      // remove div with class "nav-container" if first and second page
-      if (i === 0 || i === 1) {
-        navContainer.remove();
-      }
+      const romanNumerals = ["i", "ii", "iii", "iv", "v", "vi", "vii", "viii"];
+      
+      // fix the index href="#page-009" to href="0001.html"
+      const indexLinks = pageElement.querySelectorAll("a");
+      
+      indexLinks.forEach(link => {
+        const href = link.getAttribute("href");
 
-      if (i === 2 || i === 3) {
-        const romanNumerals = ["i", "ii", "iii", "iv", "v", "vi", "vii", "viii"];
-        
-        // fix the index href="#page-009" to href="0001.html"
-        const indexLinks = pageElement.querySelectorAll("a");
-        
-        indexLinks.forEach(link => {
-          const href = link.getAttribute("href");
+        if (href.startsWith("0")) {
+          // parse 0001.html to 1
+          const pageNumber = parseInt(href.replace(".html", ""), 10);
 
-          if (href.startsWith("0")) {
-            // parse 0001.html to 1
-            const pageNumber = parseInt(href.replace(".html", ""), 10);
-
-            // the first 8 numbers should be roman numerals
-            if (pageNumber <= 8) {
-              const romanNumeral = romanNumerals[pageNumber - 1];
-              link.setAttribute("href", `#page-000${romanNumeral}`);
-            } else {
-              link.setAttribute("href", `#page-${(pageNumber - 8).toString().padStart(3, "0")}`);
-            }
+          // the first 8 numbers should be roman numerals
+          if (pageNumber <= 8) {
+            const romanNumeral = romanNumerals[pageNumber - 1];
+            link.setAttribute("href", `#page-000${romanNumeral}`);
+          } else {
+            link.setAttribute("href", `#page-${(pageNumber - 8).toString().padStart(3, "0")}`);
           }
-        });
-      }
+        }
+      });
 
       navContainer.querySelector("style")?.remove();
       navContainer.querySelector("script")?.remove();

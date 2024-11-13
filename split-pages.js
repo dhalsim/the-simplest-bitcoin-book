@@ -26,7 +26,7 @@ const l18nFilePath = path.join(__dirname, `${options.language}/l18n.json`);
 (async () => {
   try {
     // Read the l18n file
-    const l18n = await fs.readFile(l18nFilePath, "utf8");
+    const l18n = JSON.parse(await fs.readFile(l18nFilePath, "utf8"));
 
     // Read the HTML file
     const htmlContent = await fs.readFile(htmlFilePath, "utf8");
@@ -68,7 +68,7 @@ const l18nFilePath = path.join(__dirname, `${options.language}/l18n.json`);
 
         <link rel="stylesheet" href="../../scripts/highlighter.css">
 
-        <script>window.l18n = ${l18n};</script>
+        <script>window.l18n = ${JSON.stringify(l18n)};</script>
 
         <script src='../../dist/highlighter.js'></script>
     </head>

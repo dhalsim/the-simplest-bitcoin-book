@@ -1,5 +1,5 @@
 import { Either } from "./utils.ts";
-import { parseRequiredTags } from "./server-utils.ts";
+import { parseRequiredTags, safeTraverse } from "./server-utils.ts";
 
 export function handleNewHighlight({
   ws,
@@ -8,6 +8,8 @@ export function handleNewHighlight({
   highlightMaps,
   highlightsMutex,
 }) {
+  console.log("handleNewHighlight");
+
   const eitherTag = parseRequiredTags(event.tags, ["r"]);
 
   if (Either.isLeft(eitherTag)) {
@@ -29,19 +31,25 @@ export function handleNewHighlight({
   }
 
   // insert highlight to db
-  const insertHighlight = `INSERT INTO highlights (event_id, created_at, r, content, json) 
-                           VALUES ($event_id, $created_at, $r, $content, $json)`;
+  const insertHighlight = `INSERT INTO highlights (event_id, created_at, pubkey, r, json) 
+                           VALUES ($event_id, $created_at, $pubkey, $r, $json)`;
 
   const params = {
-    $event_id: event.id,
-    $created_at: event.created_at,
-    $r: r,
-    $content: content,
-    $json: JSON.stringify(event),
+    event_id: event.id,
+    created_at: event.created_at,
+    pubkey: event.pubkey,
+    r: r,
+    json: JSON.stringify(event),
   };
 
-  db.run(insertHighlight, [params]);
+  db.run(insertHighlight, params);
 
   // send OK event as an ack
   ws.send(JSON.stringify(["OK", event.id, true, ""]));
+
+  safeTraverse(highlightsMutex, highlightMaps.toSocket, (highlightsMap) => {
+    highlightsMap.forEach((socket) => {
+      socket.send(JSON.stringify(["EVENT", event]));
+    });
+  });
 }

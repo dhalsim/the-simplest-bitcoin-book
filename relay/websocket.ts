@@ -73,26 +73,6 @@ export function handleNewSubscriber({
   // a new subsciption
   const [subscriptionId, ...filters] = params;
 
-  const subsExist =
-    commentMaps.toSocket.get(subscriptionId) ||
-    commentMaps.toFilter.get(subscriptionId) ||
-    receiptMaps.toSocket.get(subscriptionId) ||
-    receiptMaps.toFilter.get(subscriptionId) ||
-    highlightMaps.toSocket.get(subscriptionId) ||
-    highlightMaps.toFilter.get(subscriptionId);
-
-  if (subsExist) {
-    ws.send(
-      JSON.stringify([
-        "CLOSED",
-        subscriptionId,
-        `duplicate: ${subscriptionId} already opened`,
-      ]),
-    );
-    
-    ws.close();
-  }
-
   if (filters.length !== 1) {
     ws.send(
       JSON.stringify([
@@ -120,9 +100,7 @@ export function handleNewSubscriber({
   const isFilterKindSupported = isOneOf(filter.kinds[0], [kinds.ShortTextNote, kinds.Highlights, kinds.Zap]);
 
   if (!isFilterKindSupported) {
-    ws.send(JSON.stringify(["CLOSED", subscriptionId, "unsupported: kind is not supported"]));
-    
-    ws.close();
+    ws.send(JSON.stringify(["OK", subscriptionId, false, "unsupported: kind is not supported"]));
 
     return;
   }
@@ -137,7 +115,7 @@ export function handleNewSubscriber({
     let filtered = false;
 
     if (filter["#r"] && filter["#r"].length) {
-      query += " AND r = $r";
+      query += " AND r = :r";
       filtered = true;
     }
 
@@ -147,12 +125,12 @@ export function handleNewSubscriber({
     }
 
     if (filter.since) {
-      query += " AND created_at >= $since";
+      query += " AND created_at >= :since";
       filtered = true;
     }
 
     if (filter.until) {
-      query += " AND created_at < $until";
+      query += " AND created_at < :until";
       filtered = true;
     }
 
@@ -170,9 +148,9 @@ export function handleNewSubscriber({
     }
 
     rows = db.query(query).all({
-      $r: filter["#r"]?.[0],
-      $since: filter.since,
-      $until: filter.until,
+      r: filter["#r"]?.[0],
+      since: filter.since,
+      until: filter.until,
     } as any);
 
     rows.forEach((row) => {
@@ -191,18 +169,18 @@ export function handleNewSubscriber({
     let query = "SELECT json FROM receipts WHERE 1 = 1";
     let filtered = false;
 
-    if (filter["#p"]) {
-      query += " AND p = $p";
+    if (filter["#p"] && filter["#p"].length) {
+      query += " AND p = :p";
       filtered = true;
     }
 
     if (filter.since) {
-      query += " AND created_at >= $since";
+      query += " AND created_at >= :since";
       filtered = true;
     }
 
     if (filter.until) {
-      query += " AND created_at < $until";
+      query += " AND created_at < :until";
       filtered = true;
     }
 
@@ -220,9 +198,9 @@ export function handleNewSubscriber({
     }
 
     rows = db.query(query).all({
-      $p: filter["#p"]?.[0],
-      $since: filter.since,
-      $until: filter.until,
+      p: filter["#p"]?.[0],
+      since: filter.since,
+      until: filter.until,
     } as any);
 
     safeInsert(receiptsMutex, receiptMaps.toFilter, subscriptionId, filter);
@@ -233,18 +211,18 @@ export function handleNewSubscriber({
     let query = "SELECT json FROM highlights WHERE 1 = 1";
     let filtered = false;
 
-    if (filter["#r"]) {
-      query += " AND r = $r";
+    if (filter["#r"] && filter["#r"].length) {
+      query += ` AND r = :r`;
       filtered = true;
     }
 
     if (filter.since) {
-      query += " AND created_at >= $since";
+      query += " AND created_at >= :since";
       filtered = true;
     }
 
     if (filter.until) {
-      query += " AND created_at < $until";
+      query += " AND created_at < :until";
       filtered = true;
     }
 
@@ -262,12 +240,22 @@ export function handleNewSubscriber({
     }
 
     console.log("query", query);
-    
+
     rows = db.query(query).all({
       r: filter["#r"]?.[0],
       since: filter.since,
       until: filter.until,
     } as any);
+
+    console.log("rows", rows);
+
+    rows.forEach((row) => {
+      const json = JSON.parse(row.json);
+
+      ws.send(JSON.stringify(["EVENT", subscriptionId, json]));
+    });
+
+    ws.send(JSON.stringify(["EOSE", subscriptionId]));
 
     safeInsert(highlightsMutex, highlightMaps.toFilter, subscriptionId, filter);
     safeInsert(highlightsMutex, highlightMaps.toSocket, subscriptionId, ws);

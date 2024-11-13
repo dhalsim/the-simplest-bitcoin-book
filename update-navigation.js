@@ -33,7 +33,7 @@ async function updateNavigation() {
   
   try {
     // Read the l18n file
-    const l18n = await fs.readFile(l18nFilePath, "utf8");
+    const l18n = JSON.parse(await fs.readFile(l18nFilePath, "utf8"));
 
     // Get all HTML files and sort them
     const files = await fs.readdir(pagesDir);
