@@ -1,12 +1,12 @@
 {
-  "name": "convert-base64-images",
+  "name": "the-simplest-bitcoin-book",
   "version": "1.0.0",
-  "description": "Convert base64 images in HTML to files",
-  "main": "index.js",
+  "description": "The Simplest Bitcoin Book (web version) and its translations",
   "scripts": {
-    "start": "node index.js",
-    "build-turkish": "webpack && node split-pages.js -l turkish && node update-navigation -l turkish",
-    "build-english": "webpack && node split-pages.js -l english && node update-navigation -l english",
+    "split-turkish": "webpack && node split-pages.js -l turkish && node update-navigation -l turkish",
+    "split-english": "webpack && node split-pages.js -l english && node update-navigation -l english",
+    "join-turkish": "node join-pages.js -l turkish",
+    "join-english": "node join-pages.js -l english",
     "relay": "bun run relay/index.ts",
     "migrate": "bun run relay/migrations.ts"
   },

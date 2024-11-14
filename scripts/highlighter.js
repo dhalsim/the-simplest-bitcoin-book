@@ -85,16 +85,27 @@ const sanitizeUrl = (url) => {
   return sanitizedUrl;
 }
 
-const publishPageHighlight = async (pageUrl, content) => {
+const publishPageHighlight = async (pageUrl, content, comment) => {
   console.log("publishing page highlights");
+
+  let tags = [
+    ["r", pageUrl, "source"],
+    ["p", "6867d899ce6b677b89052602cfe04a165f26bb6a1a6390355f497f9ee5cb0796", "wss://relay.nostr.band", "author"]
+  ];
+
+  if (comment) {
+    tags.push(["comment", comment]);
+  }
+
+  if (l18n.translatorTag) {
+    tags.push(["p", ...l18n.translatorTag]);
+  }
 
   const highlightEvent = {
     "content": content,
     "created_at": Math.floor(Date.now() / 1000),
     "kind": 9802,
-    "tags": [
-      ["r", pageUrl]
-    ]
+    "tags": tags
   }
 
   const finalizedEvent = await window.nostr.signEvent(highlightEvent);
@@ -260,7 +271,7 @@ const showHighlightModal = (event, writeRelays) => {
     background: white;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
     z-index: 1000;
     max-width: 500px;
   `;

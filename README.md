@@ -57,8 +57,9 @@ npm install
 
 Copy the `english` folder and rename it with the language (e.g. `dutch`).
 Check out the l18n.json file in the new language folder. Translate the text in the file.
+You can also optionally add your Nostr pubkey and relay hint to the file as the translator, so the highlights and comments can be attributed to you. Check the turkish/l18n.json file for an example.
 
-Then
+Then run the following command to join the pages.
 
 ```bash
 node join-pages.js --l dutch
@@ -80,8 +81,15 @@ node update-navigation.js -l dutch
 This is the commands I use to work on both English and Turkish versions, starting from the generated single page version.
 
 ```bash
-npm run build-english
-npm run build-turkish
+npm run split-english
+npm run split-turkish
+```
+
+and to generate the single page version:
+
+```bash
+npm run join-english
+npm run join-turkish
 ```
 
 To create a command for your language, edit the `package.json` file. Add a new script with the language name, change the parameters in the script to match your language.
