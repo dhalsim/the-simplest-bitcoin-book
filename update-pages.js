@@ -16,7 +16,7 @@ function numberToRoman(number) {
   return number - 8;
 }
 
-async function updateNavigation() {
+async function updatePages() {
   program
     .option("-l, --language <lang>", "Language code (e.g., english)")
     .parse(process.argv);
@@ -46,6 +46,17 @@ async function updateNavigation() {
       const document = dom.window.document;
 
       const pageDiv = document.querySelector('div.page');
+      
+      let componentsContainer = pageDiv.querySelector("div#components-container");
+      
+      if (!componentsContainer) {
+        componentsContainer = document.createElement("div");
+        componentsContainer.id = "components-container";
+        
+        pageDiv.appendChild(document.createTextNode('\n'));
+        pageDiv.appendChild(componentsContainer);
+      }
+      
       const currentPageNumber = Number(pageDiv.getAttribute('data-page-number'));
       const navContainer = pageDiv.querySelector('div.nav-container');
 
@@ -144,18 +155,19 @@ async function updateNavigation() {
       }
       
       // Format with Prettier
-      const updatedHtml = await prettier.format(dom.serialize(), {
+      const prettiedHtml = await prettier.format(dom.serialize(), {
         parser: "html",
         tabWidth: 2,
         htmlWhitespaceSensitivity: "ignore"
       });
 
       // Save the updated file
-      await fs.writeFile(filePath, updatedHtml, 'utf8');
-      console.log(`Updated navigation in ${htmlFiles[i]}`);
+      await fs.writeFile(filePath, prettiedHtml, 'utf8');
+      
+      console.log(`Updated page DOM in ${htmlFiles[i]}`);
     }
     
-    console.log('Navigation update completed successfully!');
+    console.log('Page DOM update completed successfully!');
     
   } catch (err) {
     console.error('An error occurred:', err);
@@ -163,4 +175,4 @@ async function updateNavigation() {
   }
 }
 
-updateNavigation();
+updatePages();

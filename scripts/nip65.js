@@ -1,3 +1,5 @@
+import { SimplePool } from "nostr-tools";
+
 export function toReadWriteRelays(relays) {
   const relayTags = relays.tags.filter((tag) => tag[0] === "r");
 
@@ -16,4 +18,14 @@ export function toReadWriteRelays(relays) {
   }));
 
   return { readRelays, writeRelays, flatRelays, createdAt: relays.created_at };
+}
+
+export async function fetchNip65Relays(relays, pubkey) {
+  const pool = new SimplePool();
+
+  return await pool.get(relays, {
+    kinds: [10002],
+    authors: [pubkey],
+    limit: 1
+  });
 }

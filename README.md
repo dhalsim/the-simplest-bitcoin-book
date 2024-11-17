@@ -75,7 +75,7 @@ Assuming you have renamed the file to `dutch-generated.html`:
 
 ```bash
 node split-pages.js -l dutch
-node update-navigation.js -l dutch
+node update-pages.js -l dutch
 ```
 
 This is the commands I use to work on both English and Turkish versions, starting from the generated single page version.

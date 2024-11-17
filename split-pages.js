@@ -66,11 +66,9 @@ const l18nFilePath = path.join(__dirname, `${options.language}/l18n.json`);
 
         <script src='https://www.unpkg.com/nostr-login@latest/dist/unpkg.js' data-bunkers="nsec.app,highlighter.com"></script>
 
-        <link rel="stylesheet" href="../../scripts/highlighter.css">
+        <script>window.language = "${options.language}";</script>
 
-        <script>window.l18n = ${JSON.stringify(l18n)};</script>
-
-        <script src='../../dist/highlighter.js'></script>
+        <script src='../../dist/page-scripts.js'></script>
     </head>
     <body class="font-an">
         ${page.outerHTML}

@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "The Simplest Bitcoin Book (web version) and its translations",
   "scripts": {
-    "split-turkish": "webpack && node split-pages.js -l turkish && node update-navigation -l turkish",
-    "split-english": "webpack && node split-pages.js -l english && node update-navigation -l english",
+    "webpack": "webpack",
+    "split-turkish": "webpack && node split-pages.js -l turkish && node update-pages -l turkish",
+    "split-english": "webpack && node split-pages.js -l english && node update-pages -l english",
     "join-turkish": "node join-pages.js -l turkish",
     "join-english": "node join-pages.js -l english",
     "relay": "bun run relay/index.ts",
@@ -12,6 +13,18 @@
   },
   "author": "",
   "license": "ISC",
+  "devDependencies": {
+    "webpack": "5.96.1",
+    "webpack-cli": "5.1.4",
+    "@tsconfig/svelte": "^5.0.4",
+    "css-loader": "^7.1.2",
+    "style-loader": "^4.0.0",
+    "svelte": "^4.2.19",
+    "svelte-loader": "^3.2.3",
+    "svelte-preprocess": "^6.0.3",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.6.2"
+  },
   "dependencies": {
     "@html-eslint/eslint-plugin": "^0.27.0",
     "@html-eslint/parser": "^0.27.0",
@@ -22,9 +35,5 @@
     "nostr-tools": "^2.10.1",
     "prettier": "^3.3.3",
     "bun": "^1.1.29"
-  },
-  "devDependencies": {
-    "webpack": "5.96.1",
-    "webpack-cli": "5.1.4"
   }
 }
