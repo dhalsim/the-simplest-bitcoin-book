@@ -438,12 +438,20 @@ ol.white-paper {
   font-weight: 500;
 }
 
+.initial-p {
+  color: black;
+}
+
 .block-quote {
   display: flex;
   flex-direction: column;
   border-right: 3px solid var(--bitcoin-orange);
   padding-right: 5px;
   line-height: var(--line-height);
+}
+
+.block-quote.purple {
+  border-right: 3px solid var(--nostr-purple);
 }
 
 .block-quote.left {
@@ -646,12 +654,21 @@ ol.white-paper {
   height: 18px;
 }
 
+.w-h-16 {
+  width: 16px;
+  height: 16px;
+}
+
 .pr {
   position: relative;
 }
 
 .pa {
   position: absolute;
+}
+
+.t0 {
+  top: 0px !important; 
 }
 
 .arrow {
@@ -686,6 +703,14 @@ img.b-logo-transparent-20 {
   left: -25px;
 }
 
+.n-point {
+  background-image: url("../images/nostr-logo.png");
+  background-size: contain;
+  position: absolute;
+  top: -2px;
+  left: -25px;
+}
+
 .shadow {
   --stroke-width: 1px;
   z-index: 1;
@@ -714,7 +739,10 @@ img.b-logo-transparent-20 {
 }
 
 .shadow.purple {
-  --stroke-color: var(--nostr-purple);
+  /*--stroke-color: var(--nostr-purple);*/
+  /*color: rgb(49, 49, 49);*/
+  color: purple;
+  text-shadow: 1px 1px 0 var(--nostr-purple);
 }
 
 .hidden {

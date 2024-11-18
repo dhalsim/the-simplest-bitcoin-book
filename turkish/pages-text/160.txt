@@ -5,8 +5,8 @@ H: Şimdiye Kadar Yazılmış En Basit Bitcoin Kitabı
   NOTES & OTHER STUFF
   TRANSMITTED BY RELAYS
 ]
-* RELAYLAR TARAFINDAN
-  İLETİLEN NOTLAR VE DİĞER ŞEYLER
+* Aktarıcılar Tarafından
+  İletilen Notlar ve Diğer Şeyler
 
 ri> Buna karşı yasalar çıkarılabilir, ancak ifade özgürlüğü,
     gizlilikten bile daha fazla, açık bir toplum için temeldir;
@@ -21,8 +21,8 @@ ri> Kısaca: nostr, Twitter'ın, Telegram'ın ve diğer
 
 ~ @dergigi 
 
-ri> nostr, iletişim özgürlüğü için
-    bitcoin'in işlem (transaction) özgürlüğü için olduğu şeydir.
+ri> nostr iletişim özgürlüğü demektir
+tıpkı bitcoin'in işlem (transaction) özgürlüğü anlamına gelmesi gibi.
 
 ~ Keysa @SimplestBitcoinBook 
 
@@ -31,7 +31,7 @@ ağlar için basit, merkezi olmayan bir protokoldür.*
 
 [O] Nostr güvenilir bir merkezi sunucuya dayanmaz.
 
-[O] Bitcoin, HTTP veya TCP-IP gibi ücretsiz ve açık
+[O] Bitcoin, HTTP veya TCP/IP gibi özgür ve açık
 kaynaklı (FOSS) bir yazılım protokolüdür ve herkesin
 nostr üzerine inşa etmesine olanak tanır.
 

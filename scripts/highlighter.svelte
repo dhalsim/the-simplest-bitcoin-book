@@ -284,7 +284,7 @@
     neventP.appendChild(neventLink);
 
     neventLink.target = "_blank";
-    neventLink.href = `https://njump.me/${nevent}`;
+    neventLink.href = `https://nostr.at/${nevent}`;
     neventLink.appendChild(document.createTextNode(nevent.slice(0, 6)));
     neventLink.appendChild(document.createTextNode("..."));
     neventLink.appendChild(document.createTextNode(nevent.slice(-6)));
@@ -305,7 +305,7 @@
 
     const authorLink = document.createElement("a");
     authorLink.target = "_blank";
-    authorLink.href = `https://njump.me/${npub}`;
+    authorLink.href = `https://nostr.at/${npub}`;
     authorLink.textContent = `${npub.slice(0, 6)}...${npub.slice(-6)}`;
 
     const copyLink = document.createElement("a");

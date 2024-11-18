@@ -1,9 +1,9 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/svelte-loader/index.js?cssPath=/Users/baris/Projects/the-simplest-bitcoin-book/scripts/components/Highlighter.svelte.1.css!./scripts/components/Highlighter.svelte":
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/svelte-loader/index.js?cssPath=/Users/baris/Projects/the-simplest-bitcoin-book/scripts/components/Highlighter.svelte.0.css!./scripts/components/Highlighter.svelte":
 /*!*******************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/svelte-loader/index.js?cssPath=/Users/baris/Projects/the-simplest-bitcoin-book/scripts/components/Highlighter.svelte.1.css!./scripts/components/Highlighter.svelte ***!
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/svelte-loader/index.js?cssPath=/Users/baris/Projects/the-simplest-bitcoin-book/scripts/components/Highlighter.svelte.0.css!./scripts/components/Highlighter.svelte ***!
   \*******************************************************************************************************************************************************************************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
@@ -34,9 +34,9 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.timestamp.svelte-1lnykbf{position:abs
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/svelte-loader/index.js?cssPath=/Users/baris/Projects/the-simplest-bitcoin-book/scripts/components/SettingsPanel.svelte.0.css!./scripts/components/SettingsPanel.svelte":
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/svelte-loader/index.js?cssPath=/Users/baris/Projects/the-simplest-bitcoin-book/scripts/components/SettingsPanel.svelte.1.css!./scripts/components/SettingsPanel.svelte":
 /*!***********************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/svelte-loader/index.js?cssPath=/Users/baris/Projects/the-simplest-bitcoin-book/scripts/components/SettingsPanel.svelte.0.css!./scripts/components/SettingsPanel.svelte ***!
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/svelte-loader/index.js?cssPath=/Users/baris/Projects/the-simplest-bitcoin-book/scripts/components/SettingsPanel.svelte.1.css!./scripts/components/SettingsPanel.svelte ***!
   \***********************************************************************************************************************************************************************************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
@@ -183,9 +183,9 @@ module.exports = function (item) {
 
 /***/ }),
 
-/***/ "./scripts/components/Highlighter.svelte.1.css!=!./node_modules/svelte-loader/index.js?cssPath=/Users/baris/Projects/the-simplest-bitcoin-book/scripts/components/Highlighter.svelte.1.css!./scripts/components/Highlighter.svelte":
+/***/ "./scripts/components/Highlighter.svelte.0.css!=!./node_modules/svelte-loader/index.js?cssPath=/Users/baris/Projects/the-simplest-bitcoin-book/scripts/components/Highlighter.svelte.0.css!./scripts/components/Highlighter.svelte":
 /*!*****************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./scripts/components/Highlighter.svelte.1.css!=!./node_modules/svelte-loader/index.js?cssPath=/Users/baris/Projects/the-simplest-bitcoin-book/scripts/components/Highlighter.svelte.1.css!./scripts/components/Highlighter.svelte ***!
+  !*** ./scripts/components/Highlighter.svelte.0.css!=!./node_modules/svelte-loader/index.js?cssPath=/Users/baris/Projects/the-simplest-bitcoin-book/scripts/components/Highlighter.svelte.0.css!./scripts/components/Highlighter.svelte ***!
   \*****************************************************************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -206,7 +206,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/styleTagTransform.js */ "./node_modules/style-loader/dist/runtime/styleTagTransform.js");
 /* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _node_modules_css_loader_dist_cjs_js_node_modules_svelte_loader_index_js_cssPath_Users_baris_Projects_the_simplest_bitcoin_book_scripts_components_Highlighter_svelte_1_css_Highlighter_svelte__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../../node_modules/css-loader/dist/cjs.js!../../node_modules/svelte-loader/index.js?cssPath=/Users/baris/Projects/the-simplest-bitcoin-book/scripts/components/Highlighter.svelte.1.css!./Highlighter.svelte */ "./node_modules/css-loader/dist/cjs.js!./node_modules/svelte-loader/index.js?cssPath=/Users/baris/Projects/the-simplest-bitcoin-book/scripts/components/Highlighter.svelte.1.css!./scripts/components/Highlighter.svelte");
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_node_modules_svelte_loader_index_js_cssPath_Users_baris_Projects_the_simplest_bitcoin_book_scripts_components_Highlighter_svelte_0_css_Highlighter_svelte__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../../node_modules/css-loader/dist/cjs.js!../../node_modules/svelte-loader/index.js?cssPath=/Users/baris/Projects/the-simplest-bitcoin-book/scripts/components/Highlighter.svelte.0.css!./Highlighter.svelte */ "./node_modules/css-loader/dist/cjs.js!./node_modules/svelte-loader/index.js?cssPath=/Users/baris/Projects/the-simplest-bitcoin-book/scripts/components/Highlighter.svelte.0.css!./scripts/components/Highlighter.svelte");
 
       
       
@@ -226,19 +226,19 @@ options.insert = _node_modules_style_loader_dist_runtime_insertBySelector_js__WE
 options.domAPI = (_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default());
 options.insertStyleElement = (_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default());
 
-var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_node_modules_svelte_loader_index_js_cssPath_Users_baris_Projects_the_simplest_bitcoin_book_scripts_components_Highlighter_svelte_1_css_Highlighter_svelte__WEBPACK_IMPORTED_MODULE_6__["default"], options);
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_node_modules_svelte_loader_index_js_cssPath_Users_baris_Projects_the_simplest_bitcoin_book_scripts_components_Highlighter_svelte_0_css_Highlighter_svelte__WEBPACK_IMPORTED_MODULE_6__["default"], options);
 
 
 
 
-       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_node_modules_svelte_loader_index_js_cssPath_Users_baris_Projects_the_simplest_bitcoin_book_scripts_components_Highlighter_svelte_1_css_Highlighter_svelte__WEBPACK_IMPORTED_MODULE_6__["default"] && _node_modules_css_loader_dist_cjs_js_node_modules_svelte_loader_index_js_cssPath_Users_baris_Projects_the_simplest_bitcoin_book_scripts_components_Highlighter_svelte_1_css_Highlighter_svelte__WEBPACK_IMPORTED_MODULE_6__["default"].locals ? _node_modules_css_loader_dist_cjs_js_node_modules_svelte_loader_index_js_cssPath_Users_baris_Projects_the_simplest_bitcoin_book_scripts_components_Highlighter_svelte_1_css_Highlighter_svelte__WEBPACK_IMPORTED_MODULE_6__["default"].locals : undefined);
+       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_node_modules_svelte_loader_index_js_cssPath_Users_baris_Projects_the_simplest_bitcoin_book_scripts_components_Highlighter_svelte_0_css_Highlighter_svelte__WEBPACK_IMPORTED_MODULE_6__["default"] && _node_modules_css_loader_dist_cjs_js_node_modules_svelte_loader_index_js_cssPath_Users_baris_Projects_the_simplest_bitcoin_book_scripts_components_Highlighter_svelte_0_css_Highlighter_svelte__WEBPACK_IMPORTED_MODULE_6__["default"].locals ? _node_modules_css_loader_dist_cjs_js_node_modules_svelte_loader_index_js_cssPath_Users_baris_Projects_the_simplest_bitcoin_book_scripts_components_Highlighter_svelte_0_css_Highlighter_svelte__WEBPACK_IMPORTED_MODULE_6__["default"].locals : undefined);
 
 
 /***/ }),
 
-/***/ "./scripts/components/SettingsPanel.svelte.0.css!=!./node_modules/svelte-loader/index.js?cssPath=/Users/baris/Projects/the-simplest-bitcoin-book/scripts/components/SettingsPanel.svelte.0.css!./scripts/components/SettingsPanel.svelte":
+/***/ "./scripts/components/SettingsPanel.svelte.1.css!=!./node_modules/svelte-loader/index.js?cssPath=/Users/baris/Projects/the-simplest-bitcoin-book/scripts/components/SettingsPanel.svelte.1.css!./scripts/components/SettingsPanel.svelte":
 /*!***********************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./scripts/components/SettingsPanel.svelte.0.css!=!./node_modules/svelte-loader/index.js?cssPath=/Users/baris/Projects/the-simplest-bitcoin-book/scripts/components/SettingsPanel.svelte.0.css!./scripts/components/SettingsPanel.svelte ***!
+  !*** ./scripts/components/SettingsPanel.svelte.1.css!=!./node_modules/svelte-loader/index.js?cssPath=/Users/baris/Projects/the-simplest-bitcoin-book/scripts/components/SettingsPanel.svelte.1.css!./scripts/components/SettingsPanel.svelte ***!
   \***********************************************************************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -259,7 +259,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/styleTagTransform.js */ "./node_modules/style-loader/dist/runtime/styleTagTransform.js");
 /* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _node_modules_css_loader_dist_cjs_js_node_modules_svelte_loader_index_js_cssPath_Users_baris_Projects_the_simplest_bitcoin_book_scripts_components_SettingsPanel_svelte_0_css_SettingsPanel_svelte__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../../node_modules/css-loader/dist/cjs.js!../../node_modules/svelte-loader/index.js?cssPath=/Users/baris/Projects/the-simplest-bitcoin-book/scripts/components/SettingsPanel.svelte.0.css!./SettingsPanel.svelte */ "./node_modules/css-loader/dist/cjs.js!./node_modules/svelte-loader/index.js?cssPath=/Users/baris/Projects/the-simplest-bitcoin-book/scripts/components/SettingsPanel.svelte.0.css!./scripts/components/SettingsPanel.svelte");
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_node_modules_svelte_loader_index_js_cssPath_Users_baris_Projects_the_simplest_bitcoin_book_scripts_components_SettingsPanel_svelte_1_css_SettingsPanel_svelte__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../../node_modules/css-loader/dist/cjs.js!../../node_modules/svelte-loader/index.js?cssPath=/Users/baris/Projects/the-simplest-bitcoin-book/scripts/components/SettingsPanel.svelte.1.css!./SettingsPanel.svelte */ "./node_modules/css-loader/dist/cjs.js!./node_modules/svelte-loader/index.js?cssPath=/Users/baris/Projects/the-simplest-bitcoin-book/scripts/components/SettingsPanel.svelte.1.css!./scripts/components/SettingsPanel.svelte");
 
       
       
@@ -279,12 +279,12 @@ options.insert = _node_modules_style_loader_dist_runtime_insertBySelector_js__WE
 options.domAPI = (_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default());
 options.insertStyleElement = (_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default());
 
-var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_node_modules_svelte_loader_index_js_cssPath_Users_baris_Projects_the_simplest_bitcoin_book_scripts_components_SettingsPanel_svelte_0_css_SettingsPanel_svelte__WEBPACK_IMPORTED_MODULE_6__["default"], options);
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_node_modules_svelte_loader_index_js_cssPath_Users_baris_Projects_the_simplest_bitcoin_book_scripts_components_SettingsPanel_svelte_1_css_SettingsPanel_svelte__WEBPACK_IMPORTED_MODULE_6__["default"], options);
 
 
 
 
-       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_node_modules_svelte_loader_index_js_cssPath_Users_baris_Projects_the_simplest_bitcoin_book_scripts_components_SettingsPanel_svelte_0_css_SettingsPanel_svelte__WEBPACK_IMPORTED_MODULE_6__["default"] && _node_modules_css_loader_dist_cjs_js_node_modules_svelte_loader_index_js_cssPath_Users_baris_Projects_the_simplest_bitcoin_book_scripts_components_SettingsPanel_svelte_0_css_SettingsPanel_svelte__WEBPACK_IMPORTED_MODULE_6__["default"].locals ? _node_modules_css_loader_dist_cjs_js_node_modules_svelte_loader_index_js_cssPath_Users_baris_Projects_the_simplest_bitcoin_book_scripts_components_SettingsPanel_svelte_0_css_SettingsPanel_svelte__WEBPACK_IMPORTED_MODULE_6__["default"].locals : undefined);
+       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_node_modules_svelte_loader_index_js_cssPath_Users_baris_Projects_the_simplest_bitcoin_book_scripts_components_SettingsPanel_svelte_1_css_SettingsPanel_svelte__WEBPACK_IMPORTED_MODULE_6__["default"] && _node_modules_css_loader_dist_cjs_js_node_modules_svelte_loader_index_js_cssPath_Users_baris_Projects_the_simplest_bitcoin_book_scripts_components_SettingsPanel_svelte_1_css_SettingsPanel_svelte__WEBPACK_IMPORTED_MODULE_6__["default"].locals ? _node_modules_css_loader_dist_cjs_js_node_modules_svelte_loader_index_js_cssPath_Users_baris_Projects_the_simplest_bitcoin_book_scripts_components_SettingsPanel_svelte_1_css_SettingsPanel_svelte__WEBPACK_IMPORTED_MODULE_6__["default"].locals : undefined);
 
 
 /***/ }),
@@ -916,7 +916,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var nostr_tools__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! nostr-tools */ "./node_modules/nostr-tools/lib/esm/index.js");
 /* harmony import */ var svelte__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! svelte */ "./node_modules/svelte/src/runtime/index.js");
 /* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./utils */ "./scripts/components/utils.js");
-/* harmony import */ var _Users_baris_Projects_the_simplest_bitcoin_book_scripts_components_Highlighter_svelte_1_css_svelte_loader_cssPath_Users_baris_Projects_the_simplest_bitcoin_book_scripts_components_Highlighter_svelte_1_css_Users_baris_Projects_the_simplest_bitcoin_book_scripts_components_Highlighter_svelte__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./scripts/components/Highlighter.svelte.1.css!=!svelte-loader?cssPath=/Users/baris/Projects/the-simplest-bitcoin-book/scripts/components/Highlighter.svelte.1.css!./scripts/components/Highlighter.svelte */ "./scripts/components/Highlighter.svelte.1.css!=!./node_modules/svelte-loader/index.js?cssPath=/Users/baris/Projects/the-simplest-bitcoin-book/scripts/components/Highlighter.svelte.1.css!./scripts/components/Highlighter.svelte");
+/* harmony import */ var _Users_baris_Projects_the_simplest_bitcoin_book_scripts_components_Highlighter_svelte_0_css_svelte_loader_cssPath_Users_baris_Projects_the_simplest_bitcoin_book_scripts_components_Highlighter_svelte_0_css_Users_baris_Projects_the_simplest_bitcoin_book_scripts_components_Highlighter_svelte__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./scripts/components/Highlighter.svelte.0.css!=!svelte-loader?cssPath=/Users/baris/Projects/the-simplest-bitcoin-book/scripts/components/Highlighter.svelte.0.css!./scripts/components/Highlighter.svelte */ "./scripts/components/Highlighter.svelte.0.css!=!./node_modules/svelte-loader/index.js?cssPath=/Users/baris/Projects/the-simplest-bitcoin-book/scripts/components/Highlighter.svelte.0.css!./scripts/components/Highlighter.svelte");
 /* scripts/components/Highlighter.svelte generated by Svelte v4.2.19 */
 
 
@@ -1029,7 +1029,7 @@ function create_if_block(ctx) {
 			(0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.attr)(img, "class", "avatar svelte-1lnykbf");
 			if (!(0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.src_url_equal)(img.src, img_src_value = /*activePanel*/ ctx[2].picture || `https://robohash.org/${/*currentEvent*/ ctx[3].pubkey}`)) (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.attr)(img, "src", img_src_value);
 			(0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.attr)(img, "alt", "Profile");
-			(0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.attr)(a, "href", a_href_value = "https://njump.me/" + /*activePanel*/ ctx[2].npub);
+			(0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.attr)(a, "href", a_href_value = "https://nostr.at/" + /*activePanel*/ ctx[2].npub);
 			(0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.attr)(a, "class", "username");
 			(0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.attr)(div0, "class", "user-meta");
 			(0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.attr)(div1, "class", "user-info");
@@ -1110,7 +1110,7 @@ function create_if_block(ctx) {
 
 			if (dirty & /*activePanel*/ 4 && t5_value !== (t5_value = /*activePanel*/ ctx[2].displayName + "")) (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.set_data)(t5, t5_value);
 
-			if (dirty & /*activePanel*/ 4 && a_href_value !== (a_href_value = "https://njump.me/" + /*activePanel*/ ctx[2].npub)) {
+			if (dirty & /*activePanel*/ 4 && a_href_value !== (a_href_value = "https://nostr.at/" + /*activePanel*/ ctx[2].npub)) {
 				(0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.attr)(a, "href", a_href_value);
 			}
 
@@ -1583,7 +1583,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var svelte_internal_disclose_version__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! svelte/internal/disclose-version */ "./node_modules/svelte/src/runtime/internal/disclose-version/index.js");
 /* harmony import */ var svelte__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! svelte */ "./node_modules/svelte/src/runtime/index.js");
 /* harmony import */ var _stores_settings_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../stores/settings.js */ "./scripts/stores/settings.js");
-/* harmony import */ var _Users_baris_Projects_the_simplest_bitcoin_book_scripts_components_SettingsPanel_svelte_0_css_svelte_loader_cssPath_Users_baris_Projects_the_simplest_bitcoin_book_scripts_components_SettingsPanel_svelte_0_css_Users_baris_Projects_the_simplest_bitcoin_book_scripts_components_SettingsPanel_svelte__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./scripts/components/SettingsPanel.svelte.0.css!=!svelte-loader?cssPath=/Users/baris/Projects/the-simplest-bitcoin-book/scripts/components/SettingsPanel.svelte.0.css!./scripts/components/SettingsPanel.svelte */ "./scripts/components/SettingsPanel.svelte.0.css!=!./node_modules/svelte-loader/index.js?cssPath=/Users/baris/Projects/the-simplest-bitcoin-book/scripts/components/SettingsPanel.svelte.0.css!./scripts/components/SettingsPanel.svelte");
+/* harmony import */ var _Users_baris_Projects_the_simplest_bitcoin_book_scripts_components_SettingsPanel_svelte_1_css_svelte_loader_cssPath_Users_baris_Projects_the_simplest_bitcoin_book_scripts_components_SettingsPanel_svelte_1_css_Users_baris_Projects_the_simplest_bitcoin_book_scripts_components_SettingsPanel_svelte__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./scripts/components/SettingsPanel.svelte.1.css!=!svelte-loader?cssPath=/Users/baris/Projects/the-simplest-bitcoin-book/scripts/components/SettingsPanel.svelte.1.css!./scripts/components/SettingsPanel.svelte */ "./scripts/components/SettingsPanel.svelte.1.css!=!./node_modules/svelte-loader/index.js?cssPath=/Users/baris/Projects/the-simplest-bitcoin-book/scripts/components/SettingsPanel.svelte.1.css!./scripts/components/SettingsPanel.svelte");
 /* scripts/components/SettingsPanel.svelte generated by Svelte v4.2.19 */
 
 

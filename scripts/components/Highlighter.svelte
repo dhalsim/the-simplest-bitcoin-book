@@ -369,7 +369,7 @@
             alt="Profile"
           />
           <div class="user-meta">
-            <a href="https://njump.me/{activePanel.npub}" class="username">
+            <a href="https://nostr.at/{activePanel.npub}" class="username">
               {activePanel.displayName}
             </a>
           </div>
