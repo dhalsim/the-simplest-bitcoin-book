@@ -1,0 +1,33 @@
+H: Şimdiye Kadar Yazılmış En Basit Bitcoin Kitabı
+
+[p:18]r: [O]NOSTR NASIL ÇALIŞIR?
+
+[O] *Nostr'un iki parçası vardır:* İstemciler ve Aktarıcılar (Relays).
+
+[O] *İSTEMCİ*, nostr protokolü üzerinde çalışan *bir ARAYÜZdür* (uygulama veya website).
+
+[O] *Sizin ve takip ettiğiniz kişilerin gönderilerini
+gördüğünüz yerdir* (twitter'ın gönderilerinizi paylaştığınız
+ve başkalarının gönderilerini okuduğunuz bir arayüz
+olması gibi, ancak twitter merkezidir ve gönderileri
+sansürler.)
+
+[O] *AKTARICI, bir SUNUCU ve VERİTABANIDIR.* İsteyen herkes
+bir aktarıcı çalıştırabilir, bu da nostr'u merkeziyetsiz
+yapar.
+
+[O] *Notlarınızın gönderildiği, depolandığı ve istemciler
+tarafından alındığı yerdir.*
+
+[O] Birçok aktarıcı vardır ve hangilerine bağlanacağınızı
+seçebilirsiniz. Bazıları ücretsiz, bazıları ücretlidir.
+
+[O] Bir mesaj gönderdiğinizde, bağlı olduğunuz aktarıcılara
+yayınlanır.
+
+[O] İstemciler bağlı oldukları aktarıcıları sorgular ve
+ardından bu aktarıcılarda barındırılan mesajları
+görüntüler.
+
+[images/page-162.png]
+r: ~ @BTCillustrated

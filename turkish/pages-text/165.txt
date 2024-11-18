@@ -1,0 +1,31 @@
+[p:18]r: [O]NOSTR NASIL KULLANILIR
+
+[pbb:
+  1. *İndirmek için bir istemci* uygulaması seçin. (Anahtar
+  çiftiniz oluşturulduktan sonra hepsini deneyebileceğiniz
+  için hangisini seçtiğiniz önemli değil.)
+
+  2. *Popüler İstemci Örnekleri:*
+  -> iOS'ta Damus
+  -> Android'de Amethyst
+  -> iOS/Android/Masaüstünde Primal
+
+  3. *Bir Kullanıcı Adı oluşturun.* Başka bilgiye gerek yok.
+
+  4. *Uygulama, hesabınızı oluşturacaktır.*
+
+  5. *İsterseniz profil fotoğrafı ve banner ekleyebilirsiniz.*
+
+  6. *En az bir ilgi alanı seçtiğinizde* (örneğin: bitcoin,
+  sanat, insan hakları, spor, müzik vb.) *hesabınız
+  otomatik olarak birkaç aktarıcıya bağlanacaktır.*
+
+  7. İstemciye bağlı olarak, benzer ilgi alanına sahip
+  birkaç hesabı otomatik olarak takip edecek veya birkaçını
+  seçmenize izin verecektir.
+  
+  8. *Daha sonra aktarıcı ve hesap ekleyip çıkarabilirsiniz.*
+]
+
+[images/page-165.png]
+r: ~ @BTCillustrated

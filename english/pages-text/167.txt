@@ -1,0 +1,40 @@
+[p:18]r: [O]NOSTR RESOURCES
+
+Below is a list of websites that have excellent, easily
+digestible guides on nostr and it's wonders!
+
+[
+  -> nostr-resources.com by @derGigi
+  -> nostr.com by @fiatjaf
+  -> nostr.net by @aljaz
+  -> nostr.how by @JeffG
+  -> usenostr.org by @pluja
+  -> benwehrman.com/nostr-guide by @benwehrman
+  -> nostrapps.com by @Karnage
+]
+
+[p:18]r: WHY THE OSTRICH?
+
+[Ostrich image on right:
+  *The Nostrich Origin Story*
+  by Walker@primal.net
+
+  *December 16, 2022:*
+  I discovered ChatGPT3 and,
+  naturally, asked it
+  “Can you write a joke about #nostr?”
+  ChatGPT3 responded:
+  Q: What do you call a nosy ostrich?
+  A: A nosTrich!
+  The joke wasn’t great, but you can’t blame a bot. Regardless, I
+  loved the idea of a visual identity for nostr, and ostriches are
+  cool birds. So I took to Midjourney and created The #Nostrich
+]
+
+*December 20, 2022:*
+@jb55 proposed the “Nostrich” as the official Nostr mascot
+and logo.
+Three minutes later, @jack tweets the Nostrich image.
+The rest, as they say, is history. 
+
+r: ~ @Walker

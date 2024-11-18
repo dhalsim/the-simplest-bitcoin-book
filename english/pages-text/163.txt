@@ -1,0 +1,32 @@
+H: HOW DOES [O]NOSTR WORK?
+
+ri> Anyone can run a relay. A relay is very simple and
+dumb. It does nothing besides accepting posts
+from some people and forwarding to others.
+Relays don’t have to be trusted.
+Signatures are verified on the client side.
+
+~ @fiatjaf, 2019-11-02 fiatjaf.com/nostr.html
+
+[O] When you open your nostr client, you will see all the
+notes posted by you and those you follow in
+chronological order.
+
+[O] There are *no algorithms* deciding what to show you,
+what to withhold from you, or censoring your posts.
+
+[O] Like Bitcoin, nostr uses public/private key pairs.
+
+[
+  -> *PUBLIC KEY* = npub, like a username
+  -> *PRIVATE KEY* = nsec, like a password
+]
+
+[pbb:
+  [O] *NOTE:* Your private key cannot be reset if
+      lost, so you *must secure it well!*
+  [O] If you leak your private key, whoever has
+      access to it has access to your nostr
+      account, and *there is no way to regain
+      sole access.*
+]

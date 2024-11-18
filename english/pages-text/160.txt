@@ -1,0 +1,43 @@
+H: The Simplest Bitcoin Book Ever Written
+
+[p:18
+  [Ostrich] NOSTR 
+  NOTES & OTHER STUFF
+  TRANSMITTED BY RELAYS
+]
+
+ri> One could pass laws against it, but the freedom of
+    speech, even more than privacy, is fundamental to an
+    open society; we seek not to restrict any speech at all.
+
+~ Eric Hughes, The Cypherpunk's manifesto, 1993
+
+[p:18]r: WHAT IS [Ostrich] NOSTR?
+
+ri> TL;DR: nostr is a protocol that has the power to
+    replace twitter, Telegram, and other things.
+
+~ @dergigi 
+
+ri> nostr is to freedom of communication
+    as bitcoin is to freedom of transaction.
+
+~ Keysa @SimplestBitcoinBook 
+
+[O] Nostr is a *simple, decentralized protocol for
+censorship-resistant, global, interoperable networks.*
+
+[O] Nostr does not rely on a trusted central server.
+
+[O] It is a free and open source (FOSS) software protocol,
+like Bitcoin, HTTP or TCP-IP, which allows anyone to
+build on nostr.
+
+[O] *It is how we retain our freedom to communicate*
+with anyone, anywhere with an internet connection.
+
+ri> (it is) a communications protocol with a
+self-sovereign identity layer...
+and nostr is also more than that.
+
+~ @dergigi 

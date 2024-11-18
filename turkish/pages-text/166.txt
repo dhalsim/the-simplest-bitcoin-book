@@ -1,0 +1,49 @@
+H: Şimdiye Kadar Yazılmış En Basit Bitcoin Kitabı
+
+[p:18]r: ANAHTAR YÖNETİMİ
+
+[O] Anahtarlarınız oluşturulduktan sonra, bir imzalama
+uzantısı yükleme zamanı gelmiştir.
+
+[O] Nostr protokolü üzerinde çalışan bir web sitesine
+giriş yapmak istediğinizde, sizden nsec veya özel
+anahtarınızı isteyecektir.
+
+[O] Web siteleri veri sızdırabileceğinden, bunu doğrudan
+GİRMEYİN.
+
+[O] Bunun yerine, her zaman bir imzalama uzantısı
+kullanın.
+
+[O] Bu, özel anahtarınızı saklayan bir araçtır ve
+notlar gibi etkinlikleri sizin adınıza imzalaması
+için yetkilendirirsiniz. Endişelenmeyin, göründüğünden
+daha basittir!
+
+[O] *Popüler imzalama uzantıları:*
+[
+  -> Nostore (iOS Safari)
+  -> Amber (Android)
+  -> Nsec App (Mobil/Masaüstü)
+  -> Alby (Masaüstü)
+  -> Nos2X (Masaüstü)
+  -> Nostr Connect (Masaüstü)
+]
+
+[p:18]r: ZAPLAR
+
+[O] Zaplama, nostr'da bitcoin'i kullanma şeklimizdir! Not
+not, zap zap, bir V4V (Value For Value - Değere Karşılık Değer)
+ekonomisi yaratıyoruz.
+
+[O] Bitcoin Lightning cüzdanınızı nostr hesabınıza
+bağlayarak, beğendiğiniz notlar veya içerikler için
+sat (yani zap) gönderip alabilirsiniz.
+
+[O] Bunu yapmanın çeşitli yolları var. Eğer seçtiğiniz
+istemci size bu konuda yol göstermiyorsa,
+[p:#asknostr](https://nostr.band/?q=%23asknostr) etiketiyle nostr'da sorun, birisi size
+yardımcı olacaktır.
+
+Nostriçler* dostcanlıdır!
+*Ç.N: Nostrich, 'Nostr' ve 'ostrich' (devekuşu) kelimelerinin eğlenceli bir karışımıdır.

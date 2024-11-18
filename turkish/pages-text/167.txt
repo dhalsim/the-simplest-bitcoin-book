@@ -1,0 +1,40 @@
+[p:18]r: [O]NOSTR KAYNAKLARI
+
+Aşağıda nostr ve harikalarıyla ilgili kolay
+anlaşılır, mükemmel rehberlere sahip web sitelerinin bir listesi bulunmaktadır!
+
+[
+  -> @derGigi tarafından nostr-resources.com
+  -> @fiatjaf tarafından nostr.com
+  -> @aljaz tarafından nostr.net
+  -> @JeffG tarafından nostr.how
+  -> @pluja tarafından usenostr.org
+  -> @benwehrman tarafından benwehrman.com/nostr-guide
+  -> @Karnage tarafından nostrapps.com
+]
+
+[p:18]r: NEDEN DEVEKUŞU?
+
+[Sağda devekuşu görseli:
+  *Nostrich'in Ortaya Çıkış Hikayesi*
+  yazan Walker@primal.net
+
+  *16 Aralık 2022:*
+  ChatGPT3'ü keşfettim ve
+  doğal olarak ona sordum
+  "#nostr hakkında bir şaka yazabilir misin?"
+  ChatGPT3 şöyle yanıtladı:
+  S: Meraklı bir devekuşuna ne denir?
+  C: NosTrich!
+  Şaka çok iyi değildi ama bir botu suçlayamazsınız. Yine de,
+  nostr için görsel bir kimlik fikrini sevdim. Ayrıca devekuşları
+  harika kuşlardır. Bu yüzden Midjourney'e gittim ve #Nostrich'i yarattım
+]
+
+*20 Aralık 2022:*
+@jb55, "Nostrich"i resmi Nostr maskotu
+ve logosu olarak önerdi.
+Üç dakika sonra, @jack Nostrich görselini tweetledi.
+Gerisi, dediğimiz gibi, tarih oldu.
+
+r: ~ @Walker

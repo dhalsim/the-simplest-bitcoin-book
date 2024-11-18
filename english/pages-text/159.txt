@@ -1,0 +1,16 @@
+H: [b]bitcoin White Paper
+
+[r:
+  [o:18:
+    Bitcoin Genesis Block ~ Raw Hex Version
+    2009-01-03
+  ]
+]
+
+[images/page-159.png]
+
+[r:
+  and so,
+  a new era,
+  was unleashed
+]

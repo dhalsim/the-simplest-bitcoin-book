@@ -1,0 +1,34 @@
+[p:18]r: BİZE KATILIN
+
+[O] Nostr hala çok genç. Bitcoin gibi, fakat çok daha genç
+olan bu protokol, tabandan gelen, karmaşık, küresel
+bir deneydir.
+
+[O] Eğer merkezi olmayan, sansüre dirençli, açık kaynaklı
+bir iletişim protokolünün değerini görüyorsanız, lütfen
+onu kullanarak, geliştirerek, geliştiricilere geri bildirim
+sağlayarak ve kendinizi yakın hissettiğiniz herhangi
+bir şekilde katılarak, bu ifade özgürlüğü aracının
+büyümesine yardımcı olun.
+
+[O] Konuşma özgürlüğünü ve açık iletişimi küresel olarak
+korumak için tasarlanmış büyüyen bir teknolojinin
+parçası olmak muhteşem bir deneyimdir.
+
+[O] Dalın ve diğer özgür ruhlarla birlikte öğrenin,
+güzellik yaratmak için içsel kaosu kucaklayın ve
+torunlarımız için parlak bir gelecek oluşturun!
+
+[ri:
+  Hepsinden daha önemlisi, nostr'un temel olarak
+  aralarında bağlantı olmayan çok gevşek bir sunucu
+  kümesi olduğunu akılda tutmamız gerekiyor, ... ve genelde
+  başkalarıyla bağlantıda kalmanın, içerik bulmanın bazı
+  yaratıcı yollar gerektirdiğini kabul etmek zorundayız.
+  Nostr uygulamaları yazmak ve Nostr'ı kullanmak için
+  içsel kaosu kucaklamalıyız.
+]
+~ @fiatjaf tarafından: 
+Nostr'da temel sosyal ağ için içerik keşfi ve
+aktarıcı kullanımına dair bir vizyon
+

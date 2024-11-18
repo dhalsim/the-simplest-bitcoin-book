@@ -1,0 +1,35 @@
+H: NEDEN [O]NOSTR'A İHTİYACIMIZ VAR
+
+[p:18]r: NEDEN [O]NOSTR'A İHTİYACIMIZ VAR?
+
+Mevcut iletişim sistemleri ve sosyal medya platformları
+merkezi olduğu için nostr'a ihtiyacımız var.
+
+*Bu sistemlerin problemli yanları şunlardır:*
+
+[O] İfade özgürlüğünüzü sansürleme gücüne sahipler.
+
+[O] Devlet tarafından düzenleyici saldırılara karşı
+savunmasızlar.
+
+[O] Hesabınızı askıya almayı veya silmeyi seçebilir
+veya buna zorlanabilirler.
+
+[O] Hack'lenebilir ve böylece verileriniz tehlikeye
+girebilir.
+
+[O] Size görmenizi istedikleri bilgileri göstermek için
+algoritmalar kullanırlar.
+
+[O] Platform üzerindeki deneyiminizin her yönünü
+manipüle ederler.
+
+[O] Tüm aktivitelerinizi takip ederler.
+
+[O] Verilerinizi toplar ve satarlar.
+
+[O] Verilerinizi akışınızı reklamlarla doldurmak için
+kullanırlar.
+
+rmi> Özgürlük teknolojisi umuttur.
+~ @ODELL

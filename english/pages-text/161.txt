@@ -1,0 +1,31 @@
+H: WHY WE NEED [O]NOSTR
+
+[p:18]r: WHY WE NEED [O]NOSTR?
+
+We need nostr because the current communication
+systems and social media platforms are centralized.
+
+*This is problematic because these systems:*
+
+[O] Have the power to censor your speech.
+
+[O] Are vulnerable to regulatory attacks by the state.
+
+[O] Can choose, or be told, to suspend or delete your
+account.
+
+[O] Can be hacked, and thus compromise your data.
+
+[O] Use algorithms to feed you the information they want
+you to see.
+
+[O] Manipulate every aspect of your experience on them.
+
+[O] Track all your activity.
+
+[O] Harvest and sell your data.
+
+[O] Use your data to litter your feed with advertisements.
+
+rmi> Freedom tech is hope.
+~ @ODELL

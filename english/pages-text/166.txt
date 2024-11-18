@@ -1,0 +1,42 @@
+H: The Simplest Bitcoin Book Ever Written
+
+[p:18]r: KEY MANAGEMENT
+
+[O] Once your keys have been generated, it is time to
+install a signing extension.
+
+[O] When you want to log in to a website running on the
+nostr protocol, it will ask for your nsec, or private key.
+
+[O] DO NOT enter it directly, as websites can leak data.
+
+[O] Instead, always use a signing extension.
+
+[O] This is a tool which stores your private key, and you
+authorize it to sign events, such as notes, on your
+behalf. Don't worry, this is simpler than it sounds!
+
+[O] *Popular signing extensions:*
+[
+  -> Nostore (iOS Safari)
+  -> Amber (Android)
+  -> Nsec App (Mobile/Desktop)
+  -> Alby (Desktop)
+  -> Nos2X (Desktop)
+  -> Nostr Connect (Desktop)
+]
+
+[p:18]r: ZAPS
+
+[O] Zapping is how we bitcoin on nostr! Creating a V4V
+(Value4Value) economy, note by note, zap by zap.
+
+[O] You can send and receive sats (aka zaps) for notes or
+content you appreciate by connecting a Bitcoin
+Lightning wallet to your nostr account.
+
+[O] There are various ways to do this. If the client you
+choose doesn't walk you through it, just ask on nostr
+with the [p:#asknostr](https://nostr.band/?q=%23asknostr) tag, and someone will guide you.
+
+Nostriches are friendly!

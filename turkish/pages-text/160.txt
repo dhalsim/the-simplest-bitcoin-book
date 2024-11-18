@@ -1,0 +1,45 @@
+H: Şimdiye Kadar Yazılmış En Basit Bitcoin Kitabı
+
+[p:18
+  [Ostrich] NOSTR 
+  NOTES & OTHER STUFF
+  TRANSMITTED BY RELAYS
+]
+* RELAYLAR TARAFINDAN
+  İLETİLEN NOTLAR VE DİĞER ŞEYLER
+
+ri> Buna karşı yasalar çıkarılabilir, ancak ifade özgürlüğü,
+    gizlilikten bile daha fazla, açık bir toplum için temeldir;
+    hiçbir konuşmayı kısıtlamak istemiyoruz.
+
+~ Eric Hughes, Şifrepunk Bildirisi, 1993
+
+[p:18]r: [O]NOSTR NEDİR?
+
+ri> Kısaca: nostr, Twitter'ın, Telegram'ın ve diğer
+    platformların yerini alabilecek güce sahip bir protokoldür.
+
+~ @dergigi 
+
+ri> nostr, iletişim özgürlüğü için
+    bitcoin'in işlem (transaction) özgürlüğü için olduğu şeydir.
+
+~ Keysa @SimplestBitcoinBook 
+
+[O] Nostr, *sansüre dirençli, küresel, birlikte çalışabilir
+ağlar için basit, merkezi olmayan bir protokoldür.*
+
+[O] Nostr güvenilir bir merkezi sunucuya dayanmaz.
+
+[O] Bitcoin, HTTP veya TCP-IP gibi ücretsiz ve açık
+kaynaklı (FOSS) bir yazılım protokolüdür ve herkesin
+nostr üzerine inşa etmesine olanak tanır.
+
+[O] İnternet bağlantısı olan herhangi biriyle, herhangi
+bir yerde *iletişim kurma özgürlüğümüzü koruma
+yöntemimizdir.*
+
+ri> (Nostr) öz-egemen kimlik katmanına sahip bir
+iletişim protokolüdür... ve bundan da fazlasıdır.
+
+~ @dergigi 

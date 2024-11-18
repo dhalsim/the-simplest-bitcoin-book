@@ -1,0 +1,16 @@
+H: [b]bitcoin Teknik Raporu
+
+[r:
+  [o:18:
+    Bitcoin Başlangıç Bloku ~ Hex
+    01-03-2009
+  ]
+]
+
+[images/page-159.png]
+* The Times 03 Ocak 2009 (Birleşik Krallık) Maliye bakanı bankalar için ikinci kurtarma paketinin eşiğinde
+
+[r:
+  ve böylece,
+  yeni bir döneme başlandı
+]

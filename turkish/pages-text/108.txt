@@ -1,6 +1,9 @@
 H: Şimdiye Kadar Yazılmış En Basit Bitcoin Kitabı
 
-[o:25]r: BİTCOİN FUD'UNU (Korku, Belirsizlik, Şüphe) ORTADAN KALDIRMAK
+[o:25]r: BİTCOİN KBŞ*'sini
+         ÇÜRÜTMEK
+
+r: KBŞ (Korku, Belirsizlik, Şüphe) / FUD (Fear, Uncertainty, Doubt)
 
 [b] Aşağıda bitcoin'e karşı bazı yaygın argümanlar veya
 bitcoin hakkındaki korkular bulunmaktadır.

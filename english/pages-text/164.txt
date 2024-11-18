@@ -1,0 +1,40 @@
+H: The Simplest Bitcoin Book Ever Written
+
+[O] You can create a human-readable username using
+NIP-05. *For example:*
+
+[O] *My Public Key, or npub is:*
+npub1dpna3xwwddnhhzg9ycpvlcz2ze0jdwm2rf3eqd2lf9leaewtq7tqhw0ef2
+
+[O] *My NIP-05 Nostr address is:*
+SimplestBitcoinBook@nostrplebs.com
+
+[O] *You can search for people on nostr* by entering their:
+[
+  -> npub
+  -> NIP-05 (aka nostr address) if they have one
+]
+
+[O] *Get a NIP-05 Identifier here:*
+[
+  -> nostrplebs.com
+  -> verified-nostr.com
+  -> getalby.com
+  -> Or set one up with your own domain
+]
+
+[O] Once you have your nostr key pair, you can log into any
+nostr client with those same keys, and you will see that
+you *retain your identity and followers/following lists*
+on all the clients.
+
+[O] This differs from legacy social media, where you need a
+separate account, username and password for each
+platform, and you have different content, follows and
+followers on each one. 
+
+ri> At it's most basic level, Nostr is a communication
+protocol that acts as the social glue that binds
+all of your apps together. 
+
+~ derekross@nostrplebs.com

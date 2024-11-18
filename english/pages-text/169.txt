@@ -1,0 +1,32 @@
+[p:18]r: JOIN US
+
+[O] Nostr is still very young. Just like bitcoin, but much
+younger, it is a grassroots, messy, global, ground-up
+experiment.
+
+[O] If you see the value in a decentralized, censorshipresistant, open-source communications protocol,
+please join us in using it, developing it, offering
+feedback to the devs, and participating in whatever
+way you feel called, to help grow this free speech tool.
+
+[O] It is an amazing experience to engage in a growing
+technology that is built to preserve freedom of speech
+and open communication globally.
+
+[O] Dive in and learn along with the rest of us sovereign
+souls, embracing the inherent chaos to create beauty,
+and to forge a bright future for our grandchildren!
+
+[ri:
+  More important than all is that we must keep in mind that
+  nostr is just a very loose set of servers with basically no
+  connection between them, ... and the process of keeping
+  connected to others and finding content must be
+  addressed through many different hackish attempts. To
+  write Nostr applications and to use Nostr one
+  must embrace the inherent chaos.
+]
+~ @fiatjaf from: 
+A vision for content discovery and relay usage
+for basic social-networking in Nostr
+

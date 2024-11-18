@@ -190,6 +190,10 @@ Translated in Turkish from bitcoin.org/bitcoin.pdf by Efe Cini
 
 * take care of reference links
 
+## page 164
+
+* "Username of NIP-05" -> I don't think it is correct. According to my knowledge you need to full NIP-05 address to find the user. But some clients may show it by username only if you have already added the user.
+
 # Navigation
 
 - [x] I should be able to navigate through the pages with the keyboard. Arrow keys (right, left) should navigate to the next/previous page.

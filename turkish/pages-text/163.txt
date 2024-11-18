@@ -1,0 +1,32 @@
+H: [O]NOSTR NASIL ÇALIŞIR?
+
+ri> Herkes bir aktarıcı çalıştırabilir. Aktarıcı çok basit ve
+aptaldır. Bazı kişilerden gönderileri kabul edip
+diğerlerine iletmekten başka bir şey yapmaz.
+Aktarıcılara güvenilmesi gerekmez.
+İmzalar istemci tarafında doğrulanır.
+
+~ @fiatjaf, 2019-11-02 fiatjaf.com/nostr.html
+
+[O] Nostr istemcinizi açtığınızda, sizin ve takip
+ettiklerinizin paylaştığı tüm notları kronolojik
+sırayla göreceksiniz.
+
+[O] Size neyin gösterileceğine, sizden neyin
+gizleneceğine veya gönderilerinizi sansürlemeye
+karar veren *hiçbir algoritma* yoktur.
+
+[O] Bitcoin gibi, nostr da genel/özel anahtar çiftleri kullanır.
+
+[
+  -> *GENEL ANAHTAR* = npub, kullanıcı adı gibi
+  -> *ÖZEL ANAHTAR* = nsec, parola gibi
+]
+
+[pbb:
+  [O] *NOT:* Özel anahtarınız kaybolursa sıfırlanamaz,
+      bu yüzden *onu iyi korumalısınız!*
+  [O] Eğer özel anahtarınız sızarsa, ona erişimi olan
+      herkes nostr hesabınıza erişebilir ve *size özel
+      erişiminizi geri kazanmanın bir yolu yoktur.*
+]

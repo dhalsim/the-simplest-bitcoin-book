@@ -1,0 +1,40 @@
+H: Şimdiye Kadar Yazılmış En Basit Bitcoin Kitabı
+
+[O] NIP-05 kullanarak insan tarafından okunabilir bir
+kullanıcı adı oluşturabilirsiniz. *Örneğin:*
+
+[O] *Benim Public Key'im, veya npub'ım:*
+npub1dpna3xwwddnhhzg9ycpvlcz2ze0jdwm2rf3eqd2lf9leaewtq7tqhw0ef2
+
+[O] *Benim NIP-05 Nostr adresim:*
+SimplestBitcoinBook@nostrplebs.com
+
+[O] *İnsanları nostr'da şunları girerek arayabilirsiniz:*
+[
+  -> npub
+  -> Varsa NIP-05 (yani nostr adresi)
+]
+
+[O] *NIP-05 Tanımlayıcısını buralardan alabilirsiniz:*
+[
+  -> nostrplebs.com
+  -> verified-nostr.com
+  -> getalby.com
+  -> Ya da kendi alan adınızla kurulum yapabilirsiniz
+]
+
+[O] Nostr anahtar çiftinizi aldıktan sonra, aynı
+anahtarlarla herhangi bir nostr istemcisine giriş
+yapabilirsiniz ve *tüm istemcilerde kimliğinizi ve
+takipçi/takip listelerinizi koruduğunuzu* göreceksiniz.
+
+[O] Bu, her platform için ayrı bir hesap, kullanıcı adı
+ve şifre gerektiren ve her birinde farklı içerik,
+takip ve takipçilere sahip olduğunuz geleneksel sosyal
+medyadan farklıdır.
+
+ri> En temel seviyede, Nostr tüm uygulamalarınızı
+birbirine bağlayan sosyal yapıştırıcı görevi gören
+bir iletişim protokolüdür.
+
+~ derekross@nostrplebs.com

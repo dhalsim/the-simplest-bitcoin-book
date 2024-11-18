@@ -1,0 +1,32 @@
+H: The Simplest Bitcoin Book Ever Written
+
+[p:18]r: HOW DOES [O]NOSTR WORK?
+
+[O] *Nostr has two parts:* Clients and Relays.
+
+[O] *A CLIENT is an INTERFACE* (app or website) that is run
+on the nostr protocol. 
+
+[O] *It is where you see the notes* that you and the people
+you follow post (in the same way that twitter is an
+interface where you post and read notes by others,
+except twitter is centralized & it censors posts.)
+
+[O] *A RELAY is a SERVER and a DATABASE.* Anyone can
+run a relay, which is what makes nostr decentralized.
+
+[O] *It is where your notes are sent, stored and retrieved
+from* by clients.
+
+[O] There are many relays and you can choose which ones
+to connect to. Some are free and some are paid.
+
+[O] When you post a message, it is broadcast to the relays
+you are connected to.
+
+[O] The clients query the relays they are connected to, and
+then they populate the messages being hosted by
+those relays.
+
+[images/page-162.png]
+r: ~ @BTCillustrated

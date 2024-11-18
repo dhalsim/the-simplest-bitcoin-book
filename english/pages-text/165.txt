@@ -1,0 +1,31 @@
+[p:18]r: HOW TO [O]NOSTR
+
+[pbb:
+  1. *Choose a client* app to download. (It doesn't matter
+  which one you select, as you can try them all out once
+  you have your key pair generated.)
+
+  2. *Popular Client Examples:*
+  -> Damus on iOS
+  -> Amethyst on Android
+  -> Primal on iOS/Android/Desktop
+
+  3. *Create a User Name.* No other info is needed.
+
+  4. *The app will generate the account.*
+
+  5. *You can add a profile picture and banner* if you like.
+
+  6. *Your account will automatically connect to a few
+  relays* once you select at least one interest (eg:
+  bitcoin, art, human rights, sports, music etc)
+
+  7. Depending on the client, it will automatically follow a
+  few accounts with a similar interest, or let you select a
+  few.
+  
+  8. *You can then add or remove relays and accounts.*
+]
+
+[images/page-165.png]
+r: ~ @BTCillustrated

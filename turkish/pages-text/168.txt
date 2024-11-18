@@ -1,0 +1,35 @@
+H: Bitcoin Hakkında Yazılmış En Basit Kitap
+
+[p:18]r: [O]NOSTR İSTEMCİLERİ/uygulamaları
+
+Bunları ve çok daha fazla harika uygulamayı bulmak için 
+*nostrapps.com* adresini ziyaret edin. Hepsi ücretsiz, açık 
+kaynaklı nostr protokolü üzerine inşa edilmiştir. Hepsinde 
+oturum açmak için imzalama uzantınızı kullanın!
+
+-> *Nostr Nests* - Sohbet etmek, jam yapmak, mikro 
+konferanslar ve canlı podcast'ler için bir ses alanı.
+-> *Plebian Market* - Bitcoin ve Lightning ile çalışan, 
+İnternet'in özerk pazaryeri.
+-> *Npub.pro* - Kendinize nostr tabanlı bir web sitesi yapın.
+-> *Corny Chat* - Canlı ses alanları.
+-> *Wavlake* - Bitcoin'in Lightning Network'ünü kullanarak 
+değere karşı değer sunan bir müzik yayın platformu.
+-> *Zap.stream* - Canlı yayınınızı yapın ve sat zap'ları alın.
+-> *Flare* - Video içeriği görüntülemek, yüklemek ve 
+etkileşimde bulunmak için bir istemci.
+-> *Blowater* - Telegram/Slack/Discord'un yerini almak için 
+tasarlandı.
+-> *Stemstr* - Müzik sanatçılarının bağlantı kurması, iş 
+birliği yapması ve harika müzikler paylaşması için sosyal bir 
+deneyim.
+-> *Nostr.build* - Görsel, video ve medya yükleyici ve 
+barındırıcı.
+-> *Hivetalk* - Gerçek zamanlı, tamamen özel görüntülü 
+aramalar ve toplantılar, Zoom'un yerini alır.
+-> *Zap.cooking* - Nostr üzerinden tarifleri paylaşın.
+-> *Flockstr* - Etkinlik ve buluşma planlaması.
+-> *Memestr* - Nostr üzerinden meme'leri görüntüleyin ve 
+oluşturun
+-> *Quotestr* - Bir Nostr notunu görsel alıntıya dönüştürün
+
