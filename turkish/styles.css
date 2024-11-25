@@ -35,54 +35,63 @@
   line-height: 0.8 !important;
 }
 
-.orange-border-box {
-  --orange-border-box-expand-right: 0px;
-  --orange-border-box-expand-left: 0px;
-  --orange-border-box-expand-top: 0px;
-  --orange-border-box-expand-bottom: 0px;
+.border-box {
+  --border-box-expand-right: 0px;
+  --border-box-expand-left: 0px;
+  --border-box-expand-top: 0px;
+  --border-box-expand-bottom: 0px;
+  --border-color: black;
   position: relative;
 }
 
-.obb-expand-right-10 {
-  --orange-border-box-expand-right: 10px;
+.border-box.orange {
+  --border-color: var(--bitcoin-orange);
 }
 
-.obb-expand-right-25 {
-  --orange-border-box-expand-right: 25px;
+.border-box.purple {
+  --border-color: var(--nostr-purple);
 }
 
-.obb-expand-right-50 {
-  --orange-border-box-expand-right: 50px;
+.bb-expand-right-10 {
+  --border-box-expand-right: 10px;
 }
 
-.obb-expand-left-25 {
-  --orange-border-box-expand-left: 25px;
+.bb-expand-right-25 {
+  --border-box-expand-right: 25px;
 }
 
-.obb-expand-left-40 {
-  --orange-border-box-expand-left: 40px;
+.bb-expand-right-50 {
+  --border-box-expand-right: 50px;
 }
 
-.obb-expand-left-50 {
-  --orange-border-box-expand-left: 50px;
+.bb-expand-left-25 {
+  --border-box-expand-left: 25px;
 }
 
-.obb-expand-top-5 {
-  --orange-border-box-expand-top: 5px;
+.bb-expand-left-40 {
+  --border-box-expand-left: 40px;
 }
 
-.obb-expand-bottom-5 {
-  --orange-border-box-expand-bottom: 5px;
+.bb-expand-left-50 {
+  --border-box-expand-left: 50px;
 }
 
-.orange-border-box::before {
+.bb-expand-top-5 {
+  --border-box-expand-top: 5px;
+}
+
+.bb-expand-bottom-5 {
+  --border-box-expand-bottom: 5px;
+}
+
+.border-box::before {
   content: '';
   position: absolute;
-  top: calc(-18px + var(--orange-border-box-expand-top) * -1);
-  left: calc(var(--orange-border-box-expand-left) * -1);
-  right: calc(var(--orange-border-box-expand-right) * -1);
-  bottom: calc(-18px + var(--orange-border-box-expand-bottom) * -1);
-  border: 3px solid var(--bitcoin-orange);
+  top: calc(-18px + var(--border-box-expand-top) * -1);
+  left: calc(var(--border-box-expand-left) * -1);
+  right: calc(var(--border-box-expand-right) * -1);
+  bottom: calc(-18px + var(--border-box-expand-bottom) * -1);
+  border: 3px solid var(--border-color);
   pointer-events: none;
 }
 
@@ -438,10 +447,6 @@ ol.white-paper {
   font-weight: 500;
 }
 
-.initial-p {
-  color: indigo;
-}
-
 .block-quote {
   display: flex;
   flex-direction: column;
@@ -527,6 +532,10 @@ ol.white-paper {
 
 .m-r-50 {
   margin-right: 50px; 
+}
+
+.m-l-5 {
+  margin-left: 5px;
 }
 
 .m-l-10 {

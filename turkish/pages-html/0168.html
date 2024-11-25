@@ -29,21 +29,13 @@
           <div class="p pr">
             <div class="n-point w-h-25" style="top: 2px; left: -30px"></div>
 
-            <span class="font-ff1 shadow initial-p fs-25">NOSTR</span>
+            <span class="font-ff1 shadow purple fs-25">NOSTR</span>
 
             <span class="font-ff1 shadow purple fs-18 m-t-10">
-              <span class="initial-p">N</span>
-              OTES &amp;
-              <span class="initial-p">O</span>
-              THER
-              <span class="initial-p">S</span>
-              TUFF
+              NOTES &amp; OTHER STUFF
             </span>
             <span class="font-ff1 shadow purple fs-18">
-              <span class="initial-p">T</span>
-              RANSMITTED BY
-              <span class="initial-p">R</span>
-              ELAYS
+              TRANSMITTED BY RELAYS
             </span>
           </div>
 
@@ -182,6 +174,11 @@
               window.location.href = "0167.html";
             }
           });
+          document.addEventListener("keydown", (event) => {
+            if (event.key === "ArrowRight") {
+              window.location.href = "0169.html";
+            }
+          });
         </script>
         <style>
           .nav-container {
@@ -224,6 +221,7 @@
         </style>
         <a href="0167.html" class="nav-arrow">←</a>
         <span class="page-number">160</span>
+        <a href="0169.html" class="nav-arrow">→</a>
         <a href="0003.html" class="index-button" title="İçindekiler">
           <svg
             xmlns="http://www.w3.org/2000/svg"

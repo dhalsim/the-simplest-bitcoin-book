@@ -47,10 +47,18 @@ const l18nFilePath = path.join(__dirname, `${options.language}/l18n.json`);
 
       // Update image paths
       const images = page.querySelectorAll("img");
+      
       images.forEach(img => {
         const src = img.getAttribute("src");
+        
         if (src && (src.startsWith("images/") || src.startsWith("drawings/"))) {
           img.setAttribute("src", "../../" + src);
+        }
+
+        if (src && src.startsWith(`${options.language}/pages-html/`)) {
+          const newSrc = src.replace(`${options.language}/pages-html/`, "");
+
+          img.setAttribute("src", newSrc);
         }
       });
 
