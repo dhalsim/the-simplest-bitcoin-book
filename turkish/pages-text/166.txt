@@ -3,16 +3,16 @@ H: Şimdiye Kadar Yazılmış En Basit Bitcoin Kitabı
 [p:18]r: ANAHTAR YÖNETİMİ
 
 [O] Anahtarlarınız oluşturulduktan sonra, bir imzalama
-uzantısı yükleme zamanı gelmiştir.
+uzantısı yükleme zamanı gelmiş demektir.
 
 [O] Nostr protokolü üzerinde çalışan bir web sitesine
 giriş yapmak istediğinizde, sizden nsec veya özel
 anahtarınızı isteyecektir.
 
 [O] Web siteleri veri sızdırabileceğinden, bunu doğrudan
-GİRMEYİN.
+*GİRMEYİN.*
 
-[O] Bunun yerine, her zaman bir imzalama uzantısı
+[O]b: Bunun yerine, her zaman bir imzalama uzantısı
 kullanın.
 
 [O] Bu, özel anahtarınızı saklayan bir araçtır ve

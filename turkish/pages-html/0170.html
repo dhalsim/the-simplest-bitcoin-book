@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="../../avenir-next/stylesheet.css" />
 
     <link rel="stylesheet" href="../styles.css" />
+    <link rel="stylesheet" href="../styles-mobile.css" />
 
     <script
       src="https://www.unpkg.com/nostr-login@latest/dist/unpkg.js"
@@ -123,7 +124,16 @@
             <img src="images/page-162.png" class="w100" />
           </div>
 
-          <div class="p air">~ @BTCillustrated</div>
+          <div class="p air m-t-10">
+            <span class="line inline">
+              ~
+              <a
+                href="https://nostr.at/npub1smxqfqk4yxlzn7r0mmgx3gj0u4v58wyd30etx9c5kxk4m8uu602sh82tda"
+              >
+                @BTCillustrated
+              </a>
+            </span>
+          </div>
         </div>
 
         <div class="footer"></div>
@@ -134,6 +144,11 @@
           document.addEventListener("keydown", (event) => {
             if (event.key === "ArrowLeft") {
               window.location.href = "0169.html";
+            }
+          });
+          document.addEventListener("keydown", (event) => {
+            if (event.key === "ArrowRight") {
+              window.location.href = "0171.html";
             }
           });
         </script>
@@ -178,6 +193,7 @@
         </style>
         <a href="0169.html" class="nav-arrow">←</a>
         <span class="page-number">162</span>
+        <a href="0171.html" class="nav-arrow">→</a>
         <a href="0003.html" class="index-button" title="İçindekiler">
           <svg
             xmlns="http://www.w3.org/2000/svg"

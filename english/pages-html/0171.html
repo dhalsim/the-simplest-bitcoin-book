@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="english">
+  <head>
+    <meta charset="UTF-8" />
+
+    <link rel="stylesheet" href="../../avenir-next/stylesheet.css" />
+
+    <link rel="stylesheet" href="../styles.css" />
+        <link rel="stylesheet" href="../styles-mobile.css" />
+
+    <script
+      src="https://www.unpkg.com/nostr-login@latest/dist/unpkg.js"
+      data-bunkers="nsec.app,highlighter.com"
+    ></script>
+
+    <script>
+      window.language = "english";
+    </script>
+
+    <script src="../../dist/page-scripts.js"></script>
+  </head>
+  <body class="font-an">
+    <div class="page aic" data-page="163" id="page-163" data-page-number="171">
+      <div class="content">
+        <div class="header jcc m-b-30">
+          HOW DOES
+          <img src="../../images/nostr-logo.png" class="w-h-18 m-l-5" />
+          NOSTR WORK?
+        </div>
+
+        <div class="body w90">
+          <div class="block-quote purple air">
+            <span class="line inline t-a-r i">
+              Anyone can run a relay. A relay is very simple and dumb. It does
+              nothing besides accepting posts from some people and forwarding to
+              others. Relays don’t have to be trusted. Signatures are verified
+              on the client side.
+            </span>
+          </div>
+
+          <div class="p air m-t-10">
+            <span class="line">
+              ~ @fiatjaf, 2019-11-02
+              <a href="https://fiatjaf.com/nostr.html">
+                fiatjaf.com/nostr.html
+              </a>
+            </span>
+          </div>
+
+          <div class="flex-col gap20 m-t-40">
+            <div class="p pr">
+              <div class="n-point w-h-16 t0"></div>
+
+              <span class="line inline">
+                When you open your nostr client, you will see all the notes
+                posted by you and those you follow in chronological order.
+              </span>
+            </div>
+
+            <div class="p pr">
+              <div class="n-point w-h-16 t0"></div>
+
+              <span class="line inline">
+                There are
+                <b>no algorithms</b>
+                deciding what to show you, what to withhold from you, or
+                censoring your posts.
+              </span>
+            </div>
+
+            <div class="p pr">
+              <div class="n-point w-h-16 t0"></div>
+
+              <span class="line inline">
+                Like Bitcoin,
+                <b>nostr uses public/private key pairs.</b>
+              </span>
+            </div>
+          </div>
+
+          <div class="m-t-20">
+            <div class="p pr ail m-l-25">
+              <div class="arrow w-h-18"></div>
+
+              <span class="line inline">
+                <b class="m-r-5 no-wrap">PUBLIC KEY</b>
+
+                = npub, like a username
+              </span>
+            </div>
+
+            <div class="p pr ail m-l-25">
+              <div class="arrow w-h-18"></div>
+
+              <span class="line inline">
+                <b class="m-r-5 no-wrap">PRIVATE KEY</b>
+
+                = nsec, like a password
+              </span>
+            </div>
+          </div>
+
+          <div
+            class="border-box purple bb-expand-left-50 p-10 m-l-20 m-t-50 m-b-20"
+          >
+            <div class="arrow w-h-18 m-t-10"></div>
+
+            <span class="line inline">
+              In both of the above examples, one could postulate that Satoshi
+              was using numbers to indicate a reversal,
+              <b>
+                an unwinding of the damage inflicted by government overreach.
+              </b>
+            </span>
+          </div>
+        </div>
+
+        <div class="footer"></div>
+      </div>
+
+      <div class="flex-row nav-container aic">
+        <script>
+          document.addEventListener("keydown", (event) => {
+            if (event.key === "ArrowLeft") {
+              window.location.href = "0170.html";
+            }
+          });
+        </script>
+        <style>
+          .nav-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: Arial, sans-serif;
+            font-size: 0.9em;
+            color: #ccc;
+            padding: 5px;
+          }
+
+          .nav-container .nav-arrow {
+            color: #ccc;
+            text-decoration: none;
+            margin: 0 8px;
+            font-size: 1.2em;
+          }
+
+          .nav-container .nav-arrow:hover {
+            color: #000; /* Slightly darker on hover */
+          }
+
+          .nav-container .index-button {
+            border: 0;
+            font-size: 0.9em;
+            color: #ccc;
+            background-color: transparent;
+            margin-top: 5px;
+            cursor: pointer;
+          }
+
+          .nav-container .index-button:hover {
+            color: #000;
+          }
+
+          .nav-container .page-number {
+            color: #000;
+          }
+        </style>
+        <a href="0170.html" class="nav-arrow">←</a>
+        <span class="page-number">163</span>
+        <a href="0003.html" class="index-button" title="Table of Contents">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M2.5 12.5a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1h-10a.5.5 0 0 1-.5-.5zm0-5a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1h-10a.5.5 0 0 1-.5-.5zm0-5a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1h-10a.5.5 0 0 1-.5-.5z"
+            ></path>
+          </svg>
+        </a>
+      </div>
+
+      <div id="components-container"></div>
+    </div>
+  </body>
+</html>

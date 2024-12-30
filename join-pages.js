@@ -6,12 +6,11 @@ const prettier = require("prettier");
 
 program
   .option("-l, --language <lang>", "Language code (e.g., turkish)")
-  .option("-p, --print", "Add print styles")
   .parse(process.argv);
 
 const options = program.opts();
 
-async function joinPages(language) {
+async function joinPages(language, forPrint) {
   try {
     // Read template
     const templatePath = path.join(__dirname, "joined-template.html");
@@ -29,7 +28,7 @@ async function joinPages(language) {
     const body = document.querySelector("body");
 
     // Add print styles if -p flag is present
-    if (options.print) {
+    if (forPrint) {
       const styleElement = document.createElement("style");
       styleElement.textContent = `
                 .page:nth-child(odd) {
@@ -43,6 +42,19 @@ async function joinPages(language) {
                 }
             `;
       document.head.appendChild(styleElement);
+    } else {
+      const styleElement = document.createElement("style");
+      styleElement.textContent = `
+        .header {
+          display: none;
+        }
+      `;
+      document.head.appendChild(styleElement);
+
+      const linkElement = document.createElement("link");
+      linkElement.rel = "stylesheet";
+      linkElement.href = `${language}/styles-mobile.css`;
+      document.head.appendChild(linkElement);
     }
 
     // Hide page navigation
@@ -54,6 +66,10 @@ async function joinPages(language) {
 
         .nav-container .index-button {
             display: none;
+        }
+
+        #page-170 > .nav-container {
+          display: none !important;
         }
     `;
     document.head.appendChild(pageNumberStyle);
@@ -139,7 +155,15 @@ async function joinPages(language) {
     });
 
     // Write output file
-    const outputPath = path.join(__dirname, `${language}-generated.html`);
+    const outputPath = path.join(
+      __dirname,
+      [
+        `${language}-one-page-`, 
+        forPrint ? "print" : "screen", 
+        ".html"
+      ].join("")
+    );
+    
     await fs.writeFile(outputPath, finalContent, "utf8");
 
     console.log(`Successfully created ${outputPath}`);
@@ -154,4 +178,5 @@ if (!options.language) {
   process.exit(1);
 }
 
-joinPages(options.language);
+joinPages(options.language, true);
+joinPages(options.language, false);

@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="turkish">
+  <head>
+    <meta charset="UTF-8" />
+
+    <link rel="stylesheet" href="../../avenir-next/stylesheet.css" />
+
+    <link rel="stylesheet" href="../styles.css" />
+    <link rel="stylesheet" href="../styles-mobile.css" />
+
+    <script
+      src="https://www.unpkg.com/nostr-login@latest/dist/unpkg.js"
+      data-bunkers="nsec.app,highlighter.com"
+    ></script>
+
+    <script>
+      window.language = "turkish";
+    </script>
+
+    <script src="../../dist/page-scripts.js"></script>
+  </head>
+  <body class="font-an">
+    <div class="page aic" data-page="163" id="page-163" data-page-number="171">
+      <div class="content">
+        <div class="header jcc m-b-30">
+          <img src="../../images/nostr-logo.png" class="w-h-18 m-l-5" />
+          NOSTR NASIL ÇALIŞIR?
+        </div>
+
+        <div class="body w90">
+          <div class="block-quote air purple m-t-20">
+            <span class="line inline i t-a-r">
+              Herkes bir aktarıcı çalıştırabilir. Aktarıcı çok basit ve
+              aptaldır. Bazı kişilerden gönderileri kabul edip diğerlerine
+              iletmekten başka bir şey yapmaz. Aktarıcılara güvenilmesi
+              gerekmez. İmzalar istemci tarafında doğrulanır.
+            </span>
+          </div>
+
+          <div class="p air m-t-10 m-r-10">
+            <span class="line inline t-a-r">
+              ~ @fiatjaf, 2019-11-02
+              <a href="https://fiatjaf.com/nostr.html">
+                fiatjaf.com/nostr.html
+              </a>
+            </span>
+          </div>
+
+          <div class="flex-col gap20 m-t-40">
+            <div class="p pr">
+              <div class="n-point w-h-16 t0"></div>
+
+              <span class="line inline">
+                Nostr istemcinizi açtığınızda, sizin ve takip ettiklerinizin
+                paylaştığı tüm notları kronolojik sırayla göreceksiniz.
+              </span>
+            </div>
+
+            <div class="p pr">
+              <div class="n-point w-h-16 t0"></div>
+
+              <span class="line inline">
+                Size neyin gösterileceğine, sizden neyin gizleneceğine veya
+                gönderilerinizi sansürlemeye karar veren
+                <b>hiçbir algoritma</b>
+                yoktur.
+              </span>
+            </div>
+
+            <div class="p pr">
+              <div class="n-point w-h-16 t0"></div>
+
+              <span class="line inline">
+                Bitcoin gibi, nostr da genel/özel anahtar çiftleri kullanır.
+              </span>
+            </div>
+
+            <div class="m-t-5 m-l-35">
+              <div class="p pr">
+                <div class="arrow w-h-16 t0"></div>
+
+                <span class="line inline">
+                  <b>GENEL ANAHTAR</b>
+
+                  = npub, kullanıcı adı gibi
+                </span>
+              </div>
+
+              <div class="p pr">
+                <div class="arrow w-h-16 t0"></div>
+
+                <span class="line inline">
+                  <b>ÖZEL ANAHTAR</b>
+
+                  = nsec, parola gibi
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="flex-col border-box purple bb-expand-left-50 gap20 p-10 p-r-20 m-l-20 m-t-50 m-b-20"
+          >
+            <div class="p pr">
+              <div class="n-point w-h-16 t0"></div>
+
+              <span class="line inline">
+                <b>NOT:</b>
+                Özel anahtarınız kaybolursa sıfırlanamaz, bu yüzden
+                <b>onu iyi korumalısınız!</b>
+              </span>
+            </div>
+
+            <div class="p pr">
+              <div class="n-point w-h-16 t0"></div>
+
+              <span class="line inline">
+                Eğer özel anahtarınız sızarsa, ona erişimi olan herkes nostr
+                hesabınıza erişebilir ve
+                <b>size özel erişiminizi geri kazanmanın bir yolu yoktur.</b>
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer"></div>
+      </div>
+
+      <div class="flex-row nav-container aic">
+        <script>
+          document.addEventListener("keydown", (event) => {
+            if (event.key === "ArrowLeft") {
+              window.location.href = "0170.html";
+            }
+          });
+          document.addEventListener("keydown", (event) => {
+            if (event.key === "ArrowRight") {
+              window.location.href = "0172.html";
+            }
+          });
+        </script>
+        <style>
+          .nav-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: Arial, sans-serif;
+            font-size: 0.9em;
+            color: #ccc;
+            padding: 5px;
+          }
+
+          .nav-container .nav-arrow {
+            color: #ccc;
+            text-decoration: none;
+            margin: 0 8px;
+            font-size: 1.2em;
+          }
+
+          .nav-container .nav-arrow:hover {
+            color: #000; /* Slightly darker on hover */
+          }
+
+          .nav-container .index-button {
+            border: 0;
+            font-size: 0.9em;
+            color: #ccc;
+            background-color: transparent;
+            margin-top: 5px;
+            cursor: pointer;
+          }
+
+          .nav-container .index-button:hover {
+            color: #000;
+          }
+
+          .nav-container .page-number {
+            color: #000;
+          }
+        </style>
+        <a href="0170.html" class="nav-arrow">←</a>
+        <span class="page-number">163</span>
+        <a href="0172.html" class="nav-arrow">→</a>
+        <a href="0003.html" class="index-button" title="İçindekiler">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M2.5 12.5a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1h-10a.5.5 0 0 1-.5-.5zm0-5a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1h-10a.5.5 0 0 1-.5-.5zm0-5a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1h-10a.5.5 0 0 1-.5-.5z"
+            ></path>
+          </svg>
+        </a>
+      </div>
+
+      <div id="components-container"></div>
+    </div>
+  </body>
+</html>

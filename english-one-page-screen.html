@@ -6,12 +6,22 @@
     <style></style>
     <link rel="stylesheet" href="english/styles.css" />
     <style>
+      .header {
+        display: none;
+      }
+    </style>
+    <link rel="stylesheet" href="english/styles-mobile.css" />
+    <style>
       .nav-container .nav-arrow {
         display: none;
       }
 
       .nav-container .index-button {
         display: none;
+      }
+
+      #page-170 > .nav-container {
+        display: none !important;
       }
     </style>
     <script>
@@ -12406,9 +12416,7 @@
               </span>
             </div>
 
-            <div
-              class="p pr border-box orange bb-expand-left-40 m-t-40 m-b-40"
-            >
+            <div class="p pr border-box orange bb-expand-left-40 m-t-40 m-b-40">
               <div class="b-point w-h-20"></div>
 
               <span class="line inline b">
@@ -12712,9 +12720,7 @@
           </div>
 
           <div class="p air">
-            <div
-              class="p border-box orange bb-expand-left-40 gap15 m-t-20 w90"
-            >
+            <div class="p border-box orange bb-expand-left-40 gap15 m-t-20 w90">
               <div class="p pr">
                 <div class="arrow w-h-18"></div>
 
@@ -21277,6 +21283,7 @@ q=0.45 z=340
       <div class="flex-row nav-container aic">
         <a href="#page-158" class="nav-arrow">←</a>
         <span class="page-number">159</span>
+        <a href="#page-160" class="nav-arrow">→</a>
         <a href="#page-000iii" class="index-button" title="Table of Contents">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -21303,14 +21310,16 @@ q=0.45 z=340
 
         <div class="body w90">
           <div class="p pr">
-            <div class="n-point w-h-25" style="top: 2px; left: -30px;"></div>
-            
-            <span class="font-ff1 shadow purple fs-25">
-              NOSTR
+            <div class="n-point w-h-25" style="top: 2px; left: -30px"></div>
+
+            <span class="font-ff1 shadow purple fs-25">NOSTR</span>
+
+            <span class="font-ff1 shadow purple fs-18 m-t-10">
+              NOTES &amp; OTHER STUFF
             </span>
-            
-            <span class="font-ff1 shadow purple fs-18 m-t-10">NOTES & OTHER STUFF</span>
-            <span class="font-ff1 shadow purple fs-18">TRANSMITTED BY RELAYS</span>
+            <span class="font-ff1 shadow purple fs-18">
+              TRANSMITTED BY RELAYS
+            </span>
           </div>
 
           <div class="block-quote purple air m-t-20">
@@ -21322,73 +21331,92 @@ q=0.45 z=340
           </div>
 
           <div class="p air m-t-10 m-r-10">
-            <span class="line inline">~ Eric Hughes, The Cypherpunk's manifesto, 1993</span>
+            <span class="line inline">
+              ~ Eric Hughes, The Cypherpunk's manifesto, 1993
+            </span>
           </div>
 
           <div class="flex-row jcr m-r-10 m-t-10">
             <span class="font-ff1 shadow purple fs-25 m-t-10">WHAT IS</span>
-            
-            <span class="font-ff1 shadow purple fs-25 m-t-10 pr" style="width: 130px; text-align: end;">
-              <div class="n-point w-h-25" style="top: 2px; left: 15px;"></div>
+
+            <span
+              class="font-ff1 shadow purple fs-25 m-t-10 pr"
+              style="width: 130px; text-align: end"
+            >
+              <div class="n-point w-h-25" style="top: 2px; left: 15px"></div>
               NOSTR
             </span>
           </div>
 
           <div class="block-quote purple air m-t-20">
             <span class="line inline t-a-r">
-              TL;DR: nostr is a protocol that has the power to
-              replace twitter, Telegram, and other things.
-            </span>
-          </div>
-
-          <div class="p air m-t-10 m-r-10">
-            <span class="line inline">~ <a href="https://nostr.at/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc">@dergigi</a></span>
-          </div>
-
-          <div class="block-quote purple air m-t-20">
-            <span class="line inline t-a-r">
-              nostr is to freedom of communication
-              as bitcoin is to freedom of transaction.
+              TL;DR: nostr is a protocol that has the power to replace twitter,
+              Telegram, and other things.
             </span>
           </div>
 
           <div class="p air m-t-10 m-r-10">
             <span class="line inline">
-              ~ Keysa <a href="https://nostr.at/npub1dpna3xwwddnhhzg9ycpvlcz2ze0jdwm2rf3eqd2lf9leaewtq7tqhw0ef2">@SimplestBitcoinBook</a>
+              ~
+              <a
+                href="https://nostr.at/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc"
+              >
+                @dergigi
+              </a>
+            </span>
+          </div>
+
+          <div class="block-quote purple air m-t-20">
+            <span class="line inline t-a-r">
+              nostr is to freedom of communication as bitcoin is to freedom of
+              transaction.
+            </span>
+          </div>
+
+          <div class="p air m-t-10 m-r-10">
+            <span class="line inline">
+              ~ Keysa
+              <a
+                href="https://nostr.at/npub1dpna3xwwddnhhzg9ycpvlcz2ze0jdwm2rf3eqd2lf9leaewtq7tqhw0ef2"
+              >
+                @SimplestBitcoinBook
+              </a>
             </span>
           </div>
 
           <div class="flex-col gap10 m-t-20">
             <div class="p pr">
               <div class="n-point w-h-16 t0"></div>
-  
+
               <span class="line inline">
-                Nostr is a <b>simple, decentralized protocol for
-                censorship-resistant, global, interoperable networks.</b>
+                Nostr is a
+                <b>
+                  simple, decentralized protocol for censorship-resistant,
+                  global, interoperable networks.
+                </b>
               </span>
             </div>
-  
+
             <div class="p pr">
               <div class="n-point w-h-16 t0"></div>
-  
+
               <span class="line inline">
                 Nostr does not rely on a trusted central server.
               </span>
             </div>
-  
+
             <div class="p pr">
               <div class="n-point w-h-16 t0"></div>
-  
+
               <span class="line inline">
-                It is a free and open source (FOSS) software protocol,
-                like Bitcoin, HTTP or TCP/IP, which allows anyone to
-                build on nostr.
+                It is a free and open source (FOSS) software protocol, like
+                Bitcoin, HTTP or TCP/IP, which allows anyone to build on nostr.
               </span>
             </div>
-  
+
             <div class="p pr">
               <div class="n-point w-h-16 t0"></div>
-  
+
               <span class="line inline">
                 <b>It is how we retain our freedom to communicate</b>
                 with anyone, anywhere with an internet connection.
@@ -21398,14 +21426,20 @@ q=0.45 z=340
 
           <div class="block-quote purple air m-t-20">
             <span class="line inline t-a-r">
-              (it is) a communications protocol with a
-              self-sovereign identity layer...
-              and nostr is also more than that.
+              (it is) a communications protocol with a self-sovereign identity
+              layer... and nostr is also more than that.
             </span>
           </div>
 
           <div class="p air m-t-10 m-r-10">
-            <span class="line inline">~ <a href="https://nostr.at/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc">@dergigi</a></span>
+            <span class="line inline">
+              ~
+              <a
+                href="https://nostr.at/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc"
+              >
+                @dergigi
+              </a>
+            </span>
           </div>
         </div>
 
@@ -21413,8 +21447,9 @@ q=0.45 z=340
       </div>
 
       <div class="flex-row nav-container aic">
-        <a href="#page-158" class="nav-arrow">←</a>
+        <a href="#page-159" class="nav-arrow">←</a>
         <span class="page-number">160</span>
+        <a href="#page-161" class="nav-arrow">→</a>
         <a href="#page-000iii" class="index-button" title="Table of Contents">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -21443,18 +21478,23 @@ q=0.45 z=340
 
         <div class="body w90">
           <div class="flex-row jcr pr">
-            <span class="font-ff1 shadow purple fs-25 m-t-10 no-wrap">WHY WE NEED</span>
-            
-            <span class="font-ff1 shadow purple fs-25 m-t-10 pr" style="width: 125px; text-align: end;">
-              <div class="n-point w-h-25" style="top: 2px; left: 10px;"></div>
+            <span class="font-ff1 shadow purple fs-25 m-t-10 no-wrap">
+              WHY WE NEED
+            </span>
+
+            <span
+              class="font-ff1 shadow purple fs-25 m-t-10 pr"
+              style="width: 125px; text-align: end"
+            >
+              <div class="n-point w-h-25" style="top: 2px; left: 10px"></div>
               NOSTR
             </span>
           </div>
 
           <div class="p m-t-10">
             <span class="line">
-              We need nostr because the current communication
-              systems and social media platforms are centralized.
+              We need nostr because the current communication systems and social
+              media platforms are centralized.
             </span>
 
             <span class="line b m-t-10">
@@ -21465,7 +21505,7 @@ q=0.45 z=340
           <div class="flex-col gap20 m-t-20">
             <div class="p pr">
               <div class="n-point w-h-16 t0"></div>
-  
+
               <span class="line inline">
                 Have the power to censor your speech.
               </span>
@@ -21473,7 +21513,7 @@ q=0.45 z=340
 
             <div class="p pr">
               <div class="n-point w-h-16 t0"></div>
-  
+
               <span class="line inline">
                 Are vulnerable to regulatory attacks by the state.
               </span>
@@ -21481,7 +21521,7 @@ q=0.45 z=340
 
             <div class="p pr">
               <div class="n-point w-h-16 t0"></div>
-  
+
               <span class="line inline">
                 Can choose, or be told, to suspend or delete your account.
               </span>
@@ -21489,7 +21529,7 @@ q=0.45 z=340
 
             <div class="p pr">
               <div class="n-point w-h-16 t0"></div>
-  
+
               <span class="line inline">
                 Can be hacked, and thus compromise your data.
               </span>
@@ -21497,16 +21537,15 @@ q=0.45 z=340
 
             <div class="p pr">
               <div class="n-point w-h-16 t0"></div>
-  
+
               <span class="line inline">
-                Use algorithms to feed you the information they want
-                you to see.
+                Use algorithms to feed you the information they want you to see.
               </span>
             </div>
 
             <div class="p pr">
               <div class="n-point w-h-16 t0"></div>
-  
+
               <span class="line inline">
                 Manipulate every aspect of your experience on them.
               </span>
@@ -21514,23 +21553,19 @@ q=0.45 z=340
 
             <div class="p pr">
               <div class="n-point w-h-16 t0"></div>
-  
-              <span class="line inline">
-                Track all your activity.
-              </span>
+
+              <span class="line inline">Track all your activity.</span>
             </div>
 
             <div class="p pr">
               <div class="n-point w-h-16 t0"></div>
-  
-              <span class="line inline">
-                Harvest and sell your data.
-              </span>
+
+              <span class="line inline">Harvest and sell your data.</span>
             </div>
 
             <div class="p pr">
               <div class="n-point w-h-16 t0"></div>
-  
+
               <span class="line inline">
                 Use your data to litter your feed with advertisements.
               </span>
@@ -21539,13 +21574,18 @@ q=0.45 z=340
 
           <div class="flex-col flex-grow jcr m-b-20">
             <div class="block-quote purple air">
-              <span class="line i">
-                Freedom tech is hope.
-              </span>
+              <span class="line i">Freedom tech is hope.</span>
             </div>
-  
+
             <div class="p air m-t-10 m-r-10">
-              <span class="line inline">~ <a href="https://nostr.at/npub1qny3tkh0acurzla8x3zy4nhrjz5zd8l9sy9jys09umwng00manysew95gx">@ODELL</a></span>
+              <span class="line inline">
+                ~
+                <a
+                  href="https://nostr.at/npub1qny3tkh0acurzla8x3zy4nhrjz5zd8l9sy9jys09umwng00manysew95gx"
+                >
+                  @ODELL
+                </a>
+              </span>
             </div>
           </div>
         </div>
@@ -21554,8 +21594,9 @@ q=0.45 z=340
       </div>
 
       <div class="flex-row nav-container aic">
-        <a href="#page-158" class="nav-arrow">←</a>
+        <a href="#page-160" class="nav-arrow">←</a>
         <span class="page-number">161</span>
+        <a href="#page-162" class="nav-arrow">→</a>
         <a href="#page-000iii" class="index-button" title="Table of Contents">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -21582,10 +21623,15 @@ q=0.45 z=340
 
         <div class="body w90">
           <div class="flex-row jcr pr">
-            <span class="font-ff1 shadow purple fs-25 m-t-10 no-wrap" style="width: 175px;">HOW DOES</span>
-            
+            <span
+              class="font-ff1 shadow purple fs-25 m-t-10 no-wrap"
+              style="width: 175px"
+            >
+              HOW DOES
+            </span>
+
             <span class="font-ff1 shadow purple fs-25 m-t-10 pr no-wrap">
-              <div class="n-point w-h-25" style="top: 2px; left: -25px;"></div>
+              <div class="n-point w-h-25" style="top: 2px; left: -25px"></div>
               NOSTR WORK?
             </span>
           </div>
@@ -21593,70 +21639,77 @@ q=0.45 z=340
           <div class="flex-col gap20 m-t-20">
             <div class="p pr">
               <div class="n-point w-h-16 t0"></div>
-  
+
               <span class="line inline">
-                <b>Nostr has two parts:</b> Clients and Relays.
+                <b>Nostr has two parts:</b>
+                Clients and Relays.
               </span>
             </div>
 
             <div class="p pr">
               <div class="n-point w-h-16 t0"></div>
-  
+
               <span class="line inline">
-                <b>A CLIENT is an INTERFACE</b> (app or website) that is run on the nostr protocol. 
+                <b>A CLIENT is an INTERFACE</b>
+                (app or website) that is run on the nostr protocol.
               </span>
             </div>
 
             <div class="p pr">
               <div class="n-point w-h-16 t0"></div>
-  
+
               <span class="line inline">
-                <b>It is where you see the notes</b> that you and the people
-                you follow post (in the same way that twitter is an
-                interface where you post and read notes by others,
-                except twitter is centralized & it censors posts.)
+                <b>It is where you see the notes</b>
+                that you and the people you follow post (in the same way that
+                twitter is an interface where you post and read notes by others,
+                except twitter is centralized &amp; it censors posts.)
               </span>
             </div>
 
             <div class="p pr">
               <div class="n-point w-h-16 t0"></div>
-  
+
               <span class="line inline">
-                <b>A RELAY is a SERVER and a DATABASE.</b> Anyone can
-                run a relay, which is what makes nostr decentralized.
+                <b>A RELAY is a SERVER and a DATABASE.</b>
+                Anyone can run a relay, which is what makes nostr decentralized.
               </span>
             </div>
 
             <div class="p pr">
               <div class="n-point w-h-16 t0"></div>
-  
+
               <span class="line inline">
-                <b>It is where your notes are sent, stored and retrieved from</b> by clients.
+                <b>
+                  It is where your notes are sent, stored and retrieved from
+                </b>
+                by clients.
               </span>
             </div>
 
             <div class="p pr">
               <div class="n-point w-h-16 t0"></div>
-  
+
               <span class="line inline">
-                There are many relays and you can choose which ones to connect to. Some are free and some are paid.
+                There are many relays and you can choose which ones to connect
+                to. Some are free and some are paid.
               </span>
             </div>
 
             <div class="p pr">
               <div class="n-point w-h-16 t0"></div>
-  
+
               <span class="line inline">
-                When you post a message, it is broadcast to the relays you are connected to.
+                When you post a message, it is broadcast to the relays you are
+                connected to.
               </span>
             </div>
 
             <div class="p pr">
               <div class="n-point w-h-16 t0"></div>
-  
+
               <span class="line inline">
-                The clients query the relays they are connected to, 
-                and then they populate the messages being hosted by those relays.
+                The clients query the relays they are connected to, and then
+                they populate the messages being hosted by those relays.
               </span>
             </div>
           </div>
@@ -21665,17 +21718,16 @@ q=0.45 z=340
             <img src="images/page-162.png" class="w100" />
           </div>
 
-          <div class="p air">
-            ~ @BTCillustrated
-          </div>
+          <div class="p air">~ @BTCillustrated</div>
         </div>
 
         <div class="footer"></div>
       </div>
 
       <div class="flex-row nav-container aic">
-        <a href="#page-158" class="nav-arrow">←</a>
+        <a href="#page-161" class="nav-arrow">←</a>
         <span class="page-number">162</span>
+        <a href="#page-163" class="nav-arrow">→</a>
         <a href="#page-000iii" class="index-button" title="Table of Contents">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -21705,45 +21757,49 @@ q=0.45 z=340
         <div class="body w90">
           <div class="block-quote purple air">
             <span class="line inline t-a-r i">
-              Anyone can run a relay. A relay is very simple and
-              dumb. It does nothing besides accepting posts
-              from some people and forwarding to others.
-              Relays don’t have to be trusted.
-              Signatures are verified on the client side.
+              Anyone can run a relay. A relay is very simple and dumb. It does
+              nothing besides accepting posts from some people and forwarding to
+              others. Relays don’t have to be trusted. Signatures are verified
+              on the client side.
             </span>
           </div>
 
           <div class="p air m-t-10">
             <span class="line">
-              ~ @fiatjaf, 2019-11-02 <a href="https://fiatjaf.com/nostr.html">fiatjaf.com/nostr.html</a>
+              ~ @fiatjaf, 2019-11-02
+              <a href="https://fiatjaf.com/nostr.html">
+                fiatjaf.com/nostr.html
+              </a>
             </span>
           </div>
 
           <div class="flex-col gap20 m-t-40">
             <div class="p pr">
               <div class="n-point w-h-16 t0"></div>
-  
+
               <span class="line inline">
-                When you open your nostr client, you will see all the
-                notes posted by you and those you follow in
-                chronological order.
+                When you open your nostr client, you will see all the notes
+                posted by you and those you follow in chronological order.
               </span>
             </div>
 
             <div class="p pr">
               <div class="n-point w-h-16 t0"></div>
-  
+
               <span class="line inline">
-                There are <b>no algorithms</b> deciding what to show you,
-                what to withhold from you, or censoring your posts.
+                There are
+                <b>no algorithms</b>
+                deciding what to show you, what to withhold from you, or
+                censoring your posts.
               </span>
             </div>
 
             <div class="p pr">
               <div class="n-point w-h-16 t0"></div>
-  
+
               <span class="line inline">
-                Like Bitcoin, <b>nostr uses public/private key pairs.</b>
+                Like Bitcoin,
+                <b>nostr uses public/private key pairs.</b>
               </span>
             </div>
           </div>
@@ -21755,7 +21811,7 @@ q=0.45 z=340
               <span class="line inline">
                 <b class="m-r-5 no-wrap">PUBLIC KEY</b>
 
-                 = npub, like a username
+                = npub, like a username
               </span>
             </div>
 
@@ -21765,31 +21821,31 @@ q=0.45 z=340
               <span class="line inline">
                 <b class="m-r-5 no-wrap">PRIVATE KEY</b>
 
-                 = nsec, like a password
+                = nsec, like a password
               </span>
             </div>
           </div>
 
           <div
-              class="border-box purple bb-expand-left-50 p-10 m-l-20 m-t-50 m-b-20"
-            >
-              <div class="arrow w-h-18 m-t-10"></div>
+            class="border-box purple bb-expand-left-50 p-10 m-l-20 m-t-50 m-b-20"
+          >
+            <div class="arrow w-h-18 m-t-10"></div>
 
-              <span class="line inline">
-                In both of the above examples, one could postulate that Satoshi
-                was using numbers to indicate a reversal,
-                <b>
-                  an unwinding of the damage inflicted by government overreach.
-                </b>
-              </span>
-            </div>
+            <span class="line inline">
+              In both of the above examples, one could postulate that Satoshi
+              was using numbers to indicate a reversal,
+              <b>
+                an unwinding of the damage inflicted by government overreach.
+              </b>
+            </span>
+          </div>
         </div>
 
         <div class="footer"></div>
       </div>
 
       <div class="flex-row nav-container aic">
-        <a href="#page-158" class="nav-arrow">←</a>
+        <a href="#page-162" class="nav-arrow">←</a>
         <span class="page-number">163</span>
         <a href="#page-000iii" class="index-button" title="Table of Contents">
           <svg

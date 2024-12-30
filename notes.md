@@ -197,6 +197,7 @@ Translated in Turkish from bitcoin.org/bitcoin.pdf by Efe Cini
 # Navigation
 
 - [x] I should be able to navigate through the pages with the keyboard. Arrow keys (right, left) should navigate to the next/previous page.
+- [ ] Should have links for the words in the glossary
 
 # Nostr features
 

@@ -1,4 +1,4 @@
-[p:18]r: [O]NOSTR NASIL KULLANILIR
+[p:18]r: NASIL [O]NOSTR'LANILIR?
 
 [pbb:
   1. *İndirmek için bir istemci* uygulaması seçin. (Anahtar

@@ -502,6 +502,10 @@ ol.white-paper {
   padding-right: 10px;
 }
 
+.p-r-20 {
+  padding-right: 20px;
+}
+
 .p-l-10 {
   padding-left: 10px;
 }
@@ -674,6 +678,10 @@ ol.white-paper {
 
 .pa {
   position: absolute;
+}
+
+.t0 {
+  top: 0px !important; 
 }
 
 .arrow {

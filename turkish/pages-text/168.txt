@@ -1,6 +1,6 @@
 H: Bitcoin Hakkında Yazılmış En Basit Kitap
 
-[p:18]r: [O]NOSTR İSTEMCİLERİ/uygulamaları
+[p:18]r: [O]NOSTR İSTEMCİLERİ/UYGULAMALARI
 
 Bunları ve çok daha fazla harika uygulamayı bulmak için 
 *nostrapps.com* adresini ziyaret edin. Hepsi ücretsiz, açık 

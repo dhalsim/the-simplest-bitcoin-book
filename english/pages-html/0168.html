@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="../../avenir-next/stylesheet.css" />
 
     <link rel="stylesheet" href="../styles.css" />
+    <link rel="stylesheet" href="../styles-mobile.css" />
 
     <script
       src="https://www.unpkg.com/nostr-login@latest/dist/unpkg.js"
@@ -54,15 +55,13 @@
           </div>
 
           <div class="flex-row jcr m-r-10 m-t-10">
-            <span
-              class="font-ff1 shadow purple fs-25 m-t-10"
-              style="width: 145px"
-            >
-              WHAT IS
-            </span>
+            <span class="font-ff1 shadow purple fs-25 m-t-10">WHAT IS</span>
 
-            <span class="font-ff1 shadow purple fs-25 m-t-10 pr">
-              <div class="n-point w-h-25" style="top: 2px; left: -25px"></div>
+            <span
+              class="font-ff1 shadow purple fs-25 m-t-10 pr"
+              style="width: 130px; text-align: end"
+            >
+              <div class="n-point w-h-25" style="top: 2px; left: 15px"></div>
               NOSTR
             </span>
           </div>
@@ -172,6 +171,11 @@
               window.location.href = "0167.html";
             }
           });
+          document.addEventListener("keydown", (event) => {
+            if (event.key === "ArrowRight") {
+              window.location.href = "0169.html";
+            }
+          });
         </script>
         <style>
           .nav-container {
@@ -214,6 +218,7 @@
         </style>
         <a href="0167.html" class="nav-arrow">←</a>
         <span class="page-number">160</span>
+        <a href="0169.html" class="nav-arrow">→</a>
         <a href="0003.html" class="index-button" title="Table of Contents">
           <svg
             xmlns="http://www.w3.org/2000/svg"
