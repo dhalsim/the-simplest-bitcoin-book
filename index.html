@@ -2,17 +2,20 @@
 <html lang="tr">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>En basit Bitcoin kitabi</title>
     <style>
         body {
             font-family: 'Avenir Next', system-ui, -apple-system, sans-serif;
             max-width: 800px;
+            width: calc(100% - 40px);
             margin: 0 auto;
             padding: 20px;
             display: flex;
             flex-direction: column;
             align-items: center;
             gap: 30px;
+            box-sizing: border-box;
         }
         .language-selector {
             display: flex;
@@ -57,6 +60,42 @@
         h1 {
             text-align: center;
             color: #333;
+        }
+
+        @media screen and (max-width: 480px) {
+            body {
+                padding: 15px;
+                width: calc(100% - 30px);
+                gap: 20px;
+            }
+
+            h1 {
+                font-size: 24px;
+            }
+
+            .language-selector {
+                gap: 12px;
+            }
+
+            .language-option {
+                padding: 6px 12px;
+            }
+
+            a {
+                padding: 10px 20px;
+            }
+        }
+
+        @media screen and (max-width: 320px) {
+            body {
+                padding: 10px;
+                width: calc(100% - 20px);
+                gap: 15px;
+            }
+
+            .language-option {
+                padding: 4px 8px;
+            }
         }
     </style>
 </head>

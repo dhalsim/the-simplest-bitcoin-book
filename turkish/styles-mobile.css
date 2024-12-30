@@ -1,25 +1,26 @@
 :root {
-  --var-font-1: 15px;
-  --var-font-2: 16px;
-  --var-font-3: 17px;
-  --var-font-4: 18px;
-  --var-font-5: 19px;
-  --var-font-6: 21px;
-  --var-font-7: 23px;
-  --var-font-8: 25px;
-  --var-font-9: 27px;
-  --var-font-10: 30px;
-  --var-font-11: 35px;
-  --var-font-12: 40px;
-  --var-font-13: 45px;
-  --var-font-14: 50px;
+  --var-font-1: 10px;
+  --var-font-2: 11px;
+  --var-font-3: 12px;
+  --var-font-4: 13px;
+  --var-font-5: 14px;
+  --var-font-6: 14px;
+  --var-font-7: 14px;
+  --var-font-8: 16px;
+  --var-font-9: 18px;
+  --var-font-10: 20px;
+  --var-font-11: 22px;
+  --var-font-12: 25px;
+  --var-font-13: 30px;
+  --var-font-14: 35px;
 }
 
-/* Override page dimensions for mobile */
-.page {
-  max-height: none;
-  height: auto;
-  max-width: 100%;
-  padding: 15px;
-  margin-left: 20px;
+
+@media screen and (max-width: 500px) {
+  .page {
+    margin: 0 40px;
+    padding: 10px;
+    width: calc(100% - 40px);
+    box-sizing: border-box;
+  }
 }
