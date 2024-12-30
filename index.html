@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>En basit Bitcoin kitabi</title>
+    <style>
+        body {
+            font-family: 'Avenir Next', system-ui, -apple-system, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+        }
+        .language-selector {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+        .language-option {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 16px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+        .language-option.active {
+            border-color: #f7931a;
+            background-color: #fff9f2;
+        }
+        .flag {
+            width: 24px;
+            height: 24px;
+        }
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            text-align: center;
+        }
+        a {
+            color: #f7931a;
+            text-decoration: none;
+            padding: 12px 24px;
+            border: 2px solid #f7931a;
+            border-radius: 8px;
+            transition: all 0.2s;
+        }
+        a:hover {
+            background-color: #f7931a;
+            color: white;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="language-selector">
+        <div class="language-option active">
+            <img src="https://flagcdn.com/24x18/tr.png" alt="Türk bayrağı" class="flag">
+            <span>Türkçe</span>
+        </div>
+        <a href="index-en.html" class="language-option">
+            <img src="https://flagcdn.com/24x18/us.png" alt="US flag" class="flag">
+            <span>English</span>
+        </a>
+    </div>
+
+    <h1>En basit Bitcoin kitabi</h1>
+
+    <div class="links">
+        <a href="turkish-one-page-screen.html">Tek sayfa sürümü</a>
+        <a href="turkish/pages-html/0001.html">Sayfalı, işaret kalemli sürüm</a>
+    </div>
+</body>
+</html>
+

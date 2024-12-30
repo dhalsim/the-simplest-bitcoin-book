@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Simplest Bitcoin Book Ever Written</title>
+    <style>
+        body {
+            font-family: 'Avenir Next', system-ui, -apple-system, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+        }
+        .language-selector {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+        .language-option {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 16px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+        .language-option.active {
+            border-color: #f7931a;
+            background-color: #fff9f2;
+        }
+        .flag {
+            width: 24px;
+            height: 24px;
+        }
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            text-align: center;
+        }
+        a {
+            color: #f7931a;
+            text-decoration: none;
+            padding: 12px 24px;
+            border: 2px solid #f7931a;
+            border-radius: 8px;
+            transition: all 0.2s;
+        }
+        a:hover {
+            background-color: #f7931a;
+            color: white;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="language-selector">
+        <a href="index.html" class="language-option">
+            <img src="https://flagcdn.com/24x18/tr.png" alt="Turkish flag" class="flag">
+            <span>Türkçe</span>
+        </a>
+        <div class="language-option active">
+            <img src="https://flagcdn.com/24x18/us.png" alt="US flag" class="flag">
+            <span>English</span>
+        </div>
+    </div>
+
+    <h1>The Simplest Bitcoin Book</h1>
+
+    <div class="links">
+        <a href="english-one-page-screen.html">Single page version</a>
+        <a href="english/pages-html/0001.html">Page by page version with highlighter</a>
+    </div>
+</body>
+</html> 
