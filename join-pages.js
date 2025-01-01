@@ -31,17 +31,22 @@ async function joinPages(language, forPrint) {
     if (forPrint) {
       const styleElement = document.createElement("style");
       styleElement.textContent = `
-                .page:nth-child(odd) {
-                    margin-left: 175px;
-                    margin-right: 30px;
-                }
+        .page {
+          max-height: 1024px;
+          height: 100vh;
+        }
 
-                .page:nth-child(even) {
-                    margin-right: 175px;
-                    margin-left: 30px;
-                }
-            `;
-      document.head.appendChild(styleElement);
+        .page:nth-child(odd) {
+            margin-left: 175px;
+            margin-right: 30px;
+        }
+
+        .page:nth-child(even) {
+            margin-right: 175px;
+            margin-left: 30px;
+        }`;
+      
+        document.head.appendChild(styleElement);
     } else {
       const styleElement = document.createElement("style");
       styleElement.textContent = `
