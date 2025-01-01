@@ -16,7 +16,7 @@ if (!options.language) {
 }
 
 // Path to the HTML file
-const htmlFilePath = path.join(__dirname, `${options.language}-generated.html`);
+const htmlFilePath = path.join(__dirname, `${options.language}-one-page-screen.html`);
 
 // Output directory
 const outputDirPath = path.join(__dirname, options.language);
@@ -69,8 +69,10 @@ const l18nFilePath = path.join(__dirname, `${options.language}/l18n.json`);
         <meta charset="UTF-8">
         
         <link rel="stylesheet" href="../../avenir-next/stylesheet.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         <link rel="stylesheet" href="../styles.css">
+        <link rel="stylesheet" href="../styles-mobile.css" />
 
         <script src='https://www.unpkg.com/nostr-login@latest/dist/unpkg.js' data-bunkers="nsec.app,highlighter.com"></script>
 

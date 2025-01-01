@@ -94,7 +94,7 @@ async function updatePages() {
             align-items: center;
             justify-content: center;
             font-family: Arial, sans-serif;
-            font-size: 0.9em;
+            font-size: 1.4em;
             color: #ccc;
             padding: 5px;
           }
@@ -112,10 +112,10 @@ async function updatePages() {
   
           .nav-container .index-button {
             border: 0;
-            font-size: 0.9em;
+            font-size: 2em;
             color: #ccc;
             background-color: transparent;
-            margin-top: 5px;
+            margin-top: -5px;
             cursor: pointer;
           }
   
