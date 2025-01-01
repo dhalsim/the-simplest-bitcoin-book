@@ -2,23 +2,27 @@
 
 There are now two languages for the book:
 
-## English version -Original text-
-
-One page version:
-https://dhalsim.github.io/the-simplest-bitcoin-book/english-generated.html
-
-Multi page version:
-https://dhalsim.github.io/the-simplest-bitcoin-book/english/pages-html/0001.html
-
 ## Turkish version
 
 Translation of the original text by me.
 
-One page version:
-https://dhalsim.github.io/the-simplest-bitcoin-book/turkish-generated.html
+https://enbasitbitcoinkitabi.site
 
-Multi page version:
-https://dhalsim.github.io/the-simplest-bitcoin-book/turkish/pages-html/0001.html
+One page version:
+https://enbasitbitcoinkitabi.site/turkish-one-page-screen.html
+
+Multi page version with Nostr highlights, zaps, and comments:
+https://enbasitbitcoinkitabi.site/turkish/pages-html/0001.html
+
+## English version -Original text-
+
+https://enbasitbitcoinkitabi.site select English
+
+One page version:
+https://enbasitbitcoinkitabi.site/english-one-page-screen.html
+
+Multi page version with Nostr highlights, zaps, and comments:
+https://enbasitbitcoinkitabi.site/english/pages-html/0001.html
 
 # How to create a new language version
 
