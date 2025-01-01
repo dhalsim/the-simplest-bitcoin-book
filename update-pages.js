@@ -45,6 +45,27 @@ async function updatePages() {
       const dom = new JSDOM(content);
       const document = dom.window.document;
 
+      // process anchor tags
+      const anchorElements = document.querySelectorAll('a');
+      
+      anchorElements.forEach(anchor => {
+        const href = anchor.getAttribute('href');
+        if (href && href.startsWith('#page-')) {
+          
+          // Extract the number using regex
+          const match = href.match(/#page-(\d+)/);
+          
+          if (match) {
+            const pageNum = parseInt(match[1], 10);
+            const newPageNum = pageNum + 8;
+            
+            // Create the new href with padding
+            const newHref = `${newPageNum.toString().padStart(4, '0')}.html`;
+            anchor.setAttribute('href', newHref);
+          }
+        }
+      });
+
       const pageDiv = document.querySelector('div.page');
       
       let componentsContainer = pageDiv.querySelector("div#components-container");
@@ -115,7 +136,7 @@ async function updatePages() {
             font-size: 2em;
             color: #ccc;
             background-color: transparent;
-            margin-top: -5px;
+            margin: -7px 0 0 5px;
             cursor: pointer;
           }
   
@@ -135,20 +156,21 @@ async function updatePages() {
         
         // Add page number
         navHtml += `<span class="page-number">${numberToRoman(currentPageNumber)}</span>`;
-        
+
+        // Add index button
+        navHtml += `
+        <a href="0003.html" class="index-button" title="${l18n.toc}">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M2.5 12.5a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1h-10a.5.5 0 0 1-.5-.5zm0-5a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1h-10a.5.5 0 0 1-.5-.5zm0-5a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1h-10a.5.5 0 0 1-.5-.5z"/>
+          </svg>
+        </a>`;
+          
         // Add next link if not last page
         if (i < htmlFiles.length - 1) {
           navHtml += `<a href="${nextPageNumber}.html" class="nav-arrow">→</a>`;
         }
-  
-        // Add index button
-        navHtml += `
-          <a href="0003.html" class="index-button" title="${l18n.toc}">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-              <path fill-rule="evenodd" d="M2.5 12.5a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1h-10a.5.5 0 0 1-.5-.5zm0-5a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1h-10a.5.5 0 0 1-.5-.5zm0-5a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1h-10a.5.5 0 0 1-.5-.5z"/>
-            </svg>
-          </a>
-        </div>`;
+
+        navHtml += "</div>";
         
         // Update the page-number div
         navContainer.outerHTML = navHtml;
