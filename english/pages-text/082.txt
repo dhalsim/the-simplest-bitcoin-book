@@ -26,8 +26,7 @@ that difficult work was done to satisfy an algorithm.*
 
 [m-l-20] -> Miners use the PoW algorithm to prove they have
 used a lot of computational power via electricity
-(work), in order to achieve consensus in a decentralized manner, and to prevent corrupt actors
-from spamming the network.
+(work), in order to achieve consensus in a decentralized manner, and to prevent corrupt actors from spamming the network.
 
 --o--
 [b] *PUBLIC KEY CRYPTOGRAPHY ~ A process that
