@@ -104,6 +104,16 @@ To create a command for your language, edit the `package.json` file. Add a new s
 npm run relay
 ```
 
+# Other tools
+
+While translating a new english, you can create a version alongside the original one side by side, (or one under the other for mobile) and check your translations. Can be useful for editors or proof readers.
+
+```bash
+node join-pages-with.js -language turkish -with english
+```
+
+the script will create a file called `turkish-one-page-with-english-screen.html`
+
 # Licence
 
 Check the https://github.com/dhalsim/the-simplest-bitcoin-book/blob/main/LICENCE file to check the original licence and my attributions.
