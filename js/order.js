@@ -1,5 +1,6 @@
 const quantityInput = document.getElementById('quantity');
 const totalPriceDiv = document.getElementById('totalPrice');
+const totalPriceIBANDiv = document.getElementById('totalPriceIBAN');
 const paymentSelect = document.getElementById('payment');
 const ibanInfo = document.getElementById('ibanInfo');
 const lightningInfo = document.getElementById('lightningInfo');
@@ -8,12 +9,6 @@ const orderForm = document.getElementById('orderForm');
 const BOOK_PRICE = 200;
 const SHIPPING_PRICE = 25;
 const LIGHTNING_DISCOUNT = 25;
-
-function generateOrderNumber() {
-    const timestamp = Date.now().toString().slice(-6);
-    const random = Math.floor(Math.random() * 1000).toString().padStart(3, '0');
-    return `BTC${timestamp}${random}`;
-}
 
 function updatePrice() {
     const quantity = parseInt(quantityInput.value);
@@ -29,6 +24,7 @@ function updatePrice() {
     priceText += ')';
     
     totalPriceDiv.textContent = priceText;
+    totalPriceIBANDiv.textContent = priceText;
 }
 
 function updatePaymentInfo() {
@@ -88,6 +84,7 @@ orderForm.addEventListener('submit', async function(e) {
     const token = turnstile.getResponse();
     if (!token) {
         alert('Lütfen doğrulamayı tamamlayın.');
+        
         return;
     }
 
@@ -99,14 +96,17 @@ orderForm.addEventListener('submit', async function(e) {
         if (formData.get('payment') === 'iban') {
             // Show IBAN info with the order number from the server
             document.getElementById('orderNumber').textContent = result.orderNumber;
+            
             ibanInfo.style.display = 'block';
             
             // Disable form inputs
             const inputs = orderForm.querySelectorAll('input, textarea, select, button');
+            
             inputs.forEach(input => input.disabled = true);
             
-            // Change button text
-            orderForm.querySelector('button').textContent = 'Sipariş Alındı';
+            // Change button text and color
+            orderForm.querySelector('button').textContent = '✅ Sipariş Alındı';
+            orderForm.querySelector('button').style.backgroundColor = "green";
         } else {
             // Handle Lightning payment
             alert('Bitcoin Lightning ödemesi için yönlendiriliyorsunuz...');

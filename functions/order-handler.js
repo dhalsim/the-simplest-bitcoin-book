@@ -10,19 +10,20 @@ async function sendOrderNotification(orderData, orderNumber) {
       },
       body: JSON.stringify({
         from: 'En Basit Bitcoin Kitabı <orders@enbasitbitcoinkitabi.site>',
-        to: ['your-email@example.com', orderData.email], // Add your email to get notifications
+        to: orderData.email,
+        bcc: 'enbasitbitcoinkitabi@proton.me',
         subject: `Sipariş Alındı - #${orderNumber}`,
         html: `
           <h2>Yeni Sipariş #${orderNumber}</h2>
           <p><strong>Ad Soyad:</strong> ${orderData.name}</p>
           <p><strong>E-posta:</strong> ${orderData.email}</p>
           <p><strong>Adres:</strong> ${orderData.address}</p>
-          <p><strong>Miktar:</strong> ${orderData.quantity}</p>
+          <p><strong>Kitap Adedi:</strong> ${orderData.quantity}</p>
           <p><strong>Ödeme Yöntemi:</strong> ${orderData.payment_method === 'lightning' ? 'Bitcoin Lightning' : 'Banka Havalesi'}</p>
           <p><strong>Toplam Tutar:</strong> ${orderData.total_amount} TL</p>
           ${orderData.payment_method === 'iban' ? `
           <p><strong>Ödeme Bilgileri:</strong></p>
-          <p>IBAN: XXXX-XXXX-XX-XXXX</p>
+          <p>IBAN: TR06 0009 9011 8917 2800 1000 04</p>
           <p>Açıklama: ${orderNumber}</p>
           ` : ''}
         `
@@ -44,7 +45,8 @@ export default {
     // Handle CORS with allowed origins
     const ALLOWED_ORIGINS = [
       'https://enbasitbitcoinkitabi.site',
-      'http://localhost:8000',  // for development
+      'http://localhost:8000',
+      'http://127.0.0.1:8000',
     ];
 
     const origin = request.headers.get('Origin') || '';
