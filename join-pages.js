@@ -147,6 +147,32 @@ async function joinPages(language, forPrint) {
 
       body.appendChild(document.createTextNode("\n"));
       body.appendChild(document.importNode(pageElement, true));
+
+      // Add promotional div every 50 pages in screen mode for Turkish
+      if (!forPrint && language === 'turkish' && (i + 10) % 30 === 0) {
+        const promoDiv = document.createElement('div');
+        
+        promoDiv.className = 'print-promo';
+        promoDiv.style.cssText = 'max-width: 500px; margin: 0 auto;';
+        
+        promoDiv.innerHTML = `
+          <div style="background: #f7931a; color: white; padding: 20px; margin: 20px 0; border-radius: 8px; text-align: center;">
+            <h3 style="margin: 0 0 10px 0;">Okuduklarınızı beğendiniz mi?</h3>
+            <p style="margin: 0 0 15px 0;">
+              Bu kitabın basılı versiyonunu kitaplığınızda görmek ister misiniz? 
+              Sevdiklerinize Bitcoin'i öğretmek için mükemmel bir hediye!
+            </p>
+            <a href="order-page-tr.html" 
+               target="_blank"
+               style="display: inline-block; background: white; color: #f7931a; 
+                      padding: 10px 20px; border-radius: 4px; text-decoration: none; 
+                      font-weight: bold;">
+              Basılı Kopya Sipariş Et
+            </a>
+          </div>
+        `;
+        body.appendChild(promoDiv);
+      }
     }
 
     // Get the final HTML

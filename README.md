@@ -106,6 +106,8 @@ npm run relay
 
 # Other tools
 
+## Two languages mode
+
 While translating a new english, you can create a version alongside the original one side by side, (or one under the other for mobile) and check your translations. Can be useful for editors or proof readers.
 
 ```bash
@@ -113,6 +115,10 @@ node join-pages-with.js -language turkish -with english
 ```
 
 the script will create a file called `turkish-one-page-with-english-screen.html`
+
+# Adding an order page for print version
+
+I'm planning to sell the book from this web site. It has a simple form but needs to have cloudflare worker. Checkout the `wrangler.toml.example` but it still requires technical knowledge. You can ask for help by reaching out via email `nostrize`@`proton.me`
 
 # Licence
 

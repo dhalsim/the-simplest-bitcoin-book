@@ -18,9 +18,30 @@
 
 @media screen and (max-width: 500px) {
   .page {
-    margin: 0 40px;
-    padding: 10px;
-    width: calc(100% - 40px);
+    margin: 0;
+    padding: 0;
+    width: 100%;
     box-sizing: border-box;
   }
+}
+
+.no-wrap {
+  text-wrap: unset;
+}
+
+.w90 {
+  width: 100%;
+}
+
+.m-l-50 {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.b-point {
+  left: -20px;
+}
+
+.arrow {
+  left: -20px;
 }

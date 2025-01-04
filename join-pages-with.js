@@ -48,7 +48,7 @@ async function joinPagesWithComparison(primaryLang, secondaryLang) {
       }
       
       .secondary-page {
-        opacity: 0.8;
+        opacity: 0.6;
       }
       
       @media (max-width: 999px) {

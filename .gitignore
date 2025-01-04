@@ -1,6 +1,11 @@
-/node_modules
+# Cloudflare Worker configuration
+wrangler.toml
+.wrangler/
 
 /db/*
 !/db/placeholder
 
+/node_modules
 .env
+.env.local
+.DS_Store

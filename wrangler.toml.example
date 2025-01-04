@@ -1,0 +1,8 @@
+name = "order-handler"
+main = "functions/order-handler.js"
+compatibility_date = "2023-01-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "orders-db"
+database_id = "your-database-id"

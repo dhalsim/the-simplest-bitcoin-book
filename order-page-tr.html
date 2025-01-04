@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitcoin Kitabı Sipariş - En Basit Bitcoin Kitabı</title>
+    <style>
+        body {
+            font-family: 'Avenir Next', system-ui, -apple-system, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        .container {
+            display: flex;
+            gap: 40px;
+            flex-wrap: wrap;
+        }
+
+        .book-info {
+            flex: 1;
+            min-width: 300px;
+        }
+
+        .order-form {
+            flex: 1;
+            min-width: 300px;
+        }
+
+        .book-image {
+            max-width: 300px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        .description {
+            margin: 20px 0;
+            font-size: 1.1em;
+            color: #333;
+        }
+
+        .price {
+            font-size: 1.2em;
+            color: #f7931a;
+            font-weight: bold;
+            margin: 20px 0;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        label {
+            font-weight: 500;
+            margin-bottom: 5px;
+            display: block;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            border: 2px solid #ddd;
+            border-radius: 6px;
+            font-size: 1em;
+        }
+
+        textarea {
+            height: 100px;
+            resize: vertical;
+        }
+
+        button {
+            background-color: #f7931a;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 6px;
+            font-size: 1.1em;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+
+        button:hover {
+            background-color: #e68a18;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: #f7931a;
+            text-decoration: none;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                flex-direction: column;
+                gap: 20px;
+            }
+        }
+    </style>
+    <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+</head>
+<body>
+    <a href="index.html" class="back-link">← Ana Sayfaya Dön</a>
+    
+    <div class="container">
+        <div class="book-info">
+            <img src="turkish/front-page-turkish.png" alt="En Basit Bitcoin Kitabı" class="book-image">
+            <div class="description">
+                Bitcoin'i en temel kavramlardan başlayarak anlatan bu kitabın basılı 
+                versiyonunu şimdi sipariş edebilirsiniz. Kitaplığınız için mükemmel bir 
+                kaynak veya sevdiklerinize Bitcoin'i öğretmek için ideal bir hediye. 
+                Üstelik Bitcoin Lightning ile ödeyerek %12.5 indirim kazanabilirsiniz!
+            </div>
+        </div>
+
+        <div class="order-form">
+            <h2>Sipariş Formu</h2>
+            <form id="orderForm">
+                <div>
+                    <label for="quantity">Sipariş Adedi:</label>
+                    <input type="number" 
+                           id="quantity" 
+                           name="quantity" 
+                           min="1" 
+                           value="1" 
+                           required 
+                           style="width: 80px;">
+                </div>
+                
+                <div>
+                    <label for="name">Ad Soyad:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div>
+                    <label for="email">E-posta:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div>
+                    <label for="address">Teslimat Adresi:</label>
+                    <textarea id="address" name="address" required></textarea>
+                </div>
+
+                <div>
+                    <label for="payment">Ödeme Yöntemi:</label>
+                    <select id="payment" name="payment" required style="width: 100%; padding: 8px; border: 2px solid #ddd; border-radius: 6px; font-size: 1em;">
+                        <option value="iban">Banka Havalesi (IBAN)</option>
+                        <option value="lightning">Bitcoin Lightning (%12.5 indirimli)</option>
+                    </select>
+                </div>
+
+                <div id="ibanInfo" class="payment-info" style="display: none;">
+                    <p style="background: #f5f5f5; padding: 15px; border-radius: 6px; margin: 10px 0; line-height: 1.6;">
+                        <strong>Sipariş Numaranız:</strong> <span id="orderNumber"></span><br>
+                        <strong>IBAN:</strong> XXXX-XXXX-XX-XXXX<br><br>
+                        <strong>Önemli Not:</strong> Lütfen havale açıklamasına sipariş numaranızı yazmayı unutmayınız.
+                    </p>
+                </div>
+
+                <div id="lightningInfo" class="payment-info" style="display: none;">
+                    <p style="background: #f5f5f5; padding: 10px; border-radius: 6px; margin: 0;">
+                        Bitcoin Lightning ile ödemeyi seçtiğiniz için 25 TL indirim uygulanmıştır.
+                    </p>
+                </div>
+
+                <div class="price" id="totalPrice">
+                    Toplam: 225 TL (Kitap: 200 TL + Kargo: 25 TL)
+                </div>
+
+                <div class="cf-turnstile" 
+                     data-sitekey="0x4AAAAAAA4hK_2SiauHalCn"
+                     data-theme="light"
+                     style="margin: 15px 0;">
+                </div>
+
+                <button type="submit">Siparişi Tamamla</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/order.js"></script>
+</body>
+</html> 
