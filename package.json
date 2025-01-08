@@ -14,8 +14,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "webpack": "5.96.1",
-    "webpack-cli": "5.1.4",
     "@tsconfig/svelte": "^5.0.4",
     "css-loader": "^7.1.2",
     "style-loader": "^4.0.0",
@@ -23,17 +21,19 @@
     "svelte-loader": "^3.2.3",
     "svelte-preprocess": "^6.0.3",
     "ts-loader": "^9.5.1",
-    "typescript": "^5.6.2"
+    "typescript": "^5.6.2",
+    "webpack": "5.96.1",
+    "webpack-cli": "5.1.4"
   },
   "dependencies": {
     "@html-eslint/eslint-plugin": "^0.27.0",
     "@html-eslint/parser": "^0.27.0",
     "bolt11": "^1.4.1",
+    "bun": "^1.1.29",
     "commander": "^12.1.0",
     "eslint": "^8.5.0",
     "jsdom": "^19.0.0",
     "nostr-tools": "^2.10.1",
-    "prettier": "^3.3.3",
-    "bun": "^1.1.29"
+    "prettier": "^3.3.3"
   }
 }

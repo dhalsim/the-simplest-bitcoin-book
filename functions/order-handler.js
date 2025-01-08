@@ -40,8 +40,39 @@ async function sendOrderNotification(orderData, orderNumber) {
   }
 }
 
+async function getBtcTryRate() {
+  const response = await fetch('https://api.btcturk.com/api/v2/ticker?pairSymbol=BTCTRY');
+  
+  const body = await response.json();
+  
+  return body.data[0].last;
+}
+
 export default {
   async fetch(request, env) {
+    const url = new URL(request.url);
+    
+    if (url.pathname === '/btc-try-rate') {
+      try {
+        const rate = await getBtcTryRate();
+        
+        return new Response(rate, {
+          headers: {
+            'Content-Type': 'application/json',
+            'Access-Control-Allow-Origin': '*'
+          }
+        });
+      } catch (error) {
+        return new Response(JSON.stringify({ success: false, error: error.message }), {
+          status: 500,
+          headers: {
+            'Content-Type': 'application/json',
+            'Access-Control-Allow-Origin': '*'
+          }
+        });
+      }
+    }
+
     // Handle CORS with allowed origins
     const ALLOWED_ORIGINS = [
       'https://enbasitbitcoinkitabi.site',
@@ -125,7 +156,7 @@ export default {
 
       // Generate order number (BTC + padded ID)
       const lastOrder = await env.DB.prepare(
-        "SELECT id FROM orders ORDER BY id DESC LIMIT 1"
+        "SELECT seq FROM sqlite_sequence WHERE name = 'orders'"
       ).first();
       
       const nextId = (lastOrder?.id || 0) + 1;
@@ -135,12 +166,23 @@ export default {
       const bookPrice = 200;
       const shippingPrice = 25;
       const lightningDiscount = data.payment_method === 'lightning' ? 25 : 0;
-      const totalAmount = (bookPrice * data.quantity) + shippingPrice - lightningDiscount;
+      const totalAmountTL = (bookPrice * data.quantity) + shippingPrice - lightningDiscount;
+      
+      let btcToTryRate;
+      let satsAmount;
+
+      if (data.payment_method === 'lightning') {
+        btcToTryRate = await getBtcTryRate();
+
+        const hundredMillion = 100 * 1000 * 1000;
+
+        satsAmount = Math.round(totalAmountTL / btcToTryRate * hundredMillion);
+      }
 
       // Insert the order into the database
       const stmt = await env.DB.prepare(`
-        INSERT INTO orders (order_number, name, email, address, quantity, payment_method, total_amount)
-        VALUES (?, ?, ?, ?, ?, ?, ?)
+        INSERT INTO orders (order_number, name, email, address, quantity, payment_method, total_amount, btc_try_rate, sats_amount)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
       `).bind(
         orderNumber,
         data.name,
@@ -148,7 +190,9 @@ export default {
         data.address,
         data.quantity,
         data.payment_method,
-        totalAmount
+        totalAmountTL,
+        btcToTryRate,
+        satsAmount
       );
 
       await stmt.run();
@@ -156,14 +200,14 @@ export default {
       // After database insert
       console.log('Order created successfully:', {
         orderNumber,
-        totalAmount,
+        totalAmount: totalAmountTL,
         payment_method: data.payment_method
       });
 
       // After successfully creating the order
       await sendOrderNotification({
         ...data,
-        total_amount: totalAmount
+        total_amount: totalAmountTL
       }, orderNumber);
 
       // After email sending
@@ -174,7 +218,9 @@ export default {
         JSON.stringify({
           success: true,
           orderNumber,
-          totalAmount
+          totalAmount: totalAmountTL,
+          btcToTryRate,
+          milliSatsAmount: satsAmount * 1000
         }),
         {
           headers: {
