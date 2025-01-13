@@ -98,9 +98,61 @@
                 padding: 4px 8px;
             }
         }
+
+        .social-links {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            display: flex;
+            gap: 15px;
+            align-items: center;
+        }
+        
+        .social-links a {
+            border: none;
+            padding: 0;
+            width: 24px;
+            height: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .social-links a:hover {
+            background: none;
+        }
+        
+        .social-links img {
+            width: 24px;
+            height: 24px;
+            transition: opacity 0.2s;
+        }
+        
+        .social-links a:hover img {
+            opacity: 0.7;
+        }
+
+        @media screen and (max-width: 480px) {
+            .social-links {
+                position: relative;
+                top: 0;
+                right: 0;
+            }
+        }
     </style>
 </head>
 <body>
+    <div class="social-links">
+        <a href="https://github.com/dhalsim/the-simplest-bitcoin-book" target="_blank">
+            <img src="images/github.svg" alt="GitHub">
+        </a>
+        <a href="https://x.com/bitcoinkitabi" target="_blank">
+            <img src="images/x.svg" alt="X (Twitter)">
+        </a>
+        <a href="https://njump.me/enbasitbitcoinkitabi.site" target="_blank">
+            <img src="images/nostr-logo.png" alt="Nostr">
+        </a>
+    </div>
     <div class="language-selector">
         <div class="language-option active">
             <img src="https://flagcdn.com/24x18/tr.png" alt="Türk bayrağı" class="flag">
