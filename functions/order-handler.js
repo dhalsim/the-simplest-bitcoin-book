@@ -10,27 +10,38 @@ async function sendOrderNotification(orderData, orderNumber) {
       },
       body: JSON.stringify({
         from: 'En Basit Bitcoin Kitabı <orders@enbasitbitcoinkitabi.site>',
+        reply_to: 'enbasitbitcoinkitabi@proton.me',
         to: orderData.email,
         bcc: 'enbasitbitcoinkitabi@proton.me',
         subject: `Sipariş Alındı - #${orderNumber}`,
         html: `
+          <h1>"En Basit Bitcoin Kitabi" siparişiniz alındı.</h1>
+          
           <h2>Yeni Sipariş #${orderNumber}</h2>
           <p><strong>Ad Soyad:</strong> ${orderData.name}</p>
           <p><strong>E-posta:</strong> ${orderData.email}</p>
           <p><strong>Adres:</strong> ${orderData.address}</p>
           <p><strong>Kitap Adedi:</strong> ${orderData.quantity}</p>
+          
           <p><strong>Ödeme Yöntemi:</strong> ${orderData.payment_method === 'lightning' ? 'Bitcoin Lightning' : 'Banka Havalesi'}</p>
-          <p><strong>Toplam Tutar:</strong> ${orderData.total_amount} TL</p>
+          <p><strong>Toplam Tutar:</strong> ${orderData.totalAmountTL} TL</p>
+          
           ${orderData.payment_method === 'iban' ? `
           <p><strong>Ödeme Bilgileri:</strong></p>
           <p>IBAN: TR06 0009 9011 8917 2800 1000 04</p>
           <p>Açıklama: ${orderNumber}</p>
-          ` : ''}
+          ` : `
+          <p>Lightning Ağı Ödemesi (Zaten ödediyseniz yok sayın)</p>
+          <p>${orderData.milliSatsAmount} sats</p>
+          <p>Lightning cüzdanı ile okutun:</p>
+          <img src="https://api.qrserver.com/v1/create-qr-code/?data=${orderData.invoice}&amp;size=200x200" alt="" title="" />
+          `}
         `
       })
     });
 
     const result = await response.json();
+    
     if (!result.id) {
       throw new Error('Email sending failed');
     }
@@ -48,10 +59,78 @@ async function getBtcTryRate() {
   return body.data[0].last;
 }
 
+async function handleTestEmail(env) {
+  try {
+    const response = await fetch('https://api.resend.com/emails', {
+      method: 'POST',
+      headers: {
+        'Authorization': `Bearer ${env.RESEND_API_KEY}`,
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        from: 'En Basit Bitcoin Kitabı <orders@enbasitbitcoinkitabi.site>',
+        to: 'enbasitbitcoinkitabi@proton.me',
+        subject: 'Test Email',
+        html: `
+          <h2>Test Email</h2>
+          <p>This is a test email to verify Resend API integration.</p>
+          <p>Sent at: ${new Date().toISOString()}</p>
+        `
+      })
+    });
+
+    const result = await response.json();
+    console.log('Resend API Response:', result);
+
+    if (!result.id) {
+      throw new Error(`Email sending failed: ${JSON.stringify(result)}`);
+    }
+
+    return new Response(JSON.stringify({
+      success: true,
+      result: result
+    }), {
+      headers: {
+        'Content-Type': 'application/json'
+      }
+    });
+  } catch (error) {
+    console.error('Error sending test email:', error);
+    return new Response(JSON.stringify({
+      success: false,
+      error: error.message
+    }), {
+      status: 500,
+      headers: {
+        'Content-Type': 'application/json'
+      }
+    });
+  }
+}
+
+async function createLightningInvoice(milliSatsAmount, orderNumber) {
+  const lnurl = "https://blink.sv/.well-known/lnurlp/dhalsim";
+  const res = await fetch(lnurl);
+  const body = await res.json();
+
+  const url = `${body.callback}?amount=${milliSatsAmount}&comment=${orderNumber}`;
+  const res2 = await fetch(url);
+  const { pr: invoice } = await res2.json();
+
+  return invoice;
+}
+
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
     
+    if (url.pathname === '/test-email') {
+      if (request.method !== "POST") {
+        return new Response("Method not allowed", { status: 405 });
+      }
+      return handleTestEmail(env);
+    }
+
     if (url.pathname === '/btc-try-rate') {
       try {
         const rate = await getBtcTryRate();
@@ -170,6 +249,8 @@ export default {
       
       let btcToTryRate;
       let satsAmount;
+      let milliSatsAmount;
+      let invoice;
 
       if (data.payment_method === 'lightning') {
         btcToTryRate = await getBtcTryRate();
@@ -177,12 +258,14 @@ export default {
         const hundredMillion = 100 * 1000 * 1000;
 
         satsAmount = Math.round(totalAmountTL / btcToTryRate * hundredMillion);
+        milliSatsAmount = satsAmount * 1000;
+        invoice = await createLightningInvoice(milliSatsAmount, orderNumber);
       }
 
       // Insert the order into the database
       const stmt = await env.DB.prepare(`
-        INSERT INTO orders (order_number, name, email, address, quantity, payment_method, total_amount, btc_try_rate, sats_amount)
-        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+        INSERT INTO orders (order_number, name, email, address, quantity, payment_method, total_amount, btc_try_rate, sats_amount, invoice)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
       `).bind(
         orderNumber,
         data.name,
@@ -192,35 +275,27 @@ export default {
         data.payment_method,
         totalAmountTL,
         btcToTryRate,
-        satsAmount
+        satsAmount,
+        invoice
       );
 
       await stmt.run();
 
-      // After database insert
-      console.log('Order created successfully:', {
-        orderNumber,
-        totalAmount: totalAmountTL,
-        payment_method: data.payment_method
-      });
-
       // After successfully creating the order
       await sendOrderNotification({
         ...data,
-        total_amount: totalAmountTL
+        totalAmountTL,
+        milliSatsAmount,
+        invoice
       }, orderNumber);
 
-      // After email sending
-      console.log('Order notification email sent');
-
-      // Return success response
       return new Response(
         JSON.stringify({
           success: true,
           orderNumber,
-          totalAmount: totalAmountTL,
           btcToTryRate,
-          milliSatsAmount: satsAmount * 1000
+          milliSatsAmount,
+          invoice
         }),
         {
           headers: {

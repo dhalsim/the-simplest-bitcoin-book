@@ -2,8 +2,7 @@
 wrangler.toml
 .wrangler/
 
-/db/*
-!/db/placeholder
+/db/*.db
 
 /node_modules
 .env

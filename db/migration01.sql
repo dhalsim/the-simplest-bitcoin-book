@@ -1,0 +1,2 @@
+ALTER TABLE orders ADD COLUMN btc_try_rate DECIMAL(10,2);
+ALTER TABLE orders ADD COLUMN sats_amount DECIMAL(10,2);

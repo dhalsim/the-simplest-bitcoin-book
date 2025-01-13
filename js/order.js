@@ -156,37 +156,22 @@ orderForm.addEventListener('submit', async function(e) {
       satsAmountDiv.textContent = parseInt(orderHandlerResult.milliSatsAmount / 1000).toLocaleString();
 
       lightningInfo.style.display = "block";
-
       orderNumberLightningDiv.textContent = orderHandlerResult.orderNumber;
-
-      const lnurl = "https://blink.sv/.well-known/lnurlp/dhalsim";
-      const res = await fetch(lnurl);
-      const body = await res.json();
-
-      console.log(body);
-
-      const url = `${body.callback}?amount=${orderHandlerResult.milliSatsAmount}&comment=${orderHandlerResult.orderNumber}`;
-    
-      const res2 = await fetch(url);
-      const { pr: invoice } = await res2.json();
-
+      
       copyInvoiceButton.style.display = "block";
-
-      lightningInvoiceInput.textContent = invoice;
+      lightningInvoiceInput.textContent = orderHandlerResult.invoice;
 
       // Clear any existing QR code
       document.getElementById('qrcode').innerHTML = '';
 
       new QRCode(document.getElementById("qrcode"), {
-        text: invoice,
+        text: orderHandlerResult.invoice,
         width: 128,
         height: 128,
         colorDark : "#000000",
         colorLight : "#ffffff",
         correctLevel : QRCode.CorrectLevel.L
       });
-
-      console.log(invoice);
     }
   } catch (error) {
     alert('Sipariş işlemi sırasında bir hata oluştu. Lütfen tekrar deneyiniz.');
