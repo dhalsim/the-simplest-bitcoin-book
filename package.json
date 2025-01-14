@@ -10,7 +10,7 @@
     "join-english": "node join-pages.js -l english",
     "relay": "bun run relay/index.ts",
     "relay-migrations": "bun run relay/migrations.ts",
-    "order-handler": "webpack --config webpack.config.worker.js --stats verbose && wrangler deploy"
+    "order-handler": "webpack --config webpack.config.worker.js && wrangler deploy"
   },
   "author": "",
   "license": "ISC",
