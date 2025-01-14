@@ -1,8 +1,11 @@
 name = "order-handler"
-main = "functions/order-handler.js"
+main = "cf-functions/dist/order-handler.js"
 compatibility_date = "2023-01-01"
 
 [[d1_databases]]
 binding = "DB"
 database_name = "orders-db"
-database_id = "your-database-id"
+database_id = "ae040ffd-bcc6-45c5-8c91-fbb0af08f44e" 
+
+[observability.logs]
+enabled = true

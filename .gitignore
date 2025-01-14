@@ -8,3 +8,5 @@ wrangler.toml
 .env
 .env.local
 .DS_Store
+
+cf-functions/dist/*
