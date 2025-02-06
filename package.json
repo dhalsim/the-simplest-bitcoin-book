@@ -6,12 +6,13 @@
     "webpack": "webpack",
     "split-turkish": "webpack && node split-pages.js -l turkish && node update-pages -l turkish",
     "split-english": "webpack && node split-pages.js -l english && node update-pages -l english",
-    "join-turkish": "node join-pages.js -l turkish",
-    "join-english": "node join-pages.js -l english",
+    "join-turkish": "node join-pages.cjs -l turkish",
+    "join-english": "node join-pages.cjs -l english",
     "relay": "bun run relay/index.ts",
     "relay-migrations": "bun run relay/migrations.ts",
     "order-handler": "webpack --config webpack.config.worker.js && wrangler deploy"
   },
+  "type": "module",
   "author": "",
   "license": "ISC",
   "devDependencies": {
@@ -27,6 +28,7 @@
     "webpack-cli": "5.1.4"
   },
   "dependencies": {
+    "@getalby/sdk": "^3.9.0",
     "@html-eslint/eslint-plugin": "^0.27.0",
     "@html-eslint/parser": "^0.27.0",
     "bolt11": "^1.4.1",
@@ -35,6 +37,7 @@
     "eslint": "^8.5.0",
     "jsdom": "^19.0.0",
     "nostr-tools": "^2.10.1",
-    "prettier": "^3.3.3"
+    "prettier": "^3.3.3",
+    "websocket-polyfill": "^1.0.0"
   }
 }

@@ -1,10 +1,10 @@
-const path = require('path');
+import { resolve } from 'path';
 
-module.exports = {
+export default {
   entry: './cf-functions/order-handler.js',
   output: {
     filename: 'order-handler.js',
-    path: path.resolve(__dirname, 'cf-functions/dist'),
+    path: resolve(import.meta.dirname, 'cf-functions/dist'),
     library: {
       type: 'module'
     }

@@ -12,6 +12,7 @@ const orderNumberDiv = document.getElementById('orderNumber');
 const orderNumberLightningDiv = document.getElementById('orderNumberLightning');
 const lightningInvoiceInput = document.getElementById('lightningInvoice');
 const copyInvoiceButton = document.getElementById('copyInvoiceButton');
+const submitButton = orderForm.querySelector('button[type="submit"]');
 
 const BOOK_PRICE = 200;
 const SHIPPING_PRICE = 25;
@@ -125,9 +126,13 @@ orderForm.addEventListener('submit', async function(e) {
   
   if (!token) {
       alert('Lütfen doğrulamayı tamamlayın.');
-      
       return;
   }
+
+  // Disable the submit button and show loading state
+  submitButton.disabled = true;
+  submitButton.style.cursor = 'not-allowed';
+  submitButton.innerHTML = '<span style="opacity: 0.7">İşleniyor...</span> ⏳';
 
   try {
     const formData = new FormData(this);
@@ -145,14 +150,13 @@ orderForm.addEventListener('submit', async function(e) {
       
       // Disable form inputs
       const inputs = orderForm.querySelectorAll('input, textarea, select, button');
-      
       inputs.forEach(input => input.disabled = true);
       
       // Change button text and color
-      orderForm.querySelector('button').textContent = '✅ Sipariş Alındı';
-      orderForm.querySelector('button').style.backgroundColor = "green";
+      submitButton.textContent = '✅ Sipariş Alındı';
+      submitButton.style.backgroundColor = "green";
     } else {
-      btcToTryRateDiv.textContent = `1 Bitcoin ${orderHandlerResult.btcToTryRate} TL, `;
+      btcToTryRateDiv.textContent = `1 Bitcoin ${orderHandlerResult.btcToTryRate} TL, Balance: ${orderHandlerResult.balance}`;
       satsAmountDiv.textContent = parseInt(orderHandlerResult.milliSatsAmount / 1000).toLocaleString();
 
       lightningInfo.style.display = "block";
@@ -172,10 +176,12 @@ orderForm.addEventListener('submit', async function(e) {
         colorLight : "#ffffff",
         correctLevel : QRCode.CorrectLevel.L
       });
+
+      // Update submit button for lightning payment
+      submitButton.textContent = '⚡️ Ödeme Bekliyor';
+      submitButton.style.backgroundColor = "#666";
     }
   } catch (error) {
     alert('Sipariş işlemi sırasında bir hata oluştu. Lütfen tekrar deneyiniz.');
-    
-    turnstile.reset();
   }
-}); 
+});
