@@ -111,10 +111,26 @@ npm run relay
 While translating a new english, you can create a version alongside the original one side by side, (or one under the other for mobile) and check your translations. Can be useful for editors or proof readers.
 
 ```bash
-node join-pages-with.cjs -language turkish -with english
+node join-pages-with.cjs --language turkish --with english
 ```
 
 the script will create a file called `turkish-one-page-with-english-screen.html`
+
+# Development
+
+Run a local server:
+
+```bash
+python3 -m http.server 8000
+```
+
+or 
+
+```bash
+npx local-web-server
+```
+
+Open `http://localhost:8000` in your browser.
 
 # Adding an order page for print version
 

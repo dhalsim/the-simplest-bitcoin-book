@@ -35,7 +35,7 @@
     "bun": "^1.1.29",
     "commander": "^12.1.0",
     "eslint": "^8.5.0",
-    "jsdom": "^19.0.0",
+    "jsdom": "^26.0.0",
     "nostr-tools": "^2.10.1",
     "prettier": "^3.3.3",
     "websocket-polyfill": "^1.0.0"

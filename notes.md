@@ -201,9 +201,13 @@ Translated in Turkish from bitcoin.org/bitcoin.pdf by Efe Cini
 
 # Nostr features
 
-- [ ] A highlighter and comments feature for the multi-page version of the book
-- [ ] I should able to enable/disable it in the settings
-- [ ] I should able to see my own highlights or all the highlights
-- [ ] I should able to create, edit, delete my highlights
-- [ ] I should able to publish my highlights to Nostr
-- [ ] I should able to comment on the pages, see others' comments
+- [ ] Use new nostr highlighter library
+
+# Turkish Bitcoin Sources
+
+- https://selambitcoin.com/
+- https://www.yirmibir.org/
+
+# Turkish Bitcoin Personas/Communities
+
+- Yirmibir Telegram: https://t.me/YirmibirBitcoin
