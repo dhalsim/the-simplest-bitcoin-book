@@ -207,6 +207,9 @@ Translated in Turkish from bitcoin.org/bitcoin.pdf by Efe Cini
 
 - https://selambitcoin.com/
 - https://www.yirmibir.org/
+- satoshi tv şükrü
+- HODL gunlukleri https://www.youtube.com/playlist?list=PLlae_NLnEID8PrHZSaX6e7TdMkDgAiyPV
+- twitter @borsadabirbasina
 
 # Turkish Bitcoin Personas/Communities
 
